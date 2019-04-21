@@ -1,8 +1,8 @@
-macserial changelog
-===================
+MacInfoPkg changelog
+====================
 #### v2.0.5
-- Added initial iMac19,1 and iMac19,2 model data
-- Added --verify command to check MLB
+- Added initial iMac19,1 and iMac19,2 model data to macserial
+- Added --verify command to check MLB to macserial
 
 #### v2.0.4
 - Added initial MacBookAir8,1 model data
