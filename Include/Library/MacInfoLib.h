@@ -33,7 +33,6 @@ typedef struct MAC_INFO_DATA_SMBIOS_ {
   //
   CONST CHAR8     *BoardProduct;
   CONST CHAR8     *BoardVersion;
-  CONST CHAR8     *BoardSerialNumber;
   CONST CHAR8     *BoardAssetTag;
   CONST CHAR8     *BoardLocationInChassis;
   CONST UINT8     *BoardType;

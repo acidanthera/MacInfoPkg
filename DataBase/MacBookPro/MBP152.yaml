@@ -1,0 +1,213 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "220.230.16.0.0"
+BIOSReleaseDate: "14/11/2018"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBookPro15,2"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02X141CJHCC"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Pro"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-827FB448E656EC26"
+#  "Mac-smthelse"
+BoardProduct: "Mac-827FB448E656EC26"
+BoardVersion: "MacBookPro15,2"
+BoardRevision: 1
+BoardAssetTag: ""
+BoardType: 0xA
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x09
+ChassisVersion: "Mac-827FB448E656EC26"
+ChassisAssetTag: "MacBook-Aluminum"
+PlatformFeature: 0x1A
+FirmwareFeatures: 0xFD8FF42E
+FirmwareFeaturesMask: 0xFF9FFF3F
+ExtendedFirmwareFeatures: 0x00000000FD8FF42E
+ExtendedFirmwareFeaturesMask: 0x00000000FF9FFF3F
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0701
+  - 0x1001
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+  - 12345
+SmcGeneration: 3
+SmcPlatform:
+  - 0x6A
+  - 0x31
+  - 0x33
+  - 0x32
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+SmcEPCI: 0xF09009
+OEMStrings: |-
+  Apple ROM Version
+    BIOS ID:      MBP152.88Z.F000.B00.1811142212
+    Model:        MBP152
+    EFI Version:  220.230.16.0.0
+    Built by:     root@quinoa
+    Date:         Wed Nov 14 22:12:53 2018
+    Revision:     220.230.16 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, RELEASE
+    Compiler:     Apple LLVM version 10.0.0 (clang-1000.2.42)
+    UUID:         E5D1475B-29FF-32BA-8552-682622BA42E1
+    UUID:         151B0907-10F9-3271-87CD-4BF5DBECACF5
+Specifications:
+  CPU:
+    - "Intel Core i5-8259U @ 2.30 GHz"
+  GPU:
+    # FIXME: incorrect
+    - "Intel UHD 630"
+  RAM:
+    # FIXME: incorrect
+    - "8GB 2666 MHz DDR4 ECC SDRAM"
+  SystemReportName:
+    # FIXME: incorrect?
+    - "MacBook Pro (13-inch, Mid 2018)"
+  MarketingName:
+    - "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "JHCC"
+  - "JHC8"
+  - "JHC9"
+  - "JHCD"
+  - "JHCF"
+  - "JHD2"
+  - "JHD3"
+  - "JHD4"
+  - "JHD5"
+  - "KK98"
+  - "KK99"
+  - "KK9C"
+  - "KQ1X"
+  - "KQ1Y"
+  - "KQ20"
+  - "KQ21"
+  - "KQ22"
+  - "KQ23"
+  - "KQ24"
+  - "KQ25"
+  - "KQ26"
+  - "KQ27"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "JH4R"
+  - "JN1C"
+  - "JN1D"
+  - "JN1F"
+  - "JN1G"
+  - "JN1H"
+  - "JN1J"
+  - "JN1T"
+  - "JN1V"
+  - "JN1W"
+  - "JN1X"
+  - "JN1Y"
+  - "JN20"
+  - "JN21"
+  - "JN22"
+  - "JN23"
+  - "JN0X"
+  - "JN0Y"
+  - "JN10"
+  - "JN11"
+  - "JN12"
+  - "JN13"
+  - "JN1T"
+  - "JN1V"
+  - "JN1W"
+  - "JN1X"
+  - "JN1Y"
+  - "JN20"
+  - "JN21"
+  - "JN22"
+  - "JN23"
+  - "JN1K"
+  - "JN1L"
+  - "JN1M"
+  - "JN1N"
+  - "JN1Q"
+  - "JN1R"
+  - "JN2K"
+  - "JN2L"
+  - "JN2M"
+  - "JN14"
+  - "JN15"
+  - "JN16"
+  - "JN17"
+  - "JN18"
+  - "JN19"
+  - "JN24"
+  - "JN25"
+  - "JN26"
+  - "JN27"
+  - "JN28"
+  - "JN29"
+  - "JN2C"
+  - "JN2D"
+  - "JN2F"
+  - "JJ50"
+  - "JJ51"
+  - "JJ52"
+  - "JJ53"
+  - "JJ54"
+  - "JJ55"
+  - "JJ62"
+  - "JJ63"
+  - "JJ64"
+  - "JH4Q"
+  - "JH4T"
+  - "JH4W"
+  - "JH4Y"
+  - "JH50"
+  - "JJ5F"
+  - "JJ5G"
+  - "JJ5H"
+  - "JJ5J"
+  - "JJ5K"
+  - "JJ5L"
+  - "JJ5M"
+  - "JJ5N"
+  - "JJ5P"
+  - "JJ56"
+  - "JJ57"
+  - "JJ58"
+  - "JJ59"
+  - "JJ5C"
+  - "JJ5D"
+  - "JJ65"
+  - "JJ66"
+  - "JJ67"
+  - "JH51"
+  - "JH52"
+  - "JH53"
+  - "JH54"
+  - "JH55"
+  - "JH56"
+  - "JJ5Q"
+  - "JJ5R"
+  - "JJ5T"
+  - "JJ5V"
+  - "JJ5W"
+  - "JJ5X"
+  - "JJ5Y"
+  - "JJ60"
+  - "JJ61"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2018
+# Optional, override for macserial default year
+MacserialModelYear:
+  - 2018
+# Optional, override for SystemSerialNumber for Clover
+CloverSerialNumber: "C02X1HACJHCD"

@@ -1,0 +1,111 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "141.0.0.0.0"
+BIOSReleaseDate: "12/19/2018"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacPro5,1"
+SystemVersion: "1.2"
+# Note, this one is used by macserial
+SystemSerialNumber: "H02380NSEUH"
+SystemSKUNumber: ""
+SystemFamily: "MacPro"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-827FB448E656EC26"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F221BEC8"
+BoardVersion: "MacPro5,1"
+BoardRevision: 1
+BoardAssetTag: ""
+BoardType: 0xB
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x7
+ChassisVersion: "Mac-F221BEC8"
+ChassisAssetTag: "Pro-Enclosure"
+PlatformFeature: 0x0
+FirmwareFeatures: 0xE80FE137
+FirmwareFeaturesMask: 0xFF1FFF3F
+MemoryFormFactor: 0x9
+# FIXME: Correct this one
+ProcessorType:
+  - 12345
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+SmcGeneration: 1
+SmcRevision:
+  - 0x01
+  - 0x39
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x11
+SmcBranch:
+  - 0x6B
+  - 0x35
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+SmcPlatform:
+  - 0x6B
+  - 0x35
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+SmcEPCI: 0xF09009
+OEMStrings: |-
+  Apple ROM Version
+    Model:        MP51
+    EFI Version:  141.0.0.0.0
+    Date:         Wed Dec 19 16:15:33 2018
+    Build Type:   Release
+Specifications:
+  CPU:
+    - "Intel Xeon X5675 @ 3.06 GHz x2"
+  GPU:
+    # FIXME: incorrect
+    - ""
+  RAM:
+    # FIXME: incorrect
+    - ""
+  SystemReportName:
+    # FIXME: incorrect?
+    - "Mac Pro (Mid 2010)"
+  MarketingName:
+    - "Mac Pro (Mid 2010)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "EUH"
+  - "GWR"
+  - "HFC"
+  - "HFA"
+  - "HFD"
+  - "HFF"
+  - "HFG"
+  - "HFJ"
+  - "HFK"
+  - "HFL"
+  - "HFN"
+  - "EUF"
+  - "F4MG"
+  - "F4MH"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - ""
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2010
+  - 2012
+# Optional, override for macserial default year
+MacserialModelYear:
+  - 2010
+  - 2012
+# Optional, override for SystemSerialNumber for Clover
+CloverSerialNumber: "H02380NSEUH"
