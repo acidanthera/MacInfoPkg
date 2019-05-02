@@ -1,5 +1,6 @@
 BIOSVendor: "Apple Inc."
 BIOSVersion: "141.0.0.0.0"
+BIOSLegacyVersion: "MP51.88Z.F000.B00.1902142049"
 BIOSReleaseDate: "12/19/2018"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacPro5,1"
@@ -102,10 +103,9 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2010
+  - 2011
   - 2012
 # Optional, override for macserial default year
-MacserialModelYear:
-  - 2010
-  - 2012
+MacserialModelYear: 2011
 # Optional, override for SystemSerialNumber for Clover
 CloverSerialNumber: "H02380NSEUH"

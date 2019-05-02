@@ -1,5 +1,6 @@
 BIOSVendor: "Apple Inc."
 BIOSVersion: "220.230.16.0.0"
+BIOSLegacyVersion: "MBP152.88Z.F000.B00.1811142212"
 BIOSReleaseDate: "14/11/2018"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro15,2"
@@ -205,9 +206,6 @@ AppleBoardCode:
   - "JJ61"
 # Note, first year is used by macserial
 AppleModelYear:
-  - 2018
-# Optional, override for macserial default year
-MacserialModelYear:
   - 2018
 # Optional, override for SystemSerialNumber for Clover
 CloverSerialNumber: "C02X1HACJHCD"
