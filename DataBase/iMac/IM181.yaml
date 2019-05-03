@@ -1,12 +1,12 @@
 BIOSVendor: "Apple Inc."
 BIOSVersion: "172.0.0.0.0"
-BIOSLegacyVersion: "IM183.88Z.F000.B00.1904111521"
+BIOSLegacyVersion: "IM181.88Z.F000.B00.1904111521"
 BIOSReleaseDate: "04/11/2019"
 SystemManufacturer: "Apple Inc."
-SystemProductName: "iMac18,3"
+SystemProductName: "iMac18,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
-SystemSerialNumber: "C02TDHACJ1GJ"
+SystemSerialNumber: "C02TDHACH7JY"
 SystemSKUNumber: ""
 SystemFamily: "iMac"
 BoardManufacturer: "Apple Inc."
@@ -14,15 +14,15 @@ BoardManufacturer: "Apple Inc."
 # BoardProduct:
 #  "Mac-BE088AF8C5EB4FA2"
 #  "Mac-smthelse"
-BoardProduct: "Mac-BE088AF8C5EB4FA2"
-BoardVersion: "iMac18,3"
+BoardProduct: "Mac-4B682C642B45593E"
+BoardVersion: "iMac18,1"
 BoardRevision: 1
 BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x9
-ChassisVersion: "Mac-BE088AF8C5EB4FA2"
+ChassisVersion: "Mac-4B682C642B45593E"
 ChassisAssetTag: ""
 PlatformFeature: 0x00
 FirmwareFeatures: 0xFC0FE137
@@ -37,6 +37,7 @@ ProcessorType:
 ProcessorBusSpeed:
   - 12345
 SmcGeneration: 2
+# FIXME: I believe it should match iMac18,3...
 SmcRevision:
   - 0x02
   - 0x41
@@ -65,20 +66,20 @@ SmcPlatform:
 SmcEPCI: 0xF07009
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      IM183.88Z.F000.B00.1904111521
-    Model:        IM183
+    BIOS ID:      IM181.88Z.F000.B00.1904111521
+    Model:        IM181
     EFI Version:  172.0.0.0.0
     Built by:     _atsserver@xapp157
-    Date:         Thu Apr 11 15:21:46 2019
+    Date:         Thu Apr 11 15:21:42 2019
     Revision:     172 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, RELEASE
     Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
-    UUID:         04E73AA7-F5C4-3C6C-8FDD-433A5F441D96
-    UUID:         E389C0CE-F862-3AD4-9AB7-B708278C6F14
+    UUID:         2F23F08E-0AF7-3CE0-96F3-6147DAF5DBFB
+    UUID:         2D49C185-F55E-372A-A59C-FF6831A2471B
 Specifications:
   CPU:
-    - "Intel Core i7-7700K @ 4.20 GHz"
+    - "Intel Core i5-7360U @ 2.30 GHz"
   GPU:
     # FIXME: incorrect
     - "Intel HD 630"
@@ -87,32 +88,17 @@ Specifications:
     - "8GB 2400 MHz DDR4 SO-DIMM"
   SystemReportName:
     # FIXME: incorrect?
-    - "iMac (27-inch, Late 2017)"
+    - "iMac (21.5-inch, Late 2017)"
   MarketingName:
-    - "iMac (27-inch, 2017)"
+    - "iMac (21.5-inch, 2017)"
 # Note, first model code is used by macserial
 AppleModelCode:
-  - "J1GJ"
-  - "J1GQ"
-  - "J1GG"
+  - "H7JY"
+  - "H7VF"
 # Note, first board code is used by macserial
 AppleBoardCode:
-  - "J0PG"
-  - "J0PH"
-  - "J0PJ"
-  - "J0PC"
-  - "J0PD"
-  - "J0PF"
-  - "HX77"
-  - "HX78"
-  - "HX79"
-  - "HX7C"
-  - "HX7D"
-  - "HX7F"
-  - "HNL6"
-  - "HNL7"
-  - "HNL8"
+  - "H69F"
+  - "H668"
 # Note, first year is used by macserial
 AppleModelYear:
   - 2017
-  - 2018

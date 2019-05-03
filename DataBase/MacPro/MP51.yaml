@@ -107,5 +107,5 @@ AppleModelYear:
   - 2012
 # Optional, override for macserial default year
 MacserialModelYear: 2011
-# Optional, override for SystemSerialNumber for Clover
-CloverSerialNumber: "H02380NSEUH"
+# Optional, override for SystemSerialNumber for Clover, wtf?
+CloverSerialNumber: "C07J77F7F4MC"

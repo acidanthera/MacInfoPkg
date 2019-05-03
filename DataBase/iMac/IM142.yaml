@@ -1,0 +1,137 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "137.0.0.0.0"
+BIOSLegacyVersion: "IM142.88Z.F000.B00.1904161912"
+BIOSReleaseDate: "04/16/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "iMac14,2"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "D25LHACKF8JC"
+SystemSKUNumber: "System SKU#"
+SystemFamily: "iMac"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-BE088AF8C5EB4FA2"
+#  "Mac-smthelse"
+BoardProduct: "Mac-27ADBB7B4CEE8E61"
+BoardVersion: "iMac18,3"
+BoardRevision: 1
+BoardAssetTag: "Base Board Asset Tag#"
+BoardType: 0xA
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x9
+ChassisVersion: "Mac-27ADBB7B4CEE8E61"
+ChassisAssetTag: ""
+PlatformFeature: 0x01
+FirmwareFeatures: 0xE00FE137
+FirmwareFeaturesMask: 0xFF1FFF3F
+ExtendedFirmwareFeatures: 0x00000000E00FE137
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0605
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+SmcGeneration: 2
+SmcRevision:
+  - 0x02
+  - 0x15
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x07
+SmcBranch:
+  - 0x6a
+  - 0x31
+  - 0x36
+  - 0x6a
+  - 0x31
+  - 0x37
+  - 0x00
+  - 0x00
+SmcPlatform:
+  - 0x6a
+  - 0x31
+  - 0x37
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+SmcEPCI: 0x7A007
+OEMStrings: |-
+  Apple ROM Version
+    Model:        IM142
+    EFI Version:  137.0.0.0.0
+    Built by:     root@saumon
+    Date:         Tue Apr 16 19:12:14 PDT 2019
+    Revision:     137 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, Release
+    Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
+Specifications:
+  CPU:
+    - "Intel Core i5-4570 @ 3.20 GHz"
+  GPU:
+    # FIXME: incorrect
+    - "Intel HD 4600"
+  RAM:
+    # FIXME: incorrect
+    - "8GB 1600 MHz DDR3 SO-DIMM"
+  SystemReportName:
+    # FIXME: incorrect?
+    - "iMac (27-inch, Late 2013)"
+  MarketingName:
+    - "iMac (27-inch, 2013)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "F8JC"
+  - "F8J4"
+  - "F8J5"
+  - "F8J9"
+  - "FLHH"
+  - "FPDY"
+  - "FPF0"
+  - "FPF3"
+  - "FPF4"
+  - "FQPG"
+  - "FQPH"
+  - "FQPJ"
+  - "FQPK"
+  - "FQPL"
+  - "FQPM"
+  - "FQPN"
+  - "FQPP"
+  - "FR20"
+  - "FR22"
+  - "FR2W"
+  - "FRM9"
+  - "FT4N"
+  - "FWQ5"
+  - "FWQ6"
+  - "FWQ7"
+  - "FWQ8"
+  - "FY15"
+  - "FY9D"
+  - "FY9F"
+  - "G6DP"
+  - "GHFF"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "F8YL"
+  - "FCTC"
+  - "FC3F"
+  - "FC3J"
+  - "FN7H"
+  - "FN71"
+  - "FN72"
+  - "FN3W"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2013
+  - 2014
+  - 2015
