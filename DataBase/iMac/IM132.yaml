@@ -1,0 +1,152 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "285.0.0.0.0"
+BIOSLegacyVersion: "IM131.88Z.F000.B00.1904161750"
+BIOSReleaseDate: "16/04/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "iMac13,2"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02HW3YADNCW"
+SystemSKUNumber: ""
+SystemFamily: "iMac"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-827FB448E656EC26"
+#  "Mac-smthelse"
+BoardProduct: "Mac-FC02E91DDD3FA6A4"
+BoardVersion: "iMac13,2"
+BoardRevision: 1
+BoardAssetTag: ""
+BoardType: 0xA
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x9
+ChassisVersion: "Mac-FC02E91DDD3FA6A4"
+ChassisAssetTag: "iMac-Aluminum"
+PlatformFeature: 0x01
+FirmwareFeatures: 0xE00DE137
+FirmwareFeaturesMask: 0xFF1FFF3F
+ExtendedFirmwareFeatures: 0x00000000FD8FF42E
+ExtendedFirmwareFeaturesMask: 0x00000000FF9FFF3F
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0604
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+  - 12345
+SmcGeneration: 2
+SmcRevision:
+  - 0x02
+  - 0x11
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x16
+SmcBranch:
+  - 0x64
+  - 0x38
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+SmcPlatform:
+  - 0x64
+  - 0x38
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+SmcEPCI: 0x79006
+OEMStrings: |-
+  Apple ROM Version
+    BIOS ID:      IM131.88Z.F000.B00.1904161750
+    Model:        IM131
+    EFI Version:  285.0.0.0.0
+    Built by:     root@quinoa
+    Date:         Tue Apr 16 17:50:53 2019
+    Revision:     285 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, Release
+    Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
+Specifications:
+  CPU:
+    - "Intel Core i5-3470S @ 2.90 GHz"
+    - "Intel Core i5-3470 @ 3.20 GHz"
+    - "Intel Core i7-3770 @ 3.40 GHz"
+  GPU:
+    # FIXME: incorrect
+    - "NVIDIA GeForce GTX 660M"
+    - "NVIDIA GeForce GTX 675M"
+    - "NVIDIA GeForce GTX 680MX"
+  RAM:
+    # FIXME: incorrect
+    - "8GB 1066 MHz DDR3 SO-DIMM"
+  SystemReportName:
+    # FIXME: incorrect?
+    - "iMac (27-inch, Late 2012)"
+  MarketingName:
+    - "iMac (27-inch, 2012)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "DNCW"
+  - "DNCV"
+  - "DNMN"
+  - "DNMP"
+  - "F29N"
+  - "F8QP"
+  - "F8QQ"
+  - "FD5T"
+  - "FD5V"
+  - "FFM8"
+  - "FFM9"
+  - "FFMC"
+  - "FFMD"
+  - "FFMF"
+  - "FFMG"
+  - "FFMJ"
+  - "FFMK"
+  - "FFML"
+  - "FFMM"
+  - "FFMN"
+  - "FFW0"
+  - "FFW1"
+  - "FG47"
+  - "FGMW"
+  - "FGMY"
+  - "FGRP"
+  - "FL8M"
+  - "FM8P"
+  - "FM8Q"
+  - "FMLH"
+  - "FP13"
+  - "FP62"
+  - "FTQ5"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "F2FR"
+  - "F653"
+  - "F49P"
+  - "F651"
+  - "F49R"
+  - "F652"
+  - "DYW3"
+  - "F64V"
+  - "F0V5"
+  - "F64W"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2012
+  - 2013
+# Optional, override for macserial default year
+MacserialModelYear:
+  - 2012
+  - 2013
+# Optional, override for SystemSerialNumber for Clover
+CloverSerialNumber: "C02JB041DNCW"
