@@ -1,0 +1,106 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "220.260.170.0.0"
+BIOSLegacyVersion: "IM191.88Z.F000.B00.1904222222"
+BIOSReleaseDate: "04/22/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "iMac19,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02Y90H3JV3Q"
+SystemSKUNumber: ""
+SystemFamily: "iMac"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-AA95B1DDAB278B95"
+#  "Mac-smthelse"
+BoardProduct: "Mac-AA95B1DDAB278B95"
+BoardVersion: "iMac19,1"
+BoardRevision: 1
+BoardAssetTag: ""
+BoardType: 0xA
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x9
+ChassisVersion: "Mac-AA95B1DDAB278B95"
+ChassisAssetTag: ""
+PlatformFeature: 0x00
+FirmwareFeatures: 0xFC0FE137
+FirmwareFeaturesMask: 0xFF1FFF3F
+ExtendedFirmwareFeatures: 0x00000000FC0FE137
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x1009
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+SmcGeneration: 2
+SmcRevision:
+  - 0x02
+  - 0x46
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x12
+SmcBranch:
+  - 0x6a
+  - 0x31
+  - 0x33
+  - 0x38
+  - 0x5f
+  - 0x39
+  - 0x00
+  - 0x00
+SmcPlatform:
+  - 0x6a
+  - 0x31
+  - 0x33
+  - 0x38
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+SmcEPCI: 0xF07009
+OEMStrings: |-
+  Apple ROM Version
+    BIOS ID:      IM191.88Z.F000.B00.1904222222
+    Model:        IM191
+    EFI Version:  220.260.170.0.0
+    Built by:     root@osx346
+    Date:         Mon Apr 22 22:22:59 2019
+    Revision:     220.260.170 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, RELEASE
+    Compiler:     Apple LLVM version 10.0.1 (clang-1001.0.37.14)
+    UUID:         91CEFEF6-A23A-38AB-B262-09C669528B49
+    UUID:         FA5DD31A-A955-3871-9C29-D63F55303059
+Specifications:
+  CPU:
+    - "Intel Core i7-9900K @ 3.60 GHz"
+  GPU:
+    # FIXME: incorrect
+    - "Intel UHD 630"
+  RAM:
+    # FIXME: incorrect
+    - "8GB 2666 MHz DDR4 SO-DIMM"
+  SystemReportName:
+    # FIXME: incorrect?
+    - "iMac (27-inch, 2019)"
+  MarketingName:
+    - "iMac (27-inch, 2019)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "JV3Q"
+  - "JV3P"
+  - "J1GG"
+  - "JV40"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "LNV9"
+  - "KDP0"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2019
+
