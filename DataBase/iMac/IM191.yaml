@@ -62,7 +62,7 @@ SmcPlatform:
   - 0x00
   - 0x00
   - 0x00
-SmcEPCI: 0xF07009
+SmcEPCI: 0xF0D009
 OEMStrings: |-
   Apple ROM Version
     BIOS ID:      IM191.88Z.F000.B00.1904222222
