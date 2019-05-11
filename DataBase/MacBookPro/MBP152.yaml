@@ -48,7 +48,6 @@ SmcPlatform:
   - 0x00
   - 0x00
   - 0x00
-SmcEPCI: 0xF09009
 OEMStrings: |-
   Apple ROM Version
     BIOS ID:      MBP152.88Z.F000.B00.1811142212
