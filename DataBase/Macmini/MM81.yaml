@@ -1,0 +1,97 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "220.260.170.0.0"
+BIOSLegacyVersion: "MM81.88Z.F000.B00.1904232231"
+BIOSReleaseDate: "04/23/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "Macmini8,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C07XL9WEJYVX"
+SystemSKUNumber: ""
+SystemFamily: "Macmini"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-7BA5B2DFE22DDD8C"
+#  "Mac-smthelse"
+BoardProduct: "Mac-7BA5B2DFE22DDD8C"
+BoardVersion: "Macmini8,1"
+BoardRevision: 1
+BoardAssetTag: ""
+BoardType: 0xA
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x9
+ChassisVersion: "Mac-7BA5B2DFE22DDD8C"
+ChassisAssetTag: ""
+PlatformFeature: 0x00
+FirmwareFeatures: 0xFC0FE137
+FirmwareFeaturesMask: 0xFF1FFF3F
+ExtendedFirmwareFeatures: 0x00000000FC0FE137
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0709
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+SmcGeneration: 3
+SmcPlatform:
+  - 0x6a
+  - 0x31
+  - 0x37
+  - 0x34
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+OEMStrings: |-
+  Apple ROM Version
+    BIOS ID:      MM81.88Z.F000.B00.1904232231
+    Model:        MM81
+    EFI Version:  220.260.170.0.0
+    Built by:     root@caviar
+    Date:         Tue Apr 23 22:31:04 2019
+    Revision:     220.260.170 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, RELEASE
+    Compiler:     Apple LLVM version 10.0.1 (clang-1001.2.37.15)
+    UUID:         539D8F88-9CAD-3065-AA02-F5F2B0536170
+    UUID:         E74FCA0D-4D00-345C-9A76-A15AEC470388
+Specifications:
+  CPU:
+    - "Intel Core i7-8700B @ 3.20 GHz"
+  GPU:
+    # FIXME: incorrect
+    - "Intel UHD 630"
+  RAM:
+    # FIXME: incorrect
+    - "8GB 2666 MHz DDR4 SO-DIMM"
+  SystemReportName:
+    # FIXME: incorrect?
+    - "Mac mini (2018)"
+  MarketingName:
+    - "Mac mini (2018))"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "H7JY"
+  - "H7VF"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "KXPG"
+  - "KXVT"
+  - "KXW5"
+  - "KXQJ"
+  - "KXQW"
+  - "KXX7"
+  - "KXRY"
+  - "KXV3"
+  - "KXVG"
+  - "KXQ5"
+  - "KXYC"
+  - "KXWJ"
+  - "KXWW"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2018
