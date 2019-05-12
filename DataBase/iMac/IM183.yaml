@@ -30,11 +30,12 @@ FirmwareFeaturesMask: 0xFF1FFF3F
 ExtendedFirmwareFeatures: 0x00000000FC0FE137
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
-# FIXME: Correct this one
 ProcessorType:
-  - 0x0607
+  - 0x0605
+  - 0x0705
 # FIXME: Correct this one
 ProcessorBusSpeed:
+  - 12345
   - 12345
 SmcGeneration: 2
 SmcRevision:
@@ -78,6 +79,7 @@ OEMStrings: |-
     UUID:         E389C0CE-F862-3AD4-9AB7-B708278C6F14
 Specifications:
   CPU:
+    - "Intel Core i5-7600 @ 4.10 GHz"
     - "Intel Core i7-7700K @ 4.20 GHz"
   GPU:
     # FIXME: incorrect
