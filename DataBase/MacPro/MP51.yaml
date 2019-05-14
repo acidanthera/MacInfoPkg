@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "141.0.0.0.0"
-BIOSLegacyVersion: "MP51.88Z.F000.B00.1902142049"
-BIOSReleaseDate: "12/19/2018"
+BIOSVersion: "144.0.0.0.0"
+BIOSLegacyVersion: "MP51.88Z.F000.B00.1904121248"
+BIOSReleaseDate: "04/12/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacPro5,1"
 SystemVersion: "1.2"
@@ -64,8 +64,8 @@ SmcEPCI: 0xF09009
 OEMStrings: |-
   Apple ROM Version
     Model:        MP51
-    EFI Version:  141.0.0.0.0
-    Date:         Wed Dec 19 16:15:33 2018
+    EFI Version:  144.0.0.0.0
+    Date:         Fri Apr 12 12:43:00 2019
     Build Type:   Release
 Specifications:
   CPU:
