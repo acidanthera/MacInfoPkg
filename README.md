@@ -19,7 +19,16 @@ Run with `-h` argument to see all available arguments.
 ## Improving database
 
 To add a new hardware board, please create a file in DataBase
-directory, and then run `./update_generated.py`.
+directory, and then run `./update_generated.py`. It should not
+output anything and return zero code.
+
+To install PyYAML on macOS use the following commands:
+
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo -H python get-pip.py
+sudo -H pip install pyyaml
+```
 
 ## Credits
 
