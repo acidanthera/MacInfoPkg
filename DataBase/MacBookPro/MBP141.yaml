@@ -1,0 +1,121 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "194.0.0.0.0"
+BIOSLegacyVersion: "MBP141.88Z.F000.B00.1904111408"
+BIOSReleaseDate: "04/11/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBookPro14,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02TNHACHV29"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Pro"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-827FB448E656EC26"
+#  "Mac-smthelse"
+BoardProduct: "Mac-B4831CEBD52A0C4C"
+BoardVersion: "MacBookPro14,1"
+BoardRevision: 1
+BoardAssetTag: ""
+BoardType: 0xA
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x09
+ChassisVersion: "Mac-B4831CEBD52A0C4C"
+ChassisAssetTag: "MacBook-Aluminum"
+PlatformFeature: 0x1A
+FirmwareFeatures: 0xFC0FE137
+FirmwareFeaturesMask: 0xFF1FFF3F
+ExtendedFirmwareFeatures: 0x00000000FC0FE137
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0601
+  - 0x0701
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+  - 12345
+SmcGeneration: 2
+SmcRevision:
+  - 0x02
+  - 0x43
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x06
+SmcBranch:
+  - 0x32
+  - 0x30
+  - 0x31
+  - 0x37
+  - 0x6d
+  - 0x62
+  - 0x70
+  - 0x00
+SmcPlatform:
+  - 0x6a
+  - 0x31
+  - 0x33
+  - 0x30
+  - 0x61
+  - 0x00
+  - 0x00
+  - 0x00
+SmcEPCI: 0xF0B009
+OEMStrings: |-
+  Apple ROM Version
+    BIOS ID:      MBP141.88Z.F000.B00.1904111408
+    Model:        MBP141
+    EFI Version:  194.0.0.0.0
+    Built by:     _atsserver@xapp157
+    Date:         Thu Apr 11 14:08:28 2019
+    Revision:     194 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, RELEASE
+    Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+    UUID:         95D4DBC4-9FA9-3A19-BD25-3ACD7C14835B
+    UUID:         163445B7-EC94-344F-BA04-62F2A2CE4DE8
+Specifications:
+  CPU:
+    - "Intel Core i5-7360U @ 2.30 GHz"
+    - "Intel Core i7-7660U @ 2.50 GHz"
+  GPU:
+    # FIXME: incorrect
+    - "Intel HD 620"
+  RAM:
+    # FIXME: incorrect
+    - "8GB 2666 MHz DDR4 ECC SDRAM"
+  SystemReportName:
+    # FIXME: incorrect?
+    - "MacBook Pro (13-inch, Mid 2017)"
+  MarketingName:
+    - "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 Ports)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "HV29"
+  - "HV22"
+  - "HV2F"
+  - "HV2J"
+  # Note, first board code is used by macserial
+AppleBoardCode:
+  - "HWVP"
+  - "HWVR"
+  - "HWVV"
+  - "HWVN"
+  - "HWVQ"
+  - "HWVT"
+  - "JDDH"
+  - "JDDK"
+  - "JDDM"
+  - "HT4H"
+  - "HT4K"
+  - "HT4N"
+  - "HT4G"
+  - "HT4J"
+  - "HT4L"
+  # Note, first year is used by macserial
+AppleModelYear:
+  - 2017
