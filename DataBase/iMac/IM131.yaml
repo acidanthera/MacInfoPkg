@@ -32,9 +32,11 @@ ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
 # FIXME: Correct this one
 ProcessorType:
-  - 0x0703
+  - 0x0704
+  - 0x0604
 # FIXME: Correct this one
 ProcessorBusSpeed:
+  - 12345
   - 12345
 SmcGeneration: 2
 SmcRevision:
@@ -76,6 +78,7 @@ OEMStrings: |-
 Specifications:
   CPU:
     - "Intel Core i7-3770S @ 3.10 GHz"
+    - "Intel Core i5-3470S @ 3.60 GHz"
   GPU:
     # FIXME: incorrect
     - "Intel HD 4000"
