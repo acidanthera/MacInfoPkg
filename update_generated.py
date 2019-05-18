@@ -74,7 +74,7 @@ def export_db_macinfo(db, path):
         '  .BoardType = 0x%X,\n'
         '  .ChassisType = 0x%X,\n'
         '  .MemoryFormFactor = 0x%X,\n'
-        '  .PlatformFeature = 0x%X,\n'
+        '  .PlatformFeature = %s,\n'
         '  .ChassisAssetTag = "%s",\n'
         '  .FirmwareFeatures = 0x%XULL,\n'
         '  .FirmwareFeaturesMask = 0x%XULL,\n'
@@ -97,7 +97,7 @@ def export_db_macinfo(db, path):
           info['BoardType'],
           info['ChassisType'],
           info['MemoryFormFactor'],
-          info['PlatformFeature'],
+          '0x{:X}'.format(info['PlatformFeature']) if 'PlatformFeature' in info else 'MAC_INFO_PLATFORM_FEATURE_MISSING',
           info['ChassisAssetTag'],
           info.get('ExtendedFirmwareFeatures', info['FirmwareFeatures']),
           info.get('ExtendedFirmwareFeaturesMask', info['FirmwareFeaturesMask'])

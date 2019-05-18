@@ -15,6 +15,8 @@
 #ifndef MAC_INFO_INTERNAL_H
 #define MAC_INFO_INTERNAL_H
 
+#include <Library/MacInfoLib.h>
+
 typedef struct {
   CONST CHAR8 * CONST SystemProductName;
   CONST CHAR8 * CONST BoardProduct;

@@ -15,6 +15,8 @@
 #ifndef MAC_INFO_LIB_H
 #define MAC_INFO_LIB_H
 
+#define MAC_INFO_PLATFORM_FEATURE_MISSING 0xFFFFFFFFU
+
 typedef struct MAC_INFO_DATA_SMBIOS_ {
   //
   // Type 0
