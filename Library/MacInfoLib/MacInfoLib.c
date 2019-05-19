@@ -108,5 +108,8 @@ GetMacInfo (
   MacInfo->Smbios.MemoryFormFactor = &InternalEntry->MemoryFormFactor;
   MacInfo->Smbios.FirmwareFeatures = InternalEntry->FirmwareFeatures;
   MacInfo->Smbios.FirmwareFeaturesMask = InternalEntry->FirmwareFeaturesMask;
-  MacInfo->Smbios.PlatformFeature = InternalEntry->PlatformFeature;
+
+  if (InternalEntry->PlatformFeature != MAC_INFO_PLATFORM_FEATURE_MISSING) {
+    MacInfo->Smbios.PlatformFeature = &InternalEntry->PlatformFeature;
+  }
 }

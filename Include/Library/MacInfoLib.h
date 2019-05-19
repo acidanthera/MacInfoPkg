@@ -15,8 +15,6 @@
 #ifndef MAC_INFO_LIB_H
 #define MAC_INFO_LIB_H
 
-#define MAC_INFO_PLATFORM_FEATURE_MISSING 0xFFFFFFFFU
-
 typedef struct MAC_INFO_DATA_SMBIOS_ {
   //
   // Type 0
@@ -59,7 +57,7 @@ typedef struct MAC_INFO_DATA_SMBIOS_ {
   //
   // Type 133
   //
-  UINT32          PlatformFeature;
+  CONST UINT32    *PlatformFeature;
 } MAC_INFO_DATA_SMBIOS;
 
 typedef struct MAC_INFO_DATA_DATAHUB_ {

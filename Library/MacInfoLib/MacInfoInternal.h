@@ -15,7 +15,7 @@
 #ifndef MAC_INFO_INTERNAL_H
 #define MAC_INFO_INTERNAL_H
 
-#include <Library/MacInfoLib.h>
+#define MAC_INFO_PLATFORM_FEATURE_MISSING 0xFFFFFFFFU
 
 typedef struct {
   CONST CHAR8 * CONST SystemProductName;
