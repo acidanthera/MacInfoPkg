@@ -1,0 +1,98 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: ""
+BIOSLegacyVersion: "MP41.88Z.0081.B08.1001221313"
+BIOSReleaseDate: "01/22/10"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacPro4,1"
+SystemVersion: "1.4"
+# Note, this one is used by macserial
+SystemSerialNumber: "CT93051DK9Y"
+SystemSKUNumber: "System SKU#"
+SystemFamily: "MacPro"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-F221BEC8"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F221BEC8"
+BoardVersion: "MacPro4,1"
+BoardRevision: 1
+BoardAssetTag: "Base Board Asset Tag#"
+BoardType: 0xB
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x7
+ChassisVersion: "Mac-F221BEC8"
+ChassisAssetTag: "Pro-Enclosure"
+# FIXME: Correct this one
+FirmwareFeatures: 0xE80FE137
+FirmwareFeaturesMask: 0xFF1FFF3F
+# FIXME: Correct this one
+MemoryFormFactor: 0x9
+# FIXME: Correct this one
+ProcessorType:
+  - 12345
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+SmcGeneration: 1
+SmcRevision:
+  - 0x01
+  - 0x39
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x05
+# FIXME: Correct this one
+SmcBranch:
+  - 0x6B
+  - 0x35
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: Correct this one
+SmcPlatform:
+  - 0x6B
+  - 0x35
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+SmcEPCI: 0x07C002
+# FIXME: Correct this one
+OEMStrings: |-
+  Apple ROM Version
+Specifications:
+  CPU:
+    - "Intel Xeon X5670 @ 2.93 GHz x2"
+  GPU:
+    # FIXME: incorrect
+    - ""
+  RAM:
+    # FIXME: incorrect
+    - ""
+  SystemReportName:
+    - "Mac Pro (Early 2009)"
+  MarketingName:
+    # FIXME: incorrect?
+    - "Mac Pro (Early 2009)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "K9Y"
+  - "20H"
+  - "BXD"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - ""
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2009
+# Optional, override for macserial default year
+MacserialModelYear: 2009
+# Optional, override for SystemSerialNumber for Clover
+CloverSerialNumber: "CT930HAC4PD"
