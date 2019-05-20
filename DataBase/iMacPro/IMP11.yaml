@@ -1,0 +1,140 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "220.260.170.0.0"
+BIOSLegacyVersion: "IMP11.88Z.F000.B00.1904222000"
+BIOSReleaseDate: "04/22/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "iMacPro1,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02VV5RFHX87"
+SystemSKUNumber: ""
+SystemFamily: "iMac Pro"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-7BA5B2D9E42DDD94"
+#  "Mac-smthelse"
+BoardProduct: "Mac-7BA5B2D9E42DDD94"
+BoardVersion: "iMacPro1,1"
+BoardRevision: 1
+BoardAssetTag: ""
+BoardType: 0xA
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x9
+ChassisVersion: "Mac-7BA5B2D9E42DDD94"
+ChassisAssetTag: "iMacPro-Aluminum"
+PlatformFeature: 0x20
+FirmwareFeatures: 0xFD8FF53F
+FirmwareFeaturesMask: 0xFF9FFF3F
+ExtendedFirmwareFeatures: 0x00000000FD8FF53F
+ExtendedFirmwareFeaturesMask: 0x00000000FF9FFF3F
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0F01
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+SmcGeneration: 3
+SmcRevision:
+  - 0x02
+  - 0x41
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x01
+SmcBranch:
+  - 0x6a
+  - 0x31
+  - 0x33
+  - 0x37
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+SmcPlatform:
+  - 0x6a
+  - 0x31
+  - 0x33
+  - 0x37
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+OEMStrings: |-
+  Apple ROM Version
+    BIOS ID:      IMP11.88Z.F000.B00.1904222000
+    Model:        IMP11
+    EFI Version:  220.260.170.0.0
+    Built by:     root@pdb165
+    Date:         Mon Apr 22 20:00:26 2019
+    ROM Version:  F000_B00
+    Build Type:   Official Build, RELEASE
+    Revision:     220.260.170 (B&I)
+    Compiler:     Apple LLVM version 10.0.1 (clang-1001.2.37.15)
+    UUID:         C8A13C9C-6EF4-30EB-976D-90D862C0ED47
+    UUID:         E2C893C9-968C-3685-AD19-33C30623DD0E
+Specifications:
+  CPU:
+    - "Intel Xeon W-2140B CPU @ 3.20 GHz"
+    - "Intel Xeon W-2150B CPU @ 3.00 GHz"
+    - "Intel Xeon W-2170B CPU @ 2.50 GHz"
+    - "Intel Xeon W-2191B CPU @ 2.30 GHz"
+  GPU:
+    # FIXME: incorrect
+    - ""
+  RAM:
+    # FIXME: incorrect
+    - "8GB 2666 MHz DDR4 SO-DIMM"
+  SystemReportName:
+    # FIXME: incorrect?
+    - "iMac Pro (2017)"
+  MarketingName:
+    - "iMac Pro (2017)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "HX87"
+  - "HX8F"
+  - "JL53"
+  - "JL54"
+  - "JL55"
+  - "JLCN"
+  - "JLCP"
+  - "JLCR"
+  - "JLCT"
+  - "JLCV"
+  - "JLCW"
+  - "JLCX"
+  - "JLCY"
+  - "JLD0"
+  - "JLD1"
+  - "JLD2"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "JG36"
+  - "JG3C"
+  - "JG3D"
+  - "JG38"
+  - "JG39"
+  - "JML3"
+  - "JMPY"
+  - "JMQ0"
+  - "JML4"
+  - "JMQ1"
+  - "JMQ2"
+  - "J806"
+  - "J807"
+  - "J808"
+  - "J80H"
+  - "J80J"
+  - "J80M"
+  - "J803"
+  - "J804"
+  - "J805"
+  - "J809"
+  - "J80D"
+  - "J80F"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2017
