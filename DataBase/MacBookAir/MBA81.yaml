@@ -1,0 +1,137 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "220.260.170.0.0"
+BIOSLegacyVersion: "MBA81.88Z.F000.B00.1904222000"
+BIOSReleaseDate: "04/22/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBookAir8,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02XG1D8JK78"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Air"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-827FAC58A8FDFA22"
+#  "Mac-smthelse"
+BoardProduct: "Mac-827FAC58A8FDFA22"
+BoardVersion: "MacBookAir8,1"
+BoardRevision: 1
+BoardAssetTag: ""
+BoardType: 0xA
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x9
+ChassisVersion: "Mac-827FAC58A8FDFA22"
+ChassisAssetTag: "Air-Enclosure"
+PlatformFeature: 0x1A
+FirmwareFeatures: 0xFC0FE137
+FirmwareFeaturesMask: 0xFF1FFF3F
+ExtendedFirmwareFeatures: 0x00000000FC0FE137
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0601
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+SmcGeneration: 3
+SmcRevision:
+  - 0x02
+  - 0x24
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x10
+SmcBranch:
+  - 0x6a
+  - 0x31
+  - 0x34
+  - 0x30
+  - 0x6b
+  - 0x00
+  - 0x00
+  - 0x00
+SmcPlatform:
+  - 0x6a
+  - 0x31
+  - 0x34
+  - 0x30
+  - 0x6b
+  - 0x00
+  - 0x00
+  - 0x00
+OEMStrings: |-
+  Apple ROM Version
+    BIOS ID:      MBA81.88Z.F000.B00.1904222000
+    Model:        MBA81
+    EFI Version:  220.260.170.0.0
+    Built by:     root@pdb165
+    Date:         Mon Apr 22 20:00:26 2019
+    Revision:     220.260.170 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, RELEASE
+    Compiler:     Apple LLVM version 10.0.1 (clang-1001.2.37.15)
+    UUID:         FE3C4726-5FCD-3102-B257-1EBCA0D07057
+    UUID:         F6276C6C-7FBB-39C8-AA6D-CAEE8CBF89A7
+Specifications:
+  CPU:
+    - "Intel Core i5-8210Y @ 1.60 GHz"
+  GPU:
+    # FIXME: incorrect
+    - "Intel UHD 620"
+  RAM:
+    # FIXME: incorrect
+    - "8GB 2666 MHz DDR4 SO-DIMM"
+  SystemReportName:
+    # FIXME: incorrect?
+    - "MacBook Air (Retina, 13-inch, 2018)"
+  MarketingName:
+    - "MacBook Air (Retina, 13-inch, 2018)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "JK77"
+  - "JK77"
+  - "JK7C"
+  - "JK7D"
+  - "JK7F"
+  - "JK7G"
+  - "JK7L"
+  - "JK7M"
+  - "JK7P"
+  - "JK7Q"
+  - "JK7R"
+  - "JK7T"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "KN2R"
+  - "KN7H"
+  - "KN7V"
+  - "KN86"
+  - "KN8M"
+  - "KN34"
+  - "KN3J"
+  - "KN3Y"
+  - "KMXD"
+  - "KMXQ"
+  - "KMY4"
+  - "KMYH"
+  - "KNDX"
+  - "KNF8"
+  - "KN9P"
+  - "KNC2"
+  - "KNCF"
+  - "KNCR"
+  - "KN5C"
+  - "KN5P"
+  - "KN62"
+  - "KN6F"
+  - "KN0L"
+  - "KN0Y"
+  - "KN19"
+  - "KN1N"
+  - "KNGC"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2018
