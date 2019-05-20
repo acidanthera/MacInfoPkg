@@ -1,0 +1,133 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "220.260.170.0.0"
+BIOSLegacyVersion: "MBP151.88Z.F000.B00.1904222000"
+BIOSReleaseDate: "04/22/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBookPro15,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02X846JJG5J"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Pro"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-937A206F2EE63C01"
+#  "Mac-smthelse"
+BoardProduct: "Mac-937A206F2EE63C01"
+BoardVersion: "MacBookPro15,1"
+BoardRevision: 1
+BoardAssetTag: ""
+BoardType: 0xA
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x09
+ChassisVersion: "Mac-937A206F2EE63C01"
+ChassisAssetTag: "MacBook-Aluminum"
+PlatformFeature: 0x1A
+FirmwareFeatures: 0xFC0FE137
+FirmwareFeaturesMask: 0xFF1FFF3F
+ExtendedFirmwareFeatures: 0x00000000FC0FE137
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0701
+  - 0x1001
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+  - 12345
+SmcGeneration: 3
+SmcPlatform:
+  - 0x6a
+  - 0x36
+  - 0x38
+  - 0x30
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+OEMStrings: |-
+  Apple ROM Version
+    BIOS ID:      MBP151.88Z.F000.B00.1904222000
+    Model:        MBP151
+    EFI Version:  220.260.170.0.0
+    Built by:     root@pdb165
+    Date:         Mon Apr 22 20:00:25 2019
+    Revision:     220.260.170 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, RELEASE
+    Compiler:     Apple LLVM version 10.0.1 (clang-1001.2.37.15)
+    UUID:         4F5658FE-6D88-3CE2-87A6-57E95371A9E6
+    UUID:         F7C3DAD9-F69A-3DF5-B4DD-E425C94F6749
+Specifications:
+  CPU:
+    - "Intel Core i7-8750H @ 2.20 GHz"
+    - "Intel Core i7-8850H @ 2.60 GHz"
+    - "Intel Core i9-8950HK @ 2.90 GHz"
+  GPU:
+    # FIXME: incorrect
+    - ""
+  RAM:
+    # FIXME: incorrect
+    - "8GB 2666 MHz DDR4 ECC SDRAM"
+  SystemReportName:
+    # FIXME: incorrect?
+    - "MacBook Pro (13-inch, Mid 2018)"
+  MarketingName:
+    - "MacBook Pro (13-inch, Mid 2018)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "KGYG"
+  - "JG5H"
+  - "JG5J"
+  - "JG5K"
+  - "JG5L"
+  - "JG5M"
+  - "JGH5"
+  - "JGH6"
+  - "JGH7"
+  - "JGH8"
+  - "KGYF"
+  - "KGYH"
+  - "KQ9Q"
+  - "KQ9R"
+  - "KQ9T"
+  - "KQ9V"
+  - "KQ9W"
+  - "KQ9X"
+  - "KQ9Y"
+  - "KQC0"
+  - "KQC1"
+  - "KQC2"
+  - "KQC3"
+  - "KQC4"
+  - "KQC5"
+  - "KQC6"
+  - "KQC7"
+  - "KQC8"
+  - "KQC9"
+  - "KQCC"
+  - "KQCD"
+  - "KQCF"
+  - "KQCG"
+  - "KQCH"
+  - "KQCJ"
+  - "KQCK"
+  - "KQCL"
+  - "KQCM"
+  - "KQCN"
+  - "KQCP"
+  - "KQCR"
+  - "KQCT"
+  - "KQCV"
+  - "KQCW"
+  - "KQCX"
+  - "KWJ2"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "JP4F"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2018
