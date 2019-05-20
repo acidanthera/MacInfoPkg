@@ -12,9 +12,9 @@ SystemFamily: "MacPro"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
 # BoardProduct:
-#  "Mac-FC02E91DDD3FA6A4"
+#  "Mac-F60DEB81FF30ACF6"
 #  "Mac-smthelse"
-BoardProduct: "Mac-FC02E91DDD3FA6A4"
+BoardProduct: "Mac-F60DEB81FF30ACF6"
 BoardVersion: "MacPro6,1"
 BoardRevision: 1
 BoardAssetTag: ""
@@ -22,13 +22,11 @@ BoardType: 0xB
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x7
-ChassisVersion: "Mac-FC02E91DDD3FA6A4"
+ChassisVersion: "Mac-F60DEB81FF30ACF6"
 ChassisAssetTag: "Pro-Enclosure"
-PlatformFeature: 0x0
+PlatformFeature: 0x04
 FirmwareFeatures: 0xE80FE137
 FirmwareFeaturesMask: 0xFF1FFF3F
-ExtendedFirmwareFeatures: 0x00000000E80FE137
-ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0x9
 # FIXME: Correct this one
 ProcessorType:
@@ -36,7 +34,7 @@ ProcessorType:
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
-SmcGeneration: 1
+SmcGeneration: 2
 SmcRevision:
   - 0x02
   - 0x20
@@ -132,7 +130,7 @@ AppleModelCode:
   - "G8GD"
 # Note, first board code is used by macserial
 AppleBoardCode:
-  - "FHDD"
+  - "FHDD" 
   - "FNN1"
 # Note, first year is used by macserial
 AppleModelYear:
