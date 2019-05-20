@@ -1,0 +1,100 @@
+BIOSVendor: "Apple Computer, Inc."
+BIOSVersion: ""
+BIOSLegacyVersion: "MP11.88Z.005C.B08.0707021221"
+BIOSReleaseDate: "07/02/07"
+SystemManufacturer: "Apple Computer, Inc."
+SystemProductName: "MacPro1,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "W88A7HACUQ2"
+# FIXME: Correct this one
+SystemSKUNumber: ""
+SystemFamily: "MacPro"
+BoardManufacturer: "Apple Computer, Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-F4208DC8"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F4208DC8"
+BoardVersion: "MacPro1,1"
+BoardRevision: 1
+# FIXME: Correct this one
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: Correct this one
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Computer, Inc."
+ChassisType: 0x2
+ChassisVersion: "Mac-F4208DC8"
+ChassisAssetTag: "Pro-Enclosure"
+FirmwareFeatures: 0xC0001403
+FirmwareFeaturesMask: 0xC0003FFF
+# FIXME: Correct this one
+MemoryFormFactor: 0x9
+# FIXME: Correct this one
+ProcessorType:
+  - 12345
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+SmcGeneration: 1
+SmcRevision:
+  - 0x01
+  - 0x07
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x10
+SmcBranch:
+  - 0x6D
+  - 0x34
+  - 0x33
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+SmcPlatform:
+  - 0x6D
+  - 0x34
+  - 0x33
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: Correct this one
+SmcEPCI: 0x079001
+# FIXME: Correct this one
+OEMStrings: |-
+  Apple ROM Version
+Specifications:
+  CPU:
+    - "Intel Xeon X5355 @ 2.66 GHz x2"
+  GPU:
+    # FIXME: incorrect
+    - ""
+  RAM:
+    # FIXME: incorrect
+    - ""
+  SystemReportName:
+    - "Mac Pro"
+  MarketingName:
+    # FIXME: incorrect?
+    - "Mac Pro"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - UPZ
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - ""
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2006
+  - 2007
+  - 2008
+# Optional, override for macserial default year
+# FIXME: Correct this one
+MacserialModelYear: 2006
+# Optional, override for SystemSerialNumber for Clover
+CloverSerialNumber: "W88A7HACUQ2"
