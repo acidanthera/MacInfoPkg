@@ -80,7 +80,7 @@ def export_db_macinfo(db, path):
         '  .FirmwareFeaturesMask = 0x%XULL,\n'
         ' },' % (
           info['SystemProductName'],
-          info['BoardProduct'],
+          info['BoardProduct'][0] if isinstance(info['BoardProduct'], list) else info['BoardProduct'],
           info['BoardRevision'],
           ', '.join(map(str, info.get('SmcRevision', [0x00]))),
           ', '.join(map(str, info.get('SmcBranch', [0x00]))),

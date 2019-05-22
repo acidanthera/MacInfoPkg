@@ -459,7 +459,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  },
  {
   .SystemProductName = "iMac17,1",
-  .BoardProduct = "['Mac-DB15BD556843C820', 'Mac-65CE76090165799A', 'Mac-B809C3757DA9BB8D']",
+  .BoardProduct = "Mac-DB15BD556843C820",
   .BoardRevision = 0x1,
   .SmcRevision = {2, 51, 15, 0, 0, 16},
   .SmcBranch = {106, 57, 53, 106, 57, 53, 97, 109},
