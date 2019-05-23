@@ -77,39 +77,41 @@ GetMacInfo (
   //
   // Fill in DataHub values.
   //
-  MacInfo->DataHub.PlatformName         = "platform";
-  MacInfo->DataHub.SystemProductName    = ProductName;
-  MacInfo->DataHub.BoardProduct         = InternalEntry->BoardProduct;
-  MacInfo->DataHub.BoardRevision        = &InternalEntry->BoardRevision;
-  MacInfo->DataHub.DevicePathsSupported = &mDevicePathsSupported;
+  MacInfo->DataHub.PlatformName          = "platform";
+  MacInfo->DataHub.SystemProductName     = ProductName;
+  MacInfo->DataHub.BoardProduct          = InternalEntry->BoardProduct;
+  if (InternalEntry->BoardRevision != MAC_INFO_BOARD_REVISION_MISSING) {
+    MacInfo->DataHub.BoardRevision       = &InternalEntry->BoardRevision;
+  }
+  MacInfo->DataHub.DevicePathsSupported  = &mDevicePathsSupported;
   //
   // T2-based macs have no SMC branch or revision.
   //
   if (InternalEntry->SmcGeneration < 3) {
-    MacInfo->DataHub.SmcRevision          = InternalEntry->SmcRevision;
-    MacInfo->DataHub.SmcBranch            = InternalEntry->SmcBranch;
+    MacInfo->DataHub.SmcRevision         = InternalEntry->SmcRevision;
+    MacInfo->DataHub.SmcBranch           = InternalEntry->SmcBranch;
   }
-  MacInfo->DataHub.SmcPlatform          = InternalEntry->SmcPlatform;
+  MacInfo->DataHub.SmcPlatform           = InternalEntry->SmcPlatform;
 
-  MacInfo->Smbios.BIOSVersion = InternalEntry->BIOSVersion;
-  MacInfo->Smbios.BIOSReleaseDate  = InternalEntry->BIOSReleaseDate;
-  MacInfo->Smbios.SystemProductName = ProductName;
-  MacInfo->Smbios.SystemVersion = InternalEntry->SystemVersion;
-  MacInfo->Smbios.SystemSKUNumber = InternalEntry->SystemSKUNumber;
-  MacInfo->Smbios.SystemFamily = InternalEntry->SystemFamily;
-  MacInfo->Smbios.BoardProduct = InternalEntry->BoardProduct;
-  MacInfo->Smbios.BoardVersion = InternalEntry->BoardVersion;
-  MacInfo->Smbios.BoardAssetTag = InternalEntry->BoardAssetTag;
+  MacInfo->Smbios.BIOSVersion            = InternalEntry->BIOSVersion;
+  MacInfo->Smbios.BIOSReleaseDate        = InternalEntry->BIOSReleaseDate;
+  MacInfo->Smbios.SystemProductName      = ProductName;
+  MacInfo->Smbios.SystemVersion          = InternalEntry->SystemVersion;
+  MacInfo->Smbios.SystemSKUNumber        = InternalEntry->SystemSKUNumber;
+  MacInfo->Smbios.SystemFamily           = InternalEntry->SystemFamily;
+  MacInfo->Smbios.BoardProduct           = InternalEntry->BoardProduct;
+  MacInfo->Smbios.BoardVersion           = InternalEntry->BoardVersion;
+  MacInfo->Smbios.BoardAssetTag          = InternalEntry->BoardAssetTag;
   MacInfo->Smbios.BoardLocationInChassis = InternalEntry->BoardLocationInChassis;
-  MacInfo->Smbios.BoardType = &InternalEntry->BoardType;
-  MacInfo->Smbios.ChassisType = &InternalEntry->ChassisType;
-  MacInfo->Smbios.ChassisVersion = InternalEntry->BoardProduct;
-  MacInfo->Smbios.ChassisAssetTag = InternalEntry->ChassisAssetTag;
-  MacInfo->Smbios.MemoryFormFactor = &InternalEntry->MemoryFormFactor;
-  MacInfo->Smbios.FirmwareFeatures = InternalEntry->FirmwareFeatures;
-  MacInfo->Smbios.FirmwareFeaturesMask = InternalEntry->FirmwareFeaturesMask;
+  MacInfo->Smbios.BoardType              = &InternalEntry->BoardType;
+  MacInfo->Smbios.ChassisType            = &InternalEntry->ChassisType;
+  MacInfo->Smbios.ChassisVersion         = InternalEntry->BoardProduct;
+  MacInfo->Smbios.ChassisAssetTag        = InternalEntry->ChassisAssetTag;
+  MacInfo->Smbios.MemoryFormFactor       = &InternalEntry->MemoryFormFactor;
+  MacInfo->Smbios.FirmwareFeatures       = InternalEntry->FirmwareFeatures;
+  MacInfo->Smbios.FirmwareFeaturesMask   = InternalEntry->FirmwareFeaturesMask;
 
   if (InternalEntry->PlatformFeature != MAC_INFO_PLATFORM_FEATURE_MISSING) {
-    MacInfo->Smbios.PlatformFeature = &InternalEntry->PlatformFeature;
+    MacInfo->Smbios.PlatformFeature      = &InternalEntry->PlatformFeature;
   }
 }

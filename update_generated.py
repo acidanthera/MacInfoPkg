@@ -58,7 +58,7 @@ def export_db_macinfo(db, path):
       print(' {\n'
         '  .SystemProductName = "%s",\n'
         '  .BoardProduct = "%s",\n'
-        '  .BoardRevision = 0x%x,\n'
+        '  .BoardRevision = %s,\n'
         '  .SmcRevision = {%s},\n'
         '  .SmcBranch = {%s},\n'
         '  .SmcPlatform = {%s},\n'
@@ -81,7 +81,7 @@ def export_db_macinfo(db, path):
         ' },' % (
           info['SystemProductName'],
           info['BoardProduct'][0] if isinstance(info['BoardProduct'], list) else info['BoardProduct'],
-          info['BoardRevision'],
+          '0x{:X}'.format(info['BoardRevision']) if 'BoardRevision' in info else 'MAC_INFO_BOARD_REVISION_MISSING',
           ', '.join(map(str, info.get('SmcRevision', [0x00]))),
           ', '.join(map(str, info.get('SmcBranch', [0x00]))),
           ', '.join(map(str, info.get('SmcPlatform', [0x00]))),

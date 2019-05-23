@@ -28,7 +28,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacBookAir8,1",
   .BoardProduct = "Mac-827FAC58A8FDFA22",
-  .BoardRevision = 0x1,
+  .BoardRevision = 0x3,
   .SmcRevision = {0},
   .SmcBranch = {0},
   .SmcPlatform = {106, 49, 52, 48, 107, 0, 0, 0},
@@ -436,7 +436,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "iMac15,1",
   .BoardProduct = "Mac-42FD25EABCABB274",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {2, 34, 15, 0, 0, 22},
   .SmcBranch = {106, 55, 56, 106, 55, 56, 97, 109},
   .SmcPlatform = {106, 55, 56, 0, 0, 0, 0, 0},
