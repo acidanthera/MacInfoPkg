@@ -6,7 +6,7 @@ SystemManufacturer: "Apple Inc."
 SystemProductName: "MacPro4,1"
 SystemVersion: "1.4"
 # Note, this one is used by macserial
-SystemSerialNumber: "CT93051DK9Y"
+SystemSerialNumber: "CT942NZP20H"
 SystemSKUNumber: "System SKU#"
 SystemFamily: "MacPro"
 BoardManufacturer: "Apple Inc."
@@ -83,7 +83,6 @@ Specifications:
     - "Mac Pro (Early 2009)"
 # Note, first model code is used by macserial
 AppleModelCode:
-  - "K9Y"
   - "20H"
   - "BXD"
 # Note, first board code is used by macserial
