@@ -29,7 +29,7 @@ FirmwareFeatures: 0xE00FE137
 FirmwareFeaturesMask: 0xFF1FFF3F
 ExtendedFirmwareFeatures: 0x00000000E00FE137
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
-MemoryFormFactor: 0xD
+MemoryFormFactor: 0x09
 # FIXME: Correct this one
 ProcessorType:
   - 0x0605

@@ -24,7 +24,6 @@ ChassisManufacturer: "Apple Inc."
 ChassisType: 0x0A
 ChassisVersion: "Mac-2E6FAB96566FE58C"
 ChassisAssetTag: "Air-Enclosure"
-PlatformFeature: 0x1A
 FirmwareFeatures: 0xE00DE137
 FirmwareFeaturesMask: 0xFF1FFF3F
 ExtendedFirmwareFeatures: 0x00000000E00DE137

@@ -29,7 +29,7 @@ FirmwareFeatures: 0xFD8FF53F
 FirmwareFeaturesMask: 0xFF9FFF3F
 ExtendedFirmwareFeatures: 0x00000000FD8FF53F
 ExtendedFirmwareFeaturesMask: 0x00000000FF9FFF3F
-MemoryFormFactor: 0xD
+MemoryFormFactor: 0x09
 # FIXME: Correct this one
 ProcessorType:
   - 0x0F01
