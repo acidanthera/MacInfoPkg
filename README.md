@@ -33,6 +33,7 @@ sudo -H pip install pyyaml
 ## Credits
 
 * All database maintainers, who continue to actualise data
+* [AppleLife](https://applelife.ru/threads/dampy-originalnyx-makov.2943712) and [VirtualSMC](https://github.com/acidanthera/VirtualSMC/tree/master/Docs) hardware dump databases
 * Chameleon and Clover teams for legacy Apple SMBIOS database
 * [al3xjames](https://github.com/al3xtjames) for several hints and another [database](https://github.com/al3xtjames/MacGen)
 * CCC and ...numberinfo.com for hiding their work and inspiring others to reverse it
