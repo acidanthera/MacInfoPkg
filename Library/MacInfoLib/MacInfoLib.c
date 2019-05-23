@@ -19,7 +19,7 @@
 
 #include "MacInfoInternal.h"
 
-STATIC CONST UINT8 mDevicePathsSupported = 1;
+STATIC CONST UINT32 mDevicePathsSupported = 1;
 
 STATIC
 CONST MAC_INFO_INTERNAL_ENTRY *
