@@ -1,0 +1,148 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "227.0.0.0.0"
+BIOSLegacyVersion: "IM162.88Z.F000.B00.1904111603"
+BIOSReleaseDate: "04/11/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "iMac16,2"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02PNHACGG7G"
+SystemSKUNumber: ""
+SystemFamily: "iMac"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-FFE5EF870D7BA81A"
+BoardVersion: "iMac16,2"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x09
+ChassisVersion: "Mac-FFE5EF870D7BA81A"
+ChassisAssetTag: "iMac-Aluminum"
+# FIXME: check
+PlatformFeature: ""
+# FIXME: check
+FirmwareFeatures: 0xFC0FE137
+# FIXME: check
+FirmwareFeaturesMask: 0xFF1FFF3F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000FC0FE137
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0x9
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0704
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 2
+# FIXME: check
+SmcRevision:
+  - 0x02
+  - 0x32
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x20
+# FIXME: check
+SmcBranch:
+  - 0x6A
+  - 0x39
+  - 0x34
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6A
+  - 0x39
+  - 0x34
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0xF00008
+OEMStrings: |-
+  Apple ROM Version
+	Model:       IM162
+	EFI Version: 227.0.0.0.0
+	Built by:    root@xapp160
+	Date:        Thu Apr 11 16:03:41 PDT 2019
+	Revision:    227 (B&I)
+	ROM Version: F000_B00
+	Build Type:  Official Build, Release
+	Compiler:    Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)
+# FIXME: add missing bits
+Specifications:
+  CPU:
+    - "Intel Core i5-5675R"
+    - "Intel Core i5-5575R"
+    - "Intel Core i7-5775R"
+  GPU:
+    - "Intel Iris Pro 6200"
+  RAM:
+    - "1867 MHz LPDDR3 SDRAM"
+  SystemReportName:
+    - "iMac (21.5-inch, Late 2015)"
+  MarketingName:
+    - "21.5\" iMac (Late 2015)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "GG7G"
+  - "GG78"
+  - "GG7F"
+  - "GG7H"
+  - "H0P7"
+  - "H1F3"
+  - "H1F5"
+  - "H1F7"
+  - "H1F8"
+  - "H1F9"
+  - "H25N"
+  - "H8L0"
+  - "H8L1"
+  - "H8L2"
+  - "H8L3"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "GQRY"
+  - "GQT0"
+  - "GQT1"
+  - "GPXJ"
+  - "GPXK"
+  - "GPXL"
+  - "GQRW"
+  - "GQRX"
+  - "GXMM"
+  - "GPXG"
+  - "GPXH"
+  - "GXMN"
+  - "GQT4"
+  - "GQT5"
+  - "GQT6"
+  - "GPXP"
+  - "GPXQ"
+  - "GPXR"
+  - "GQT2"
+  - "GQT3"
+  - "GXMP"
+  - "GPXM"
+  - "GPXN"
+  - "GXMQ"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2015
+  - 2016
+  - 2017
+CloverSerialNumber: "C02PNHACGG78"

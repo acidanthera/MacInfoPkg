@@ -1,0 +1,101 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "220.260.170.0.0"
+BIOSLegacyVersion: "IM191.88Z.F000.B00.1904222222"
+BIOSReleaseDate: "04/22/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "iMac19,2"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02Y93YXJWDX"
+SystemSKUNumber: ""
+SystemFamily: "iMac"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-63001698E7A34814"
+BoardVersion: "iMac19,2"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x09
+ChassisVersion: "Mac-63001698E7A34814"
+ChassisAssetTag: "iMac-Aluminum"
+# FIXME: check
+PlatformFeature: 0x00
+# FIXME: check
+FirmwareFeatures: 0xFD8FF576
+# FIXME: check
+FirmwareFeaturesMask: 0xFFDFFF7F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000FD8FF576
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FFDFFF7F
+MemoryFormFactor: 0x9
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0704
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 2
+# FIXME: check
+SmcRevision:
+  - 0x02
+  - 0x46
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x12
+# FIXME: check
+SmcBranch:
+  - 0x6A
+  - 0x31
+  - 0x33
+  - 0x38
+  - 0x5F
+  - 0x39
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6A
+  - 0x31
+  - 0x33
+  - 0x35
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0xF070090
+OEMStrings: ""
+# FIXME: add missing bits
+Specifications:
+  CPU:
+    - "Intel Core i3-8100B"
+    - "Intel Core i5-8500B"
+    - "Intel Core i7-8700B"
+  GPU:
+    - "AMD Radeon Pro 555X"
+    - "AMD Radeon Pro 560X"
+  RAM:
+    - "2666 MHz DDR4 SDRAM"
+  SystemReportName:
+    - "iMac (Retina 4K, 21.5-inch, 2019)"
+  MarketingName: ""
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "JWDW"
+  - "JWDX"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "KGQG"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2019
+CloverSerialNumber: "C02Y9HACJWDW"

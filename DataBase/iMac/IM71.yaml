@@ -1,0 +1,93 @@
+BIOSVendor: "Apple Computer, Inc."
+BIOSVersion: ""
+BIOSLegacyVersion: "IM71.88Z.007A.B03.0803051705"
+BIOSReleaseDate: "03/05/08"
+SystemManufacturer: "Apple Computer, Inc."
+SystemProductName: "iMac7,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "W8741HACX87"
+SystemSKUNumber: ""
+SystemFamily: "iMac"
+BoardManufacturer: "Apple Computer, Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F42386C8"
+BoardVersion: "iMac7,1"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Computer, Inc."
+ChassisType: 0x0D
+ChassisVersion: "Mac-F42386C8"
+ChassisAssetTag: "iMac-Aluminum"
+# FIXME: check
+PlatformFeature: ""
+MemoryFormFactor: 0x9
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0704
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x20
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x04
+# FIXME: check
+SmcBranch:
+  - 0x4E
+  - 0x41
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x4E
+  - 0x41
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x73002
+OEMStrings: ""
+# FIXME: add missing bits
+Specifications:
+  CPU:
+    - "Intel Core 2 Duo T7300"
+    - "Intel Core 2 Duo T7700"
+    - "Intel Core 2 Duo Core 2 Extreme X7900"
+  GPU:
+    - "AMD ATI Radeon HD 2400 XT"
+  RAM:
+    - "667 MHz DDR2 SDRAM, PC2-5300"
+  SystemReportName:
+    - "iMac (20-inch, Mid 2007)"
+  MarketingName:
+    - "iMac Intel Core 2 Duo (aluminum enclosure) (Mid 2007)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "X87"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - ""
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2007
+  - 2008
+CloverSerialNumber: "W8739HACX85"

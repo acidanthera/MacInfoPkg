@@ -1,0 +1,112 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "137.0.0.0.0"
+BIOSLegacyVersion: "IM141.88Z.F000.B00.1904161911"
+BIOSReleaseDate: "04/16/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "iMac14,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "D25LHACKF8J2"
+SystemSKUNumber: ""
+SystemFamily: "iMac"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-031B6874CF7F642A"
+BoardVersion: "iMac14,1"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x0D
+ChassisVersion: "Mac-031B6874CF7F642A"
+ChassisAssetTag: "iMac-Aluminum"
+# FIXME: check
+PlatformFeature: 0x01
+# FIXME: check
+FirmwareFeatures: 0xE00FE137
+# FIXME: check
+FirmwareFeaturesMask: 0xFF1FFF3F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000E00FE137
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0x9
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0704
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 2
+# FIXME: check
+SmcRevision:
+  - 0x02
+  - 0x14
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x24
+# FIXME: check
+SmcBranch:
+  - 0x6A
+  - 0x31
+  - 0x36
+  - 0x6A
+  - 0x31
+  - 0x37
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6A
+  - 0x31
+  - 0x36
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x79007
+OEMStrings: |-
+  Apple ROM Version
+	Model:       IM141
+	EFI Version: 137.0.0.0.0
+	Built by:    root@saumon
+	Date:        Tue Apr 16 19:11:36 PDT 2019
+	Revision:    137 (B&I)
+	ROM Version: F000_B00
+	Build Type:  Official Build, Release
+	Compiler:    Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
+# FIXME: add missing bits
+Specifications:
+  CPU:
+    - "Intel Core i5-4570R"
+  GPU:
+    - "Intel Iris Pro 5200"
+  RAM:
+    - "1600 MHz DDR3 SDRAM"
+  SystemReportName:
+    - "iMac (21.5-inch, Late 2013)"
+  MarketingName:
+    - "21.5\" iMac (Late 2013)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "F8J2"
+  - "F8J7"
+  - "FPF1"
+  - "FQMV"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "FM59"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2013
+  - 2014
+  - 2015
+CloverSerialNumber: "D25LHACKF8J2"

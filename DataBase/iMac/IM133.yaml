@@ -1,0 +1,103 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "285.0.0.0.0"
+BIOSLegacyVersion: "IM131.88Z.F000.B00.1904161750"
+BIOSReleaseDate: "04/16/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "iMac13,3"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02KVHACFFYW"
+SystemSKUNumber: ""
+SystemFamily: "iMac"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-7DF2A3B5E5D671ED"
+BoardVersion: "iMac13,3"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x0D
+ChassisVersion: "Mac-7DF2A3B5E5D671ED"
+ChassisAssetTag: "iMac-Aluminum"
+# FIXME: check
+PlatformFeature: 0x01
+# FIXME: check
+FirmwareFeatures: 0xE00DE137
+# FIXME: check
+FirmwareFeaturesMask: 0xFF1FFF3F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000E00DE137
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0x9
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0704
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 2
+# FIXME: check
+SmcRevision:
+  - 0x02
+  - 0x13
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x15
+# FIXME: check
+SmcBranch:
+  - 0x64
+  - 0x38
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x64
+  - 0x38
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x79006
+OEMStrings: ""
+# FIXME: add missing bits
+Specifications:
+  CPU:
+    - "Intel Core i3-3225"
+  GPU:
+    - "Intel HD Graphics 4000"
+  RAM:
+    - "1600 MHz DDR3 SDRAM"
+  SystemReportName:
+    - "iMac (21.5-inch, Early 2013)"
+  MarketingName:
+    - "21.5\" iMac (Early 2013)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "FFYW"
+  - "FFYV"
+  - "FGPL"
+  - "FGPM"
+  - "FJQQ"
+  - "FLMH"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "F8GR"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2013
+CloverSerialNumber: "C02KVHACFFYV"

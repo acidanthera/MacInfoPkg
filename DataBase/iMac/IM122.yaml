@@ -1,0 +1,110 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "82.0.0.0.0"
+BIOSLegacyVersion: "IM121.88Z.004F.B00.1804101150"
+BIOSReleaseDate: "04/10/18"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "iMac12,2"
+SystemVersion: "1.9"
+# Note, this one is used by macserial
+SystemSerialNumber: "W88GG136DHJQ"
+SystemSKUNumber: ""
+SystemFamily: "iMac"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-942B59F58194171B"
+BoardVersion: "iMac12,2"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x0D
+ChassisVersion: "Mac-942B59F58194171B"
+ChassisAssetTag: "iMac-Aluminum"
+# FIXME: check
+PlatformFeature: ""
+# FIXME: check
+FirmwareFeatures: 0xE00DE137
+# FIXME: check
+FirmwareFeaturesMask: 0xFF1FFF3F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000E00DE137
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0x9
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0704
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x72
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x02
+# FIXME: check
+SmcBranch:
+  - 0x6B
+  - 0x36
+  - 0x32
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6B
+  - 0x36
+  - 0x32
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x75005
+OEMStrings: ""
+# FIXME: add missing bits
+Specifications:
+  CPU:
+    - "Intel Core i5-2400"
+    - "Intel Core i5-2500S"
+    - "Intel Core i7-2600"
+  GPU:
+    - "AMD Radeon HD 6970M"
+    - "AMD Radeon HD 6770M"
+  RAM:
+    - "1333 MHz PC3-10600 DDR3 SDRAM"
+  SystemReportName:
+    - "iMac (27-inch, Mid 2011)"
+  MarketingName:
+    - "27\" iMac (Early 2011)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "DHJQ"
+  - "DHJP"
+  - "DHJW"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "DJWM"
+  - "DMT3"
+  - "DMT5"
+  - "DJWN"
+  - "DM69"
+  - "DJWP"
+  - "DM6C"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2011
+  - 2012
+CloverSerialNumber: "W88GG136DHJQ"
