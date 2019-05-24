@@ -1,0 +1,118 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "153.0.0.0.0"
+BIOSLegacyVersion: "MBP112.88Z.F000.B00.1904162149"
+BIOSReleaseDate: "04/16/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBookPro11,3"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02LSHACFR1M"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Pro"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-2BD1B31983FE1663"
+BoardVersion: "MacBookPro11,3"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x0A
+ChassisVersion: "Mac-2BD1B31983FE1663"
+ChassisAssetTag: "MacBook-Aluminum"
+# FIXME: check
+PlatformFeature: 0x02
+# FIXME: check
+FirmwareFeatures: 0xE80FE137
+# FIXME: check
+FirmwareFeaturesMask: 0xFF1FFF3F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000E80FE137
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0704
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 2
+# FIXME: check
+SmcRevision:
+  - 0x02
+  - 0x19
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x12
+# FIXME: check
+SmcBranch:
+  - 0x6A
+  - 0x34
+  - 0x35
+  - 0x67
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6A
+  - 0x34
+  - 0x35
+  - 0x67
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0xF0D007
+OEMStrings: ""
+# FIXME: add missing bits
+Specifications:
+  CPU:
+    - "Intel Core i7-4850HQ"
+    - "Intel i7-4960HQ"
+    - "Intel i7-4870HQ"
+    - "Intel i7-4980HQ"
+  GPU:
+    - "Intel Iris 5200 Pro graphics"
+    - "NVIDIA GeForce GT 750M"
+  RAM:
+    - "1600 MHz DDR3L SDRAM"
+  SystemReportName:
+    - "MacBook Pro (Retina, 15-inch, Late 2013)"
+  MarketingName:
+    - "15\" MacBook Pro with Retina display, discrete NVIDIA graphics (Late 2013)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "FR1M"
+  - "FD57"
+  - "FD59"
+  - "G3QP"
+  - "FTPY"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "FP52"
+  - "FP58"
+  - "FP5C"
+  - "FP50"
+  - "FP53"
+  - "FP54"
+  - "G3MH"
+  - "G3ML"
+  - "G3MM"
+  - "G3MG"
+  - "G3MJ"
+  - "G3MK"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2013
+  - 2014
+CloverSerialNumber: "C02NNHACG3QP"

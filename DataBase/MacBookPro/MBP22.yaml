@@ -1,0 +1,92 @@
+BIOSVendor: "Apple Computer, Inc."
+BIOSVersion: ""
+BIOSLegacyVersion: "MBP22.88Z.00A5.B07.0708131242"
+BIOSReleaseDate: "08/13/07"
+SystemManufacturer: "Apple Computer, Inc."
+SystemProductName: "MacBookPro2,2"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "W8827B4CW0L"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Pro"
+BoardManufacturer: "Apple Computer, Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F42187C8"
+BoardVersion: "MacBookPro2,2"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Computer, Inc."
+ChassisType: 0x08
+ChassisVersion: "Mac-F42187C8"
+ChassisAssetTag: "MacBook-Aluminum"
+# FIXME: check
+PlatformFeature: ""
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0704
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x13
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x03
+# FIXME: check
+SmcBranch:
+  - 0x4E
+  - 0x41
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x4E
+  - 0x41
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x7B002
+OEMStrings: ""
+# FIXME: add missing bits
+Specifications:
+  CPU:
+    - "Intel Core 2 Duo T7400"
+    - "Intel Core 2 Duo T7600"
+  GPU:
+    - "AMD ATI Mobility Radeon X1600"
+  RAM:
+    - "667 MHz PC2-5300 DDR2 SDRAM"
+  SystemReportName:
+    - "MacBook Pro (15-inch Core 2 Duo)"
+  MarketingName:
+    - "(Core 2 Duo)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "W0L"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - ""
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2006
+  - 2007
+CloverSerialNumber: "W8827B4CW0L"

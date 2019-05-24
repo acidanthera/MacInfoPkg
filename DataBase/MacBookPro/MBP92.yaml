@@ -1,0 +1,108 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "226.0.0.0.0"
+BIOSLegacyVersion: "MBP91.88Z.F000.B00.1904162041"
+BIOSReleaseDate: "04/16/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBookPro9,2"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02HA041DTY3"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Pro"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-6F01561E16C75D06"
+BoardVersion: "MacBookPro9,2"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x0A
+ChassisVersion: "Mac-6F01561E16C75D06"
+ChassisAssetTag: "MacBook-Aluminum"
+# FIXME: check
+PlatformFeature: ""
+# FIXME: check
+FirmwareFeatures: 0xC00DE137
+# FIXME: check
+FirmwareFeaturesMask: 0xFF1FFF3F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000C00DE137
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0704
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 2
+# FIXME: check
+SmcRevision:
+  - 0x02
+  - 0x02
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x44
+# FIXME: check
+SmcBranch:
+  - 0x62
+  - 0x72
+  - 0x61
+  - 0x6E
+  - 0x63
+  - 0x68
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6A
+  - 0x33
+  - 0x30
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x76006
+OEMStrings: ""
+# FIXME: add missing bits
+Specifications:
+  CPU:
+    - "Intel Core i5-3210M"
+    - "Intel Core i7-3520M"
+  GPU:
+    - "Intel HD Graphics 4000"
+  RAM:
+    - "1600 MHz DDR3L SDRAM"
+  SystemReportName:
+    - "MacBook Pro (13-inch, Mid 2012)"
+  MarketingName:
+    - "MacBook Pro Intel Core i5, Intel Core i7, 13\" (Mid 2012)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "DTY3"
+  - "DV30"
+  - "F5WW"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "F1YJ"
+  - "F1YL"
+  - "F1YM"
+  - "F1YG"
+  - "F1YH"
+  - "F1YK"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2012
+  - 2013
+  - 2014
+CloverSerialNumber: "C02HA041DTY3"

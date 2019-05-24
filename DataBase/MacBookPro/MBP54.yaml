@@ -1,0 +1,91 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: ""
+BIOSLegacyVersion: "MBP53.88Z.00AC.B03.0906151647"
+BIOSReleaseDate: "06/15/09"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBookPro5,4"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "W8948HAC7XJ"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Pro"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F22587A1"
+BoardVersion: "MacBookPro5,4"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x08
+ChassisVersion: "Mac-F22587A1"
+ChassisAssetTag: "MacBook-Aluminum"
+# FIXME: check
+PlatformFeature: ""
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0704
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x49
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x02
+# FIXME: check
+SmcBranch:
+  - 0x4E
+  - 0x41
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x4E
+  - 0x41
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x7B002
+OEMStrings: ""
+# FIXME: add missing bits
+Specifications:
+  CPU:
+    - "Intel Core 2 Duo P8700"
+  GPU:
+    - "NVIDIA GeForce 9400M"
+  RAM:
+    - "1066 MHz DDR3 SDRAM (PC3-8500)"
+  SystemReportName:
+    - "MacBook Pro (15-inch, 2.53GHz, Mid 2009)"
+  MarketingName:
+    - "MacBook Pro Intel Core 2 Duo (aluminum unibody) (Mid 2009)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "7XJ"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - ""
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2009
+  - 2010
+CloverSerialNumber: "W8948HAC7XJ"
