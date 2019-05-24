@@ -75,18 +75,18 @@ OEMStrings: |-
     Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
 Specifications:
   CPU:
+    - "Intel Core i7-4771 @ 3.50 GHz"
+    - "Intel Core i5-4670 @ 3.40 GHz"
     - "Intel Core i5-4570 @ 3.20 GHz"
   GPU:
-    # FIXME: incorrect
-    - "Intel HD 4600"
+    - "NVIDIA GeForce GTX 775M"
+    - "NVIDIA GeForce GT 755M"
   RAM:
-    # FIXME: incorrect
-    - "8GB 1600 MHz DDR3 SO-DIMM"
+    - "8GB 1600 MHz DDR3 SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
     - "iMac (27-inch, Late 2013)"
   MarketingName:
-    - "iMac (27-inch, 2013)"
+    - "27\" iMac (Late 2013)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "F8JC"

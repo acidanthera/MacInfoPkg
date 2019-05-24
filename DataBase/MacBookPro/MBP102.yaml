@@ -82,16 +82,13 @@ Specifications:
     - "Intel Core i5-3230M @ 2.60 GHz"
     - "Intel Core i7-3540M @ 3.00 GHz"
   GPU:
-    # FIXME: incorrect
     - "Intel HD 4000"
   RAM:
-    # FIXME: incorrect
-    - "8GB 1600 MHz DDR3"
+    - "8GB 1600 MHz DDR3L SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
-    - "MacBook Pro (13-inch, Late 2012)"
+    - "MacBook Pro (Retina, 13-inch, Late 2013)"
   MarketingName:
-    - "MacBook Pro (Retina, 13-inch, Late 2012)"
+    - "MacBook Pro with Retina display, Intel Core i5, Intel Core i7, 13" (Late 2012)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "G4N7"

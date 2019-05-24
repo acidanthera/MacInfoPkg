@@ -80,16 +80,13 @@ Specifications:
     - "Intel Core i5-3427U CPU @ 1.80GHz"
     - "Intel Core i7-3667U CPU @ 2.00GHz"
   GPU:
-    # FIXME: incorrect
     - "Intel HD 4000"
   RAM:
-    # FIXME: incorrect
     - "8GB 1600 MHz DDR3L SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
     - "MacBook Air (13-inch, Mid 2012)"
   MarketingName:
-    - "MacBook Air (13-inch, Mid 2012)"
+    - "13\" MacBook Air (Mid 2012)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DRVC"

@@ -66,16 +66,13 @@ Specifications:
     - "Intel Xeon W-2170B CPU @ 2.50 GHz"
     - "Intel Xeon W-2191B CPU @ 2.30 GHz"
   GPU:
-    # FIXME: incorrect
-    - ""
+    - "Radeon Pro Vega 56"
   RAM:
-    # FIXME: incorrect
-    - "8GB 2666 MHz DDR4 SO-DIMM"
+    - "32GB 2666 MHz DDR4 ECC SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
     - "iMac Pro (2017)"
   MarketingName:
-    - "iMac Pro (2017)"
+    - "iMac Pro (Late 2017)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "HX87"

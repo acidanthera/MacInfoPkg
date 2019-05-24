@@ -70,18 +70,17 @@ OEMStrings: |-
   Apple ROM Version
 Specifications:
   CPU:
-    - "Intel Xeon X5355 @ 2.66 GHz x2"
+    - "Intel Core Xeon 5130 @ 2.00 GHz x2"
+    - "Intel Core Xeon 5150 @ 2.66 GHz x2"
+    - "Intel Core Xeon 5160 @ 3.00 GHz x2"
   GPU:
-    # FIXME: incorrect
-    - ""
+    - "NVIDIA GeForce 7300 GT"
   RAM:
-    # FIXME: incorrect
-    - ""
+    - "1GB 667 MHz DDR2 ECC FB-DIMM"
   SystemReportName:
     - "Mac Pro"
   MarketingName:
-    # FIXME: incorrect?
-    - "Mac Pro"
+    - "Mac Pro (Mid 2006)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - UPZ

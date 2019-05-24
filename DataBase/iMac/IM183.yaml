@@ -79,19 +79,20 @@ OEMStrings: |-
     UUID:         E389C0CE-F862-3AD4-9AB7-B708278C6F14
 Specifications:
   CPU:
-    - "Intel Core i5-7600 @ 4.10 GHz"
+    - "Intel Core i5-7600k @ 3.80 GHz"
+    - "Intel Core i5-7600 @ 3.50 GHz"
+    - "Intel Core i5-7500 @ 3.40 GHz"
     - "Intel Core i7-7700K @ 4.20 GHz"
   GPU:
-    # FIXME: incorrect
-    - "Intel HD 630"
+    - "Radeon Pro 570"
+    - "Radeon Pro 575"
+    - "Radeon Pro 580"
   RAM:
-    # FIXME: incorrect
-    - "8GB 2400 MHz DDR4 SO-DIMM"
+    - "8GB 2400 MHz DDR4 SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
-    - "iMac (27-inch, Late 2017)"
+    - "iMac (Retina 5K, 27-inch, 2017)"
   MarketingName:
-    - "iMac (27-inch, 2017)"
+    - "27\" iMac (Mid 2017)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "J1GJ"

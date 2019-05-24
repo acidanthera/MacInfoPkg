@@ -24,11 +24,7 @@ ChassisManufacturer: "Apple Inc."
 ChassisType: 0x7
 ChassisVersion: "Mac-F221BEC8"
 ChassisAssetTag: "Pro-Enclosure"
-# FIXME: Correct this one
-FirmwareFeatures: 0xE80FE137
-FirmwareFeaturesMask: 0xFF1FFF3F
-# FIXME: Correct this one
-MemoryFormFactor: 0x9
+MemoryFormFactor: 0xD
 # FIXME: Correct this one
 ProcessorType:
   - 12345
@@ -69,17 +65,19 @@ OEMStrings: |-
   Apple ROM Version
 Specifications:
   CPU:
-    - "Intel Xeon X5670 @ 2.93 GHz x2"
+    - "Intel Xeon W3520 @ 2.66 GHz"
+    - "Intel Xeon W3540 @ 2.93 GHz"
+    - "Intel Xeon W3580 @ 3.33 GHz"
+    - "Intel Xeon E5520 @ 2.26 GHz x2"
+    - "Intel Xeon X5550 @ 2.66 GHz x2"
+    - "Intel Xeon X5570 @ 2.93 GHz x2"
   GPU:
-    # FIXME: incorrect
-    - ""
+    - "NVIDIA GeForce GT 120"
   RAM:
-    # FIXME: incorrect
-    - ""
+    - "3 GB 1066 MHz DDR3 ECC SDRAM"
   SystemReportName:
     - "Mac Pro (Early 2009)"
   MarketingName:
-    # FIXME: incorrect?
     - "Mac Pro (Early 2009)"
 # Note, first model code is used by macserial
 AppleModelCode:

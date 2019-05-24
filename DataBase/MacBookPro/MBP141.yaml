@@ -83,16 +83,13 @@ Specifications:
     - "Intel Core i5-7360U @ 2.30 GHz"
     - "Intel Core i7-7660U @ 2.50 GHz"
   GPU:
-    # FIXME: incorrect
-    - "Intel HD 620"
+    - "Intel Iris Plus 640"
   RAM:
-    # FIXME: incorrect
-    - "8GB 2666 MHz DDR4 ECC SDRAM"
+    - "8GB 2133 MHz LPDDR3 SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
-    - "MacBook Pro (13-inch, Mid 2017)"
+    - "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 ports)"
   MarketingName:
-    - "MacBook Pro (13-inch, 2017, Two Thunderbolt 3 Ports)"
+    - "13\" MacBook Pro with Thunderbolt 3 (Mid 2017)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "HV29"

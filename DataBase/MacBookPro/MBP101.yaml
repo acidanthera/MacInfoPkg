@@ -83,16 +83,13 @@ Specifications:
     - "Intel Core i7-3740QM @ 2.70 GHz"
     - "Intel Core i7-3840QM @ 2.80 GHz"
   GPU:
-    # FIXME: incorrect
-    - "Intel HD 4000"
+    - "NVIDIA GeForce GT 650M"
   RAM:
-    # FIXME: incorrect
-    - "8GB 1600 MHz DDR3"
+    - "8GB 1600 MHz DDR3L SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
-    - "MacBook Pro (15-inch, Mid 2012)"
+    - "MacBook Pro (Retina, Mid 2012)"
   MarketingName:
-    - "MacBook Pro (Retina, 15-inch, Mid 2012)"
+    - "MacBook Pro with Retina display, Intel Core i7, 15" (Mid 2012)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DKQ1"

@@ -79,16 +79,19 @@ OEMStrings: |-
 Specifications:
   CPU:
     - "Intel Core i7-9900K @ 3.60 GHz"
+    - "Intel Core i5-9600k @ 3.70 GHz"
+    - "Intel Core i5-8600 @ 3.10 GHz"
+    - "Intel Core i5-8500 @ 3.00 GHz"
   GPU:
-    # FIXME: incorrect
-    - "Intel UHD 630"
+    - "Radeon Pro 570X"
+    - "Radeon Pro 575X"
+    - "Radeon Pro 580X"
   RAM:
-    # FIXME: incorrect
-    - "8GB 2666 MHz DDR4 SO-DIMM"
+    - "8GB 2666 MHz DDR4 SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
-    - "iMac (27-inch, 2019)"
+    - "iMac (Retina 5K, 27-inch, 2019)"
   MarketingName:
+    # FIXME
     - "iMac (27-inch, 2019)"
 # Note, first model code is used by macserial
 AppleModelCode:
@@ -103,4 +106,3 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2019
-

@@ -83,16 +83,14 @@ Specifications:
     - "Intel Core i7-6820HQ @ 2.70 GHz"
     - "Intel Core i7-6920HQ @ 2.90 GHz"
   GPU:
-    # FIXME: incorrect
-    - "Intel HD 530"
+    - "AMD Radeon Pro 455"
+    - "AMD Radeon Pro 450"
   RAM:
-    # FIXME: incorrect
-    - "8GB 2133 MHz DDR4 ECC SDRAM"
+    - "16GB 2133 MHz LPDDR3 SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
-    - "MacBook Pro (15-inch, Mid 2016)"
-  MarketingName:
     - "MacBook Pro (15-inch, 2016)"
+  MarketingName:
+    - "15\" MacBook Pro with Thunderbolt 3 and Touch ID (Late 2016)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "GTFN"
