@@ -55,6 +55,9 @@ def export_db_macinfo(db, path):
     print('CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {', file=fh);
 
     for info in db:
+      if max(info['AppleModelYear']) < 2012:
+        continue
+
       print(' {\n'
         '  .SystemProductName = "%s",\n'
         '  .BoardProduct = "%s",\n'
