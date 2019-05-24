@@ -16,7 +16,7 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-7BA5B2D9E42DDD94"
 BoardVersion: "iMacPro1,1"
-BoardRevision: 1
+BoardRevision: 0x9
 BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""

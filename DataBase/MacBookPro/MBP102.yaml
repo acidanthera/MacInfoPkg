@@ -16,7 +16,6 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-AFD8A9D944EA4843"
 BoardVersion: "MacBookPro10,2"
-BoardRevision: 1
 BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
 BoardLocationInChassis: "Part Component"

@@ -17,7 +17,6 @@ BoardManufacturer: "Apple Computer, Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-F4208DC8"
 BoardVersion: "MacPro1,1"
-BoardRevision: 1
 # FIXME: Correct this one
 BoardAssetTag: ""
 BoardType: 0xA

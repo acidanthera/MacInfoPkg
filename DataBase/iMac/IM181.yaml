@@ -16,7 +16,8 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-4B682C642B45593E"
 BoardVersion: "iMac18,1"
-BoardRevision: 1
+# FIXME: BoardRevision incorrect? 
+BoardRevision: 0x1F
 BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""

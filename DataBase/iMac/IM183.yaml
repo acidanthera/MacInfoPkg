@@ -16,7 +16,7 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-BE088AF8C5EB4FA2"
 BoardVersion: "iMac18,3"
-BoardRevision: 1
+BoardRevision: 0x1F
 BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""

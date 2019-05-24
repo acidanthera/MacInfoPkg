@@ -65,7 +65,7 @@ typedef struct MAC_INFO_DATA_DATAHUB_ {
   CONST CHAR8   *SystemProductName;
   CONST CHAR8   *BoardProduct;
   CONST UINT8   *BoardRevision;
-  CONST UINT8   *DevicePathsSupported;
+  CONST UINT32  *DevicePathsSupported;
   CONST UINT8   *SmcRevision;
   CONST UINT8   *SmcBranch;
   CONST UINT8   *SmcPlatform;

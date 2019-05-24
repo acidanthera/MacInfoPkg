@@ -16,7 +16,6 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-F42C88C8"
 BoardVersion: "Proto1"
-BoardRevision: 1
 BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
 BoardLocationInChassis: "Part Component"

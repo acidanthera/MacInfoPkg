@@ -16,7 +16,7 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-AA95B1DDAB278B95"
 BoardVersion: "iMac19,1"
-BoardRevision: 1
+BoardRevision: 0x7
 BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""

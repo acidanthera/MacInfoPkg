@@ -16,7 +16,7 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-473D31EABEB93F9B"
 BoardVersion: "MacBookPro13,1"
-BoardRevision: 1
+BoardRevision: 0x14
 BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""

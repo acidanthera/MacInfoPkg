@@ -19,7 +19,6 @@ BoardProduct:
   - "Mac-65CE76090165799A"
   - "Mac-B809C3757DA9BB8D"
 BoardVersion: "iMac17,1"
-BoardRevision: 1
 BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""

@@ -4,7 +4,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacBookAir5,2",
   .BoardProduct = "Mac-2E6FAB96566FE58C",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {2, 5, 15, 0, 0, 9},
   .SmcBranch = {106, 49, 49, 106, 49, 51, 0, 0},
   .SmcPlatform = {106, 49, 51, 0, 0, 0, 0, 0},
@@ -28,7 +28,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacBookAir8,1",
   .BoardProduct = "Mac-827FAC58A8FDFA22",
-  .BoardRevision = 0x1,
+  .BoardRevision = 0x3,
   .SmcRevision = {0},
   .SmcBranch = {0},
   .SmcPlatform = {106, 49, 52, 48, 107, 0, 0, 0},
@@ -52,7 +52,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacBookPro10,1",
   .BoardProduct = "Mac-C3EC7CD22292981F",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {2, 3, 15, 0, 0, 54},
   .SmcBranch = {100, 50, 0, 0, 0, 0, 0, 0},
   .SmcPlatform = {100, 50, 0, 0, 0, 0, 0, 0},
@@ -76,7 +76,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacBookPro10,2",
   .BoardProduct = "Mac-AFD8A9D944EA4843",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {2, 6, 15, 0, 0, 89},
   .SmcBranch = {98, 114, 97, 110, 99, 104, 0, 0},
   .SmcPlatform = {100, 49, 0, 0, 0, 0, 0, 0},
@@ -98,9 +98,33 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
   .FirmwareFeaturesMask = 0xFF1FFF3FULL,
  },
  {
+  .SystemProductName = "MacBookPro12,1",
+  .BoardProduct = "Mac-E43C1C25D4880AD6",
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
+  .SmcRevision = {2, 40, 15, 0, 0, 7},
+  .SmcBranch = {106, 53, 50, 0, 0, 0, 0, 0},
+  .SmcPlatform = {106, 53, 50, 0, 0, 0, 0, 0},
+  .BIOSVersion = "184.0.0.0.0",
+  .BIOSReleaseDate = "04/11/2019",
+  .SystemVersion = "1.0",
+  .SystemSKUNumber = "",
+  .SystemFamily = "MacBook Pro",
+  .BoardVersion = "MacBookPro12,1",
+  .BoardAssetTag = "",
+  .BoardLocationInChassis = "",
+  .SmcGeneration = 0x2,
+  .BoardType = 0xA,
+  .ChassisType = 0x9,
+  .MemoryFormFactor = 0xD,
+  .PlatformFeature = 0x2,
+  .ChassisAssetTag = "MacBook-Aluminum",
+  .FirmwareFeatures = 0xFD0FF576ULL,
+  .FirmwareFeaturesMask = 0xFF1FFF7FULL,
+ },
+ {
   .SystemProductName = "MacBookPro13,1",
   .BoardProduct = "Mac-473D31EABEB93F9B",
-  .BoardRevision = 0x1,
+  .BoardRevision = 0x14,
   .SmcRevision = {2, 54, 15, 0, 0, 151},
   .SmcBranch = {50, 48, 49, 54, 109, 98, 0, 0},
   .SmcPlatform = {106, 49, 51, 48, 0, 0, 0, 0},
@@ -124,7 +148,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacBookPro13,3",
   .BoardProduct = "Mac-A5C67F76ED83108C",
-  .BoardRevision = 0x1,
+  .BoardRevision = 0x17,
   .SmcRevision = {2, 56, 15, 0, 0, 7},
   .SmcBranch = {50, 48, 49, 54, 109, 98, 0, 0},
   .SmcPlatform = {106, 56, 48, 103, 0, 0, 0, 0},
@@ -148,7 +172,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacBookPro14,1",
   .BoardProduct = "Mac-B4831CEBD52A0C4C",
-  .BoardRevision = 0x1,
+  .BoardRevision = 0x1B,
   .SmcRevision = {2, 67, 15, 0, 0, 6},
   .SmcBranch = {50, 48, 49, 55, 109, 98, 112, 0},
   .SmcPlatform = {106, 49, 51, 48, 97, 0, 0, 0},
@@ -220,7 +244,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacPro1,1",
   .BoardProduct = "Mac-F4208DC8",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {1, 7, 15, 0, 0, 16},
   .SmcBranch = {109, 52, 51, 0, 0, 0, 0, 0},
   .SmcPlatform = {109, 52, 51, 0, 0, 0, 0, 0},
@@ -244,7 +268,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacPro2,1",
   .BoardProduct = "Mac-F4208DA9",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {1, 21, 15, 0, 0, 3},
   .SmcBranch = {109, 52, 51, 97, 0, 0, 0, 0},
   .SmcPlatform = {109, 52, 51, 97, 0, 0, 0, 0},
@@ -268,7 +292,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacPro3,1",
   .BoardProduct = "Mac-F42C88C8",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {1, 48, 15, 0, 0, 3},
   .SmcBranch = {109, 56, 54, 0, 0, 0, 0, 0},
   .SmcPlatform = {109, 56, 54, 0, 0, 0, 0, 0},
@@ -292,7 +316,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacPro4,1",
   .BoardProduct = "Mac-F221BEC8",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {1, 57, 15, 0, 0, 5},
   .SmcBranch = {107, 53, 0, 0, 0, 0, 0, 0},
   .SmcPlatform = {107, 53, 0, 0, 0, 0, 0, 0},
@@ -316,7 +340,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacPro5,1",
   .BoardProduct = "Mac-F221BEC8",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {1, 57, 15, 0, 0, 17},
   .SmcBranch = {107, 53, 0, 0, 0, 0, 0, 0},
   .SmcPlatform = {107, 53, 0, 0, 0, 0, 0, 0},
@@ -340,7 +364,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacPro6,1",
   .BoardProduct = "Mac-F60DEB81FF30ACF6",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {2, 32, 15, 0, 0, 24},
   .SmcBranch = {106, 57, 48, 0, 0, 0, 0, 0},
   .SmcPlatform = {106, 48, 0, 0, 0, 0, 0, 0},
@@ -388,7 +412,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "iMac13,1",
   .BoardProduct = "Mac-00BE6ED71E35EB86",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {2, 9, 15, 0, 0, 5},
   .SmcBranch = {100, 55, 100, 55, 105, 0, 0, 0},
   .SmcPlatform = {100, 55, 0, 0, 0, 0, 0, 0},
@@ -412,7 +436,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "iMac14,2",
   .BoardProduct = "Mac-27ADBB7B4CEE8E61",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {2, 21, 15, 0, 0, 7},
   .SmcBranch = {106, 49, 54, 106, 49, 55, 0, 0},
   .SmcPlatform = {106, 49, 55, 0, 0, 0, 0, 0},
@@ -436,7 +460,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "iMac15,1",
   .BoardProduct = "Mac-42FD25EABCABB274",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {2, 34, 15, 0, 0, 22},
   .SmcBranch = {106, 55, 56, 106, 55, 56, 97, 109},
   .SmcPlatform = {106, 55, 56, 0, 0, 0, 0, 0},
@@ -460,7 +484,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "iMac17,1",
   .BoardProduct = "Mac-DB15BD556843C820",
-  .BoardRevision = 0x1,
+  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
   .SmcRevision = {2, 51, 15, 0, 0, 16},
   .SmcBranch = {106, 57, 53, 106, 57, 53, 97, 109},
   .SmcPlatform = {106, 57, 53, 0, 0, 0, 0, 0},
@@ -484,7 +508,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "iMac18,1",
   .BoardProduct = "Mac-4B682C642B45593E",
-  .BoardRevision = 0x1,
+  .BoardRevision = 0x1F,
   .SmcRevision = {2, 65, 15, 0, 0, 1},
   .SmcBranch = {106, 49, 51, 51, 95, 52, 95, 53},
   .SmcPlatform = {106, 49, 51, 53, 0, 0, 0, 0},
@@ -508,7 +532,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "iMac18,3",
   .BoardProduct = "Mac-BE088AF8C5EB4FA2",
-  .BoardRevision = 0x1,
+  .BoardRevision = 0x1F,
   .SmcRevision = {2, 65, 15, 0, 0, 1},
   .SmcBranch = {106, 49, 51, 51, 95, 52, 95, 53},
   .SmcPlatform = {106, 49, 51, 53, 0, 0, 0, 0},
@@ -532,7 +556,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "iMac19,1",
   .BoardProduct = "Mac-AA95B1DDAB278B95",
-  .BoardRevision = 0x1,
+  .BoardRevision = 0x7,
   .SmcRevision = {2, 70, 15, 0, 0, 18},
   .SmcBranch = {106, 49, 51, 56, 95, 57, 0, 0},
   .SmcPlatform = {106, 49, 51, 56, 0, 0, 0, 0},
@@ -556,7 +580,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "iMacPro1,1",
   .BoardProduct = "Mac-7BA5B2D9E42DDD94",
-  .BoardRevision = 0x1,
+  .BoardRevision = 0x9,
   .SmcRevision = {0},
   .SmcBranch = {0},
   .SmcPlatform = {106, 49, 51, 55, 0, 0, 0, 0},

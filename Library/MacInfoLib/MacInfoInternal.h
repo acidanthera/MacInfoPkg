@@ -17,6 +17,8 @@
 
 #define MAC_INFO_PLATFORM_FEATURE_MISSING 0xFFFFFFFFU
 
+#define MAC_INFO_BOARD_REVISION_MISSING   0xFFU
+
 typedef struct {
   CONST CHAR8 * CONST SystemProductName;
   CONST CHAR8 * CONST BoardProduct;
