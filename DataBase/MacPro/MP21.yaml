@@ -26,7 +26,7 @@ ChassisManufacturer: "Apple Computer, Inc."
 ChassisType: 0x2
 ChassisVersion: "Mac-F4208DA9"
 ChassisAssetTag: "Pro-Enclosure"
-MemoryFormFactor: 0xD
+MemoryFormFactor: 0x9
 # FIXME: Correct this one
 ProcessorType:
   - 12345

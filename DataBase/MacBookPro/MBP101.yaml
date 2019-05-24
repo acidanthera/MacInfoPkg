@@ -88,7 +88,7 @@ Specifications:
   SystemReportName:
     - "MacBook Pro (Retina, Mid 2012)"
   MarketingName:
-    - "MacBook Pro with Retina display, Intel Core i7, 15" (Mid 2012)"
+    - "MacBook Pro with Retina display, Intel Core i7, 15\" (Mid 2012)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DKQ1"

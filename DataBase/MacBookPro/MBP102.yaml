@@ -87,7 +87,7 @@ Specifications:
   SystemReportName:
     - "MacBook Pro (Retina, 13-inch, Late 2013)"
   MarketingName:
-    - "MacBook Pro with Retina display, Intel Core i5, Intel Core i7, 13" (Late 2012)"
+    - "MacBook Pro with Retina display, Intel Core i5, Intel Core i7, 13\" (Late 2012)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "G4N7"
