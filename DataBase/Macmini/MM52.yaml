@@ -34,7 +34,7 @@ FirmwareFeaturesMask: 0xFF1FFF3F
 ExtendedFirmwareFeatures: 0x00000000D00DE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
-MemoryFormFactor: 0x9
+MemoryFormFactor: 0xD
 # FIXME: Correct this one
 ProcessorType:
   - 0x0704

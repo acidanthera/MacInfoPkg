@@ -34,7 +34,7 @@ FirmwareFeaturesMask: 0xFF1FFF3F
 ExtendedFirmwareFeatures: 0x00000000D00DE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
-MemoryFormFactor: 0x9
+MemoryFormFactor: 0xD
 # FIXME: Correct this one
 ProcessorType:
   - 0x0704
@@ -73,16 +73,16 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x7D005
-OEMStrings: |-
+OEMStrings: |-    
   Apple ROM Version
-	Model:       MM51
-	EFI Version: 133.0.0.0.0
-	Built by:    root@saumon
-	Date:        Tue Apr 16 20:37:02 PDT 2019
-	Revision:    133 (B&I)
-	ROM Version: F000_B00
-	Build Type:  Official Build, Release
-	Compiler:    Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
+    Model:       MM51
+    EFI Version: 133.0.0.0.0
+    Built by:    root@saumon
+    Date:        Tue Apr 16 20:37:02 PDT 2019
+    Revision:    133 (B&I)
+    ROM Version: F000_B00
+    Build Type:  Official Build, Release
+    Compiler:    Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
 # FIXME: add missing bits
 Specifications:
   CPU:

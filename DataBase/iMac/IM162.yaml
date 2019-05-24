@@ -73,16 +73,16 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0xF00008
-OEMStrings: |-
+OEMStrings: |-    
   Apple ROM Version
-	Model:       IM162
-	EFI Version: 227.0.0.0.0
-	Built by:    root@xapp160
-	Date:        Thu Apr 11 16:03:41 PDT 2019
-	Revision:    227 (B&I)
-	ROM Version: F000_B00
-	Build Type:  Official Build, Release
-	Compiler:    Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)
+    Model:       IM162
+    EFI Version: 227.0.0.0.0
+    Built by:    root@xapp160
+    Date:        Thu Apr 11 16:03:41 PDT 2019
+    Revision:    227 (B&I)
+    ROM Version: F000_B00
+    Build Type:  Official Build, Release
+    Compiler:    Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)
 # FIXME: add missing bits
 Specifications:
   CPU:

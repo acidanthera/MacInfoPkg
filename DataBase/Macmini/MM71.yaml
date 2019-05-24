@@ -34,7 +34,7 @@ FirmwareFeaturesMask: 0xFF1FFF3F
 ExtendedFirmwareFeatures: 0x00000000E00DE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
-MemoryFormFactor: 0x9
+MemoryFormFactor: 0xD
 # FIXME: Correct this one
 ProcessorType:
   - 0x0704
@@ -73,16 +73,16 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0xF04008
-OEMStrings: |-
+OEMStrings: |-    
   Apple ROM Version
-	Model:       MM71
-	EFI Version: 242.0.0.0.0
-	Built by:    root@xapp160
-	Date:        Thu Apr 11 19:17:11 PDT 2019
-	Revision:    242 (B&I)
-	ROM Version: F000_B00
-	Build Type:  Official Build, Release
-	Compiler:    Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)
+    Model:       MM71
+    EFI Version: 242.0.0.0.0
+    Built by:    root@xapp160
+    Date:        Thu Apr 11 19:17:11 PDT 2019
+    Revision:    242 (B&I)
+    ROM Version: F000_B00
+    Build Type:  Official Build, Release
+    Compiler:    Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)
 # FIXME: add missing bits
 Specifications:
   CPU:

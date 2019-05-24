@@ -26,7 +26,7 @@ ChassisVersion: "Mac-F22C86C8"
 ChassisAssetTag: "Mini-Aluminum"
 # FIXME: check
 PlatformFeature: ""
-MemoryFormFactor: 0x9
+MemoryFormFactor: 0xD
 # FIXME: Correct this one
 ProcessorType:
   - 0x0704

@@ -73,16 +73,16 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0xF0E007
-OEMStrings: |-
+OEMStrings: |-    
   Apple ROM Version
-	BIOS ID:     MB91.88Z.F000.B00.1904111505
-	EFI Version: 181.0.0.0.0
-	Built by:    _atsserver@xapp157
-	Date:        Thu Apr 11 15:05:43 2019
-	Revision:    181 (B&I)
-	ROM Version: F000_B00
-	Build Type:  Official Build
-	Compiler:    Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+    BIOS ID:     MB91.88Z.F000.B00.1904111505
+    EFI Version: 181.0.0.0.0
+    Built by:    _atsserver@xapp157
+    Date:        Thu Apr 11 15:05:43 2019
+    Revision:    181 (B&I)
+    ROM Version: F000_B00
+    Build Type:  Official Build
+    Compiler:    Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
 # FIXME: add missing bits
 Specifications:
   CPU:
