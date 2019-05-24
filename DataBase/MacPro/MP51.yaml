@@ -16,7 +16,6 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-F221BEC8"
 BoardVersion: "MacPro5,1"
-BoardRevision: 1
 BoardAssetTag: ""
 BoardType: 0xB
 BoardLocationInChassis: ""

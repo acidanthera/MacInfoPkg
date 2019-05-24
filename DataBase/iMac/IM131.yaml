@@ -16,7 +16,6 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-00BE6ED71E35EB86"
 BoardVersion: "iMac13,1"
-BoardRevision: 1
 BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
 BoardLocationInChassis: "Part Component"

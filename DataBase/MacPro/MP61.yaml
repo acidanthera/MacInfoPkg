@@ -16,7 +16,6 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-F60DEB81FF30ACF6"
 BoardVersion: "MacPro6,1"
-BoardRevision: 1
 BoardAssetTag: ""
 BoardType: 0xB
 BoardLocationInChassis: ""
