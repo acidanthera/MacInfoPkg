@@ -1,0 +1,97 @@
+BIOSVendor: "Apple Computer, Inc."
+BIOSVersion: ""
+BIOSLegacyVersion: "MB21.88Z.00A5.B07.0706270922"
+BIOSReleaseDate: "06/27/07"
+SystemManufacturer: "Apple Computer, Inc."
+SystemProductName: "MacBook2,1"
+SystemVersion: "1.2"
+# Note, this one is used by macserial
+SystemSerialNumber: "W88A041AWGP"
+SystemSKUNumber: ""
+SystemFamily: "MacBook"
+BoardManufacturer: "Apple Computer, Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F4208CA9"
+BoardVersion: "MacBook2,1"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Computer, Inc."
+ChassisType: 0x0A
+ChassisVersion: "Mac-F4208CA9"
+ChassisAssetTag: "MacBook-White"
+# FIXME: check
+PlatformFeature: ""
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0704
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x13
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x03
+# FIXME: check
+SmcBranch:
+  - 0x62
+  - 0x72
+  - 0x61
+  - 0x6E
+  - 0x63
+  - 0x68
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6D
+  - 0x37
+  - 0x35
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x72001
+OEMStrings: ""
+# FIXME: add missing bits
+Specifications:
+  CPU:
+    - "Intel Core 2 Duo T7200"
+    - "Intel Core 2 Duo T5600"
+    - "Intel Core 2 Duo T7400"
+  GPU:
+    - "Intel GMA 950 Graphics"
+  RAM:
+    - "667 MHz DDR2 SDRAM"
+  SystemReportName:
+    - "MacBook (13-inch Late 2006)"
+  MarketingName: ""
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "WGP"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "WES"
+  - "WEV"
+  - "W6V"
+  - "WET"
+  - "WEU"
+  - "WEW"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2006
+  - 2007
+CloverSerialNumber: "W8713HACWGL"

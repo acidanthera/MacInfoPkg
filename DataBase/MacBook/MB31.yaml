@@ -1,0 +1,91 @@
+BIOSVendor: "Apple Computer, Inc."
+BIOSVersion: ""
+BIOSLegacyVersion: "MB31.88Z.008E.B02.0803051832"
+BIOSReleaseDate: "03/05/08"
+SystemManufacturer: "Apple Computer, Inc."
+SystemProductName: "MacBook3,1"
+SystemVersion: "1.3"
+# Note, this one is used by macserial
+SystemSerialNumber: "W8747HACZ66"
+SystemSKUNumber: ""
+SystemFamily: "MacBook"
+BoardManufacturer: "Apple Computer, Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F22788C8"
+BoardVersion: "MacBook3,1"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Computer, Inc."
+ChassisType: 0x0A
+ChassisVersion: "Mac-F22788C8"
+ChassisAssetTag: "MacBook-White"
+# FIXME: check
+PlatformFeature: ""
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0704
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x24
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x03
+# FIXME: check
+SmcBranch:
+  - 0x62
+  - 0x72
+  - 0x61
+  - 0x6E
+  - 0x63
+  - 0x68
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6B
+  - 0x33
+  - 0x36
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x72001
+OEMStrings: ""
+# FIXME: add missing bits
+Specifications:
+  CPU:
+    - "Intel Core 2 Duo T7500"
+    - "Intel Core 2 Duo T7300"
+  GPU:
+    - "Intel GMA X3100 Graphics"
+  RAM:
+    - "667 MHz DDR2 SDRAM"
+  SystemReportName:
+    - "MacBook (13-inch Late 2007)"
+  MarketingName: ""
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "Z66"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - ""
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2007
+  - 2008
+CloverSerialNumber: "W8747HACZ63"

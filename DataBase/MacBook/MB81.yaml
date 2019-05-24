@@ -1,0 +1,146 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "181.0.0.0.0"
+BIOSLegacyVersion: "MB81.88Z.F000.B00.1904111604"
+BIOSReleaseDate: "04/11/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBook8,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02RCE58GCN3"
+SystemSKUNumber: ""
+SystemFamily: "MacBook"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-BE0E8AC46FE800CC"
+BoardVersion: "MacBook8,1"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x09
+ChassisVersion: "Mac-BE0E8AC46FE800CC"
+ChassisAssetTag: "MacBook-Aluminum"
+# FIXME: check
+PlatformFeature: 0x1A
+# FIXME: check
+FirmwareFeatures: 0xFC0FE13F
+# FIXME: check
+FirmwareFeaturesMask: 0xFF1FFF3F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000FC0FE13F
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0704
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 2
+# FIXME: check
+SmcRevision:
+  - 0x02
+  - 0x25
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x87
+# FIXME: check
+SmcBranch:
+  - 0x6A
+  - 0x39
+  - 0x32
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6A
+  - 0x39
+  - 0x32
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0xF0E007
+OEMStrings: |-
+  Apple ROM Version
+	Model:       MB81
+	EFI Version: 181.0.0.0.0
+	Built by:    root@xapp160
+	Date:        Thu Apr 11 16:04:14 PDT 2019
+	Revision:    181 (B&I)
+	ROM Version: F000_B00
+	Build Type:  Official Build, Release
+	Compiler:    Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)
+# FIXME: add missing bits
+Specifications:
+  CPU:
+    - "Intel Core M-5Y31"
+    - "Intel Core M-5Y51"
+    - "Intel Core M-5Y71"
+  GPU:
+    - "Intel HD Graphics 5300"
+  RAM:
+    - "1600 MHz LPDDR3 SDRAM"
+  SystemReportName:
+    - "MacBook (Retina, 12-inch, Early 2015)"
+  MarketingName:
+    - "12\" MacBook (Early 2015)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "GCN3"
+  - "DNCR"
+  - "DNCT"
+  - "DNML"
+  - "DNMM"
+  - "F8QM"
+  - "F8QN"
+  - "F9RN"
+  - "FC6M"
+  - "FC6N"
+  - "FC6P"
+  - "FD55"
+  - "FD5Y"
+  - "FF7L"
+  - "FFVW"
+  - "FFVY"
+  - "FG46"
+  - "FGC4"
+  - "FGMR"
+  - "FGMT"
+  - "FL8N"
+  - "FM8L"
+  - "FM8M"
+  - "FM8N"
+  - "FMLG"
+  - "FP12"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "FV36"
+  - "FV3T"
+  - "FV5W"
+  - "FV9F"
+  - "FV6W"
+  - "FVC7"
+  - "FVF6"
+  - "FV87"
+  - "FV5H"
+  - "FVF0"
+  - "FV7P"
+  - "FVC8"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2015
+  - 2016
+CloverSerialNumber: "C02RCE58GCN3"
