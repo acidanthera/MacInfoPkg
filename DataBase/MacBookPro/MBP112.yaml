@@ -73,7 +73,7 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0xF0B007
-OEMStrings: |-    
+OEMStrings: |-
   Apple ROM Version
     Model:       MBP112
     EFI Version: 153.0.0.0.0

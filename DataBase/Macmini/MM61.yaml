@@ -73,7 +73,7 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x7D006
-OEMStrings: |-    
+OEMStrings: |-
   Apple ROM Version
     Model:       MM61
     EFI Version: 278.0.0.0.0

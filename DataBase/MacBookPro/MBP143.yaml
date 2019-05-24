@@ -73,7 +73,7 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0xF0A009
-OEMStrings: |-    
+OEMStrings: |-
   Apple ROM Version
     BIOS ID:     MBP143.88Z.F000.B00.1904111521
     Model:       MBP143

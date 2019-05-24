@@ -73,7 +73,7 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x7A007
-OEMStrings: |-    
+OEMStrings: |-
   Apple ROM Version
     Model:       IM144
     EFI Version: 197.0.0.0.0

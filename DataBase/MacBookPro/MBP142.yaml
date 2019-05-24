@@ -73,7 +73,7 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0xF09009
-OEMStrings: |-    
+OEMStrings: |-
   Apple ROM Version
     BIOS ID:     MBP142.88Z.F000.B00.1904111701
     Model:       MBP142

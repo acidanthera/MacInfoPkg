@@ -73,7 +73,7 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x76006
-OEMStrings: |-    
+OEMStrings: |-
   Apple ROM Version
     Model:       MBP91
     EFI Version: 226.0.0.0.0

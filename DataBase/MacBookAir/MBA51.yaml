@@ -73,7 +73,7 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x7B006
-OEMStrings: |-    
+OEMStrings: |-
   Apple ROM Version
     Model:       MBA51
     EFI Version: 257.0.0.0.0

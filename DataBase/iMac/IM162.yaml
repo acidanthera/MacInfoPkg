@@ -73,7 +73,7 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0xF00008
-OEMStrings: |-    
+OEMStrings: |-
   Apple ROM Version
     Model:       IM162
     EFI Version: 227.0.0.0.0

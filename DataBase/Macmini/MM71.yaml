@@ -73,7 +73,7 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0xF04008
-OEMStrings: |-    
+OEMStrings: |-
   Apple ROM Version
     Model:       MM71
     EFI Version: 242.0.0.0.0
