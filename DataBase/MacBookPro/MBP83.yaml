@@ -35,8 +35,11 @@ ExtendedFirmwareFeatures: 0x00000000C00DE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
-# FIXME: check and add missing
+# FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
+  - 0x0703
+  - 0x0703
+  - 0x0703
   - 0x0703
 # FIXME: Correct this one
 ProcessorBusSpeed:
@@ -74,10 +77,13 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7C005
 OEMStrings: ""
-# FIXME: add missing CPUs
+# FIXME: check for missing CPUs/GPUs
 Specifications:
   CPU:
     - "Intel Core i7 2820QM"
+    - "Intel Core i7 2720QM"
+    - "Intel Core i7 2760QM"
+    - "Intel Core i7 2860QM"
   GPU:
     - "AMD Radeon HD 6750M"
     - "AMD Radeon HD 6770M"

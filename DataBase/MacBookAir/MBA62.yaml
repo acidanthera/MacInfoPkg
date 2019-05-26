@@ -35,9 +35,11 @@ ExtendedFirmwareFeatures: 0x00000000E00FE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
-# FIXME: check and add missing
+# FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
   - 0x0605
+  - 0x0605
+  - 0x0705
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -74,10 +76,12 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B007
 OEMStrings: ""
-# FIXME: add missing CPUs
+# FIXME: check for missing CPUs/GPUs
 Specifications:
   CPU:
     - "Intel Core i5 4250U"
+    - "Intel Core i5 4260U"
+    - "Intel Core i7 4650U"
   GPU:
     - "Intel HD Graphics 5000"
   RAM:

@@ -25,9 +25,11 @@ ChassisType: 0x0A
 ChassisVersion: "Mac-F42D88C8"
 ChassisAssetTag: "Air-Enclosure"
 MemoryFormFactor: 0xD
-# FIXME: check and add missing
+# FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
   - 0x0301
+  - 0x0302
+  - 0x0302
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -64,10 +66,12 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x76005
 OEMStrings: ""
-# FIXME: add missing CPUs
+# FIXME: check for missing CPUs/GPUs
 Specifications:
   CPU:
     - "Intel Core 2 Duo SL9600"
+    - "Intel Core 2 Duo SL9300"
+    - "Intel Core 2 Duo SL9400"
   GPU:
     - "NVIDIA GeForce 9400M"
   RAM:

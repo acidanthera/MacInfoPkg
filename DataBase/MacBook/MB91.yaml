@@ -35,9 +35,11 @@ ExtendedFirmwareFeatures: 0x00000000FC0FE13F
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
-# FIXME: check and add missing
+# FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
   - 0x0D07
+  - 0x0C07
+  - 0x0E07
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -83,10 +85,12 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build
     Compiler:    Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
-# FIXME: add missing CPUs
+# FIXME: check for missing CPUs/GPUs
 Specifications:
   CPU:
-    - "Intel Core m5 6Y54"
+    - "Intel Core M5 6Y54"
+    - "Intel Core M3 6Y30"
+    - "Intel Core M7 6Y75"
   GPU:
     - "Intel HD Graphics 515"
   RAM:

@@ -35,9 +35,12 @@ ExtendedFirmwareFeatures: 0x00000000E00DE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0x9
-# FIXME: check and add missing
+# FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
   - 0x0601
+  - 0x0901
+  - 0x0601
+  - 0x0701
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -74,10 +77,13 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7D004
 OEMStrings: ""
-# FIXME: add missing CPUs
+# FIXME: check for missing CPUs/GPUs
 Specifications:
   CPU:
     - "Intel Core i5 760"
+    - "Intel Core i3 550"
+    - "Intel Core i5 680"
+    - "Intel Core i7 870"
   GPU:
     - "AMD ATI Radeon HD 5750"
     - "AMD ATI Radeon HD 5670"

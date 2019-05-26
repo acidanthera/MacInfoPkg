@@ -35,9 +35,10 @@ ExtendedFirmwareFeatures: 0x00000000E00FE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0x9
-# FIXME: check and add missing
+# FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
   - 0x0605
+  - 0x0705
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -83,10 +84,11 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build, Release
     Compiler:    Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
-# FIXME: add missing CPUs
+# FIXME: check for missing CPUs/GPUs
 Specifications:
   CPU:
     - "Intel Core i5 4570S"
+    - "Intel Core i7 4770S"
   GPU:
     - "NVIDIA GeForce GT 750M"
   RAM:

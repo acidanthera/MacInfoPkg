@@ -35,9 +35,12 @@ ExtendedFirmwareFeatures: 0x00000000C00DE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
-# FIXME: check and add missing
+# FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
   - 0x0603
+  - 0x0602
+  - 0x0703
+  - 0x0703
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -74,10 +77,13 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B005
 OEMStrings: ""
-# FIXME: add missing CPUs
+# FIXME: check for missing CPUs/GPUs
 Specifications:
   CPU:
     - "Intel Core i5 2415M"
+    - "Intel Core i5 2435M"
+    - "Intel Core i7 2640M"
+    - "Intel Core i7 2620M"
   GPU:
     - "Intel HD Graphics 3000"
   RAM:

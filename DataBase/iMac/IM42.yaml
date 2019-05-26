@@ -25,7 +25,7 @@ ChassisType: 0x0D
 ChassisVersion: "Mac-F4218EC8"
 ChassisAssetTag: "iMac"
 MemoryFormFactor: 0x9
-# FIXME: check and add missing
+# FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
   - 0x0201
 # FIXME: Correct this one
@@ -64,7 +64,7 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x73002
 OEMStrings: ""
-# FIXME: add missing CPUs
+# FIXME: check for missing CPUs/GPUs
 Specifications:
   CPU:
     - "Intel Core Duo T2400"

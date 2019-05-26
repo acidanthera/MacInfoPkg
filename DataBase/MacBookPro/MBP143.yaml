@@ -35,8 +35,10 @@ ExtendedFirmwareFeatures: 0x00000000FC0FE13F
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
-# FIXME: check and add missing
+# FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
+  - 0x0705
+  - 0x0705
   - 0x0705
 # FIXME: Correct this one
 ProcessorBusSpeed:
@@ -84,10 +86,12 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build, RELEASE
     Compiler:    Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
-# FIXME: add missing CPUs
+# FIXME: check for missing CPUs/GPUs
 Specifications:
   CPU:
     - "Intel Core i7 7700HQ"
+    - "Intel Core i7 7820HQ"
+    - "Intel Core i7 7920HQ"
   GPU:
     - "AMD Radeon Pro 555"
     - "AMD Radeon Pro 560"

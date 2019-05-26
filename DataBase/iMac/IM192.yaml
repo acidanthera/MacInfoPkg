@@ -35,9 +35,12 @@ ExtendedFirmwareFeatures: 0x00000000FD8FF576
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FFDFFF7F
 MemoryFormFactor: 0x9
-# FIXME: check and add missing
+# FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
   - 0x0605
+  - 0x0905
+  - 0x0605
+  - 0x0705
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -74,10 +77,13 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0xF070090
 OEMStrings: ""
-# FIXME: add missing CPUs
+# FIXME: check for missing CPUs/GPUs
 Specifications:
   CPU:
     - "Intel Core i5 8500"
+    - "Intel Core i3 8100B"
+    - "Intel Core i5 8500B"
+    - "Intel Core i7 8700B"
   GPU:
     - "AMD Radeon Pro 555X"
     - "AMD Radeon Pro 560X"

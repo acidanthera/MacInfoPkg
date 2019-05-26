@@ -35,9 +35,11 @@ ExtendedFirmwareFeatures: 0x00000000E00DE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0x9
-# FIXME: check and add missing
+# FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
   - 0x0703
+  - 0x0602
+  - 0x0603
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -74,10 +76,12 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x75005
 OEMStrings: ""
-# FIXME: add missing CPUs
+# FIXME: check for missing CPUs/GPUs
 Specifications:
   CPU:
     - "Intel Core i7 2600"
+    - "Intel Core i5 2400"
+    - "Intel Core i5 2500S"
   GPU:
     - "AMD Radeon HD 6970M"
     - "AMD Radeon HD 6770M"

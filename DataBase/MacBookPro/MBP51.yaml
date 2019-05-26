@@ -25,8 +25,12 @@ ChassisType: 0x08
 ChassisVersion: "Mac-F42D86C8"
 ChassisAssetTag: "MacBook-Aluminum"
 MemoryFormFactor: 0xD
-# FIXME: check and add missing
+# FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
+  - 0x0301
+  - 0x0301
+  - 0x0301
+  - 0x0301
   - 0x0301
 # FIXME: Correct this one
 ProcessorBusSpeed:
@@ -64,10 +68,14 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B002
 OEMStrings: ""
-# FIXME: add missing CPUs
+# FIXME: check for missing CPUs/GPUs
 Specifications:
   CPU:
     - "Intel Core 2 Duo P8600"
+    - "Intel Core 2 Duo T9800"
+    - "Intel Core 2 Duo T9400"
+    - "Intel Core 2 Duo T9550"
+    - "Intel Core 2 Duo T9600"
   GPU:
     - "NVIDIA GeForce 9600M GT"
   RAM:
