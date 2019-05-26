@@ -8,7 +8,7 @@ matrix:
     before_install:
     - brew update
     - brew install mingw-w64
-    - pip install pyyaml
+    - sudo -H pip install pyyaml
     deploy:
       provider: releases
       skip_cleanup: true
