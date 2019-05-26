@@ -14,7 +14,9 @@ BoardManufacturer: "Apple Inc."
 # BoardProduct:
 #  "Mac-00BE6ED71E35EB86"
 #  "Mac-smthelse"
-BoardProduct: "Mac-F2268CC8"
+BoardProduct:
+- "Mac-F221DCC8"
+- "Mac-F2268CC8"
 BoardVersion: "iMac10,1"
 BoardAssetTag: ""
 BoardType: 0xA
@@ -22,7 +24,9 @@ BoardType: 0xA
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x0D
-ChassisVersion: "Mac-F2268CC8"
+ChassisVersion:
+- "Mac-F221DCC8"
+- "Mac-F2268CC8"
 ChassisAssetTag: "iMac-Aluminum"
 # FIXME: check
 PlatformFeature: 0x0
