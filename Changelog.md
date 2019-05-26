@@ -1,5 +1,9 @@
 MacInfoPkg changelog
 ====================
+#### v2.0.6
+- Initial model fillup (thx to all participants)
+- Multiple macserial database corrections (thx kylon)
+
 #### v2.0.5
 - Added initial iMac19,1 and iMac19,2 model data to macserial
 - Added --verify command to check MLB to macserial

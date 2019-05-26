@@ -6,6 +6,8 @@ MacInfoPkg
 Various information about Mac hardware used by multiple projects,
 including [OpenCore](https://github.com/acidanthera/OpenCorePkg).
 
+[Current database status](https://docs.google.com/spreadsheets/d/1kGFz3_kp5xCDRRQpfnIUOvbiHXTmxEgyx97u73ImXXE/edit#gid=0) maintained by @Andrey1970AppleLife.
+
 ## macserial
 
 **WARNING**: macserial database is currently in process of being synced with MacInfoPkg database.

@@ -6,9 +6,8 @@ matrix:
     osx_image: xcode9.4
     compiler: clang
     before_install:
-    - brew update
     - brew install mingw-w64
-    - sudo -H pip install pyyaml
+    - pip2 install pyyaml
     deploy:
       provider: releases
       skip_cleanup: true
