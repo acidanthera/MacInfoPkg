@@ -55,6 +55,9 @@ def export_db_macinfo(db, path):
     print('CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {', file=fh);
 
     for info in db:
+      if max(info['AppleModelYear']) < 2012:
+        continue
+
       print(' {\n'
         '  .SystemProductName = "%s",\n'
         '  .BoardProduct = "%s",\n'
@@ -99,8 +102,8 @@ def export_db_macinfo(db, path):
           info['MemoryFormFactor'],
           '0x{:X}'.format(info['PlatformFeature']) if 'PlatformFeature' in info else 'MAC_INFO_PLATFORM_FEATURE_MISSING',
           info['ChassisAssetTag'],
-          info.get('ExtendedFirmwareFeatures', info['FirmwareFeatures']),
-          info.get('ExtendedFirmwareFeaturesMask', info['FirmwareFeaturesMask'])
+          info.get('ExtendedFirmwareFeatures', info.get('FirmwareFeatures', 0)),
+          info.get('ExtendedFirmwareFeaturesMask', info.get('FirmwareFeaturesMask', 0))
         ), file=fh)
 
     print('};', file=fh);
