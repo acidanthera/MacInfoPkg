@@ -1,5 +1,5 @@
 BIOSVendor: "Apple Computer, Inc."
-BIOSVersion: ""
+BIOSVersion: "MBP21.88Z.00A5.B08.0708131242"
 BIOSLegacyVersion: "MBP21.88Z.00A5.B08.0708131242"
 BIOSReleaseDate: "08/13/07"
 SystemManufacturer: "Apple Computer, Inc."
@@ -24,12 +24,10 @@ ChassisManufacturer: "Apple Computer, Inc."
 ChassisType: 0x08
 ChassisVersion: "Mac-F42189C8"
 ChassisAssetTag: "MacBook-Aluminum"
-# FIXME: check
-PlatformFeature: ""
 MemoryFormFactor: 0xD
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0301
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -66,7 +64,7 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B002
 OEMStrings: ""
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
     - "Intel Core 2 Duo T7600"

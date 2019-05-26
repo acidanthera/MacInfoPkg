@@ -7,7 +7,7 @@ SystemProductName: "MacBookPro11,3"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "C02LSHACFR1M"
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKU#"
 SystemFamily: "MacBook Pro"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
@@ -35,9 +35,9 @@ ExtendedFirmwareFeatures: 0x00000000E80FE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0705
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -74,13 +74,10 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0xF0D007
 OEMStrings: ""
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
-    - "Intel Core i7-4850HQ"
-    - "Intel i7-4960HQ"
-    - "Intel i7-4870HQ"
-    - "Intel i7-4980HQ"
+    - "Intel Core i7 4850HQ"
   GPU:
     - "Intel Iris 5200 Pro graphics"
     - "NVIDIA GeForce GT 750M"

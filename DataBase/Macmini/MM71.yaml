@@ -7,7 +7,7 @@ SystemProductName: "Macmini7,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "C02NN7NHG1J0"
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKU#"
 SystemFamily: "Mac mini"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
@@ -35,9 +35,9 @@ ExtendedFirmwareFeatures: 0x00000000E00DE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0605
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -83,13 +83,10 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build, Release
     Compiler:    Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
-    - "Intel Core i5-4278U"
-    - "Intel Core i5-4308U"
-    - "Intel Core i5-4260U"
-    - "Intel Core i7-4578U"
+    - "Intel Core i5 4260U"
   GPU:
     - "Intel Iris 5100 graphics"
   RAM:

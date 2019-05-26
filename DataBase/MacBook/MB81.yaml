@@ -7,7 +7,7 @@ SystemProductName: "MacBook8,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "C02RCE58GCN3"
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKU#"
 SystemFamily: "MacBook"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
@@ -35,9 +35,9 @@ ExtendedFirmwareFeatures: 0x00000000FC0FE13F
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0B06
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -83,12 +83,10 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build, Release
     Compiler:    Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
-    - "Intel Core M-5Y31"
-    - "Intel Core M-5Y51"
-    - "Intel Core M-5Y71"
+    - "Intel Core M 5Y51"
   GPU:
     - "Intel HD Graphics 5300"
   RAM:

@@ -1,5 +1,5 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: ""
+BIOSVersion: "IM91.88Z.008D.B08.0904271717"
 BIOSLegacyVersion: "IM91.88Z.008D.B08.0904271717"
 BIOSReleaseDate: "04/27/09"
 SystemManufacturer: "Apple Inc."
@@ -24,12 +24,10 @@ ChassisManufacturer: "Apple Inc."
 ChassisType: 0x0D
 ChassisVersion: "Mac-F2218FA9"
 ChassisAssetTag: "iMac-Aluminum"
-# FIXME: check
-PlatformFeature: ""
 MemoryFormFactor: 0x9
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0301
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -66,10 +64,10 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x73002
 OEMStrings: ""
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
-    - "Intel Core 2 Duo P7xxx Series"
+    - "Intel Core 2 Duo E8135"
   GPU:
     - "NVIDIA GeForce GT 120"
     - "NVIDIA GeForce 9400M"

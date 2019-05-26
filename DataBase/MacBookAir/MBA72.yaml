@@ -25,7 +25,7 @@ ChassisType: 0x09
 ChassisVersion: "Mac-937CB26E2E02BB01"
 ChassisAssetTag: "Air-Enclosure"
 # FIXME: check
-PlatformFeature: ""
+PlatformFeature: 0x0
 # FIXME: check
 FirmwareFeatures: 0xE00FE137
 # FIXME: check
@@ -35,9 +35,9 @@ ExtendedFirmwareFeatures: 0x00000000E00FE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0606
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -74,11 +74,10 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B007
 OEMStrings: ""
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
-    - "Intel Core i5-5250U"
-    - "Intel Core i7-5650U"
+    - "Intel Core i5 5250U"
   GPU:
     - "Intel HD Graphics 6000"
   RAM:

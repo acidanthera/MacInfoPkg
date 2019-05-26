@@ -1,5 +1,5 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: ""
+BIOSVersion: "MB52.88Z.0088.B05.0904162222"
 BIOSLegacyVersion: "MB52.88Z.0088.B05.0904162222"
 BIOSReleaseDate: "04/16/09"
 SystemManufacturer: "Apple Inc."
@@ -7,7 +7,7 @@ SystemProductName: "MacBook5,2"
 SystemVersion: "1.3"
 # Note, this one is used by macserial
 SystemSerialNumber: "W88AAAAA9GU"
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKU#"
 SystemFamily: "MacBook"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
@@ -24,12 +24,10 @@ ChassisManufacturer: "Apple Inc."
 ChassisType: 0x0A
 ChassisVersion: "Mac-F22788AA"
 ChassisAssetTag: "MacBook-Black"
-# FIXME: check
-PlatformFeature: ""
 MemoryFormFactor: 0xD
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0301
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -66,11 +64,10 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7A002
 OEMStrings: ""
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
     - "Intel Core 2 Duo P7450"
-    - "Intel Core 2 Duo P7350"
   GPU:
     - "NVIDIA GeForce 9400M"
   RAM:

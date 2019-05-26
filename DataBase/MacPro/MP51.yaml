@@ -7,7 +7,7 @@ SystemProductName: "MacPro5,1"
 SystemVersion: "1.2"
 # Note, this one is used by macserial
 SystemSerialNumber: "H02380NSEUH"
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKU#"
 SystemFamily: "MacPro"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:

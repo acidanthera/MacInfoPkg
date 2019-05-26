@@ -1,5 +1,5 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: ""
+BIOSVersion: "XS31.88Z.0081.B06.0908061300"
 BIOSLegacyVersion: "XS31.88Z.0081.B06.0908061300"
 BIOSReleaseDate: "08/06/09"
 SystemManufacturer: "Apple Inc."
@@ -24,12 +24,10 @@ ChassisManufacturer: "Apple Inc."
 ChassisType: 0x17
 ChassisVersion: "Mac-F223BEC8"
 ChassisAssetTag: "Xserve"
-# FIXME: check
-PlatformFeature: ""
 MemoryFormFactor: 0x9
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0501
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -66,11 +64,10 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x79001
 OEMStrings: ""
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
-    - "Intel Xeon E5520"
-    - "Intel Xeon E5550"
+    - "Intel Xeon E5520 x2"
   GPU:
     - "NVIDIA GeForce GT 120"
   RAM:

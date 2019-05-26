@@ -35,9 +35,9 @@ ExtendedFirmwareFeatures: 0x00000000E00DE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0x9
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0604
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -74,10 +74,10 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x79006
 OEMStrings: ""
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
-    - "Intel Core i3-3225"
+    - "Intel Core i5 3470S"
   GPU:
     - "Intel HD Graphics 4000"
   RAM:

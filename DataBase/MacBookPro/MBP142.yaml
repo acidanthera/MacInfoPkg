@@ -35,9 +35,9 @@ ExtendedFirmwareFeatures: 0x00000000FC0FE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0605
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -84,12 +84,10 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build, RELEASE
     Compiler:    Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
-    - "Intel Core i5-7267U"
-    - "Intel Core i5-7287U"
-    - "Intel Core i7-7567U"
+    - "Intel Core i5 7267U"
   GPU:
     - "Iris Plus Graphics 650"
   RAM:

@@ -1,5 +1,5 @@
 BIOSVendor: "Apple Computer, Inc."
-BIOSVersion: ""
+BIOSVersion: "MB31.88Z.008E.B02.0803051832"
 BIOSLegacyVersion: "MB31.88Z.008E.B02.0803051832"
 BIOSReleaseDate: "03/05/08"
 SystemManufacturer: "Apple Computer, Inc."
@@ -24,12 +24,10 @@ ChassisManufacturer: "Apple Computer, Inc."
 ChassisType: 0x0A
 ChassisVersion: "Mac-F22788C8"
 ChassisAssetTag: "MacBook-White"
-# FIXME: check
-PlatformFeature: ""
 MemoryFormFactor: 0xD
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0301
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -66,11 +64,10 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x72001
 OEMStrings: ""
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
     - "Intel Core 2 Duo T7500"
-    - "Intel Core 2 Duo T7300"
   GPU:
     - "Intel GMA X3100 Graphics"
   RAM:

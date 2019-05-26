@@ -1,5 +1,5 @@
 BIOSVendor: "Apple Computer, Inc."
-BIOSVersion: ""
+BIOSVersion: "IM61.88Z.0093.B07.0804281538"
 BIOSLegacyVersion: "IM61.88Z.0093.B07.0804281538"
 BIOSReleaseDate: "04/28/08"
 SystemManufacturer: "Apple Computer, Inc."
@@ -24,12 +24,10 @@ ChassisManufacturer: "Apple Computer, Inc."
 ChassisType: 0x0D
 ChassisVersion: "Mac-F4218FC8"
 ChassisAssetTag: "iMac"
-# FIXME: check
-PlatformFeature: ""
 MemoryFormFactor: 0x9
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0301
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -66,11 +64,10 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x73002
 OEMStrings: ""
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
     - "Intel Core 2 Duo T7400"
-    - "Intel Core 2 Duo T7600"
   GPU:
     - "AMD ATI Radeon X1600"
   RAM:

@@ -1,5 +1,5 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: ""
+BIOSVersion: "MBP53.88Z.00AC.B03.0906151647"
 BIOSLegacyVersion: "MBP53.88Z.00AC.B03.0906151647"
 BIOSReleaseDate: "06/15/09"
 SystemManufacturer: "Apple Inc."
@@ -7,7 +7,7 @@ SystemProductName: "MacBookPro5,3"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "W8035TG97XK"
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKU#"
 SystemFamily: "MacBook Pro"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
@@ -24,12 +24,10 @@ ChassisManufacturer: "Apple Inc."
 ChassisType: 0x08
 ChassisVersion: "Mac-F22587C8"
 ChassisAssetTag: "MacBook-Aluminum"
-# FIXME: check
-PlatformFeature: ""
 MemoryFormFactor: 0xD
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0301
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -66,12 +64,10 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B002
 OEMStrings: ""
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
     - "Intel Core 2 Duo P8800"
-    - "Intel Core 2 Duo T9600"
-    - "Intel Core 2 Duo T9900"
   GPU:
     - "NVIDIA GeForce 9600M GT + NVIDIA GeForce 9400M"
   RAM:

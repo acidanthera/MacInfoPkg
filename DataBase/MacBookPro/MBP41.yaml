@@ -1,5 +1,5 @@
 BIOSVendor: "Apple Computer, Inc."
-BIOSVersion: ""
+BIOSVersion: "MBP41.88Z.00C1.B03.0802271651"
 BIOSLegacyVersion: "MBP41.88Z.00C1.B03.0802271651"
 BIOSReleaseDate: "02/27/08"
 SystemManufacturer: "Apple Computer, Inc."
@@ -24,12 +24,10 @@ ChassisManufacturer: "Apple Computer, Inc."
 ChassisType: 0x08
 ChassisVersion: "Mac-F42C89C8"
 ChassisAssetTag: "MacBook-Aluminum"
-# FIXME: check
-PlatformFeature: ""
 MemoryFormFactor: 0xD
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
-  - 0x0704
+  - 0x0301
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -66,12 +64,10 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B002
 OEMStrings: ""
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
-    - "Intel Core 2 Duo T9500"
     - "Intel Core 2 Duo T8300"
-    - "Intel Core 2 Duo T9300"
   GPU:
     - "NVIDIA GeForce 8600M GT"
   RAM:

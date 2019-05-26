@@ -7,7 +7,7 @@ SystemProductName: "MacBookPro9,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "C02LW984F1G4"
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKU#"
 SystemFamily: "MacBook Pro"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
@@ -25,7 +25,7 @@ ChassisType: 0x0A
 ChassisVersion: "Mac-4B7AC7E43945597E"
 ChassisAssetTag: "MacBook-Aluminum"
 # FIXME: check
-PlatformFeature: ""
+PlatformFeature: 0x0
 # FIXME: check
 FirmwareFeatures: 0xC00DE137
 # FIXME: check
@@ -35,7 +35,7 @@ ExtendedFirmwareFeatures: 0x00000000C00DE137
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
-# FIXME: Correct this one
+# FIXME: check and add missing
 ProcessorType:
   - 0x0704
 # FIXME: Correct this one
@@ -83,13 +83,10 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build, Release
     Compiler:    Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
-# FIXME: add missing bits
+# FIXME: add missing CPUs
 Specifications:
   CPU:
-    - "Intel Core i7-3720QM"
-    - "Intel Core i7-3820QM"
-    - "Intel Core i7-3615QM"
-    - "Intel Core i7-2820QM"
+    - "Intel Core i7 3615QM"
   GPU:
     - "NVIDIA GeForce GT 650M"
   RAM:
