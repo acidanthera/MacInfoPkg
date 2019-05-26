@@ -53,7 +53,6 @@ SmcRevision:
   - 0x00
   - 0x01
   - 0x05
-# FIXME: check
 SmcBranch:
   - 0x6A
   - 0x39
@@ -63,7 +62,6 @@ SmcBranch:
   - 0x00
   - 0x00
   - 0x00
-# FIXME: check
 SmcPlatform:
   - 0x6A
   - 0x39
@@ -77,24 +75,25 @@ SmcPlatform:
 SmcEPCI: 0xF0E007
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:     MB91.88Z.F000.B00.1904111505
-    EFI Version: 181.0.0.0.0
-    Built by:    _atsserver@xapp157
-    Date:        Thu Apr 11 15:05:43 2019
-    Revision:    181 (B&I)
-    ROM Version: F000_B00
-    Build Type:  Official Build
-    Compiler:    Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
-# FIXME: check for missing CPUs/GPUs
+    BIOS ID:      MB91.88Z.F000.B00.1904111505
+    EFI Version:  181.0.0.0.0
+    Built by:     _atsserver@xapp157
+    Date:         Thu Apr 11 15:05:43 2019
+    Revision:     181 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build
+    Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+    UUID:         021A5E00-7894-3E61-A9C1-8EC789188CA6
+    UUID:         DFDDACC6-32D3-3FDA-950A-6F816BBCA38E
 Specifications:
   CPU:
-    - "Intel Core M5 6Y54"
-    - "Intel Core M3 6Y30"
-    - "Intel Core M7 6Y75"
+    - "Intel Core m3-6Y30 @ 1.10 GHz"
+    - "Intel Core m5-6Y54 @ 1.20 GHz"
+    - "Intel Core m7-6Y75 @ 1.10 GHz"
   GPU:
     - "Intel HD Graphics 515"
   RAM:
-    - "1866 MHz LPDDR3 SDRAM"
+    - "8GB 1866 MHz LPDDR3 SDRAM"
   SystemReportName:
     - "MacBook (Retina, 12-inch, Early 2016)"
   MarketingName:
