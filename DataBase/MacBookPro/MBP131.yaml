@@ -83,16 +83,13 @@ Specifications:
     - "Intel Core i5-6360U @ 2.00 GHz"
     - "Intel Core i7-6660U @ 2.40 GHz"
   GPU:
-    # FIXME: incorrect
-    - "Intel HD 520"
+    - "Intel Iris 540"
   RAM:
-    # FIXME: incorrect
-    - "8GB 2133 MHz DDR4 ECC SDRAM"
+    - "8GB 1866 MHz LPDDR3 SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
-    - "MacBook Pro (13-inch, Mid 2016)"
+    - "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 ports)"
   MarketingName:
-    - "MacBook Pro (13-inch, 2016, Two Thunderbolt 3 Ports)"
+    - "13\" MacBook Pro with Thunderbolt 3 (Late 2016)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "GVC1"

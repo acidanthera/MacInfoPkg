@@ -74,18 +74,18 @@ OEMStrings: |-
     Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
 Specifications:
   CPU:
+    - "Intel Core i7-4790k @ 4.00 GHz"
     - "Intel Core i5-4690 @ 3.50 GHz"
+    - "Intel Core i5-4590 @ 3.50 GHz"
   GPU:
-    # FIXME: incorrect
-    - "Intel HD 4600"
+    - "AMD Radeon R9 M290X"
+    - "AMD Radeon R9 M290"
   RAM:
-    # FIXME: incorrect
-    - "8GB 1600 MHz DDR3 SO-DIMM"
+    - "8GB 1600 MHz DDR3 SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
-    - "iMac (27-inch, Late 2014)"
+    - "iMac (Retina 5K, 27-inch, Mid 2015)"
   MarketingName:
-    - "iMac (27-inch, 2014)"
+    - "15\" MacBook Pro with Thunderbolt 3 and Touch ID (Mid 2018)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "FY10"

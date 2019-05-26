@@ -1,0 +1,106 @@
+BIOSVendor: "Apple Computer, Inc."
+BIOSVersion: "MB11.88Z.0061.B03.0610121324"
+BIOSLegacyVersion: "MB11.88Z.0061.B03.0610121324"
+BIOSReleaseDate: "10/12/06"
+SystemManufacturer: "Apple Computer, Inc."
+SystemProductName: "MacBook1,1"
+SystemVersion: "1.1"
+# Note, this one is used by macserial
+SystemSerialNumber: "W80A041AU9B"
+SystemSKUNumber: "System SKUNumber"
+SystemFamily: "MacBook"
+BoardManufacturer: "Apple Computer, Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F4208CC8"
+BoardVersion: "MacBook1,1"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Computer, Inc."
+ChassisType: 0x0A
+ChassisVersion: "Mac-F4208CC8"
+ChassisAssetTag: "MacBook-White"
+MemoryFormFactor: 0xD
+# FIXME: check values (most should be correct?) and add missing, if any
+ProcessorType:
+  - 0x0201
+  - 0x0201
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x04
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x12
+# FIXME: check
+SmcBranch:
+  - 0x62
+  - 0x72
+  - 0x61
+  - 0x6E
+  - 0x63
+  - 0x68
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6D
+  - 0x37
+  - 0x30
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x71001
+OEMStrings: ""
+# FIXME: check for missing CPUs/GPUs
+Specifications:
+  CPU:
+    - "Intel Core Duo T2400"
+    - "Intel Core Duo T2500"
+  GPU:
+    - "Intel GMA 950 Graphics"
+  RAM:
+    - "667 MHz DDR2 SDRAM"
+  SystemReportName:
+    - "MacBook (13-inch)"
+  MarketingName: ""
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "U9B"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "V3G"
+  - "VZ0"
+  - "TYU"
+  - "VZ1"
+  - "VMC"
+  - "VZ2"
+  - "WXS"
+  - "WXW"
+  - "X0W"
+  - "X10"
+  - "WXR"
+  - "WXV"
+  - "X0V"
+  - "X0Y"
+  - "WXT"
+  - "WXU"
+  - "X0X"
+  - "X0Z"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2006
+CloverSerialNumber: "4H625HACVTH"

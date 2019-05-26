@@ -1,0 +1,96 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "MM31.88Z.0081.B06.0904271717"
+BIOSLegacyVersion: "MM31.88Z.0081.B06.0904271717"
+BIOSReleaseDate: "04/27/2009"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "Macmini3,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "W8905BBE19X"
+SystemSKUNumber: "System SKU#"
+SystemFamily: "Mac mini"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F22C86C8"
+BoardVersion: "Macmini3,1"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x10
+ChassisVersion: "Mac-F22C86C8"
+ChassisAssetTag: "Mini-Aluminum"
+MemoryFormFactor: 0xD
+# FIXME: check values (most should be correct?) and add missing, if any
+ProcessorType:
+  - 0x0301
+  - 0x0301
+  - 0x0301
+  - 0x0301
+  - 0x0301
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x35
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x01
+# FIXME: check
+SmcBranch:
+  - 0x4E
+  - 0x41
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x4E
+  - 0x41
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x78002
+OEMStrings: ""
+# FIXME: check for missing CPUs/GPUs
+Specifications:
+  CPU:
+    - "Intel Core 2 Duo P7350"
+    - "Intel Core 2 Duo P8700"
+    - "Intel Core 2 Duo P7550"
+    - "Intel Core 2 Duo P8400"
+    - "Intel Core 2 Duo P8800"
+  GPU:
+    - "NVIDIA GeForce 9400M"
+  RAM:
+    - "1066 MHz DDR3 SDRAM"
+  SystemReportName:
+    - "Mac mini (Early 2009)"
+  MarketingName:
+    - "Mac mini Intel Core (Early 2009)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "19X"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - ""
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2009
+CloverSerialNumber: "YM003HAC9G6"

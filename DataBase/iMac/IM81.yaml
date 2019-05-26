@@ -1,0 +1,96 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "IM81.88Z.00C1.B00.0802091538"
+BIOSLegacyVersion: "IM81.88Z.00C1.B00.0802091538"
+BIOSReleaseDate: "02/09/08"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "iMac8,1"
+SystemVersion: "1.3"
+# Note, this one is used by macserial
+SystemSerialNumber: "W8755HAC2E2"
+SystemSKUNumber: "System SKU#"
+SystemFamily: "iMac"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F227BEC8"
+BoardVersion: "iMac8,1"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x0D
+ChassisVersion: "Mac-F227BEC8"
+ChassisAssetTag: "iMac-Aluminum"
+MemoryFormFactor: 0x9
+# FIXME: check values (most should be correct?) and add missing, if any
+ProcessorType:
+  - 0x0301
+  - 0x0301
+  - 0x0301
+  - 0x0301
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x29
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x01
+# FIXME: check
+SmcBranch:
+  - 0x6B
+  - 0x33
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6B
+  - 0x33
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x73002
+OEMStrings: ""
+# FIXME: check for missing CPUs/GPUs
+Specifications:
+  CPU:
+    - "Intel Core 2 Duo E8435"
+    - "Intel Core 2 Duo E8135"
+    - "Intel Core 2 Duo E8335"
+    - "Intel Core 2 Duo E8235"
+  GPU:
+    - "AMD ATI Radeon HD 2600 PRO"
+    - "AMD ATI Radeon HD 2400 XT"
+    - "NVIDIA GeForce 8800 GS"
+  RAM:
+    - "800 MHz DDR2 SDRAM, PC2-6400"
+  SystemReportName:
+    - "iMac (24-inch, Early 2008)"
+  MarketingName:
+    - "iMac Intel Core 2 Duo (aluminum enclosure) (Early 2008)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "2E2"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - ""
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2008
+CloverSerialNumber: "QP849HACZE7"

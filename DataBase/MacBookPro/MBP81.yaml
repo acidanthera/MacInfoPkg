@@ -1,0 +1,167 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "82.0.0.0.0"
+BIOSLegacyVersion: "MBP81.88Z.F000.B00.1904162141"
+BIOSReleaseDate: "04/10/18"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBookPro8,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "W89F9196DH2G"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Pro"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-94245B3640C91C81"
+BoardVersion: "MacBookPro8,1"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x0A
+ChassisVersion: "Mac-94245B3640C91C81"
+ChassisAssetTag: "MacBook-Aluminum"
+# FIXME: check
+PlatformFeature: 0x0
+# FIXME: check
+FirmwareFeatures: 0xC00DE137
+# FIXME: check
+FirmwareFeaturesMask: 0xFF1FFF3F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000C00DE137
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0xD
+# FIXME: check values (most should be correct?) and add missing, if any
+ProcessorType:
+  - 0x0603
+  - 0x0602
+  - 0x0703
+  - 0x0703
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x68
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x99
+# FIXME: check
+SmcBranch:
+  - 0x6B
+  - 0x39
+  - 0x30
+  - 0x69
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6B
+  - 0x39
+  - 0x30
+  - 0x69
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x7B005
+OEMStrings: ""
+# FIXME: check for missing CPUs/GPUs
+Specifications:
+  CPU:
+    - "Intel Core i5 2415M"
+    - "Intel Core i5 2435M"
+    - "Intel Core i7 2640M"
+    - "Intel Core i7 2620M"
+  GPU:
+    - "Intel HD Graphics 3000"
+  RAM:
+    - "1333 MHz DDR3 SDRAM"
+  SystemReportName:
+    - "MacBook Pro (13-inch, Early 2011)"
+  MarketingName:
+    - "MacBook Pro Intel Core i5, Intel Core i7, 13\" (Early 2011)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "DH2G"
+  - "DH2L"
+  - "DV13"
+  - "DH2H"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "DM6D"
+  - "DM6F"
+  - "DM6J"
+  - "DM6K"
+  - "DM6L"
+  - "DM6N"
+  - "DM6P"
+  - "DM6T"
+  - "DMLK"
+  - "DMLM"
+  - "DMLP"
+  - "DMLR"
+  - "DRKQ"
+  - "DRKR"
+  - "DRKT"
+  - "DRLN"
+  - "DRMH"
+  - "DRMJ"
+  - "DTFL"
+  - "DTFM"
+  - "DTFN"
+  - "DTFQ"
+  - "DTFY"
+  - "DTG0"
+  - "DM6G"
+  - "DM6H"
+  - "DM6M"
+  - "DM6Q"
+  - "DM6R"
+  - "DM6V"
+  - "DM6W"
+  - "DMLL"
+  - "DMLN"
+  - "DMLQ"
+  - "DMLT"
+  - "DMLV"
+  - "DRKM"
+  - "DRKN"
+  - "DRKP"
+  - "DRKV"
+  - "DRMG"
+  - "DRMK"
+  - "DTFJ"
+  - "DTFK"
+  - "DTFR"
+  - "DTFT"
+  - "DTFV"
+  - "DTFW"
+  - "DTML"
+  - "DTMR"
+  - "DTMV"
+  - "DTMY"
+  - "DTN2"
+  - "DTN5"
+  - "DTMK"
+  - "DTMM"
+  - "DTMQ"
+  - "DTN0"
+  - "DTN3"
+  - "DTN4"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2011
+  - 2012
+CloverSerialNumber: "W89F9196DH2G"

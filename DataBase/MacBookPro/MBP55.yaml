@@ -1,0 +1,94 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "MBP55.88Z.00AC.B03.0906151708"
+BIOSLegacyVersion: "MBP55.88Z.00AC.B03.0906151708"
+BIOSReleaseDate: "06/15/09"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBookPro5,5"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "W8035TG966D"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Pro"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F2268AC8"
+BoardVersion: "MacBookPro5,5"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x08
+ChassisVersion: "Mac-F2268AC8"
+ChassisAssetTag: "MacBook-Aluminum"
+MemoryFormFactor: 0xD
+# FIXME: check values (most should be correct?) and add missing, if any
+ProcessorType:
+  - 0x0301
+  - 0x0301
+  - 0x0301
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x47
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x02
+# FIXME: check
+SmcBranch:
+  - 0x62
+  - 0x72
+  - 0x61
+  - 0x6E
+  - 0x63
+  - 0x68
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x4E
+  - 0x41
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x7B002
+OEMStrings: ""
+# FIXME: check for missing CPUs/GPUs
+Specifications:
+  CPU:
+    - "Intel Core 2 Duo P7550"
+    - "Intel Core 2 Duo P8700"
+    - "Intel Core 2 Duo P8400"
+  GPU:
+    - "NVIDIA GeForce 9400M"
+  RAM:
+    - "1066 MHz DDR3 SDRAM"
+  SystemReportName:
+    - "MacBook Pro (13-inch, Mid 2009)"
+  MarketingName:
+    - "MacBook Pro Intel Core 2 Duo (aluminum unibody) (Mid 2009)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "66D"
+  - "66E"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - ""
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2009
+  - 2010
+CloverSerialNumber: "W8951HAC66E"

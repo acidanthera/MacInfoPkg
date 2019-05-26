@@ -82,16 +82,13 @@ Specifications:
   CPU:
     - "Intel Core i5-7360U @ 2.30 GHz"
   GPU:
-    # FIXME: incorrect
-    - "Intel HD 630"
+    - "Intel Iris Plus Graphics 640"
   RAM:
-    # FIXME: incorrect
-    - "8GB 2400 MHz DDR4 SO-DIMM"
+    - "8 GB 2133 MHz DDR4 SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
     - "iMac (21.5-inch, Late 2017)"
   MarketingName:
-    - "iMac (21.5-inch, 2017)"
+    - "21.5\" iMac (Mid 2017)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "H7JY"

@@ -1,0 +1,104 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "96.0.0.0.0"
+BIOSLegacyVersion: "MBP61.88Z.005D.B00.1804100943"
+BIOSReleaseDate: "04/10/18"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBookPro6,2"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "CK132A91AGW"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Pro"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F22586C8"
+BoardVersion: "MacBookPro6,2"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x08
+ChassisVersion: "Mac-F22586C8"
+ChassisAssetTag: "MacBook-Aluminum"
+# FIXME: check
+PlatformFeature: 0x0
+# FIXME: check
+FirmwareFeatures: 0xC00DE137
+# FIXME: check
+FirmwareFeaturesMask: 0xFF1FFF3F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000C00DE137
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0xD
+# FIXME: check values (most should be correct?) and add missing, if any
+ProcessorType:
+  - 0x0602
+  - 0x0606
+  - 0x0702
+  - 0x0702
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x58
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x17
+# FIXME: check
+SmcBranch:
+  - 0x6B
+  - 0x37
+  - 0x34
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6B
+  - 0x37
+  - 0x34
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x7A004
+OEMStrings: ""
+# FIXME: check for missing CPUs/GPUs
+Specifications:
+  CPU:
+    - "Intel Core i5 520M"
+    - "Intel Core i5 540M"
+    - "Intel Core i7 620M"
+    - "Intel Core i7 640M"
+  GPU:
+    - "NVIDIA GeForce GT 330M"
+  RAM:
+    - "1066 MHz DDR3 SDRAM"
+  SystemReportName:
+    - "MacBook Pro (15-inch, Mid 2010)"
+  MarketingName:
+    - "MacBook Pro Intel Core i5, Intel Core i7 (Mid 2010)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "AGW"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - ""
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2010
+CloverSerialNumber: "CK132A91AGW"

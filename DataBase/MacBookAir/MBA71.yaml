@@ -1,0 +1,140 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "186.0.0.0.0"
+BIOSLegacyVersion: "MBA71.88Z.F000.B00.1904111401"
+BIOSReleaseDate: "04/11/2019"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBookAir7,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02PCLGFH569"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Air"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-9F18E312C5C2BF0B"
+BoardVersion: "MacBookAir7,1"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x09
+ChassisVersion: "Mac-9F18E312C5C2BF0B"
+ChassisAssetTag: "Air-Enclosure"
+# FIXME: check
+PlatformFeature: 0x0
+# FIXME: check
+FirmwareFeatures: 0xE00FE137
+# FIXME: check
+FirmwareFeaturesMask: 0xFF1FFF3F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000E00FE137
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0xD
+# FIXME: check values (most should be correct?) and add missing, if any
+ProcessorType:
+  - 0x0606
+  - 0x0706
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 2
+# FIXME: check
+SmcRevision:
+  - 0x02
+  - 0x26
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x02
+# FIXME: check
+SmcBranch:
+  - 0x6A
+  - 0x31
+  - 0x31
+  - 0x30
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6A
+  - 0x31
+  - 0x31
+  - 0x30
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x7B007
+OEMStrings: |-
+  Apple ROM Version
+    Model:       MBA71
+    EFI Version: 186.0.0.0.0
+    Built by:    root@xapp160
+    Date:        Thu Apr 11 14:01:15 PDT 2019
+    Revision:    186 (B&I)
+    ROM Version: F000_B00
+    Build Type:  Official Build, Release
+    Compiler:    Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)
+# FIXME: check for missing CPUs/GPUs
+Specifications:
+  CPU:
+    - "Intel Core i5 5250U"
+    - "Intel Core i7 5650U"
+  GPU:
+    - "Intel HD Graphics 6000"
+  RAM:
+    - "1600 MHz LPDDR3 SDRAM"
+  SystemReportName:
+    - "MacBook Air (13-inch, Early 2015)"
+  MarketingName:
+    - "11\" MacBook Air (Early 2015)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "H569"
+  - "GFWK"
+  - "GFWL"
+  - "GFWM"
+  - "GFWN"
+  - "GFWP"
+  - "GKJY"
+  - "GKK0"
+  - "GL28"
+  - "GL2D"
+  - "GL2F"
+  - "GL2H"
+  - "GLCQ"
+  - "GMC5"
+  - "GMC6"
+  - "GMC7"
+  - "GMC8"
+  - "GMC9"
+  - "GNJK"
+  - "GNJL"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "G90F"
+  - "G90R"
+  - "G90V"
+  - "G909"
+  - "G90J"
+  - "G90K"
+  - "G90G"
+  - "G90M"
+  - "G90W"
+  - "G90Q"
+  - "G90Y"
+  - "G910"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2015
+  - 2016
+CloverSerialNumber: "C02PVHACGFWL"

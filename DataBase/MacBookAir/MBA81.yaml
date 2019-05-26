@@ -63,15 +63,13 @@ Specifications:
   CPU:
     - "Intel Core i5-8210Y @ 1.60 GHz"
   GPU:
-    # FIXME: incorrect
-    - "Intel UHD 620"
+    - "Intel UHD 617"
   RAM:
-    # FIXME: incorrect
-    - "8GB 2666 MHz DDR4 SO-DIMM"
+    - "8GB 2133 MHz LPDDR3 SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
     - "MacBook Air (Retina, 13-inch, 2018)"
   MarketingName:
+    # FIXME
     - "MacBook Air (Retina, 13-inch, 2018)"
 # Note, first model code is used by macserial
 AppleModelCode:

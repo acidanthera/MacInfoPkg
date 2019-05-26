@@ -63,18 +63,16 @@ OEMStrings: |-
     UUID:         151B0907-10F9-3271-87CD-4BF5DBECACF5
 Specifications:
   CPU:
+    - "Intel Core i7-8559U @ 2.70 GHz"
     - "Intel Core i5-8259U @ 2.30 GHz"
   GPU:
-    # FIXME: incorrect
-    - "Intel UHD 630"
+    - "Intel Iris 655"
   RAM:
-    # FIXME: incorrect
-    - "8GB 2666 MHz DDR4 ECC SDRAM"
+    - "8GB 2133 MHz LPDDR3 SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
-    - "MacBook Pro (13-inch, Mid 2018)"
-  MarketingName:
     - "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)"
+  MarketingName:
+    - "13\" MacBook Pro with Thunderbolt 3 and Touch ID (Mid 2018)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "JHCC"

@@ -77,18 +77,16 @@ OEMStrings: |-
 Specifications:
   CPU:
     - "Intel Core i5-5257U @ 2.70 GHz"
+    - "Intel Core i5-5287U @ 2.90 GHz"
     - "Intel Core i7-5557U @ 3.10 GHz"
   GPU:
-    # FIXME: incorrect
-    - "Intel HD 6100"
+    - "Intel Iris 6100"
   RAM:
-    # FIXME: incorrect
-    - "8GB 1866 MHz DDR3L SDRAM"
+    - "8GB 1866 MHz LPDDR3 SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
     - "MacBook Pro (Retina, 13-inch, Early 2015)"
   MarketingName:
-    - "MacBook Pro (Retina, 13-inch, Early 2015)"
+    - "13\" MacBook Pro with Retina display (Early 2015)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "H1DP"

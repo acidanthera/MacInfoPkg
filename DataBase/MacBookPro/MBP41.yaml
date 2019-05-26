@@ -1,0 +1,93 @@
+BIOSVendor: "Apple Computer, Inc."
+BIOSVersion: "MBP41.88Z.00C1.B03.0802271651"
+BIOSLegacyVersion: "MBP41.88Z.00C1.B03.0802271651"
+BIOSReleaseDate: "02/27/08"
+SystemManufacturer: "Apple Computer, Inc."
+SystemProductName: "MacBookPro4,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "W88484F2YP4"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Pro"
+BoardManufacturer: "Apple Computer, Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-F42C89C8"
+BoardVersion: "MacBookPro4,1"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Computer, Inc."
+ChassisType: 0x08
+ChassisVersion: "Mac-F42C89C8"
+ChassisAssetTag: "MacBook-Aluminum"
+MemoryFormFactor: 0xD
+# FIXME: check values (most should be correct?) and add missing, if any
+ProcessorType:
+  - 0x0301
+  - 0x0301
+  - 0x0301
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x27
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x03
+# FIXME: check
+SmcBranch:
+  - 0x6D
+  - 0x38
+  - 0x37
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6D
+  - 0x38
+  - 0x37
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x7B002
+OEMStrings: ""
+# FIXME: check for missing CPUs/GPUs
+Specifications:
+  CPU:
+    - "Intel Core 2 Duo T8300"
+    - "Intel Core 2 Duo T9500"
+    - "Intel Core 2 Duo T9300"
+  GPU:
+    - "NVIDIA GeForce 8600M GT"
+  RAM:
+    - "667 MHz PC2-5300 DDR2 SDRAM"
+  SystemReportName:
+    - "MacBook Pro (17-inch, Early 2008)"
+  MarketingName: ""
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "YP4"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - ""
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2007
+  - 2008
+  - 2009
+CloverSerialNumber: "W88484F2YP4"

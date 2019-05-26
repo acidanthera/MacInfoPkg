@@ -1,0 +1,117 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "82.0.0.0.0"
+BIOSLegacyVersion: "IM121.88Z.F000.B00.1904162200"
+BIOSReleaseDate: "04/10/18"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "iMac12,1"
+SystemVersion: "1.9"
+# Note, this one is used by macserial
+SystemSerialNumber: "W80CF65ADHJF"
+SystemSKUNumber: ""
+SystemFamily: "iMac"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-942B5BF58194151B"
+BoardVersion: "iMac12,1"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x0D
+ChassisVersion: "Mac-942B5BF58194151B"
+ChassisAssetTag: "iMac-Aluminum"
+# FIXME: check
+PlatformFeature: 0x0
+# FIXME: check
+FirmwareFeatures: 0xE00DE137
+# FIXME: check
+FirmwareFeaturesMask: 0xFF1FFF3F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000E00DE137
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0x9
+# FIXME: check values (most should be correct?) and add missing, if any
+ProcessorType:
+  - 0x0603
+  - 0x0903
+  - 0x0603
+  - 0x0703
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x71
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x22
+# FIXME: check
+SmcBranch:
+  - 0x6B
+  - 0x36
+  - 0x30
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6B
+  - 0x36
+  - 0x30
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x73005
+OEMStrings: ""
+# FIXME: check for missing CPUs/GPUs
+Specifications:
+  CPU:
+    - "Intel Core i5 2400S"
+    - "Intel Core i3 2100"
+    - "Intel Core i5 2500S"
+    - "Intel Core i7 2600S"
+  GPU:
+    - "AMD Radeon HD 6770M"
+    - "AMD Radeon HD 6750M"
+  RAM:
+    - "1333 MHz PC3-10600 DDR3 SDRAM"
+  SystemReportName:
+    - "iMac (21.5-inch, Mid 2011)"
+  MarketingName:
+    - "21.5\" iMac (Early 2011)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "DHJF"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "DJWK"
+  - "DM66"
+  - "DNJK"
+  - "DP0H"
+  - "DKG1"
+  - "DM65"
+  - "DNJJ"
+  - "DKG2"
+  - "DM67"
+  - "DNJL"
+  - "DP0K"
+  - "DP00"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2011
+  - 2012
+CloverSerialNumber: "W80CF65ADHJF"

@@ -7,7 +7,7 @@ SystemProductName: "MacPro5,1"
 SystemVersion: "1.2"
 # Note, this one is used by macserial
 SystemSerialNumber: "H02380NSEUH"
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKU#"
 SystemFamily: "MacPro"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
@@ -67,15 +67,20 @@ OEMStrings: |-
     Build Type:   Release
 Specifications:
   CPU:
+    - "Intel Xeon W3530 @ 2.80 GHz"
+    - "Intel Xeon W3565 @ 3.20 GHz"
+    - "Intel Xeon W3680 @ 3.33 GHz"
+    - "Intel Xeon E5620 @ 2.40 GHz x2"
+    - "Intel Xeon E5620 @ 2.40 GHz x2"
+    - "Intel Xeon E5645 @ 2.40 GHz x2"
+    - "Intel Xeon X5650 @ 2.66 GHz x2"
+    - "Intel Xeon X5670 @ 2.93 GHz x2"
     - "Intel Xeon X5675 @ 3.06 GHz x2"
   GPU:
-    # FIXME: incorrect
-    - ""
+    - "ATI Radeon HD 5770"
   RAM:
-    # FIXME: incorrect
-    - ""
+    - "3GB 1066 MHz DDR3 ECC SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
     - "Mac Pro (Mid 2010)"
   MarketingName:
     - "Mac Pro (Mid 2010)"

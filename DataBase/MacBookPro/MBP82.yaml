@@ -1,0 +1,239 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "82.0.0.0.0"
+BIOSLegacyVersion: "MBP81.88Z.0050.B00.1804101331"
+BIOSReleaseDate: "04/10/18"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBookPro8,2"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "C02HL0FGDF8X"
+SystemSKUNumber: "System SKU#"
+SystemFamily: "MacBook Pro"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-00BE6ED71E35EB86"
+#  "Mac-smthelse"
+BoardProduct: "Mac-94245A3940C91C80"
+BoardVersion: "MacBookPro8,2"
+BoardAssetTag: ""
+BoardType: 0xA
+# FIXME: check
+BoardLocationInChassis: "Part Component"
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x0A
+ChassisVersion: "Mac-94245A3940C91C80"
+ChassisAssetTag: "MacBook-Aluminum"
+# FIXME: check
+PlatformFeature: 0x0
+# FIXME: check
+FirmwareFeatures: 0xC00DE137
+# FIXME: check
+FirmwareFeaturesMask: 0xFF1FFF3F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000C00DE137
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+MemoryFormFactor: 0xD
+# FIXME: check values (most should be correct?) and add missing, if any
+ProcessorType:
+  - 0x0703
+  - 0x0703
+  - 0x0703
+  - 0x0703
+  - 0x0703
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+# FIXME: check
+SmcGeneration: 1
+# FIXME: check
+SmcRevision:
+  - 0x01
+  - 0x69
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x04
+# FIXME: check
+SmcBranch:
+  - 0x74
+  - 0x72
+  - 0x75
+  - 0x6E
+  - 0x6B
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcPlatform:
+  - 0x6B
+  - 0x39
+  - 0x31
+  - 0x66
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+# FIXME: check
+SmcEPCI: 0x7B005
+OEMStrings: ""
+# FIXME: check for missing CPUs/GPUs
+Specifications:
+  CPU:
+    - "Intel Core i7 2675QM"
+    - "Intel Core i7 2820QM"
+    - "Intel Core i7 2760QM"
+    - "Intel Core i7 2720QM"
+    - "Intel Core i7 2860QM"
+  GPU:
+    - "AMD Radeon HD 6750M"
+    - "AMD Radeon HD 6770M"
+  RAM:
+    - "1333 MHz DDR3 SDRAM"
+  SystemReportName:
+    - "MacBook Pro (15-inch, Early 2011)"
+  MarketingName:
+    - "MacBook Pro Intel Core i7, 15\" (Early 2011)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "DF8X"
+  - "DRJD"
+  - "DRJF"
+  - "DF8V"
+  - "DRJC"
+# Note, first board code is used by macserial
+AppleBoardCode:
+  - "DMMN"
+  - "DMMQ"
+  - "DMMR"
+  - "DMMW"
+  - "DMN4"
+  - "DMN6"
+  - "DMNN"
+  - "DMNP"
+  - "DMNQ"
+  - "DMNR"
+  - "DMNT"
+  - "DMNV"
+  - "DRMN"
+  - "DRMY"
+  - "DRN0"
+  - "DRN2"
+  - "DRN4"
+  - "DRN6"
+  - "DRP8"
+  - "DRPM"
+  - "DRPT"
+  - "DRPW"
+  - "DRQ0"
+  - "DRQ3"
+  - "DTHH"
+  - "DTHR"
+  - "DTHW"
+  - "DTHY"
+  - "DTJ1"
+  - "DMML"
+  - "DMMM"
+  - "DMMV"
+  - "DMN1"
+  - "DMN3"
+  - "DMN5"
+  - "DMN7"
+  - "DMN8"
+  - "DMN9"
+  - "DMND"
+  - "DMNF"
+  - "DMNG"
+  - "DRMQ"
+  - "DRMT"
+  - "DRMV"
+  - "DRN1"
+  - "DRN7"
+  - "DRN8"
+  - "DRPC"
+  - "DRPK"
+  - "DRPL"
+  - "DRPQ"
+  - "DRPV"
+  - "DRQ2"
+  - "DTHJ"
+  - "DTHN"
+  - "DTHQ"
+  - "DTHT"
+  - "DTHV"
+  - "DMMK"
+  - "DMMP"
+  - "DMMT"
+  - "DMMY"
+  - "DMN0"
+  - "DMN2"
+  - "DMNC"
+  - "DMNH"
+  - "DMNJ"
+  - "DMNK"
+  - "DMNL"
+  - "DMNM"
+  - "DRMM"
+  - "DRMP"
+  - "DRMR"
+  - "DRMW"
+  - "DRN3"
+  - "DRN5"
+  - "DRP9"
+  - "DRPN"
+  - "DRPP"
+  - "DRPR"
+  - "DRPY"
+  - "DRQ1"
+  - "DTHK"
+  - "DTHL"
+  - "DTHM"
+  - "DTHP"
+  - "DTJ6"
+  - "DTWK"
+  - "DTWL"
+  - "DTWM"
+  - "DTWN"
+  - "DTWP"
+  - "DTWQ"
+  - "DTWR"
+  - "DTWT"
+  - "DTWV"
+  - "DTWW"
+  - "DTWY"
+  - "DTY0"
+  - "DYM2"
+  - "DYM3"
+  - "DYM4"
+  - "DYM5"
+  - "DYMC"
+  - "DYNC"
+  - "F16H"
+  - "DYN4"
+  - "DV36"
+  - "DV37"
+  - "DV3D"
+  - "DV3F"
+  - "DV3G"
+  - "DV3H"
+  - "DV3J"
+  - "DV3M"
+  - "DV3P"
+  - "DV3V"
+  - "DV3Y"
+  - "DV40"
+  - "DYM6"
+  - "DYM8"
+  - "DYM9"
+  - "DYMF"
+  - "DYMJ"
+  - "DV32"
+  - "DV34"
+  - "DV38"
+  - "DV39"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2011
+  - 2012
+CloverSerialNumber: "C02HL0FGDF8X"

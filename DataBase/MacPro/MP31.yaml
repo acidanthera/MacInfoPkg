@@ -23,9 +23,6 @@ ChassisManufacturer: "Apple Inc."
 ChassisType: 0x2
 ChassisVersion: "Mac-F42C88C8"
 ChassisAssetTag: "Pro-Enclosure"
-FirmwareFeatures: 0xC0001403
-FirmwareFeaturesMask: 0xC0003FFF
-# FIXME: Correct this one
 MemoryFormFactor: 0x9
 ProcessorType:
   - 0x0402
@@ -65,16 +62,15 @@ OEMStrings: |-
 Specifications:
   CPU:
     - "Intel Xeon E5462 @ 2.80 GHz x2"
+    - "Intel Xeon E5472 @ 3.00 GHz x2"
+    - "Intel Xeon X5482 @ 3.20 GHz x2"
   GPU:
-    # FIXME: incorrect
-    - ""
+    - "ATI Radeon HD 2600 XT"
   RAM:
-    # FIXME: incorrect
-    - ""
+    - "2GB 800 MHz DDR2 EEC FB-DIMM"
   SystemReportName:
     - "Mac Pro (Early 2008)"
   MarketingName:
-    # FIXME: incorrect?
     - "Mac Pro (Early 2008)"
 # Note, first model code is used by macserial
 AppleModelCode:

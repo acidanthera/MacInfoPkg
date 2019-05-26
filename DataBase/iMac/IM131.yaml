@@ -77,18 +77,19 @@ OEMStrings: |-
 Specifications:
   CPU:
     - "Intel Core i7-3770S @ 3.10 GHz"
-    - "Intel Core i5-3470S @ 3.60 GHz"
+    - "Intel Core i5-3470S @ 2.90 GHz"
+    - "Intel Core i5-3330S @ 2.70 GHz"
+    - "Intel Core i3-3225  @ 3.30 GHz"
   GPU:
-    # FIXME: incorrect
+    - "NVIDIA GeForce GT 640M"
+    - "NVIDIA GeForce GT 650M"
     - "Intel HD 4000"
   RAM:
-    # FIXME: incorrect
-    - "8GB 1600 MHz DDR3 SO-DIMM"
+    - "8GB 1600 MHz DDR3 SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
     - "iMac (21.5-inch, Late 2012)"
   MarketingName:
-    - "iMac (21.5-inch, Late 2012)"
+    - "21.5\" iMac (Late 2012)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DNCT"

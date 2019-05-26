@@ -72,15 +72,17 @@ OEMStrings: |-
     Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
 Specifications:
   CPU:
+    - "Intel Xeon E5-1620 v2 @ 3.70 GHz"
     - "Intel Xeon E5-1650 v2 @ 3.50 GHz"
+    - "Intel Xeon E5-1680 v2 @ 3.00 GHz"
+    - "Intel Xeon E5-2697 v2 @ 2.70 GHz"
   GPU:
-    # FIXME: incorrect
-    - ""
+    - "AMD FirePro D300"
+    - "AMD FirePro D500"
+    - "AMD FirePro D700"
   RAM:
-    # FIXME: incorrect
-    - ""
+    - "12 GB 1866 MHz DDR3 ECC SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
     - "Mac Pro (Late 2013)"
   MarketingName:
     - "Mac Pro (Late 2013)"

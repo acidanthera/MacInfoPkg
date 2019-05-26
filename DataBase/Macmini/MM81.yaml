@@ -62,17 +62,17 @@ OEMStrings: |-
 Specifications:
   CPU:
     - "Intel Core i7-8700B @ 3.20 GHz"
+    - "Intel Core i5-8500B @ 3.00 GHz"
+    - "Intel Core i3-8100B @ 3.60 GHz"
   GPU:
-    # FIXME: incorrect
     - "Intel UHD 630"
   RAM:
-    # FIXME: incorrect
-    - "8GB 2666 MHz DDR4 SO-DIMM"
+    - "8GB 2666 MHz PC4-21300 SDRAM"
   SystemReportName:
-    # FIXME: incorrect?
     - "Mac mini (2018)"
   MarketingName:
-    - "Mac mini (2018))"
+    # FIXME
+    - "Mac mini (2018)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "H7JY"
