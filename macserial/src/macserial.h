@@ -55,16 +55,7 @@ uint32_t arc4random_uniform(uint32_t upper_bound) __attribute__((weak));
 
 typedef struct {
   const char *productName;
-  const char *firmwareVersion;
-  const char *boardID;
-  const char *productFamily;
-  const char *systemVersion;
   const char *serialNumber;
-  const char *chassisAsset;
-  uint8_t smcRevision[6];
-  const char *smcBranch;
-  const char *smcPlatform;
-  uint32_t smcConfig;
 } PLATFORMDATA;
 
 typedef struct {
