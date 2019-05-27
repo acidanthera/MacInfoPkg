@@ -88,7 +88,5 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2009
-# Optional, override for macserial default year
-MacserialModelYear: 2009
 # Optional, override for SystemSerialNumber for Clover
 CloverSerialNumber: "CT930HAC4PD"

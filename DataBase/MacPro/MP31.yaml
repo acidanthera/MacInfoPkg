@@ -85,8 +85,3 @@ AppleBoardCode:
 AppleModelYear:
   - 2008
   - 2009
-# Optional, override for macserial default year
-# FIXME: Correct this one
-MacserialModelYear: 2008
-# Optional, override for SystemSerialNumber for Clover
-CloverSerialNumber: "W88A77AA5J4"

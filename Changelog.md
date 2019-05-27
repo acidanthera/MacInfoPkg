@@ -3,6 +3,7 @@ MacInfoPkg changelog
 #### v2.0.6
 - Initial model fillup (thx to all participants)
 - Multiple macserial database corrections (thx kylon)
+- Transition macserial to new database (thx al3xtjames)
 
 #### v2.0.5
 - Added initial iMac19,1 and iMac19,2 model data to macserial
