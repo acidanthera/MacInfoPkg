@@ -20,7 +20,7 @@ BoardAssetTag: ""
 BoardType: 0xB
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x7
+ChassisType: 0x2
 ChassisVersion: "Mac-F60DEB81FF30ACF6"
 ChassisAssetTag: "Pro-Enclosure"
 PlatformFeature: 0x04
