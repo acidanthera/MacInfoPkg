@@ -63,13 +63,17 @@ SmcEPCI: 0x07C002
 OEMStrings: |-
   Apple ROM Version
 Specifications:
+  CPUCodename:
+    - "Bloomfield"
+    - "Bloomfield"
+    - "Bloomfield"
   CPU:
     - "Intel Xeon W3520 @ 2.66 GHz"
     - "Intel Xeon W3540 @ 2.93 GHz"
     - "Intel Xeon W3580 @ 3.33 GHz"
-    - "Intel Xeon E5520 @ 2.26 GHz x2"
-    - "Intel Xeon X5550 @ 2.66 GHz x2"
-    - "Intel Xeon X5570 @ 2.93 GHz x2"
+    - "Intel Xeon E5520 x2 @ 2.26 GHz"
+    - "Intel Xeon X5550 x2 @ 2.66 GHz"
+    - "Intel Xeon X5570 x2 @ 2.93 GHz"
   GPU:
     - "NVIDIA GeForce GT 120"
   RAM:

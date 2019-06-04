@@ -29,6 +29,7 @@ MemoryFormFactor: 0x9
 ProcessorType:
   - 0x0501
   - 0x0501
+  - 0x0501
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
@@ -65,11 +66,15 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x79001
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Nehalem EP"
+    - "Nehalem EP"
+    - "Nehalem EP"
   CPU:
-    - "Intel Xeon E5520 x2"
-    - "Intel Xeon E5550 x2"
+    - "Intel Xeon E5520 x2 @ 2.26 GHz"
+    - "Intel Xeon X5550 x2 @ 2.66 GHz"
+    - "Intel Xeon X5570 x2 @ 2.93 GHz"
   GPU:
     - "NVIDIA GeForce GT 120"
   RAM:
@@ -89,3 +94,4 @@ AppleBoardCode:
 AppleModelYear:
   - 2009
 CloverSerialNumber: "CK933YJ16HS"
+

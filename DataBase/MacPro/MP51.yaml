@@ -66,16 +66,20 @@ OEMStrings: |-
     Date:         Fri Apr 12 12:43:00 2019
     Build Type:   Release
 Specifications:
+  CPUCodename:
+    - "Bloomfield"
+    - "Bloomfield"
+    - "Westmere EP"
   CPU:
     - "Intel Xeon W3530 @ 2.80 GHz"
     - "Intel Xeon W3565 @ 3.20 GHz"
     - "Intel Xeon W3680 @ 3.33 GHz"
-    - "Intel Xeon E5620 @ 2.40 GHz x2"
-    - "Intel Xeon E5620 @ 2.40 GHz x2"
-    - "Intel Xeon E5645 @ 2.40 GHz x2"
-    - "Intel Xeon X5650 @ 2.66 GHz x2"
-    - "Intel Xeon X5670 @ 2.93 GHz x2"
-    - "Intel Xeon X5675 @ 3.06 GHz x2"
+    - "Intel Xeon E5620 x2 @ 2.40 GHz"
+    - "Intel Xeon E5620 x2 @ 2.40 GHz"
+    - "Intel Xeon E5645 x2 @ 2.40 GHz"
+    - "Intel Xeon X5650 x2 @ 2.66 GHz"
+    - "Intel Xeon X5670 x2 @ 2.93 GHz"
+    - "Intel Xeon X5675 x2 @ 3.06 GHz"
   GPU:
     - "ATI Radeon HD 5770"
   RAM:

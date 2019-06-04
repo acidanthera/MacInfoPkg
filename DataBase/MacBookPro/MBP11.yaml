@@ -67,13 +67,17 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B002
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Yonah"
+    - "Yonah"
+    - "Yonah"
+    - "Yonah"
   CPU:
-    - "Intel Core Duo L2400"
-    - "Intel Core Duo T2400"
-    - "Intel Core Duo T2500"
-    - "Intel Core Duo T2600"
+    - "Intel Core Duo L2400 @ 1.66 GHz"
+    - "Intel Core Duo T2400 @ 1.83 GHz"
+    - "Intel Core Duo T2500 @ 2.00 GHz"
+    - "Intel Core Duo T2600 @ 2.16 GHz"
   GPU:
     - "AMD ATI Mobility Radeon X1600"
   RAM:

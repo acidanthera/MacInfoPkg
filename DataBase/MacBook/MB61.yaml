@@ -74,10 +74,11 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7A002
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Penryn"
   CPU:
-    - "Intel Core 2 Duo P7550"
+    - "Intel Core 2 Duo P7550 @ 2.26 GHz"
   GPU:
     - "NVIDIA GeForce 9400M"
   RAM:

@@ -79,6 +79,9 @@ OEMStrings: |-
     UUID:         95D4DBC4-9FA9-3A19-BD25-3ACD7C14835B
     UUID:         163445B7-EC94-344F-BA04-62F2A2CE4DE8
 Specifications:
+  CPUCodename:
+    - "Kaby Lake"
+    - "Kaby Lake"
   CPU:
     - "Intel Core i5-7360U @ 2.30 GHz"
     - "Intel Core i7-7660U @ 2.50 GHz"

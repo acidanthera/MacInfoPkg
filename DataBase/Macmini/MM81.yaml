@@ -60,6 +60,10 @@ OEMStrings: |-
     UUID:         539D8F88-9CAD-3065-AA02-F5F2B0536170
     UUID:         E74FCA0D-4D00-345C-9A76-A15AEC470388
 Specifications:
+  CPUCodename:
+    - "Coffee Lake"
+    - "Coffee Lake"
+    - "Coffee Lake"
   CPU:
     - "Intel Core i7-8700B @ 3.20 GHz"
     - "Intel Core i5-8500B @ 3.00 GHz"

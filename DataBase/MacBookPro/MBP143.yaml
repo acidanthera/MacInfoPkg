@@ -86,12 +86,15 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build, RELEASE
     Compiler:    Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Kaby Lake"
+    - "Kaby Lake"
+    - "Kaby Lake"
   CPU:
-    - "Intel Core i7 7700HQ"
-    - "Intel Core i7 7820HQ"
-    - "Intel Core i7 7920HQ"
+    - "Intel Core i7-7700HQ @ 2.80 GHz"
+    - "Intel Core i7-7820HQ @ 2.90 GHz"
+    - "Intel Core i7-7920HQ @ 3.10 GHz"
   GPU:
     - "AMD Radeon Pro 555"
     - "AMD Radeon Pro 560"

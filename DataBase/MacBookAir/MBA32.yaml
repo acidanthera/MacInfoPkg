@@ -75,11 +75,13 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x76005
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Penryn"
+    - "Penryn"
   CPU:
-    - "Intel Core 2 Duo SL9400"
-    - "Intel Core 2 Duo SL9600"
+    - "Intel Core 2 Duo SL9400 @ 1.86 GHz"
+    - "Intel Core 2 Duo SL9600 @ 2.13 GHz"
   GPU:
     - "NVIDIA GeForce 320M"
   RAM:

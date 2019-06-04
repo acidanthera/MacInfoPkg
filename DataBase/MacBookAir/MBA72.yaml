@@ -75,11 +75,13 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B007
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Broadwell"
+    - "Broadwell"
   CPU:
-    - "Intel Core i5 5250U"
-    - "Intel Core i7 5650U"
+    - "Intel Core i5-5250U @ 1.60 GHz"
+    - "Intel Core i7-5650U @ 2.20 GHz"
   GPU:
     - "Intel HD Graphics 6000"
   RAM:

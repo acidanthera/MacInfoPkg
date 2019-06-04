@@ -71,6 +71,10 @@ OEMStrings: |-
     Build Type:   Official Build, Release
     Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
 Specifications:
+  CPUCodename:
+    - "Ivy Bridge EP"
+    - "Ivy Bridge EP"
+    - "Ivy Bridge EP"
   CPU:
     - "Intel Xeon E5-1620 v2 @ 3.70 GHz"
     - "Intel Xeon E5-1650 v2 @ 3.50 GHz"

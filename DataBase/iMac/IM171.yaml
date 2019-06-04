@@ -109,6 +109,16 @@ OEMStrings: |-
     UUID:         F0617C92-AC78-3D2F-8DA8-041C791BB575
     UUID:         A00B19F1-C355-38FA-ADD4-3D89BD098264
 Specifications:
+  CPUCodename:
+    - "Skylake"
+    - "Skylake"
+    - "Skylake"
+    - "Skylake"
+    - "Skylake"
+    - "Skylake"
+    - "Skylake"
+    - "Skylake"
+    - "Skylake"
   CPU:
     - "Intel Core i5-6500 @ 3.20 GHz"
     - "Intel Core i5-6600 @ 3.30 GHz"

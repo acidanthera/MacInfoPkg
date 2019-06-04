@@ -78,6 +78,10 @@ OEMStrings: |-
     UUID:         8A368548-AB14-3C3F-AD6A-1FF5D8E4258B
     UUID:         AF310F8F-CE21-36FB-B8F3-0F6D67C8FF2F
 Specifications:
+  CPUCodename:
+    - "Skylake"
+    - "Skylake"
+    - "Skylake"
   CPU:
     - "Intel Core i7-6700HQ @ 2.60 GHz"
     - "Intel Core i7-6820HQ @ 2.70 GHz"

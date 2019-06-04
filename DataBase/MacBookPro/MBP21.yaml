@@ -64,10 +64,11 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B002
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Merom"
   CPU:
-    - "Intel Core 2 Duo T7600"
+    - "Intel Core 2 Duo T7600 @ 2.33 GHz"
   GPU:
     - "AMD ATI Mobility Radeon X1600"
   RAM:

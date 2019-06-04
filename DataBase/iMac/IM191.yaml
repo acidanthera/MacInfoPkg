@@ -77,6 +77,18 @@ OEMStrings: |-
     UUID:         91CEFEF6-A23A-38AB-B262-09C669528B49
     UUID:         FA5DD31A-A955-3871-9C29-D63F55303059
 Specifications:
+  CPUCodename:
+    - "Coffee Lake"
+    - "Coffee Lake"
+    - "Coffee Lake"
+    - "Coffee Lake"
+    - "Coffee Lake"
+    - "Coffee Lake"
+    - "Coffee Lake"
+    - "Amber Lake Y"
+    - "Coffee Lake"
+    - "Coffee Lake"
+    - "Coffee Lake"
   CPU:
     - "Intel Core i7-9900K @ 3.60 GHz"
     - "Intel Core i5-9600k @ 3.70 GHz"

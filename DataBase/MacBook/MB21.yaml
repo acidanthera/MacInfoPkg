@@ -66,12 +66,15 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x72001
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Merom"
+    - "Merom"
+    - "Merom"
   CPU:
-    - "Intel Core 2 Duo T5600"
-    - "Intel Core 2 Duo T7200"
-    - "Intel Core 2 Duo T7400"
+    - "Intel Core 2 Duo T5600 @ 1.83 GHz"
+    - "Intel Core 2 Duo T7200 @ 2.00 GHz"
+    - "Intel Core 2 Duo T7400 @ 2.16 GHz"
   GPU:
     - "Intel GMA 950 Graphics"
   RAM:

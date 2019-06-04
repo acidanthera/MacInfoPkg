@@ -77,13 +77,17 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x79006
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Ivy Bridge"
+    - "Ivy Bridge"
+    - "Ivy Bridge"
+    - "Ivy Bridge"
   CPU:
-    - "Intel Core i5 3470S"
-    - "Intel Core i5 3407S"
-    - "Intel Core i5 3470"
-    - "Intel Core i7 3770"
+    - "Intel Core i5-3470S @ 2.90 GHz"
+    - "Intel Core i5-3407S @ 2.90 GHz"
+    - "Intel Core i5-3470 @ 2.90 GHz"
+    - "Intel Core i7-3770 @ 2.50 GHz"
   GPU:
     - "NVIDIA GeForce GTX 660M"
     - "NVIDIA GeForce GTX 675MX"

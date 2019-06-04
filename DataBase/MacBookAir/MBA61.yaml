@@ -85,12 +85,15 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build, Release
     Compiler:    Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Haswell"
+    - "Haswell"
+    - "Haswell"
   CPU:
-    - "Intel Core i5 4250U"
-    - "Intel Core i5 4260U"
-    - "Intel Core i7 4650U"
+    - "Intel Core i5-4250U @ 1.30 GHz"
+    - "Intel Core i5-4260U @ 1.40 GHz"
+    - "Intel Core i7-4650U @ 1.70 GHz"
   GPU:
     - "Intel HD Graphics 5000"
   RAM:

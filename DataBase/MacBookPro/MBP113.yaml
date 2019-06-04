@@ -77,13 +77,17 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0xF0D007
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Crystal Well"
+    - "Crystal Well"
+    - "Crystal Well"
+    - "Crystal Well"
   CPU:
-    - "Intel Core i7 4850HQ"
-    - "Intel Core i7 4960HQ"
-    - "Intel Core i7 4870HQ"
-    - "Intel Core i7 4980HQ"
+    - "Intel Core i7-4850HQ @ 2.30 GHz"
+    - "Intel Core i7-4960HQ @ 2.60 GHz"
+    - "Intel Core i7-4870HQ @ 2.50 GHz"
+    - "Intel Core i7-4980HQ @ 2.80 GHz"
   GPU:
     - "Intel Iris 5200 Pro graphics"
     - "NVIDIA GeForce GT 750M"

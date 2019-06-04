@@ -79,6 +79,8 @@ OEMStrings: |-
     UUID:         2F23F08E-0AF7-3CE0-96F3-6147DAF5DBFB
     UUID:         2D49C185-F55E-372A-A59C-FF6831A2471B
 Specifications:
+  CPUCodename:
+    - "Kaby Lake"
   CPU:
     - "Intel Core i5-7360U @ 2.30 GHz"
   GPU:

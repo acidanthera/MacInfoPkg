@@ -75,11 +75,13 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x76006
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Ivy Bridge"
+    - "Ivy Bridge"
   CPU:
-    - "Intel Core i5 3210M"
-    - "Intel Core i7 3520M"
+    - "Intel Core i5-3210M @ 2.50 GHz"
+    - "Intel Core i7-3520M @ 2.90 GHz"
   GPU:
     - "Intel HD Graphics 4000"
   RAM:

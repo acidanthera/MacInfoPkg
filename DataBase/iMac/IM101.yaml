@@ -79,11 +79,13 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B002
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Wolfdale"
+    - "Wolfdale"
   CPU:
-    - "Intel Core 2 Duo E7600"
-    - "Intel Core 2 Duo E8600"
+    - "Intel Core 2 Duo E7600 @ 3.06 GHz"
+    - "Intel Core 2 Duo E8600 @ 3.33 GHz"
   GPU:
     - "AMD ATI Radeon HD 4670"
     - "NVIDIA GeForce 9400M"

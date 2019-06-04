@@ -74,6 +74,13 @@ OEMStrings: |-
     Build Type:   Official Build, Release
     Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
 Specifications:
+  CPUCodename:
+    - "Ivy Bridge"
+    - "Ivy Bridge"
+    - "Ivy Bridge"
+    - "Ivy Bridge"
+    - "Ivy Bridge"
+    - "Ivy Bridge"
   CPU:
     - "Intel Core i7-3615QM @ 2.30 GHz"
     - "Intel Core i7-3720QM @ 2.60 GHz"

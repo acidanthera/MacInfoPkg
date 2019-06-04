@@ -77,13 +77,17 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7A004
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Arrandale"
+    - "Arrandale"
+    - "Arrandale"
+    - "Arrandale"
   CPU:
-    - "Intel Core i5 520M"
-    - "Intel Core i5 540M"
-    - "Intel Core i7 620M"
-    - "Intel Core i7 640M"
+    - "Intel Core i5-520M @ 2.40 GHz"
+    - "Intel Core i5-540M @ 2.53 GHz"
+    - "Intel Core i7-620M @ 2.66 GHz"
+    - "Intel Core i7-640M @ 2.80 GHz"
   GPU:
     - "NVIDIA GeForce GT 330M"
   RAM:

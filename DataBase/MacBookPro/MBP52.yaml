@@ -67,13 +67,17 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B002
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Penryn"
+    - "Penryn"
+    - "Penryn"
+    - "Penryn"
   CPU:
-    - "Intel Core 2 Duo T9600"
-    - "Intel Core 2 Duo T9550"
-    - "Intel Core 2 Duo T9800"
-    - "Intel Core 2 Duo T9900"
+    - "Intel Core 2 Duo T9600 @ 2.80 GHz"
+    - "Intel Core 2 Duo T9550 @ 2.66 GHz"
+    - "Intel Core 2 Duo T9800 @ 2.93 GHz"
+    - "Intel Core 2 Duo T9900 @ 3.06 GHz"
   GPU:
     - "NVIDIA GeForce 9600M GT + NVIDIA GeForce 9400M"
   RAM:

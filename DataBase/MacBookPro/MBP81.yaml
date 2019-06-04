@@ -77,13 +77,17 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B005
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Sandy Bridge"
+    - "Sandy Bridge"
+    - "Sandy Bridge"
+    - "Sandy Bridge"
   CPU:
-    - "Intel Core i5 2415M"
-    - "Intel Core i5 2435M"
-    - "Intel Core i7 2640M"
-    - "Intel Core i7 2620M"
+    - "Intel Core i5-2415M @ 2.30 GHz"
+    - "Intel Core i5-2435M @ 2.40 GHz"
+    - "Intel Core i7-2640M @ 2.80 GHz"
+    - "Intel Core i7-2620M @ 2.70 GHz"
   GPU:
     - "Intel HD Graphics 3000"
   RAM:

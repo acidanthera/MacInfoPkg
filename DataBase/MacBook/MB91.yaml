@@ -86,6 +86,10 @@ OEMStrings: |-
     UUID:         021A5E00-7894-3E61-A9C1-8EC789188CA6
     UUID:         DFDDACC6-32D3-3FDA-950A-6F816BBCA38E
 Specifications:
+  CPUCodename:
+    - "Skylake"
+    - "Skylake"
+    - "Skylake"
   CPU:
     - "Intel Core m3-6Y30 @ 1.10 GHz"
     - "Intel Core m5-6Y54 @ 1.20 GHz"
