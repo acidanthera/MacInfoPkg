@@ -78,6 +78,16 @@ OEMStrings: |-
     UUID:         04E73AA7-F5C4-3C6C-8FDD-433A5F441D96
     UUID:         E389C0CE-F862-3AD4-9AB7-B708278C6F14
 Specifications:
+  CPUCodename:
+    - "Kaby Lake"
+    - "Kaby Lake"
+    - "Kaby Lake"
+    - "Kaby Lake"
+    - "Kaby Lake"
+    - "Kaby Lake"
+    - "Kaby Lake"
+    - "Kaby Lake"
+    - "Kaby Lake"
   CPU:
     - "Intel Core i5-7600k @ 3.80 GHz"
     - "Intel Core i5-7600 @ 3.50 GHz"

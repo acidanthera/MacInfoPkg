@@ -69,9 +69,9 @@ OEMStrings: |-
   Apple ROM Version
 Specifications:
   CPU:
-    - "Intel Core Xeon 5130 @ 2.00 GHz x2"
-    - "Intel Core Xeon 5150 @ 2.66 GHz x2"
-    - "Intel Core Xeon 5160 @ 3.00 GHz x2"
+    - "Intel Core Xeon 5130 x2 @ 2.00 GHz"
+    - "Intel Core Xeon 5150 x2 @ 2.66 GHz"
+    - "Intel Core Xeon 5160 x2 @ 3.00 GHz"
   GPU:
     - "NVIDIA GeForce 7300 GT"
   RAM:

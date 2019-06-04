@@ -66,12 +66,15 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7B002
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Penryn"
+    - "Penryn"
+    - "Penryn"
   CPU:
-    - "Intel Core 2 Duo T8300"
-    - "Intel Core 2 Duo T9500"
-    - "Intel Core 2 Duo T9300"
+    - "Intel Core 2 Duo T8300 @ 2.40 GHz"
+    - "Intel Core 2 Duo T9500 @ 2.60 GHz"
+    - "Intel Core 2 Duo T9300 @ 2.50 GHz"
   GPU:
     - "NVIDIA GeForce 8600M GT"
   RAM:

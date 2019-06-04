@@ -61,9 +61,9 @@ OEMStrings: |-
   Apple ROM Version
 Specifications:
   CPU:
-    - "Intel Xeon E5462 @ 2.80 GHz x2"
-    - "Intel Xeon E5472 @ 3.00 GHz x2"
-    - "Intel Xeon X5482 @ 3.20 GHz x2"
+    - "Intel Xeon E5462 x2 @ 2.80 GHz"
+    - "Intel Xeon E5472 x2 @ 3.00 GHz"
+    - "Intel Xeon X5482 x2 @ 3.20 GHz"
   GPU:
     - "ATI Radeon HD 2600 XT"
   RAM:

@@ -79,6 +79,9 @@ OEMStrings: |-
     UUID:         F58BC585-E680-3CEB-8F77-7D03BEAB2864
     UUID:         6DA8A53F-AD63-3E86-AC11-F94E53DFA2BA
 Specifications:
+  CPUCodename:
+    - "Skylake"
+    - "Skylake"
   CPU:
     - "Intel Core i5-6360U @ 2.00 GHz"
     - "Intel Core i7-6660U @ 2.40 GHz"

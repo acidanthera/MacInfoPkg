@@ -68,14 +68,19 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x78002
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Penryn"
+    - "Penryn"
+    - "Penryn"
+    - "Penryn"
+    - "Penryn"
   CPU:
-    - "Intel Core 2 Duo P7350"
-    - "Intel Core 2 Duo P8700"
-    - "Intel Core 2 Duo P7550"
-    - "Intel Core 2 Duo P8400"
-    - "Intel Core 2 Duo P8800"
+    - "Intel Core 2 Duo P7350 @ 2.00 GHz"
+    - "Intel Core 2 Duo P8700 @ 2.53 GHz"
+    - "Intel Core 2 Duo P7550 @ 2.26 GHz"
+    - "Intel Core 2 Duo P8400 @ 2.26 GHz"
+    - "Intel Core 2 Duo P8800 @ 2.66 GHz"
   GPU:
     - "NVIDIA GeForce 9400M"
   RAM:

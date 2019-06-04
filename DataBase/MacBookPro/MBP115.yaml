@@ -75,11 +75,13 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0xF0B007
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Crystal Well"
+    - "Crystal Well"
   CPU:
-    - "Intel Core i7 4870HQ"
-    - "Intel Core i7 4980HQ"
+    - "Intel Core i7-4870HQ @ 2.50 GHz"
+    - "Intel Core i7-4980HQ @ 2.80 GHz"
   GPU:
     - "AMD Radeon R9 M370X"
   RAM:

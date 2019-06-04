@@ -83,10 +83,11 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build, Release
     Compiler:    Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Sandy Bridge"
   CPU:
-    - "Intel Core i5 2415M"
+    - "Intel Core i5-2415M @ 2.30 GHz"
   GPU:
     - "Intel HD Graphics 3000"
   RAM:

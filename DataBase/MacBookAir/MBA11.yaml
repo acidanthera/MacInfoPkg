@@ -65,11 +65,13 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x76005
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Merom"
+    - "Merom"
   CPU:
-    - "Intel Core 2 Duo P7500"
-    - "Intel Core 2 Duo P7700"
+    - "Intel Core 2 Duo P7500 @ 1.60 GHz"
+    - "Intel Core 2 Duo P7700 @ 3.06 GHz"
   GPU:
     - "Intel GMA X3100 Graphics"
   RAM:

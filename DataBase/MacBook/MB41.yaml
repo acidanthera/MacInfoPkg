@@ -65,11 +65,13 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x74001
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Penryn"
+    - "Penryn"
   CPU:
-    - "Intel Core 2 Duo T8300"
-    - "Intel Core 2 Duo T8100"
+    - "Intel Core 2 Duo T8300 @ 2.40 GHz"
+    - "Intel Core 2 Duo T8100 @ 2.10 GHz"
   GPU:
     - "Intel GMA X3100 Graphics"
   RAM:

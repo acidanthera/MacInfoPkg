@@ -85,12 +85,15 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build, Release
     Compiler:    Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Broadwell"
+    - "Broadwell"
+    - "Broadwell"
   CPU:
-    - "Intel Core M 5Y51"
-    - "Intel Core M 5Y31"
-    - "Intel Core M 5Y71"
+    - "Intel Core M 5Y51 @ 1.10 GHz"
+    - "Intel Core M 5Y31 @ 900 MHz"
+    - "Intel Core M 5Y71 @ 1.20 GHz"
   GPU:
     - "Intel HD Graphics 5300"
   RAM:

@@ -77,13 +77,17 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x7D004
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Kaby Lake"
+    - "Broadwell"
+    - "Broadwell E"
+    - "Kaby Lake G"
   CPU:
-    - "Intel Core i5 760"
-    - "Intel Core i3 550"
-    - "Intel Core i5 680"
-    - "Intel Core i7 870"
+    - "Intel Core i5-760 @ 2.80 GHz"
+    - "Intel Core i3-550 @ 2.40 GHz"
+    - "Intel Core i5-680 @ 3.40 GHz"
+    - "Intel Core i7-870 @ 3.10 GHz"
   GPU:
     - "AMD ATI Radeon HD 5750"
     - "AMD ATI Radeon HD 5670"

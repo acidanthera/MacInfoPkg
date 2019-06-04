@@ -76,12 +76,15 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0xF07009
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Kaby Lake"
+    - "Kaby Lake"
+    - "Kaby Lake"
   CPU:
-    - "Intel Core i5 7400"
-    - "Intel Core i5 7500"
-    - "Intel Core i7 7700"
+    - "Intel Core i5-7400 @ 2.40 GHz"
+    - "Intel Core i5-7500 @ 2.70 GHz"
+    - "Intel Core i7-7700 @ 2.80 GHz"
   GPU:
     - "AMD Radeon Pro 555"
     - "AMD Radeon Pro 560"

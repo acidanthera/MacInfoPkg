@@ -85,12 +85,15 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build, Release
     Compiler:    Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Crystal Well"
+    - "Crystal Well"
+    - "Crystal Well"
   CPU:
-    - "Intel Core i7 4770HQ"
-    - "Intel Core i7 4870HQ"
-    - "Intel Core i7 4980HQ"
+    - "Intel Core i7-4770HQ @ 2.20 GHz"
+    - "Intel Core i7-4870HQ @ 2.50 GHz"
+    - "Intel Core i7-4980HQ @ 2.80 GHz"
   GPU:
     - "Intel Iris 5200 Pro graphics"
   RAM:

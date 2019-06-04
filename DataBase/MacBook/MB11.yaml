@@ -65,11 +65,13 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x71001
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Yonah"
+    - "Yonah"
   CPU:
-    - "Intel Core Duo T2400"
-    - "Intel Core Duo T2500"
+    - "Intel Core Duo T2400 @ 1.83 GHz"
+    - "Intel Core Duo T2500 @ 2.00 GHz"
   GPU:
     - "Intel GMA 950 Graphics"
   RAM:

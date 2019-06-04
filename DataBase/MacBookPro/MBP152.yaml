@@ -62,6 +62,9 @@ OEMStrings: |-
     UUID:         E5D1475B-29FF-32BA-8552-682622BA42E1
     UUID:         151B0907-10F9-3271-87CD-4BF5DBECACF5
 Specifications:
+  CPUCodename:
+    - "Coffee Lake"
+    - "Coffee Lake"
   CPU:
     - "Intel Core i7-8559U @ 2.70 GHz"
     - "Intel Core i5-8259U @ 2.30 GHz"

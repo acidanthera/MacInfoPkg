@@ -60,6 +60,8 @@ OEMStrings: |-
     UUID:         FE3C4726-5FCD-3102-B257-1EBCA0D07057
     UUID:         F6276C6C-7FBB-39C8-AA6D-CAEE8CBF89A7
 Specifications:
+  CPUCodename:
+    - "Amber Lake Y"
   CPU:
     - "Intel Core i5-8210Y @ 1.60 GHz"
   GPU:

@@ -67,13 +67,17 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x73002
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Wolfdale"
+    - "Wolfdale"
+    - "Penryn"
+    - "Penryn"
   CPU:
-    - "Intel Core 2 Duo E8435"
-    - "Intel Core 2 Duo E8135"
-    - "Intel Core 2 Duo E8335"
-    - "Intel Core 2 Duo E8235"
+    - "Intel Core 2 Duo E8435 @ 3.06 GHz"
+    - "Intel Core 2 Duo E8135 @ 2.66 GHz"
+    - "Intel Core 2 Duo E8335 @ 2.66 GHz"
+    - "Intel Core 2 Duo E8235 @ 2.80 GHz"
   GPU:
     - "AMD ATI Radeon HD 2600 PRO"
     - "AMD ATI Radeon HD 2400 XT"

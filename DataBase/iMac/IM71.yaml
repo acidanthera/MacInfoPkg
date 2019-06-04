@@ -66,12 +66,15 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x73002
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Merom"
+    - "Merom"
+    - "Merom"
   CPU:
-    - "Intel Core 2 Duo T7300"
-    - "Intel Core 2 Duo T7700"
-    - "Intel Core 2 Extreme X7900"
+    - "Intel Core 2 Duo T7300 @ 2.00 GHz"
+    - "Intel Core 2 Duo T7700 @ 2.40 GHz"
+    - "Intel Core 2 Extreme X7900 @ 2.80 GHz"
   GPU:
     - "AMD ATI Radeon HD 2400 XT"
   RAM:

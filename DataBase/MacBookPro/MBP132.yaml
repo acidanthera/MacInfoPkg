@@ -86,12 +86,15 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build, RELEASE
     Compiler:    Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Skylake"
+    - "Skylake"
+    - "Skylake"
   CPU:
-    - "Intel Core i7 6567U"
-    - "Intel Core i5 6267U"
-    - "Intel Core i5 6287U"
+    - "Intel Core i7-6567U @ 3.30 GHz"
+    - "Intel Core i5-6267U @ 2.90 GHz"
+    - "Intel Core i5-6287U @ 3.10 GHz"
   GPU:
     - "Intel Iris Graphics 550"
   RAM:

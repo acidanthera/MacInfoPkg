@@ -83,10 +83,11 @@ OEMStrings: |-
     ROM Version: F000_B00
     Build Type:  Official Build, Release
     Compiler:    Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Crystal Well"
   CPU:
-    - "Intel Core i5 4570R"
+    - "Intel Core i5-4570R @ 2.70 GHz"
   GPU:
     - "Intel Iris Pro 5200"
   RAM:

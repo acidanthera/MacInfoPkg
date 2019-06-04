@@ -60,6 +60,11 @@ OEMStrings: |-
     UUID:         C8A13C9C-6EF4-30EB-976D-90D862C0ED47
     UUID:         E2C893C9-968C-3685-AD19-33C30623DD0E
 Specifications:
+  CPUCodename:
+    - "Skylake"
+    - "Skylake"
+    - "Skylake"
+    - "Skylake"
   CPU:
     - "Intel Xeon W-2140B CPU @ 3.20 GHz"
     - "Intel Xeon W-2150B CPU @ 3.00 GHz"

@@ -64,10 +64,11 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x73002
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Yonah"
   CPU:
-    - "Intel Core Duo T2400"
+    - "Intel Core Duo T2400 @ 1.83 GHz"
   GPU:
     - "Intel GMA950 graphics"
   RAM:

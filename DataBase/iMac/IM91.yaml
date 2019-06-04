@@ -68,14 +68,19 @@ SmcPlatform:
 # FIXME: check
 SmcEPCI: 0x73002
 OEMStrings: ""
-# FIXME: check for missing CPUs/GPUs
 Specifications:
+  CPUCodename:
+    - "Wolfdale"
+    - "Penryn"
+    - "Wolfdale"
+    - "Penryn"
+    - "Penryn"
   CPU:
-    - "Intel Core 2 Duo E8135"
-    - "Intel Core 2 Duo E8335"
-    - "Intel Core 2 Duo E8435"
-    - "Intel Core 2 Duo P7350"
-    - "Intel Core 2 Duo P7550"
+    - "Intel Core 2 Duo E8135 @ 2.66 GHz"
+    - "Intel Core 2 Duo E8335 @ 2.66 GHz"
+    - "Intel Core 2 Duo E8435 @ 3.06 GHz"
+    - "Intel Core 2 Duo P7350 @ 2.00 GHz"
+    - "Intel Core 2 Duo P7550 @ 2.26 GHz"
   GPU:
     - "NVIDIA GeForce GT 120"
     - "NVIDIA GeForce 9400M"

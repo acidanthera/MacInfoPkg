@@ -74,10 +74,14 @@ OEMStrings: |-
     Build Type:   Official Build, Release
     Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
 Specifications:
+  CPUCodename:
+    - "Ivy Bridge"
+    - "Ivy Bridge"
+    - "Ivy Bridge"
   CPU:
-    - "Intel Core i5-3317U CPU @ 1.70GHz"
-    - "Intel Core i5-3427U CPU @ 1.80GHz"
-    - "Intel Core i7-3667U CPU @ 2.00GHz"
+    - "Intel Core i5-3317U @ 1.70GHz"
+    - "Intel Core i5-3427U @ 1.80GHz"
+    - "Intel Core i7-3667U @ 2.00GHz"
   GPU:
     - "Intel HD 4000"
   RAM:
