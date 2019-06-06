@@ -65,6 +65,8 @@ SmcEPCI: 0x079001
 OEMStrings: |-
   Apple ROM Version
 Specifications:
+  CPUCodename:
+    - "Clovertown"
   CPU:
     - "Intel Xeon X5365 x2 @ 3.00 GHz"
   GPU:
