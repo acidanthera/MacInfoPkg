@@ -68,6 +68,10 @@ SmcEPCI: 0x079001
 OEMStrings: |-
   Apple ROM Version
 Specifications:
+  CPUCodename:
+    - "Woodcrest"
+    - "Woodcrest"
+    - "Woodcrest"
   CPU:
     - "Intel Core Xeon 5130 x2 @ 2.00 GHz"
     - "Intel Core Xeon 5150 x2 @ 2.66 GHz"

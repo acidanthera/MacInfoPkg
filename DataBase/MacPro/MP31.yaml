@@ -60,6 +60,10 @@ SmcEPCI: 0x79001
 OEMStrings: |-
   Apple ROM Version
 Specifications:
+  CPUCodename:
+    - "Harpertown"
+    - "Harpertown"
+    - "Harpertown"
   CPU:
     - "Intel Xeon E5462 x2 @ 2.80 GHz"
     - "Intel Xeon E5472 x2 @ 3.00 GHz"
