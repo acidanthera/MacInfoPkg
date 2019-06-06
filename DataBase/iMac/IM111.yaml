@@ -77,11 +77,11 @@ SmcEPCI: 0x7B004
 OEMStrings: ""
 Specifications:
   CPUCodename:
-    - "Kaby Lake"
-    - "Coffee Lake"
+    - "Lynnfield"
+    - "Lynnfield"
   CPU:
-    - "Intel Core i5-750 @ 2.70 GHz"
-    - "Intel Core i7-860 @ 2.30 GHz"
+    - "Intel Core i5-750 @ 2.66 GHz"
+    - "Intel Core i7-860 @ 2.80 GHz"
   GPU:
     - "AMD ATI Radeon HD 4850"
   RAM:

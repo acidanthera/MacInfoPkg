@@ -86,8 +86,8 @@ Specifications:
   CPU:
     - "Intel Core i5-3470S @ 2.90 GHz"
     - "Intel Core i5-3407S @ 2.90 GHz"
-    - "Intel Core i5-3470 @ 2.90 GHz"
-    - "Intel Core i7-3770 @ 2.50 GHz"
+    - "Intel Core i5-3470 @ 3.20 GHz"
+    - "Intel Core i7-3770 @ 3.40 GHz"
   GPU:
     - "NVIDIA GeForce GTX 660M"
     - "NVIDIA GeForce GTX 675MX"

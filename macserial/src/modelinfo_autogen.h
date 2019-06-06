@@ -86,11 +86,11 @@ typedef enum {
   Xserve2_1, // Intel Xeon E5462 x2 @ 2.80 GHz
   Xserve3_1, // Intel Xeon E5520 x2 @ 2.26 GHz
   iMac10_1, // Intel Core 2 Duo E7600 @ 3.06 GHz
-  iMac11_1, // Intel Core i5-750 @ 2.70 GHz
-  iMac11_2, // Intel Core i3-540 @ 1.20 GHz
+  iMac11_1, // Intel Core i5-750 @ 2.66 GHz
+  iMac11_2, // Intel Core i3-540 @ 3.06 GHz
   iMac11_3, // Intel Core i5-760 @ 2.80 GHz
   iMac12_1, // Intel Core i5-2400S @ 2.50 GHz
-  iMac12_2, // Intel Core i7-2600 @ 2.80 GHz
+  iMac12_2, // Intel Core i7-2600 @ 3.40 GHz
   iMac13_1, // Intel Core i7-3770S @ 3.10 GHz
   iMac13_2, // Intel Core i5-3470S @ 2.90 GHz
   iMac13_3, // Intel Core i5-3470S @ 2.90 GHz
@@ -103,10 +103,10 @@ typedef enum {
   iMac16_2, // Intel Core i5-5675R @ 3.10 GHz
   iMac17_1, // Intel Core i5-6500 @ 3.20 GHz
   iMac18_1, // Intel Core i5-7360U @ 2.30 GHz
-  iMac18_2, // Intel Core i5-7400 @ 2.40 GHz
+  iMac18_2, // Intel Core i5-7400 @ 3.00 GHz
   iMac18_3, // Intel Core i5-7600k @ 3.80 GHz
-  iMac19_1, // Intel Core i7-9900K @ 3.60 GHz
-  iMac19_2, // Intel Core i5-8500 @ 1.50 GHz
+  iMac19_1, // Intel Core i9-9900K @ 3.60 GHz
+  iMac19_2, // Intel Core i5-8500 @ 3.00 GHz
   iMac4_1, // Intel Core Duo T2400 @ 1.83 GHz
   iMac4_2, // Intel Core Duo T2400 @ 1.83 GHz
   iMac5_1, // Intel Core 2 Duo T7200 @ 2.00 GHz

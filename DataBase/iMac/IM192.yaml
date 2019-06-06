@@ -79,12 +79,12 @@ SmcEPCI: 0xF070090
 OEMStrings: ""
 Specifications:
   CPUCodename:
-    - "Amber Lake Y"
+    - "Coffee Lake"
     - "Coffee Lake"
     - "Coffee Lake"
     - "Coffee Lake"
   CPU:
-    - "Intel Core i5-8500 @ 1.50 GHz"
+    - "Intel Core i5-8500 @ 3.00 GHz"
     - "Intel Core i3-8100B @ 3.60 GHz"
     - "Intel Core i5-8500B @ 3.00 GHz"
     - "Intel Core i7-8700B @ 3.20 GHz"
