@@ -76,11 +76,6 @@ Specifications:
   CPUCodename:
     - "Devil's Canyon"
     - "Haswell"
-    - "Devil's Canyon"
-    - "Haswell"
-    - "Haswell"
-    - "Haswell"
-    - "Haswell"
     - "Haswell"
   CPU:
     - "Intel Core i7-4790k @ 4.00 GHz"

@@ -78,13 +78,13 @@ SmcEPCI: 0x7C004
 OEMStrings: ""
 Specifications:
   CPUCodename:
-    - "Arrandale"
-    - "Broadwell"
-    - "Broadwell E"
+    - "Clarkdale"
+    - "Clarkdale"
+    - "Clarkdale"
   CPU:
-    - "Intel Core i3-540 @ 1.20 GHz"
-    - "Intel Core i3-550 @ 2.40 GHz"
-    - "Intel Core i5-680 @ 3.40 GHz"
+    - "Intel Core i3-540 @ 3.06 GHz"
+    - "Intel Core i3-550 @ 3.20 GHz"
+    - "Intel Core i5-680 @ 3.60 GHz"
   GPU:
     - "AMD ATI Radeon HD 5670"
     - "AMD ATI Radeon HD 4670"
