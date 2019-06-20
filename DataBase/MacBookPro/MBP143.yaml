@@ -183,3 +183,5 @@ AppleModelYear:
   - 2017
   - 2018
 CloverSerialNumber: "C02TQHACHTD5"
+MinimumOSVersion: 10.12.5
+MaximumOSVersion: None

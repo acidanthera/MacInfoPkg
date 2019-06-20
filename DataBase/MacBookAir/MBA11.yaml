@@ -92,3 +92,5 @@ AppleModelYear:
   - 2008
   - 2009
 CloverSerialNumber: "W864947A18X"
+MinimumOSVersion: 10.5.1
+MaximumOSVersion: 10.7.5

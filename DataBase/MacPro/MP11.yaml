@@ -95,3 +95,5 @@ AppleModelYear:
   - 2006
   - 2007
   - 2008
+MinimumOSVersion: 10.4.7
+MaximumOSVersion: 10.7.5

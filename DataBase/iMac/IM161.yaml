@@ -137,3 +137,5 @@ AppleModelYear:
   - 2016
   - 2017
 CloverSerialNumber: "C02QQHACGF1J"
+MinimumOSVersion: 10.11
+MaximumOSVersion: None

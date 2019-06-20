@@ -134,3 +134,5 @@ AppleModelYear:
   - 2013
 # Optional, override for SystemSerialNumber for Clover
 CloverSerialNumber: "C02HA041DRVC"
+MinimumOSVersion: 10.8.2
+MaximumOSVersion: None

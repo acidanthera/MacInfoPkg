@@ -99,3 +99,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2009
 CloverSerialNumber: "YM003HAC9G6"
+MinimumOSVersion: 10.6.1
+MaximumOSVersion: 10.11.x

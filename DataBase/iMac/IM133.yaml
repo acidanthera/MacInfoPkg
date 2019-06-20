@@ -105,3 +105,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2013
 CloverSerialNumber: "C02KVHACFFYV"
+MinimumOSVersion: 10.8.2
+MaximumOSVersion: None

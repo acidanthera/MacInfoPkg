@@ -119,3 +119,5 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2018
+MinimumOSVersion: 10.14.1
+MaximumOSVersion: None

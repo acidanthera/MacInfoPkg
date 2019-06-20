@@ -137,3 +137,5 @@ AppleModelYear:
   - 2011
   - 2012
 CloverSerialNumber: "C02HVHACDJYC"
+MinimumOSVersion: 10.7
+MaximumOSVersion: 10.13.x

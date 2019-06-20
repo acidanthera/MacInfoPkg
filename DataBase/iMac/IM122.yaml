@@ -113,3 +113,5 @@ AppleModelYear:
   - 2011
   - 2012
 CloverSerialNumber: "W88GG136DHJQ"
+MinimumOSVersion: 10.6.6
+MaximumOSVersion: 10.13.x

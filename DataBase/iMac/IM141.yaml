@@ -111,3 +111,5 @@ AppleModelYear:
   - 2014
   - 2015
 CloverSerialNumber: "D25LHACKF8J2"
+MinimumOSVersion: 10.8.4
+MaximumOSVersion: None
