@@ -101,3 +101,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2009
 CloverSerialNumber: "W8919HAC0TG"
+MinimumOSVersion: 10.5.8
+MaximumOSVersion: 10.11.x

@@ -90,3 +90,5 @@ AppleModelYear:
   - 2007
   - 2008
 CloverSerialNumber: "W8747HACZ63"
+MinimumOSVersion: 10.5
+MaximumOSVersion: 10.7.5

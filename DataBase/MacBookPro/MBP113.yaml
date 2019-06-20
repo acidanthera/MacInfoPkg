@@ -123,3 +123,5 @@ AppleModelYear:
   - 2013
   - 2014
 CloverSerialNumber: "C02NNHACG3QP"
+MinimumOSVersion: 10.9.4
+MaximumOSVersion: None

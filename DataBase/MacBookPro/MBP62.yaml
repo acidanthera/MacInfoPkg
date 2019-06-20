@@ -106,3 +106,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2010
 CloverSerialNumber: "CK132A91AGW"
+MinimumOSVersion: 10.6.3
+MaximumOSVersion: 10.13.x

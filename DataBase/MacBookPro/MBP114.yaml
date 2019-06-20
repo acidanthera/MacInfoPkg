@@ -118,3 +118,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2015
 CloverSerialNumber: "C02Q7HACG8WL"
+MinimumOSVersion: 10.10.3
+MaximumOSVersion: None

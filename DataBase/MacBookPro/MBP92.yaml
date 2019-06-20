@@ -109,3 +109,5 @@ AppleModelYear:
   - 2013
   - 2014
 CloverSerialNumber: "C02HA041DTY3"
+MinimumOSVersion: 10.7.3
+MaximumOSVersion: None

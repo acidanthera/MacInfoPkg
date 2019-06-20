@@ -121,3 +121,5 @@ AppleModelYear:
   - 2015
   - 2016
 CloverSerialNumber: "C02Q3HACG8WM"
+MinimumOSVersion: 10.10.3
+MaximumOSVersion: None

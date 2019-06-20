@@ -124,3 +124,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2017
   - 2018
+MinimumOSVersion: 10.12.4
+MaximumOSVersion: None
