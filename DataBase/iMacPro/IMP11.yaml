@@ -37,8 +37,15 @@ ProcessorType:
 ProcessorBusSpeed:
   - 12345
 SmcGeneration: 3
-SmcPlatform:
-  - 0x6a
+SmcRevision:
+  - 0x02
+  - 0x41
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x01
+SmcBranch:
+  - 0x6A
   - 0x31
   - 0x33
   - 0x37
@@ -46,6 +53,16 @@ SmcPlatform:
   - 0x00
   - 0x00
   - 0x00
+SmcPlatform:
+  - 0x6A
+  - 0x31
+  - 0x33
+  - 0x37
+  - 0x00
+  - 0x00
+  - 0x00
+  - 0x00
+SmcEPCI: 0xF07009
 OEMStrings: |-
   Apple ROM Version
     BIOS ID:      IMP11.88Z.F000.B00.1904222000

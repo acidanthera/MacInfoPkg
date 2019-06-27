@@ -39,6 +39,22 @@ ProcessorBusSpeed:
   - 12345
   - 12345
 SmcGeneration: 3
+SmcRevision:
+  - 0x02
+  - 0x44
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x01
+SmcBranch:
+  - 0x32
+  - 0x30
+  - 0x31
+  - 0x38
+  - 0x6D
+  - 0x62
+  - 0x70
+  - 0x00
 SmcPlatform:
   - 0x6A
   - 0x31
@@ -48,6 +64,7 @@ SmcPlatform:
   - 0x00
   - 0x00
   - 0x00
+SmcEPCI: 0xF09009
 OEMStrings: |-
   Apple ROM Version
     BIOS ID:      MBP152.88Z.F000.B00.1811142212
