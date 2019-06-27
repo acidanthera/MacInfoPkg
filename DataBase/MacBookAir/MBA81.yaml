@@ -37,8 +37,24 @@ ProcessorType:
 ProcessorBusSpeed:
   - 12345
 SmcGeneration: 3
+SmcRevision:
+  - 0x02
+  - 0x24
+  - 0x0f
+  - 0x00
+  - 0x00
+  - 0x10
+SmcBranch:
+  - 0x6A
+  - 0x31
+  - 0x34
+  - 0x30
+  - 0x6B
+  - 0x00
+  - 0x00
+  - 0x00
 SmcPlatform:
-  - 0x6a
+  - 0x6A
   - 0x31
   - 0x34
   - 0x30
@@ -46,6 +62,7 @@ SmcPlatform:
   - 0x00
   - 0x00
   - 0x00
+SmcEPCI: 0xF08009
 OEMStrings: |-
   Apple ROM Version
     BIOS ID:      MBA81.88Z.F000.B00.1904222000
