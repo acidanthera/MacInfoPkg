@@ -61,7 +61,7 @@ fi
 
 cd bin || exit 1
 
-zip -qry "macserial-${VER}-mac.zip" macserial || exit 1
+zip -qry -FS "macserial-${VER}-mac.zip" macserial || exit 1
 if [ -f macserial32.exe ]; then
   zip -qry "macserial-${VER}-win32.zip" macserial32.exe || exit 1
 fi
