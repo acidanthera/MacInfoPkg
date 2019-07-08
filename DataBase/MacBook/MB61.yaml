@@ -25,8 +25,6 @@ ChassisType: 0x0A
 ChassisVersion: "Mac-F22C8AC8"
 ChassisAssetTag: "MacBook-White"
 # FIXME: check
-PlatformFeature: 0x0
-# FIXME: check
 FirmwareFeatures: 0xFC0FE13F
 # FIXME: check
 FirmwareFeaturesMask: 0xFF1FFF3F

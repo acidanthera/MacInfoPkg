@@ -25,8 +25,6 @@ ChassisType: 0x09
 ChassisVersion: "Mac-9F18E312C5C2BF0B"
 ChassisAssetTag: "Air-Enclosure"
 # FIXME: check
-PlatformFeature: 0x0
-# FIXME: check
 FirmwareFeatures: 0xE00FE137
 # FIXME: check
 FirmwareFeaturesMask: 0xFF1FFF3F

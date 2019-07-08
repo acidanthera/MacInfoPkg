@@ -25,8 +25,6 @@ ChassisType: 0x0A
 ChassisVersion: "Mac-7DF21CB3ED6977E5"
 ChassisAssetTag: "Air-Enclosure"
 # FIXME: check
-PlatformFeature: 0x0
-# FIXME: check
 FirmwareFeatures: 0xE00FE137
 # FIXME: check
 FirmwareFeaturesMask: 0xFF1FFF3F

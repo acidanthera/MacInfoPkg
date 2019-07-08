@@ -25,10 +25,10 @@ ChassisType: 0x9
 ChassisVersion: "Mac-AA95B1DDAB278B95"
 ChassisAssetTag: ""
 PlatformFeature: 0x00
-FirmwareFeatures: 0xFC0FE137
-FirmwareFeaturesMask: 0xFF1FFF3F
-ExtendedFirmwareFeatures: 0x00000000FC0FE137
-ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+FirmwareFeatures: 0xFD8FF576
+FirmwareFeaturesMask: 0xFFDFFF7F
+ExtendedFirmwareFeatures: 0x00000000FD8FF576
+ExtendedFirmwareFeaturesMask: 0x00000000FFDFFF7F
 MemoryFormFactor: 0x09
 # FIXME: Correct this one
 ProcessorType:

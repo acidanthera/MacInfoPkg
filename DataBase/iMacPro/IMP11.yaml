@@ -24,7 +24,6 @@ ChassisManufacturer: "Apple Inc."
 ChassisType: 0x9
 ChassisVersion: "Mac-7BA5B2D9E42DDD94"
 ChassisAssetTag: "iMacPro-Aluminum"
-PlatformFeature: 0x20
 FirmwareFeatures: 0xFD8FF53F
 FirmwareFeaturesMask: 0xFF9FFF3F
 ExtendedFirmwareFeatures: 0x00000000FD8FF53F

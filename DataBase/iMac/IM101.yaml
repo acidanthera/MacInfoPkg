@@ -29,8 +29,6 @@ ChassisVersion:
 - "Mac-F2268CC8"
 ChassisAssetTag: "iMac-Aluminum"
 # FIXME: check
-PlatformFeature: 0x0
-# FIXME: check
 FirmwareFeatures: 0xE00DE137
 # FIXME: check
 FirmwareFeaturesMask: 0xFF1FFF3F
