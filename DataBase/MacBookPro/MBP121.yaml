@@ -24,10 +24,10 @@ ChassisType: 0x09
 ChassisVersion: "Mac-E43C1C25D4880AD6"
 ChassisAssetTag: "MacBook-Aluminum"
 PlatformFeature: 0x02
-FirmwareFeatures: 0xFC0FE137
-FirmwareFeaturesMask: 0xFF1FFF3F
-ExtendedFirmwareFeatures: 0x00000000FC0FE137
-ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+FirmwareFeatures: 0xFD0FF576
+FirmwareFeaturesMask: 0xFF1FFF7F
+ExtendedFirmwareFeatures: 0x00000000FD0FF576
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF7F
 MemoryFormFactor: 0xD
 # FIXME: Correct this one
 ProcessorType:

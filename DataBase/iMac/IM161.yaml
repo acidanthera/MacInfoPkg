@@ -24,6 +24,7 @@ ChassisManufacturer: "Apple Inc."
 ChassisType: 0x09
 ChassisVersion: "Mac-A369DDC4E67F1C45"
 ChassisAssetTag: "iMac-Aluminum"
+PlatformFeature: 0x3
 # FIXME: check
 FirmwareFeatures: 0xFC0FE137
 # FIXME: check
