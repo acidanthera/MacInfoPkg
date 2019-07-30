@@ -16,7 +16,7 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-7BA5B2DFE22DDD8C"
 BoardVersion: "Macmini8,1"
-BoardRevision: 1
+BoardRevision: 0x1
 BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""
