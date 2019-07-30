@@ -16,6 +16,8 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-77F17D7DA9285301"
 BoardVersion: "iMac18,2"
+# FIXME: check
+BoardRevision: 0x1F
 BoardAssetTag: ""
 BoardType: 0xA
 # FIXME: check

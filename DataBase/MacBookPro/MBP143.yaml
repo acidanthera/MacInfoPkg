@@ -16,6 +16,8 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-551B86E5744E2388"
 BoardVersion: "MacBookPro14,3"
+# FIXME: check
+BoardRevision: 0x1B
 BoardAssetTag: ""
 BoardType: 0xA
 # FIXME: check

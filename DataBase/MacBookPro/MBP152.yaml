@@ -16,7 +16,8 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-827FB448E656EC26"
 BoardVersion: "MacBookPro15,2"
-BoardRevision: 1
+# FIXME: check
+BoardRevision: 0x1
 BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""
