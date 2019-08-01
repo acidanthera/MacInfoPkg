@@ -310,7 +310,7 @@ static const char *AppleModelCode[][APPLE_MODEL_CODE_MAX] = {
   /* Macmini6,1     */ {"DY3H", "DWYL", "DWYM", "DY3G", "F9RK", "F9RL", "F9RM", "F9VV", "F9VW", "F9W0", "F9W1", "F9W2", "FD9G", "FD9H", "FD9J", "FD9K", "FDWK", "FGML", "FRFP", "FW56", "FW57", "G430"},
   /* Macmini6,2     */ {"DWYN", "DWYL", "DWYM", "DY3G", "DY3H", "F9RK", "F9RL", "F9RM", "F9VV", "F9VW", "F9W0", "F9W1", "F9W2", "FD9G", "FD9H", "FD9J", "FD9K", "FDWK", "FGML", "FRFP", "FW56", "FW57", "G430", "DWYN", "DY3J", "F9VY", "F9W3", "FC08", "FCCW", "FP14", "FP39"},
   /* Macmini7,1     */ {"G1J0", "G1HV", "G1HW", "G1HY", "G1J1", "G1J2", "GCVG", "GCVH", "GCVJ", "GCVN", "GCVP", "GCVQ", "GCVV", "GCVW", "GCVY", "GCW0", "GCW1", "GF1N", "GF1Q", "GF1T", "GJDC"},
-  /* Macmini8,1     */ {"H7JY", "H7VF"},
+  /* Macmini8,1     */ {"JYVX", "JYVW", "JYVY", "JYW0"},
   /* Xserve1,1      */ {"V2Q"},
   /* Xserve2,1      */ {"X8S"},
   /* Xserve3,1      */ {"6HS"},

@@ -79,8 +79,10 @@ Specifications:
     - "Mac mini (2018)"
 # Note, first model code is used by macserial
 AppleModelCode:
-  - "H7JY"
-  - "H7VF"
+  - "JYVX"
+  - "JYVW"
+  - "JYVY"
+  - "JYW0"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "KXPG"
