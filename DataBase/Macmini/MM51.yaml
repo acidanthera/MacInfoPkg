@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "130.0.0.0.0"
-BIOSLegacyVersion: "MM51.88Z.F000.B00.1904162037"
-BIOSReleaseDate: "04/09/2018"
+BIOSVersion: "135.0.0.0.0"
+BIOSLegacyVersion: "MM51.88Z.F000.B00.1906131918"
+BIOSReleaseDate: "06/13/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "Macmini5,1"
 SystemVersion: "1.0"
@@ -73,14 +73,14 @@ SmcPlatform:
 SmcEPCI: 0x7D005
 OEMStrings: |-
   Apple ROM Version
-    Model:       MM51
-    EFI Version: 133.0.0.0.0
-    Built by:    root@saumon
-    Date:        Tue Apr 16 20:37:02 PDT 2019
-    Revision:    133 (B&I)
-    ROM Version: F000_B00
-    Build Type:  Official Build, Release
-    Compiler:    Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
+    Model:        MM51
+    EFI Version:  135.0.0.0.0
+    Built by:     root@saumon
+    Date:         Thu Jun 13 19:18:04 PDT 2019
+    Revision:     135 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, Release
+    Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
 Specifications:
   CPUCodename:
     - "Sandy Bridge"

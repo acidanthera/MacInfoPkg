@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "278.0.0.0.0"
-BIOSLegacyVersion: "MM61.88Z.F000.B00.1904161915"
-BIOSReleaseDate: "04/16/2019"
+BIOSVersion: "280.0.0.0.0"
+BIOSLegacyVersion: "MM61.88Z.F000.B00.1906131921"
+BIOSReleaseDate: "06/13/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "Macmini6,2"
 SystemVersion: "1.0"
@@ -25,7 +25,7 @@ ChassisType: 0x10
 ChassisVersion: "Mac-F65AE981FFA204ED"
 ChassisAssetTag: "Mini-Aluminum"
 # FIXME: check
-PlatformFeature: 0x01
+PlatformFeature: 0x1
 # FIXME: check
 FirmwareFeatures: 0xE00DE137
 # FIXME: check
@@ -74,7 +74,16 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x7D006
-OEMStrings: ""
+OEMStrings: |-
+  Apple ROM Version
+    Model:        MM61
+    EFI Version:  280.0.0.0.0
+    Built by:     root@saumon
+    Date:         Thu Jun 13 19:21:56 PDT 2019
+    Revision:     280 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, Release
+    Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
 Specifications:
   CPUCodename:
     - "Ivy Bridge"

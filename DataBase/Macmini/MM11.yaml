@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Computer, Inc."
-ChassisType: 0x04
+ChassisType: 0x4
 ChassisVersion: "Mac-F4208EC8"
 ChassisAssetTag: "Mini-Aluminum"
 MemoryFormFactor: 0xD

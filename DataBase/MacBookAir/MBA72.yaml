@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "186.0.0.0.0"
-BIOSLegacyVersion: "MBA71.88Z.F000.B00.1904111401"
-BIOSReleaseDate: "04/11/2019"
+BIOSVersion: "188.0.0.0.0"
+BIOSLegacyVersion: "MBA71.88Z.F000.B00.1906140921"
+BIOSReleaseDate: "06/14/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookAir7,2"
 SystemVersion: "1.0"
@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x09
+ChassisType: 0x9
 ChassisVersion: "Mac-937CB26E2E02BB01"
 ChassisAssetTag: "Air-Enclosure"
 # FIXME: check
@@ -72,7 +72,16 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x7B007
-OEMStrings: ""
+OEMStrings: |-
+  Apple ROM Version
+    Model:        MBA71
+    EFI Version:  188.0.0.0.0
+    Built by:     root@xapp160
+    Date:         Fri Jun 14 09:21:41 PDT 2019
+    Revision:     188 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, Release
+    Compiler:     Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)
 Specifications:
   CPUCodename:
     - "Broadwell"

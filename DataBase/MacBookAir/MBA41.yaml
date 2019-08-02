@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "130.0.0.0.0"
-BIOSLegacyVersion: "MBA41.88Z.F000.B00.1904162146"
-BIOSReleaseDate: "04/11/2018"
+BIOSVersion: "135.0.0.0.0"
+BIOSLegacyVersion: "MBA41.88Z.F000.B00.1906140715"
+BIOSReleaseDate: "06/14/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookAir4,1"
 SystemVersion: "1.0"
@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x0A
+ChassisType: 0xA
 ChassisVersion: "Mac-C08A6BB70A942AC2"
 ChassisAssetTag: "Air-Enclosure"
 # FIXME: check
@@ -74,14 +74,14 @@ SmcPlatform:
 SmcEPCI: 0x76005
 OEMStrings: |-
   Apple ROM Version
-    Model:       MBA41
-    EFI Version: 133.0.0.0.0
-    Built by:    root@saumon
-    Date:        Tue Apr 16 21:46:29 PDT 2019
-    Revision:    133 (B&I)
-    ROM Version: F000_B00
-    Build Type:  Official Build, Release
-    Compiler:    Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
+    Model:        MBA41
+    EFI Version:  135.0.0.0.0
+    Built by:     root@saumon
+    Date:         Fri Jun 14 07:15:29 PDT 2019
+    Revision:     135 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, Release
+    Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
 Specifications:
   CPUCodename:
     - "Sandy Bridge"

@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "175.0.0.0.0"
-BIOSLegacyVersion: "MB101.88Z.F000.B00.1904111408"
-BIOSReleaseDate: "04/11/2019"
+BIOSVersion: "178.0.0.0.0"
+BIOSLegacyVersion: "MB101.88Z.F000.B00.1906171613"
+BIOSReleaseDate: "06/17/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBook10,1"
 SystemVersion: "1.0"
@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x09
+ChassisType: 0x9
 ChassisVersion: "Mac-EE2EBD4B90B839A8"
 ChassisAssetTag: "MacBook-Aluminum"
 # FIXME: check
@@ -77,15 +77,17 @@ SmcPlatform:
 SmcEPCI: 0xF08009
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:     MB101.88Z.F000.B00.1904111408
-    Model:       MB101
-    EFI Version: 175.0.0.0.0
-    Built by:    _atsserver@xapp157
-    Date:        Thu Apr 11 14:08:32 2019
-    Revision:    175 (B&I)
-    ROM Version: F000_B00
-    Build Type:  Official Build, RELEASE
-    Compiler:    Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+    BIOS ID:      MB101.88Z.F000.B00.1906171613
+    Model:        MB101
+    EFI Version:  178.0.0.0.0
+    Built by:     _atsserver@xapp157
+    Date:         Mon Jun 17 16:13:49 2019
+    Revision:     178 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, RELEASE
+    Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+    UUID:         466A281D-D63C-3A92-B950-2DB7D8F07883
+    UUID:         B13FEC13-4988-3EA9-901B-0C0B1109447A
 Specifications:
   CPUCodename:
     - "Kaby Lake"

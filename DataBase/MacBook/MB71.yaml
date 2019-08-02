@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "66.0.0.0.0"
-BIOSLegacyVersion: "MB71.88Z.F000.B00.1812191523"
-BIOSReleaseDate: "02/02/18"
+BIOSVersion: "68.0.0.0.0"
+BIOSLegacyVersion: "MB71.88Z.F000.B00.1906140026"
+BIOSReleaseDate: "06/14/19"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBook7,1"
 SystemVersion: "1.0"
@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x0A
+ChassisType: 0xA
 ChassisVersion: "Mac-F22C89C8"
 ChassisAssetTag: "MacBook-White"
 # FIXME: check
@@ -71,7 +71,12 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x7A002
-OEMStrings: ""
+OEMStrings: |-
+  Apple ROM Version
+    Model:        MB71
+    EFI Version:  68.0.0.0.0
+    Date:         Fri Jun 14 00:26:10 2019
+    Build Type:   Release
 Specifications:
   CPUCodename:
     - "Penryn"

@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "181.0.0.0.0"
-BIOSLegacyVersion: "MB91.88Z.F000.B00.1904111505"
-BIOSReleaseDate: "04/11/2019"
+BIOSVersion: "184.0.0.0.0"
+BIOSLegacyVersion: "MB91.88Z.F000.B00.1906171551"
+BIOSReleaseDate: "06/17/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBook9,1"
 SystemVersion: "1.0"
@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x09
+ChassisType: 0x9
 ChassisVersion: "Mac-9AE82516C7C6B903"
 ChassisAssetTag: "MacBook-Aluminum"
 # FIXME: check
@@ -75,16 +75,16 @@ SmcPlatform:
 SmcEPCI: 0xF0E007
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      MB91.88Z.F000.B00.1904111505
-    EFI Version:  181.0.0.0.0
+    BIOS ID:      MB91.88Z.F000.B00.1906171551
+    EFI Version:  184.0.0.0.0
     Built by:     _atsserver@xapp157
-    Date:         Thu Apr 11 15:05:43 2019
-    Revision:     181 (B&I)
+    Date:         Mon Jun 17 15:51:47 2019
+    Revision:     184 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build
     Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
     UUID:         021A5E00-7894-3E61-A9C1-8EC789188CA6
-    UUID:         DFDDACC6-32D3-3FDA-950A-6F816BBCA38E
+    UUID:         829877AD-B7DC-3F4D-9A9B-A11A7C093429
 Specifications:
   CPUCodename:
     - "Skylake"

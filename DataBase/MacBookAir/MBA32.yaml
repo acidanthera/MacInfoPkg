@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "108.0.0.0.0"
-BIOSLegacyVersion: "MBA31.88Z.0069.B00.1802022340"
-BIOSReleaseDate: "02/02/18"
+BIOSVersion: "110.0.0.0.0"
+BIOSLegacyVersion: "MBA31.88Z.F000.B00.1906132254"
+BIOSReleaseDate: "06/13/19"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookAir3,2"
 SystemVersion: "1.0"
@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x0A
+ChassisType: 0xA
 ChassisVersion: "Mac-942C5DF58193131B"
 ChassisAssetTag: "Air-Enclosure"
 # FIXME: check
@@ -72,7 +72,12 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x76005
-OEMStrings: ""
+OEMStrings: |-
+  Apple ROM Version
+    Model:        MBA31
+    EFI Version:  110.0.0.0.0
+    Date:         Thu Jun 13 22:54:11 2019
+    Build Type:   Release
 Specifications:
   CPUCodename:
     - "Penryn"
