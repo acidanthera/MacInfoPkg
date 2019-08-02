@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "153.0.0.0.0"
-BIOSLegacyVersion: "MBP111.88Z.F000.B00.1904162148"
-BIOSReleaseDate: "04/16/2019"
+BIOSVersion: "156.0.0.0.0"
+BIOSLegacyVersion: "MBP111.88Z.F000.B00.1906132059"
+BIOSReleaseDate: "06/13/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro11,1"
 SystemVersion: "1.0"
@@ -21,11 +21,11 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x0A
+ChassisType: 0xA
 ChassisVersion: "Mac-189A3D4F975D5FFC"
 ChassisAssetTag: "MacBook-Aluminum"
 # FIXME: check
-PlatformFeature: 0x02
+PlatformFeature: 0x2
 # FIXME: check
 FirmwareFeatures: 0xE80FE137
 # FIXME: check
@@ -80,14 +80,14 @@ SmcPlatform:
 SmcEPCI: 0xF0B007
 OEMStrings: |-
   Apple ROM Version
-    Model:       MBP111
-    EFI Version: 153.0.0.0.0
-    Built by:    root@saumon
-    Date:        Tue Apr 16 21:48:13 PDT 2019
-    Revision:    153 (B&I)
-    ROM Version: F000_B00
-    Build Type:  Official Build, Release
-    Compiler:    Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
+    Model:        MBP111
+    EFI Version:  156.0.0.0.0
+    Built by:     root@saumon
+    Date:         Thu Jun 13 20:59:06 PDT 2019
+    Revision:     156 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, Release
+    Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
 Specifications:
   CPUCodename:
     - "Haswell"

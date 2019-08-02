@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x08
+ChassisType: 0x8
 ChassisVersion: "Mac-F2268AC8"
 ChassisAssetTag: "MacBook-Aluminum"
 MemoryFormFactor: 0xD

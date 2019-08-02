@@ -21,7 +21,7 @@ BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x09
+ChassisType: 0x9
 ChassisVersion: "Mac-937A206F2EE63C01"
 ChassisAssetTag: "MacBook-Aluminum"
 PlatformFeature: 0x1A

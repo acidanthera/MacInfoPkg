@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "213.0.0.0.0"
-BIOSLegacyVersion: "IM101.88Z.F000.B00.1812191603"
-BIOSReleaseDate: "02/02/18"
+BIOSVersion: "215.0.0.0.0"
+BIOSLegacyVersion: "IM101.88Z.F000.B00.1906141458"
+BIOSReleaseDate: "06/14/19"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "iMac10,1"
 SystemVersion: "1.0"
@@ -23,7 +23,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x0D
+ChassisType: 0xD
 ChassisVersion:
 - "Mac-F221DCC8"
 - "Mac-F2268CC8"
@@ -76,7 +76,12 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x7B002
-OEMStrings: ""
+OEMStrings: |-
+  Apple ROM Version
+    Model:        IM101
+    EFI Version:  215.0.0.0.0
+    Date:         Fri Jun 14 14:58:29 2019
+    Build Type:   Release
 Specifications:
   CPUCodename:
     - "Wolfdale"

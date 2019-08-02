@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "255.0.0.0.0"
-BIOSLegacyVersion: "MBP101.88Z.F000.B00.1904161750"
-BIOSReleaseDate: "04/16/2019"
+BIOSVersion: "257.0.0.0.0"
+BIOSLegacyVersion: "MBP101.88Z.F000.B00.1906131920"
+BIOSReleaseDate: "06/13/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro10,1"
 SystemVersion: "1.0"
@@ -20,7 +20,7 @@ BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x0A
+ChassisType: 0xA
 ChassisVersion: "Mac-C3EC7CD22292981F"
 ChassisAssetTag: "MacBook-Aluminum"
 FirmwareFeatures: 0xE00DE137
@@ -64,12 +64,11 @@ SmcPlatform:
 SmcEPCI: 0x74006
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      MBP101.88Z.F000.B00.1904161750
     Model:        MBP101
-    EFI Version:  255.0.0.0.0
+    EFI Version:  257.0.0.0.0
     Built by:     root@saumon
-    Date:         Tue Apr 16 17:50:37 PDT 2019
-    Revision:     255 (B&I)
+    Date:         Thu Jun 13 19:20:58 PDT 2019
+    Revision:     257 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, Release
     Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)

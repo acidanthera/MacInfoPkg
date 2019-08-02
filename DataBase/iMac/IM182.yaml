@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "172.0.0.0.0"
-BIOSLegacyVersion: "IM183.88Z.F000.B00.1904111521"
-BIOSReleaseDate: "04/11/2019"
+BIOSVersion: "175.0.0.0.0"
+BIOSLegacyVersion: "IM183.88Z.F000.B00.1906171613"
+BIOSReleaseDate: "06/17/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "iMac18,2"
 SystemVersion: "1.0"
@@ -27,7 +27,7 @@ ChassisType: 0x09
 ChassisVersion: "Mac-77F17D7DA9285301"
 ChassisAssetTag: "iMac-Aluminum"
 # FIXME: check
-PlatformFeature: 0x00
+PlatformFeature: 0x0
 # FIXME: check
 FirmwareFeatures: 0xFC0FE137
 # FIXME: check
@@ -77,7 +77,19 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0xF07009
-OEMStrings: ""
+OEMStrings: |-
+  Apple ROM Version
+    BIOS ID:      IM183.88Z.F000.B00.1906171613
+    Model:        IM183
+    EFI Version:  175.0.0.0.0
+    Built by:     _atsserver@xapp157
+    Date:         Mon Jun 17 16:13:55 2019
+    Revision:     175 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, RELEASE
+    Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+    UUID:         04E73AA7-F5C4-3C6C-8FDD-433A5F441D96
+    UUID:         D01A0E95-D2A6-3E24-B70A-F4AEAA84BF0F
 Specifications:
   CPUCodename:
     - "Kaby Lake"

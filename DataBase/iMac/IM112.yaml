@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "96.0.0.0.0"
-BIOSLegacyVersion: "IM112.88Z.F000.B00.1904242318"
-BIOSReleaseDate: "04/10/18"
+BIOSVersion: "99.0.0.0.0"
+BIOSLegacyVersion: "IM112.88Z.F000.B00.1906132310"
+BIOSReleaseDate: "06/13/19"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "iMac11,2"
 SystemVersion: "1.2"
@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x0D
+ChassisType: 0xD
 ChassisVersion: "Mac-F2238AC8"
 ChassisAssetTag: "iMac-Aluminum"
 # FIXME: check
@@ -73,7 +73,12 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x7C004
-OEMStrings: ""
+OEMStrings: |-
+  Apple ROM Version
+    Model:        IM112
+    EFI Version:  99.0.0.0.0
+    Date:         Thu Jun 13 23:10:16 2019
+    Build Type:   Release
 Specifications:
   CPUCodename:
     - "Clarkdale"

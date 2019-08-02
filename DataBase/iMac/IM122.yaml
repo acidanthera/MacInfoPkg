@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "82.0.0.0.0"
-BIOSLegacyVersion: "IM121.88Z.004F.B00.1804101150"
-BIOSReleaseDate: "04/10/18"
+BIOSVersion: "87.0.0.0.0"
+BIOSLegacyVersion: "IM121.88Z.F000.B00.1906140041"
+BIOSReleaseDate: "06/14/19"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "iMac12,2"
 SystemVersion: "1.9"
@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x0D
+ChassisType: 0xD
 ChassisVersion: "Mac-942B59F58194171B"
 ChassisAssetTag: "iMac-Aluminum"
 # FIXME: check
@@ -73,7 +73,12 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x75005
-OEMStrings: ""
+OEMStrings: |-
+  Apple ROM Version
+    Model:        IM121
+    EFI Version:  87.0.0.0.0
+    Date:         Fri Jun 14 00:41:24 2019
+    Build Type:   Release
 Specifications:
   CPUCodename:
     - "Sandy Bridge"

@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "1022.0.0.0.0"
-BIOSLegacyVersion: "IM191.88Z.F000.B00.1906172318"
-BIOSReleaseDate: "06/17/2019"
+BIOSVersion: "220.270.93.0.0"
+BIOSLegacyVersion: "IM191.88Z.F000.B00.1906161737"
+BIOSReleaseDate: "06/16/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "iMac19,1"
 SystemVersion: "1.0"
@@ -24,12 +24,12 @@ ChassisManufacturer: "Apple Inc."
 ChassisType: 0x9
 ChassisVersion: "Mac-AA95B1DDAB278B95"
 ChassisAssetTag: ""
-PlatformFeature: 0x00
+PlatformFeature: 0x0
 FirmwareFeatures: 0xFD8FF576
 FirmwareFeaturesMask: 0xFFDFFF7F
 ExtendedFirmwareFeatures: 0x00000000FD8FF576
 ExtendedFirmwareFeaturesMask: 0x00000000FFDFFF7F
-MemoryFormFactor: 0x09
+MemoryFormFactor: 0x9
 # FIXME: Correct this one
 ProcessorType:
   - 0x1009
@@ -64,18 +64,18 @@ SmcPlatform:
   - 0x00
 SmcEPCI: 0xF0D009
 OEMStrings: |-
- Apple ROM Version
-    BIOS ID:      IM191.88Z.F000.B00.1906172318
+  Apple ROM Version
+    BIOS ID:      IM191.88Z.F000.B00.1906161737
     Model:        IM191
-    EFI Version:  1022.0.0.0.0
-    Built by:     _securitya@osx380
-    Date:         Mon Jun 17 23:18:06 2019
-    Revision:     1022 (B&I)
+    EFI Version:  220.270.93.0.0
+    Built by:     root@osx347
+    Date:         Sun Jun 16 17:37:19 2019
+    Revision:     220.270.93 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, RELEASE
-    Compiler:     Apple clang version 11.0.0 (clang-1100.0.21.8)
-    UUID:         1830A546-650C-374D-9363-D8AEDA0AE1ED
-    UUID:         A5920D2D-B5E7-3254-AF47-CC721C3DB188
+    Compiler:     Apple LLVM version 10.0.1 (clang-1001.0.37.14)
+    UUID:         525DA3F2-9345-3490-92B0-6E5F1BE91E20
+    UUID:         B5BE2217-8DC8-39BE-BB0D-B372035F8E90
 Specifications:
   CPUCodename:
     - "Coffee Lake"

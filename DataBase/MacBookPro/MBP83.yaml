@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "82.0.0.0.0"
-BIOSLegacyVersion: "MBP81.88Z.0050.B00.1804101331"
-BIOSReleaseDate: "04/10/18"
+BIOSVersion: "87.0.0.0.0"
+BIOSLegacyVersion: "MBP81.88Z.F000.B00.1906132217"
+BIOSReleaseDate: "06/13/19"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro8,3"
 SystemVersion: "1.0"
@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x0A
+ChassisType: 0xA
 ChassisVersion: "Mac-942459F5819B171B"
 ChassisAssetTag: "MacBook-Aluminum"
 # FIXME: check
@@ -74,7 +74,12 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x7C005
-OEMStrings: ""
+OEMStrings: |-
+  Apple ROM Version
+    Model:        MBP81
+    EFI Version:  87.0.0.0.0
+    Date:         Thu Jun 13 22:17:08 2019
+    Build Type:   Release
 Specifications:
   CPUCodename:
     - "Sandy Bridge"

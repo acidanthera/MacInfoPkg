@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "226.0.0.0.0"
-BIOSLegacyVersion: "MBP91.88Z.F000.B00.1904162041"
-BIOSReleaseDate: "04/16/2019"
+BIOSVersion: "228.0.0.0.0"
+BIOSLegacyVersion: "MBP91.88Z.F000.B00.1906131919"
+BIOSReleaseDate: "06/13/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro9,2"
 SystemVersion: "1.0"
@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x0A
+ChassisType: 0xA
 ChassisVersion: "Mac-6F01561E16C75D06"
 ChassisAssetTag: "MacBook-Aluminum"
 # FIXME: check
@@ -72,7 +72,16 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x76006
-OEMStrings: ""
+OEMStrings: |-
+  Apple ROM Version
+    Model:        MBP91
+    EFI Version:  228.0.0.0.0
+    Built by:     root@saumon
+    Date:         Thu Jun 13 19:19:31 PDT 2019
+    Revision:     228 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, Release
+    Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
 Specifications:
   CPUCodename:
     - "Ivy Bridge"

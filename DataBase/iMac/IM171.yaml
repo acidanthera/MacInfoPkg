@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "166.0.0.0.0"
-BIOSLegacyVersion: "IM171.88Z.F000.B00.1904111656"
-BIOSReleaseDate: "04/11/2019"
+BIOSVersion: "170.0.0.0.0"
+BIOSLegacyVersion: "IM171.88Z.F000.B00.1906171551"
+BIOSReleaseDate: "06/17/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "iMac17,1"
 SystemVersion: "1.0"
@@ -29,7 +29,7 @@ ChassisVersion:
   - "Mac-65CE76090165799A"
   - "Mac-B809C3757DA9BB8D"
 ChassisAssetTag: ""
-PlatformFeature: 0x00
+PlatformFeature: 0x0
 FirmwareFeatures: 0xFC0FE137
 FirmwareFeaturesMask: 0xFF1FFF3F
 ExtendedFirmwareFeatures: 0x00000000FC0FE137
@@ -97,17 +97,17 @@ SmcPlatform:
 SmcEPCI: 0xF01008
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      IM171.88Z.F000.B00.1904111656
+    BIOS ID:      IM171.88Z.F000.B00.1906171551
     Model:        IM171
-    EFI Version:  166.0.0.0.0
+    EFI Version:  170.0.0.0.0
     Built by:     _atsserver@xapp157
-    Date:         Thu Apr 11 16:56:35 2019
-    Revision:     166 (B&I)
+    Date:         Mon Jun 17 15:51:50 2019
+    Revision:     170 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, RELEASE
     Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
     UUID:         F0617C92-AC78-3D2F-8DA8-041C791BB575
-    UUID:         A00B19F1-C355-38FA-ADD4-3D89BD098264
+    UUID:         1FB6DAA2-C815-34AC-BABE-68D68CB50952
 Specifications:
   CPUCodename:
     - "Skylake"

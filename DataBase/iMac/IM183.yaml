@@ -24,12 +24,12 @@ ChassisManufacturer: "Apple Inc."
 ChassisType: 0x9
 ChassisVersion: "Mac-BE088AF8C5EB4FA2"
 ChassisAssetTag: ""
-PlatformFeature: 0x00
+PlatformFeature: 0x0
 FirmwareFeatures: 0xFD0FF576
 FirmwareFeaturesMask: 0xFF1FFF7F
 ExtendedFirmwareFeatures: 0x00000000FD0FF576
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF7F
-MemoryFormFactor: 0x09
+MemoryFormFactor: 0x9
 ProcessorType:
   - 0x0605
   - 0x0705

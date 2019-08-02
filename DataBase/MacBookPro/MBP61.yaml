@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "96.0.0.0.0"
-BIOSLegacyVersion: "MBP61.88Z.F000.B00.1904242300"
-BIOSReleaseDate: "04/10/18"
+BIOSVersion: "99.0.0.0.0"
+BIOSLegacyVersion: "MBP61.88Z.F000.B00.1906132235"
+BIOSReleaseDate: "06/13/19"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro6,1"
 SystemVersion: "1.0"
@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x08
+ChassisType: 0x8
 ChassisVersion: "Mac-F22589C8"
 ChassisAssetTag: "MacBook-Aluminum"
 # FIXME: check
@@ -73,7 +73,12 @@ SmcPlatform:
   - 0x00
 # FIXME: check
 SmcEPCI: 0x7A004
-OEMStrings: ""
+OEMStrings: |-
+  Apple ROM Version
+    Model:        MBP61
+    EFI Version:  99.0.0.0.0
+    Date:         Thu Jun 13 22:35:55 2019
+    Build Type:   Release
 Specifications:
   CPUCodename:
     - "Arrandale"

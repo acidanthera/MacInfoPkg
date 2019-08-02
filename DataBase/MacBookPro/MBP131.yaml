@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "233.0.0.0.0"
-BIOSLegacyVersion: "MBP131.88Z.F000.B00.1904111407"
-BIOSReleaseDate: "04/11/2019"
+BIOSVersion: "236.0.0.0.0"
+BIOSLegacyVersion: "MBP131.88Z.F000.B00.1906171613"
+BIOSReleaseDate: "06/17/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro13,1"
 SystemVersion: "1.0"
@@ -21,7 +21,7 @@ BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x09
+ChassisType: 0x9
 ChassisVersion: "Mac-473D31EABEB93F9B"
 ChassisAssetTag: "MacBook-Aluminum"
 PlatformFeature: 0x1A
@@ -67,17 +67,17 @@ SmcPlatform:
 SmcEPCI: 0xF02009
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      MBP131.88Z.F000.B00.1904111407
+    BIOS ID:      MBP131.88Z.F000.B00.1906171613
     Model:        MBP131
-    EFI Version:  233.0.0.0.0
+    EFI Version:  236.0.0.0.0
     Built by:     _atsserver@xapp157
-    Date:         Thu Apr 11 14:07:55 2019
-    Revision:     233 (B&I)
+    Date:         Mon Jun 17 16:13:11 2019
+    Revision:     236 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, RELEASE
     Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
     UUID:         F58BC585-E680-3CEB-8F77-7D03BEAB2864
-    UUID:         6DA8A53F-AD63-3E86-AC11-F94E53DFA2BA
+    UUID:         95F4BDAD-3BB7-330E-9135-4DB7CCDA524F
 Specifications:
   CPUCodename:
     - "Skylake"

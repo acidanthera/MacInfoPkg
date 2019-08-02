@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "194.0.0.0.0"
-BIOSLegacyVersion: "MBP141.88Z.F000.B00.1904111408"
-BIOSReleaseDate: "04/11/2019"
+BIOSVersion: "198.0.0.0.0"
+BIOSLegacyVersion: "MBP141.88Z.F000.B00.1906171613"
+BIOSReleaseDate: "06/17/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro14,1"
 SystemVersion: "1.0"
@@ -21,7 +21,7 @@ BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x09
+ChassisType: 0x9
 ChassisVersion: "Mac-B4831CEBD52A0C4C"
 ChassisAssetTag: "MacBook-Aluminum"
 PlatformFeature: 0x1A
@@ -67,17 +67,17 @@ SmcPlatform:
 SmcEPCI: 0xF0B009
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      MBP141.88Z.F000.B00.1904111408
+    BIOS ID:      MBP141.88Z.F000.B00.1906171613
     Model:        MBP141
-    EFI Version:  194.0.0.0.0
+    EFI Version:  198.0.0.0.0
     Built by:     _atsserver@xapp157
-    Date:         Thu Apr 11 14:08:28 2019
-    Revision:     194 (B&I)
+    Date:         Mon Jun 17 16:13:56 2019
+    Revision:     198 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, RELEASE
     Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
-    UUID:         95D4DBC4-9FA9-3A19-BD25-3ACD7C14835B
-    UUID:         163445B7-EC94-344F-BA04-62F2A2CE4DE8
+    UUID:         A54E8387-9400-3D98-BCE5-D6B83515BEF4
+    UUID:         A739744D-8E70-3F7A-9B8D-98F6532FF7E5
 Specifications:
   CPUCodename:
     - "Kaby Lake"

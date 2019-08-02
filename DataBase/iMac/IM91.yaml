@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x0D
+ChassisType: 0xD
 ChassisVersion: "Mac-F2218FA9"
 ChassisAssetTag: "iMac-Aluminum"
 MemoryFormFactor: 0x9
