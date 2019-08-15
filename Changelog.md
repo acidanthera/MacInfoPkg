@@ -2,6 +2,7 @@ MacInfoPkg changelog
 ====================
 #### v2.0.7
 - Fixed Macmini8,1 model codes
+- Fixed iMacPro serial identification (thx @headkaze)
 
 #### v2.0.6
 - Initial model fillup (thx to all participants)
