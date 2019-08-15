@@ -285,22 +285,22 @@ static bool get_serial_info(const char *serial, SERIALINFO *info, bool print) {
     }
   }
 
-  size_t model_len = 0;
+  size_t model_len = 0, model_max = 0;
 
   // Start with looking up the model.
   info->modelIndex = -1;
-  for (uint32_t i = 0; info->modelIndex < 0 && i < ARRAY_SIZE(AppleModelCode); i++) {
+  for (uint32_t i = 0; i < ARRAY_SIZE(AppleModelCode); i++) {
     for (uint32_t j = 0; j < APPLE_MODEL_CODE_MAX; j++) {
       const char *code = AppleModelCode[i][j];
       if (!code)
         break;
       model_len = strlen(code);
       assert(model_len == MODEL_CODE_OLD_LEN || model_len == MODEL_CODE_NEW_LEN);
-      if (!strncmp(serial + serial_len - model_len, code, model_len)) {
+      if (model_max < model_len && !strncmp(serial + serial_len - model_len, code, model_len)) {
         strncpy(info->model, code, sizeof(info->model));
         info->model[sizeof(info->model)-1] = '\0';
         info->modelIndex = (int32_t)i;
-        break;
+        model_max = model_len;
       }
     }
   }
