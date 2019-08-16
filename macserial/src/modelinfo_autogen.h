@@ -263,7 +263,7 @@ static const char *AppleModelCode[][APPLE_MODEL_CODE_MAX] = {
   /* MacBookPro1,2  */ {"THY"},
   /* MacBookPro10,1 */ {"DKQ1", "DKQ2", "DKQ4", "DKQ5", "F51R", "F5Y2", "F69W", "F69Y", "F6DN", "F6F3", "F6L9", "F8JY", "F96W", "F9F1", "F9F2", "FCQ3", "FFT0", "FFT1", "FFT2", "FFT3", "FFT4", "FG1H", "FG1J", "FGFH", "FGFJ", "FGFK", "FGFL", "FGN7", "FGWF", "FGWG", "FGWH", "FHCQ", "FHCR", "FJ47", "FJVJ", "FL94", "FR8D"},
   /* MacBookPro10,2 */ {"G4N7", "DR53", "DR54", "DR55", "DR56", "F775", "F776", "F7YF", "F897", "F8V6", "F8V7", "F8V8", "F9JT", "F9V1", "F9VQ", "FG7Q", "FG7R", "FL85", "FMLJ", "FFRP", "FFRR", "FG1F", "FG28", "FGM8", "FGN5", "FGN6", "FGPJ", "FHCH", "FHN0"},
-  /* MacBookPro11,1 */ {"FH00", "FGYY", "FH01", "FH02", "FH03", "FH04", "FH05", "FRF6", "FRF7", "FRQF", "FT4Q", "FT4R", "FT4T", "FT4V", "FTC9", "FTCD", "FTCH", "FTCK", "FTCL", "FTPH", "FTPJ", "FTPK", "FTT4", "FVVW", "FVWQ", "G3QJ", "G3QK", "G4N6", "G4N7", "G3QQ", "G3QR"},
+  /* MacBookPro11,1 */ {"FH00", "FGYY", "FH01", "FH02", "FH03", "FH04", "FH05", "FRF6", "FRF7", "FRQF", "FT4Q", "FT4R", "FT4T", "FT4V", "FTC9", "FTCD", "FTCH", "FTCK", "FTCL", "FTPH", "FTPJ", "FTPK", "FTT4", "FVVW", "FVWQ", "G3QJ", "G3QK", "G4N6", "G4N7", "G3QH", "G3QQ", "G3QR"},
   /* MacBookPro11,2 */ {"G86R", "FD56", "G3QC", "G3QG", "G3QN"},
   /* MacBookPro11,3 */ {"FR1M", "FD57", "FD59", "G3QP", "FTPY"},
   /* MacBookPro11,4 */ {"G8WN", "G8WL"},
