@@ -142,6 +142,7 @@ AppleModelCode:
   - "G3QK"
   - "G4N6"
   - "G4N7"
+  - "G3QH"
   - "G3QQ"
   - "G3QR"
 # Note, first board code is used by macserial
