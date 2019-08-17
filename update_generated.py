@@ -30,7 +30,11 @@ def load_db(dbpath):
       path = os.path.join(root, file)
       with open(path, 'r') as fh:
         try:
-            db.append(yaml.safe_load(fh))
+            r = yaml.safe_load(fh)
+            if r.get('SystemProductName', None) is None:
+                print("WARN: Missing SystemProductName in %s, skipping!" % path)
+                continue
+            db.append(r)
         except yaml.YAMLError as e:
             print("Failed to parse file %s - %s" % (path, e))
             sys.exit(1)
