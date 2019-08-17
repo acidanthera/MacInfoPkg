@@ -26,6 +26,8 @@ ChassisAssetTag: "Pro-Enclosure"
 PlatformFeature: 0x4
 FirmwareFeatures: 0xE80FE137
 FirmwareFeaturesMask: 0xFF1FFF3F
+ExtendedFirmwareFeatures: 0x00000000E80FE137
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0x9
 # FIXME: Correct this one
 ProcessorType:
