@@ -41,7 +41,7 @@ ExtendedFirmwareFeaturesMask: 0x00000000FF9FFF3F
 MemoryFormFactor: 0x9
 # FIXME: Correct this one
 ProcessorType:
-  - 0x0000
+  - 0x0F02
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345

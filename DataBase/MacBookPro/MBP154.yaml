@@ -6,7 +6,7 @@ SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro15,4"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
-SystemSerialNumber: ""
+SystemSerialNumber: "FVFYV019L40Y"
 SystemSKUNumber: ""
 SystemFamily: "MacBook Pro"
 BoardManufacturer: "Apple Inc."
@@ -83,9 +83,15 @@ Specifications:
   MarketingName:
     - "13\" MacBook Pro with Thunderbolt 3 and Touch ID (Mid 2019)"
 # Note, first model code is used by macserial
-# FIXME: check
 AppleModelCode:
-  - "0000"
+  - "L40Y"
+  - "L410"
+  - "L411"
+  - "L412"
+  - "L413"
+  - "L414"
+  - "L415"
+  - "L416"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:
