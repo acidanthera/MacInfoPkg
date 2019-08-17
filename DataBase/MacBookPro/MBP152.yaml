@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "220.270.99.0.0"
-BIOSLegacyVersion: "MBP152.88Z.F000.B00.1906252209"
-BIOSReleaseDate: "06/25/2019"
+BIOSVersion: "1037.0.39.151.1"
+BIOSLegacyVersion: "MBP152.88Z.F000.B00.1907261958"
+BIOSReleaseDate: "07/26/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro15,2"
 SystemVersion: "1.0"
@@ -51,32 +51,38 @@ SmcPlatform:
   - 0x00
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      MBP152.88Z.F000.B00.1906252209
+    BIOS ID:      MBP152.88Z.F000.B00.1907261958
     Model:        MBP152
-    EFI Version:  220.270.99.0.0
-    Built by:     alex_gonza@bagels
-    Date:         Tue Jun 25 22:09:44 2019
-    Revision:     220.270.99 (B&I)
+    EFI Version:  1037.0.39.151.1
+    Built by:     _securitya@cake
+    Date:         Fri Jul 26 19:58:41 2019
+    Revision:     1037.0.39.151.1 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, RELEASE
-    Compiler:     Apple LLVM version 10.0.1 (clang-1001.2.37.15)
-    UUID:         8611BB33-7A0D-33FD-B4DC-18C95AA095DC
-    UUID:         0D7EFDEB-C8C4-3E9F-8931-4EB19F351139
+    Compiler:     Apple clang version 11.0.0 (clang-1100.2.32.4)
+    UUID:         66B7EC14-B7A0-3BA8-8532-575FA62395A6
+    UUID:         4670146C-6B94-3E8E-808F-DE1512E1FE61
 Specifications:
   CPUCodename:
+    - "Coffee Lake"
+    - "Coffee Lake"
     - "Coffee Lake"
     - "Coffee Lake"
   CPU:
     - "Intel Core i7-8559U @ 2.70 GHz"
     - "Intel Core i5-8259U @ 2.30 GHz"
+    - "Intel Core i7-8569U @ 2.80 GHz"
+    - "Intel Core i5-8279U @ 2.40 GHz"
   GPU:
     - "Intel Iris 655"
   RAM:
     - "8GB 2133 MHz LPDDR3 SDRAM"
   SystemReportName:
     - "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)"
+    - "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 Ports)"
   MarketingName:
     - "13\" MacBook Pro with Thunderbolt 3 and Touch ID (Mid 2018)"
+    - "13\" MacBook Pro with Thunderbolt 3 and Touch ID (Mid 2019)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "JHCC"
@@ -208,8 +214,9 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2018
+  - 2019
 # Optional, override for SystemSerialNumber for Clover
 CloverSerialNumber: "C02X1HACJHCD"
-MinimumOSVersion: 10.14.5
+MinimumOSVersion: 10.13.6
 MaximumOSVersion: None
 AppleModelId: "J132"

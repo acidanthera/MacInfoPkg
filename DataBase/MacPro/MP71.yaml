@@ -1,54 +1,55 @@
 BIOSVendor: "Apple Inc."
 BIOSVersion: "1037.0.39.151.1"
-BIOSLegacyVersion: "MBP153.88Z.F000.B00.1907261958"
+BIOSLegacyVersion: "MP71.88Z.F000.B00.1907261958"
 BIOSReleaseDate: "07/26/2019"
 SystemManufacturer: "Apple Inc."
-SystemProductName: "MacBookPro15,3"
+SystemProductName: "MacPro7,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
+# FIXME: check
 SystemSerialNumber: ""
 SystemSKUNumber: ""
-SystemFamily: "MacBook Pro"
+SystemFamily: "MacPro"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
 # BoardProduct:
-#  "Mac-1E7E29AD0135F9BC"
+#  "Mac-27AD2F918AE68F61"
 #  "Mac-smthelse"
-BoardProduct: "Mac-1E7E29AD0135F9BC"
-BoardVersion: "MacBookPro15,3"
+BoardProduct: "Mac-27AD2F918AE68F61"
+BoardVersion: "MacPro7,1"
 # FIXME: check
 BoardRevision: 0x1
 BoardAssetTag: ""
-BoardType: 0xA
+# FIXME: check
+BoardType: 0xB
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x9
-ChassisVersion: "Mac-1E7E29AD0135F9BC"
-ChassisAssetTag: "MacBook-Aluminum"
 # FIXME: check
-PlatformFeature: 0x1A
+ChassisType: 0x7
+ChassisVersion: "Mac-27AD2F918AE68F61"
+ChassisAssetTag: "Pro-Enclosure"
 # FIXME: check
-FirmwareFeatures: 0xFC0FE137
+PlatformFeature: 0x22
 # FIXME: check
-FirmwareFeaturesMask: 0xFF1FFF3F
+FirmwareFeatures: 0xFD8FF53F
 # FIXME: check
-ExtendedFirmwareFeatures: 0x00000000FC0FE137
+FirmwareFeaturesMask: 0xFF9FFF3F
 # FIXME: check
-ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
-MemoryFormFactor: 0xD
+ExtendedFirmwareFeatures: 0x00000000FD8FF53F
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF9FFF3F
+MemoryFormFactor: 0x9
 # FIXME: Correct this one
 ProcessorType:
-  - 0x0701
-  - 0x1001
+  - 0x0000
 # FIXME: Correct this one
 ProcessorBusSpeed:
   - 12345
-  - 12345
 SmcGeneration: 3
 SmcPlatform:
-  - 0x6a
-  - 0x37
-  - 0x38
+  - 0x6A
+  - 0x31
+  - 0x36
   - 0x30
   - 0x00
   - 0x00
@@ -56,37 +57,32 @@ SmcPlatform:
   - 0x00
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      MBP153.88Z.F000.B00.1907261958
-    Model:        MBP153
+    BIOS ID:      MP71.88Z.F000.B00.1907261958
+    Model:        MP71
     EFI Version:  1037.0.39.151.1
     Built by:     _securitya@cake
-    Date:         Fri Jul 26 19:58:39 2019
+    Date:         Fri Jul 26 19:58:46 2019
     Revision:     1037.0.39.151.1 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, RELEASE
     Compiler:     Apple clang version 11.0.0 (clang-1100.2.32.4)
-    UUID:         66B7EC14-B7A0-3BA8-8532-575FA62395A6
-    UUID:         4670146C-6B94-3E8E-808F-DE1512E1FE61
+    UUID:         45351257-2981-32C8-8AD3-0D8EB126D51D
+    UUID:         36F58D7C-40C3-3229-A86F-01B96ABC47EF
 Specifications:
   CPUCodename:
-    - "Coffee Lake"
-    - "Coffee Lake"
-    - "Coffee Lake"
+    - "Cascade Lake"
   CPU:
-    - "Intel Core i7-8850H @ 2.60 GHz"
-    - "Intel Core i9-9880H @ 2.30 GHz"
-    - "Intel Core i9-9980HK @ 2.40 GHz"
+    - "Intel Xeon W-3245M CPU @ 3.20 GHz"
   GPU:
-    - "AMD Radeon Pro 555X"
-    - "AMD Radeon Pro 560X"
-    - "AMD Vega 16"
-    - "AMD Vega 20"
+    - "Radeon Pro 580X"
+    - "Radeon Pro Vega II"
+    - "Radeon Pro Vega II Duo"
   RAM:
-    - "16GB 2400 MHz LPDDR4 SDRAM"
+    - "32 GB"
   SystemReportName:
-    - "MacBook Pro (15-inch, 2019)"
+    - "Mac Pro (2019)"
   MarketingName:
-    - "15\" MacBook Pro with Thunderbolt 3 and Touch ID (Mid 2019)"
+    - "Mac Pro (2019)"
 # Note, first model code is used by macserial
 # FIXME: check
 AppleModelCode:
@@ -98,6 +94,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2019
-MinimumOSVersion: 10.14.5
+MinimumOSVersion: 10.15
 MaximumOSVersion: None
-AppleModelId: "J780"
+AppleModelId: "J160"
