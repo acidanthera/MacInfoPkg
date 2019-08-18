@@ -127,6 +127,7 @@ AppleModelCode:
   - "KQCW"
   - "KQCX"
   - "KWJ2"
+  - "LCM6"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "JP4F"
