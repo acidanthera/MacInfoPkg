@@ -107,6 +107,8 @@ AppleModelCode:
   - "KQ25"
   - "KQ26"
   - "KQ27"
+  - "LVDC"
+  - "LVDM"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "JH4R"

@@ -6,7 +6,7 @@ SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro15,3"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
-SystemSerialNumber: "000000000000"
+SystemSerialNumber: "C02YV0ECLVCG"
 SystemSKUNumber: ""
 SystemFamily: "MacBook Pro"
 BoardManufacturer: "Apple Inc."
@@ -88,9 +88,10 @@ Specifications:
   MarketingName:
     - "15\" MacBook Pro with Thunderbolt 3 and Touch ID (Mid 2019)"
 # Note, first model code is used by macserial
-# FIXME: check
 AppleModelCode:
-  - "0000"
+  - "LVCG"
+  - "LVCJ"
+  - "LVDQ"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:

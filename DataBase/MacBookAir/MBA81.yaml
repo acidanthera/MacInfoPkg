@@ -75,6 +75,7 @@ Specifications:
     - "MacBook Air (Retina, 13-inch, 2018)"
 # Note, first model code is used by macserial
 AppleModelCode:
+  - "JK78"
   - "JK77"
   - "JK7C"
   - "JK7D"
