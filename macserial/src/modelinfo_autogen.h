@@ -284,7 +284,7 @@ static const char *AppleModelCode[][APPLE_MODEL_CODE_MAX] = {
   /* MacBookPro14,1 */ {"HV29", "HV22", "HV2F", "HV2J"},
   /* MacBookPro14,2 */ {"HV2N", "HV2M", "HV2R"},
   /* MacBookPro14,3 */ {"HTD5", "HTD6", "HTD8", "HTD9", "HTDF", "HTDH", "HTDD"},
-  /* MacBookPro15,1 */ {"KGYG", "JG5H", "JG5J", "JG5K", "JG5L", "JG5M", "JGH5", "JGH6", "JGH7", "JGH8", "KGYF", "KGYH", "KQ9Q", "KQ9R", "KQ9T", "KQ9V", "KQ9W", "KQ9X", "KQ9Y", "KQC0", "KQC1", "KQC2", "KQC3", "KQC4", "KQC5", "KQC6", "KQC7", "KQC8", "KQC9", "KQCC", "KQCD", "KQCF", "KQCG", "KQCH", "KQCJ", "KQCK", "KQCL", "KQCM", "KQCN", "KQCP", "KQCR", "KQCT", "KQCV", "KQCW", "KQCX", "KWJ2"},
+  /* MacBookPro15,1 */ {"KGYG", "JG5H", "JG5J", "JG5K", "JG5L", "JG5M", "JGH5", "JGH6", "JGH7", "JGH8", "KGYF", "KGYH", "KQ9Q", "KQ9R", "KQ9T", "KQ9V", "KQ9W", "KQ9X", "KQ9Y", "KQC0", "KQC1", "KQC2", "KQC3", "KQC4", "KQC5", "KQC6", "KQC7", "KQC8", "KQC9", "KQCC", "KQCD", "KQCF", "KQCG", "KQCH", "KQCJ", "KQCK", "KQCL", "KQCM", "KQCN", "KQCP", "KQCR", "KQCT", "KQCV", "KQCW", "KQCX", "KWJ2", "LCM6"},
   /* MacBookPro15,2 */ {"JHCC", "JHC8", "JHC9", "JHCD", "JHCF", "JHD2", "JHD3", "JHD4", "JHD5", "KK98", "KK99", "KK9C", "KQ1X", "KQ1Y", "KQ20", "KQ21", "KQ22", "KQ23", "KQ24", "KQ25", "KQ26", "KQ27"},
   /* MacBookPro15,3 */ {"0000"},
   /* MacBookPro15,4 */ {"L40Y", "L410", "L411", "L412", "L413", "L414", "L415", "L416"},
