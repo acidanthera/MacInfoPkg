@@ -42,7 +42,7 @@ for generic models and `BridgeOSUpdateCustomer.pkg` for T2 models. To use them d
 4. Extract `/usr/standalone/firmware/bridgeOSCustomer.bundle/Contents/Resources/UpdateBundle.zip`
    file from `BridgeOSUpdateCustomer.pkg` and unpack it.
 5. After unpacking `UpdateBundle.zip` go to `boot/Firmware/MacEFI` directory and unpack im4p files.
-   With the help of [img4](https://github.com/xerub/img4lib) or [img4tool](https://github.com/tihmstar/img4tool). For [example](https://github.com/acidanthera/bugtracker/files/3467321/img4tool-1bffa0e6.zip), `for i in *.im4p ; do img4tool -e "$i" -o "${i/.im4p/.scap}" ; done`
+   You can use [img4](https://github.com/xerub/img4lib), [img4tool](https://github.com/tihmstar/img4tool), or our dedicated [MacEfiUnpack](https://github.com/acidanthera/OcSupportPkg/blob/master/Utilities/MacEfiUnpack/MacEfiUnpack.py). For example, `for i in *.im4p ; do ./MacEfiUnpack.py "$i" ; done`
 
 ## Credits
 
