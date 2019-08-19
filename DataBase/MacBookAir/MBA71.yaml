@@ -6,7 +6,7 @@ SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookAir7,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
-SystemSerialNumber: "C02PCLGFH569"
+SystemSerialNumber: "C02PCLGFGFWK"
 SystemSKUNumber: ""
 SystemFamily: "MacBook Air"
 BoardManufacturer: "Apple Inc."
@@ -99,7 +99,6 @@ Specifications:
     - "11\" MacBook Air (Early 2015)"
 # Note, first model code is used by macserial
 AppleModelCode:
-  - "H569"
   - "GFWK"
   - "GFWL"
   - "GFWM"

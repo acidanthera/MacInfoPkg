@@ -48,6 +48,51 @@ def load_db(dbpath):
   # Sorting is required for fast lookup.
   return sorted(db, key=operator.itemgetter('SystemProductName'))
 
+def gather_products(db):
+  """
+  Obtain all product codes from the database
+  """
+  products = []
+  for info in db:
+    pp = info.get('AppleModelCode', None)
+    if pp is None:
+      continue
+    for p in pp:
+      if p == '':
+        print("WARN: %s in contains empty AppleModelCode, skipping!" % info['SystemProductName'])
+        continue
+      if p == '000' or p == '0000':
+        print("WARN: %s in contains zero AppleModelCode, skipping!" % info['SystemProductName'])
+        continue
+      if p in products:
+        print("WARN: %s shares AppleModelCode %s with other model!" % (info['SystemProductName'], p))
+        continue
+      products.append(p)
+  return products
+
+def validate_products(db):
+  usedproducts  = gather_products(db)
+  knownproducts = update_products.load_products()
+  for product in usedproducts:
+    if knownproducts.get(product, None) is None:
+      print("WARN: Model %s is used in DataBase but not present in Products!" % product)
+      continue
+    if knownproducts[product]['status'] != update_products.STATUS_OK:
+      print("WARN: Model %s is used in DataBase but not valid in Products!" % product)
+      continue
+
+  for product in knownproducts:
+    if knownproducts[product]['status'] != update_products.STATUS_OK:
+      continue
+
+    name = knownproducts[product]['name']
+    if name.find('Mac') < 0 and name.find('Xserve') < 0:
+      continue
+
+    if product not in usedproducts:
+      print("WARN: Model %s (%s) is known but is not used in DataBase!" % (product, name))
+      continue
+
 def export_db_macinfolib(db, path, year=0):
   """
   Export yaml database to MacInfoLib format.
@@ -195,6 +240,7 @@ def export_db_macserial(db, path, year=0):
 if __name__ == '__main__':
   db = load_db('DataBase')
   # Run test phase to validate the library
+  validate_products(db)
   export_db_macinfolib(db, os.devnull)
   export_db_macserial(db, os.devnull)
   # Export new models

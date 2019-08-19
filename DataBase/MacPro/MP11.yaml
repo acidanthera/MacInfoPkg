@@ -86,7 +86,7 @@ Specifications:
     - "Mac Pro (Mid 2006)"
 # Note, first model code is used by macserial
 AppleModelCode:
-  - UPZ
+  - UQ2
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""
