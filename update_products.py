@@ -30,10 +30,10 @@ KEY_EXCEPT       = 'e'
 KEY_STATUS       = 's'
 KEY_DATE         = 'd'
 
-STATUS_OK        = 'K'
-STATUS_PENDING   = 'P'
-STATUS_EXCEPT    = 'E'
-STATUS_NOT_FOUND = 'N'
+STATUS_OK        = 1
+STATUS_PENDING   = 2
+STATUS_EXCEPT    = 3
+STATUS_NOT_FOUND = 4
 
 valid_chars = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B',
                'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P',
