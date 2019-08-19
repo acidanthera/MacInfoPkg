@@ -6,7 +6,7 @@ SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookAir8,2"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
-SystemSerialNumber: "000000000000"
+SystemSerialNumber: "FVFYR22KLYWM"
 SystemSKUNumber: ""
 SystemFamily: "MacBook Air"
 BoardManufacturer: "Apple Inc."
@@ -80,9 +80,9 @@ Specifications:
     # FIXME
     - "MacBook Air (Retina, 13-inch, 2019)"
 # Note, first model code is used by macserial
-# FIXME: check
 AppleModelCode:
-  - "0000"
+  - "LYWM"
+  - "M6X5"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:
