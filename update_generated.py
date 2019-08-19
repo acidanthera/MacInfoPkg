@@ -81,6 +81,8 @@ def validate_products(db):
       print("WARN: Model %s is used in DataBase but not valid in Products!" % product)
       continue
 
+  to_add = {}
+
   for product in knownproducts:
     if knownproducts[product][update_products.KEY_STATUS] != update_products.STATUS_OK:
       continue
@@ -91,7 +93,19 @@ def validate_products(db):
 
     if product not in usedproducts:
       print("WARN: Model %s (%s) is known but is not used in DataBase!" % (product, name))
+
+      if to_add.get(name, None) is None:
+        to_add[name] = []
+      to_add[name].append(product)
       continue
+
+  if len(to_add) > 0:
+    for sysname in to_add:
+      for info in db:
+        if sysname in info['Specifications']['SystemReportName']:
+          print("New AppleModelCode for {}:".format(info['SystemProductName']))
+          for model in to_add[sysname]:
+            print("  - \"{}\"".format(model))
 
 def export_db_macinfolib(db, path, year=0):
   """
