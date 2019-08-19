@@ -5,6 +5,7 @@ MacInfoPkg changelog
 - Fixed iMacPro serial identification (thx @headkaze)
 - Added MacBookPro15,4 model codes
 - Added MacBookPro15,3 model codes
+- Added MacBookAir8,2 model codes
 
 #### v2.0.6
 - Initial model fillup (thx to all participants)
