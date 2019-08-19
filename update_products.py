@@ -25,10 +25,15 @@ import time
 import xml.etree.ElementTree
 import yaml
 
-STATUS_OK        = 'ok'
-STATUS_PENDING   = 'pending'
-STATUS_EXCEPT    = 'except'
-STATUS_NOT_FOUND = 'not found'
+KEY_NAME         = 'n'
+KEY_EXCEPT       = 'e'
+KEY_STATUS       = 's'
+KEY_DATE         = 'd'
+
+STATUS_OK        = 'K'
+STATUS_PENDING   = 'P'
+STATUS_EXCEPT    = 'E'
+STATUS_NOT_FOUND = 'N'
 
 valid_chars = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B',
                'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P',
@@ -36,6 +41,17 @@ valid_chars = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B',
 
 def current_date():
   return time.mktime(datetime.datetime.now().date().timetuple())
+
+def map_legacy_status(status):
+  if status == 'ok':
+    return STATUS_OK
+  if status == 'pending':
+    return STATUS_PENDING
+  if status == 'except':
+    return STATUS_EXCEPT
+  if status == 'not found':
+    return STATUS_NOT_FOUND
+  raise RuntimeError('Invalid legacy status {}'.format(status))
 
 def base34_to_num(str):
     num = 0
@@ -55,16 +71,26 @@ def load_products(path='Products.json'):
   try:
     with open(path, 'r') as fh:
       if path.endswith('.json'):
-        return json.load(fh)
+        db = json.load(fh)
       else:
         db = yaml.safe_load(fh)
         for entry in db:
           db[entry]['date'] = time.mktime(db[entry]['date'].timetuple())
-        return db
+      if len(db) > 0 and db[next(iter(db))].get('date', None) is not None:
+        newdb = {}
+        for entry in db:
+          newdb[entry] = {
+            KEY_NAME:   db[entry]['name'],
+            KEY_EXCEPT: db[entry]['except'],
+            KEY_STATUS: map_legacy_status(db[entry]['status']),
+            KEY_DATE:   db[entry]['date'],
+          }
+        return newdb
+      return db
   except IOError:
     return {}
   except Exception as e:
-    print("Failed to parse file %s - %s" % (path, e))
+    print("Failed to parse file {} - {}".format(path, str(e)))
     sys.exit(1)
 
 def save_database(database, path='Products.json'):
@@ -74,29 +100,29 @@ def save_database(database, path='Products.json'):
 
 def store_product(database, model, name, exception, status, date = None):
   database[model] = {
-    'name': name,
-    'except': exception,
-    'status': status,
-    'date': current_date() if date is None else date
+    KEY_NAME: name if name is not None else 0,
+    KEY_EXCEPT: exception if exception is not None else 0,
+    KEY_STATUS: status,
+    KEY_DATE: current_date() if date is None else date
   }
 
 def update_product(database, model, force = False, retention = 90):
   prev = database.get(model, None)
 
   if prev is not None:
-    if force is False and prev['status'] == STATUS_OK:
-      print(u'{} - {} (skip)'.format(model, prev['name']))
+    if force is False and prev[KEY_STATUS] == STATUS_OK:
+      print(u'{} - {} (skip)'.format(model, prev[KEY_NAME]))
       return
 
     curr   = current_date()
-    expire = prev['date'] + retention*24*3600
-    if expire > curr and prev['status'] == STATUS_NOT_FOUND:
-      print(u'{} - not found (skip {})'.format(model, datetime.date.fromtimestamp(prev['date'])))
+    expire = prev[KEY_DATE] + retention*24*3600
+    if expire > curr and prev[KEY_STATUS] == STATUS_NOT_FOUND:
+      print(u'{} - not found (skip {})'.format(model, datetime.date.fromtimestamp(prev[KEY_DATE])))
       return
 
-    expire = prev['date'] + retention*24*3600 / 2
-    if expire > curr and prev['status'] == STATUS_PENDING:
-      print(u'{} - pending (skip {})'.format(model, datetime.date.fromtimestamp(prev['date'])))
+    expire = prev[KEY_DATE] + retention*24*3600 / 2
+    if expire > curr and prev[KEY_STATUS] == STATUS_PENDING:
+      print(u'{} - pending (skip {})'.format(model, datetime.date.fromtimestamp(prev[KEY_DATE])))
       return
 
   try:
@@ -150,16 +176,16 @@ def merge_products(database, filename):
     if old is None:
       store = True
     elif old != new:
-      if old['status'] == new['status'] and old['name'] == new['name'] and old['except'] == new['except']:
-        store = new['date'] > old['date']  # Update date if newer
-      elif old['status'] != 'ok' and new['date'] > old['date']:
+      if old[KEY_STATUS] == new[KEY_STATUS] and old[KEY_NAME] == new[KEY_NAME] and old[KEY_EXCEPT] == new[KEY_EXCEPT]:
+        store = new[KEY_DATE] > old[KEY_DATE]  # Update date if newer
+      elif old[KEY_STATUS] != STATUS_OK and new[KEY_DATE] > old[KEY_DATE]:
         store = True # Update new status
       else:
         print(u'Skipping {} entry for {}'.format(str(old), str(new)))
 
     if store:
-      store_product(database, model, new['name'],
-        new['except'], new['status'], new['date'])
+      store_product(database, model, new[KEY_NAME],
+        new[KEY_EXCEPT], new[KEY_STATUS], new[KEY_DATE])
 
   save_database(database)
 

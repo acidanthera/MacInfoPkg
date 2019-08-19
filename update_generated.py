@@ -77,15 +77,15 @@ def validate_products(db):
     if knownproducts.get(product, None) is None:
       print("WARN: Model %s is used in DataBase but not present in Products!" % product)
       continue
-    if knownproducts[product]['status'] != update_products.STATUS_OK:
+    if knownproducts[product][update_products.KEY_STATUS] != update_products.STATUS_OK:
       print("WARN: Model %s is used in DataBase but not valid in Products!" % product)
       continue
 
   for product in knownproducts:
-    if knownproducts[product]['status'] != update_products.STATUS_OK:
+    if knownproducts[product][update_products.KEY_STATUS] != update_products.STATUS_OK:
       continue
 
-    name = knownproducts[product]['name']
+    name = knownproducts[product][update_products.KEY_NAME]
     if name.find('Mac') < 0 and name.find('Xserve') < 0:
       continue
 
