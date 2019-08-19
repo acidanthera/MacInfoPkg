@@ -11,6 +11,8 @@ Interesting examples:
 -  01P - three character
 - J094 - missing name
 - J6FL - unicode
+- MSDB - easter egg (returns 403)
+- WGET - easter egg (returns 403)
 """
 
 import argparse
