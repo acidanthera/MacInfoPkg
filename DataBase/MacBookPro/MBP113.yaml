@@ -113,6 +113,35 @@ AppleModelCode:
   - "FD59"
   - "G3QP"
   - "FTPY"
+  - "G5HL"
+  - "G4JQ"
+  - "FVN4"
+  - "FWKK"
+  - "FWKL"
+  - "FRG3"
+  - "FRG2"
+  - "FVYN"
+  - "FTTJ"
+  - "FRDM"
+  - "FTK1"
+  - "FTK0"
+  - "FTPN"
+  - "FTPL"
+  - "FTPM"
+  - "FTPR"
+  - "FTPP"
+  - "FTPQ"
+  - "FTPV"
+  - "FTPW"
+  - "FTPT"
+  - "FRQL"
+  - "FRQK"
+  - "FRQJ"
+  - "FRQH"
+  - "FT4P"
+  - "FD58"
+  - "FWFY"
+  - "FWHW"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "FP52"
@@ -130,7 +159,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2013
-  - 2014
 CloverSerialNumber: "C02NNHACG3QP"
 MinimumOSVersion: 10.9.4
 MaximumOSVersion: None

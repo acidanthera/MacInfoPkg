@@ -108,6 +108,45 @@ AppleModelCode:
   - "F1G4"
   - "F1G3"
   - "DV33"
+  - "F97M"
+  - "F7F5"
+  - "F9K9"
+  - "FL98"
+  - "FM89"
+  - "F762"
+  - "F761"
+  - "F686"
+  - "F687"
+  - "F38T"
+  - "F38R"
+  - "FT14"
+  - "F7F6"
+  - "FHP7"
+  - "F24T"
+  - "F5Y5"
+  - "F5Y6"
+  - "F5Y7"
+  - "F5Y8"
+  - "F5Y9"
+  - "F5YC"
+  - "F5YD"
+  - "F5YF"
+  - "F5YG"
+  - "F5YH"
+  - "F5YJ"
+  - "F5YK"
+  - "F5YL"
+  - "F5YM"
+  - "F5YN"
+  - "F5YP"
+  - "F8G9"
+  - "F8G8"
+  - "FLNH"
+  - "FLNJ"
+  - "FLNK"
+  - "FCQT"
+  - "F2J5"
+  - "F2J4"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "F327"
@@ -125,7 +164,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2012
-  - 2013
 CloverSerialNumber: "C02LW984F1G4"
 MinimumOSVersion: 10.7.3
 MaximumOSVersion: None

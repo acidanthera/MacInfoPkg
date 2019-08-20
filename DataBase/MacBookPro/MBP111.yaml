@@ -109,8 +109,10 @@ Specifications:
     - "1600 MHz DDR3L SDRAM"
   SystemReportName:
     - "MacBook Pro (Retina, 13-inch, Late 2013)"
+    - "MacBook Pro (Retina, 13-inch, Mid 2014)"
   MarketingName:
     - "13\" MacBook Pro with Retina display (Late 2013)"
+    - "13\" MacBook Pro with Retina display (Mid 2014)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "FH00"
@@ -145,6 +147,29 @@ AppleModelCode:
   - "G3QH"
   - "G3QQ"
   - "G3QR"
+  - "GDJM"
+  - "G8L0"
+  - "G971"
+  - "G970"
+  - "G972"
+  - "G96R"
+  - "G96V"
+  - "G96W"
+  - "G96T"
+  - "G96Y"
+  - "G7YQ"
+  - "G7YR"
+  - "G3QL"
+  - "G3QT"
+  - "G7RD"
+  - "G7RF"
+  - "G9FN"
+  - "G9FL"
+  - "G9FM"
+  - "G9FR"
+  - "G9FP"
+  - "G9FQ"
+  - "FWKF"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "FH31"

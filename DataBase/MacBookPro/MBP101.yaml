@@ -92,9 +92,11 @@ Specifications:
   RAM:
     - "8GB 1600 MHz DDR3L SDRAM"
   SystemReportName:
-    - "MacBook Pro (Retina, Mid 2012)"
+    - "MacBook Pro (Retina, 15-inch, Mid 2012)"
+    - "MacBook Pro (Retina, 15-inch, Early 2013)"
   MarketingName:
     - "MacBook Pro with Retina display, Intel Core i7, 15\" (Mid 2012)"
+    - "MacBook Pro with Retina display, Intel Core i7, 15\" (Early 2013)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DKQ1"
@@ -113,6 +115,7 @@ AppleModelCode:
   - "F9F1"
   - "F9F2"
   - "FCQ3"
+  - "FMLK"
  # Late 2013
   - "FFT0"
   - "FFT1"

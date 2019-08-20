@@ -83,7 +83,8 @@ Specifications:
   RAM:
     - "667 MHz PC2-5300 DDR2 SDRAM"
   SystemReportName:
-    - "MacBook Pro (original)"
+    - "MacBook Pro"
+    - "MacBook Pro (15-inch Glossy)"
   MarketingName: ""
 # Note, first model code is used by macserial
 AppleModelCode:

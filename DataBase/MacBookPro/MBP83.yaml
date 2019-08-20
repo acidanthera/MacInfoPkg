@@ -98,13 +98,17 @@ Specifications:
     - "1333 MHz DDR3 SDRAM"
   SystemReportName:
     - "MacBook Pro (17-inch, Early 2011)"
+    - "MacBook Pro (17-inch, Late 2011)"
   MarketingName:
     - "MacBook Pro Intel Core i7, 17\" (Early 2011)"
+    - "MacBook Pro Intel Core i7, 17\" (Late 2011)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DF93"
   - "DW48"
   - "DMGH"
+  - "F140"
+  - "F13Y"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DM5K"
@@ -168,7 +172,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2011
-  - 2012
 CloverSerialNumber: "W88F9CDEDF93"
 MinimumOSVersion: 10.7.2
 MaximumOSVersion: 10.13.x

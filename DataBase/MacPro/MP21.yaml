@@ -74,9 +74,9 @@ Specifications:
   RAM:
     - "1GB 667 MHz DDR2 ECC FB-DIMM"
   SystemReportName:
-    - "Mac Pro"
+    - "Mac Pro (8-core)"
   MarketingName:
-    - "Mac Pro (Early 2007)"
+    - "Mac Pro (8-core)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - UPZ
@@ -85,7 +85,6 @@ AppleBoardCode:
   - ""
 # Note, first year is used by macserial
 AppleModelYear:
-  - 2007
   - 2008
 MinimumOSVersion: 10.4.9
 MaximumOSVersion: 10.7.5

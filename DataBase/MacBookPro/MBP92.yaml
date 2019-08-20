@@ -102,6 +102,37 @@ AppleModelCode:
   - "DTY3"
   - "DV30"
   - "F5WW"
+  - "G3FY"
+  - "GDJL"
+  - "G05T"
+  - "G354"
+  - "H1DK"
+  - "GDL2"
+  - "G584"
+  - "GF65"
+  - "H1DN"
+  - "F973"
+  - "F4JL"
+  - "F4J2"
+  - "F447"
+  - "F8D5"
+  - "F5WV"
+  - "F68C"
+  - "F68D"
+  - "F7C1"
+  - "FCMM"
+  - "FYGF"
+  - "FYGD"
+  - "FYGC"
+  - "FYG9"
+  - "FWL4"
+  - "F6VG"
+  - "F5Y1"
+  - "F5Y3"
+  - "F5Y4"
+  - "F6LH"
+  - "F6LJ"
+  - "F9Q0"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "F1YJ"
@@ -113,8 +144,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2012
-  - 2013
-  - 2014
 CloverSerialNumber: "C02HA041DTY3"
 MinimumOSVersion: 10.7.3
 MaximumOSVersion: None

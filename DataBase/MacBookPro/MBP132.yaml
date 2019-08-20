@@ -106,7 +106,7 @@ Specifications:
   SystemReportName:
     - "MacBook Pro (13-inch, 2016, Four Thunderbolt 3 Ports)"
   MarketingName:
-    - "13\" MacBook Pro with Thunderbolt 3 and Touch ID (Late 2016)"
+    - "13\" MacBook Pro with Thunderbolt 3 and Touch ID (2016)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "GYFH"
@@ -121,6 +121,7 @@ AppleModelCode:
   - "HP4D"
   - "HWH2"
   - "HXD5"
+  - "GTFK"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "H9W8"
@@ -194,7 +195,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2016
-  - 2017
 CloverSerialNumber: "C02SLHACGYFH"
 MinimumOSVersion: 10.12.1
 MaximumOSVersion: None

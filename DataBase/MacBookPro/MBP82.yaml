@@ -101,8 +101,10 @@ Specifications:
     - "1333 MHz DDR3 SDRAM"
   SystemReportName:
     - "MacBook Pro (15-inch, Early 2011)"
+    - "MacBook Pro (15-inch, Late 2011)"
   MarketingName:
     - "MacBook Pro Intel Core i7, 15\" (Early 2011)"
+    - "MacBook Pro Intel Core i7, 15\" (Late 2011)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DF8X"
@@ -110,6 +112,8 @@ AppleModelCode:
   - "DRJF"
   - "DF8V"
   - "DRJC"
+  - "F0K6"
+  - "F0V2"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DMMN"
@@ -243,7 +247,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2011
-  - 2012
 CloverSerialNumber: "C02HL0FGDF8X"
 MinimumOSVersion: 10.7.2
 MaximumOSVersion: 10.13.x

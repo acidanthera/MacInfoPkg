@@ -89,9 +89,11 @@ Specifications:
   RAM:
     - "8GB 1600 MHz DDR3L SDRAM"
   SystemReportName:
-    - "MacBook Pro (Retina, 13-inch, Late 2013)"
+    - "MacBook Pro (Retina, 13-inch, Late 2012)"
+    - "MacBook Pro (Retina, 13-inch, Early 2013)"
   MarketingName:
     - "MacBook Pro with Retina display, Intel Core i5, Intel Core i7, 13\" (Late 2012)"
+    - "MacBook Pro with Retina display, Intel Core i5, Intel Core i7, 13\" (Early 2013)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DR53"

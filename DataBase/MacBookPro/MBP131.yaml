@@ -109,6 +109,8 @@ AppleModelCode:
   - "HV5N"
   - "HWCH"
   - "HYP5"
+  - "J21W"
+  - "J5KW"
   # Note, first board code is used by macserial
 AppleBoardCode:
   - "HMHK"

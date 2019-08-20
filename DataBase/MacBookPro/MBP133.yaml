@@ -94,7 +94,7 @@ Specifications:
   SystemReportName:
     - "MacBook Pro (15-inch, 2016)"
   MarketingName:
-    - "15\" MacBook Pro with Thunderbolt 3 and Touch ID (Late 2016)"
+    - "15\" MacBook Pro with Thunderbolt 3 and Touch ID (2016)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "GTFN"
@@ -108,6 +108,8 @@ AppleModelCode:
   - "H03Y"
   - "H040"
   - "HXF8"
+  - "HWCG"
+  - "HXD3"
   # Note, first board code is used by macserial
 AppleBoardCode:
   - "HCF9"

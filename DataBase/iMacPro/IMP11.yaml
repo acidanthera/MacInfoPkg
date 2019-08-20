@@ -77,7 +77,7 @@ Specifications:
   SystemReportName:
     - "iMac Pro (2017)"
   MarketingName:
-    - "iMac Pro (Late 2017)"
+    - "iMac Pro (2017)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "HX87"
@@ -96,6 +96,8 @@ AppleModelCode:
   - "JLD0"
   - "JLD1"
   - "JLD2"
+  - "MC9H"
+  - "M0XV"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "JG36"

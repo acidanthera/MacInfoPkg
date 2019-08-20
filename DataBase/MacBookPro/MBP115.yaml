@@ -96,7 +96,7 @@ Specifications:
   RAM:
     - "1600 MHz DDR3L SDRAM"
   SystemReportName:
-    - "MacBook Pro (Retina, 15-inch, Mid 2014)"
+    - "MacBook Pro (Retina, 15-inch, Mid 2015)"
   MarketingName:
     - "15\" MacBook Pro with Retina display (Mid 2015)"
 # Note, first model code is used by macserial
@@ -128,7 +128,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2015
-  - 2016
 CloverSerialNumber: "C02Q3HACG8WM"
 MinimumOSVersion: 10.10.3
 MaximumOSVersion: None

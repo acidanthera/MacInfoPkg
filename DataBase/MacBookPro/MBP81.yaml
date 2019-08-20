@@ -97,14 +97,18 @@ Specifications:
     - "1333 MHz DDR3 SDRAM"
   SystemReportName:
     - "MacBook Pro (13-inch, Early 2011)"
+    - "MacBook Pro (13-inch, Late 2011)"
   MarketingName:
     - "MacBook Pro Intel Core i5, Intel Core i7, 13\" (Early 2011)"
+    - "MacBook Pro Intel Core i5, Intel Core i7, 13\" (Late 2011)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DH2G"
   - "DH2L"
   - "DV13"
   - "DH2H"
+  - "F299"
+  - "F298"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DM6D"
@@ -170,7 +174,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2011
-  - 2012
 CloverSerialNumber: "W89F9196DH2G"
 MinimumOSVersion: 10.7.2
 MaximumOSVersion: 10.13.x

@@ -109,6 +109,15 @@ AppleModelCode:
   - "KQ27"
   - "LVDC"
   - "LVDM"
+  - "L42X"
+  - "L4FF"
+  - "L4FG"
+  - "L4FD"
+  - "L4FC"
+  - "L4FJ"
+  - "L4JT"
+  - "LK8C"
+  - "L7GD"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "JH4R"

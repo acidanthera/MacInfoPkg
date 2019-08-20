@@ -80,19 +80,41 @@ Specifications:
   RAM:
     - "667 MHz PC2-5300 DDR2 SDRAM"
   SystemReportName:
-    - "MacBook Pro (17-inch, Early 2008)"
+    - "MacBook Pro (15-inch Early 2008)"
+    - "MacBook Pro (17-inch Early 2008)"
+    - "MacBook Pro (17-inch Late 2008)"
   MarketingName: ""
 # Note, first model code is used by macserial
 AppleModelCode:
   - "YP4"
+  - "27N"
+  - "48T"
+  - "4R5"
+  - "4R6"
+  - "1AJ"
+  - "2CE"
+  - "3LY"
+  - "3LZ"
+  - "2B0"
+  - "33B"
+  - "2DT"
+  - "2DX"
+  - "1JZ"
+  - "2PK"
+  - "1K0"
+  - "2MF"
+  - "1EK"
+  - "1EM"
+  - "1XR"
+  - "1XW"
+  - "1SH"
+  - "2AZ"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""
 # Note, first year is used by macserial
 AppleModelYear:
-  - 2007
   - 2008
-  - 2009
 CloverSerialNumber: "W88484F2YP4"
 MinimumOSVersion: 10.5.2
 MaximumOSVersion: 10.11.x

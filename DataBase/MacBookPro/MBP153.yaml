@@ -92,6 +92,15 @@ AppleModelCode:
   - "LVCG"
   - "LVCJ"
   - "LVDQ"
+  - "LVDR"
+  - "LVDV"
+  - "LVDT"
+  - "MVC0"
+  - "LVCL"
+  - "LVCF"
+  - "LVCK"
+  - "LVCH"
+  - "MV9T"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:

@@ -87,13 +87,14 @@ Specifications:
 AppleModelCode:
   - "66D"
   - "66E"
+  - "66J"
+  - "66H"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""
 # Note, first year is used by macserial
 AppleModelYear:
   - 2009
-  - 2010
 CloverSerialNumber: "W8951HAC66E"
 MinimumOSVersion: 10.5.7
 MaximumOSVersion: 10.11.x

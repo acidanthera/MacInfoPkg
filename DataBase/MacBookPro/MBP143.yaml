@@ -117,6 +117,37 @@ AppleModelCode:
   - "HTDF"
   - "HTDH"
   - "HTDD"
+  - "JD06"
+  - "JD04"
+  - "JHTD"
+  - "J6CQ"
+  - "J6CP"
+  - "J939"
+  - "J925"
+  - "J926"
+  - "HTDC"
+  - "J8KC"
+  - "J93P"
+  - "J93F"
+  - "J93G"
+  - "J93D"
+  - "J93C"
+  - "J93N"
+  - "J93L"
+  - "J93M"
+  - "J93J"
+  - "J93K"
+  - "J93H"
+  - "J936"
+  - "J937"
+  - "J934"
+  - "J935"
+  - "J932"
+  - "J933"
+  - "J931"
+  - "J938"
+  - "HTD7"
+  - "HTDG"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "J1JH"
@@ -185,7 +216,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2017
-  - 2018
 CloverSerialNumber: "C02TQHACHTD5"
 MinimumOSVersion: 10.12.5
 MaximumOSVersion: None

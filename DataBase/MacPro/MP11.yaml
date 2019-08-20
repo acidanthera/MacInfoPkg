@@ -83,17 +83,58 @@ Specifications:
   SystemReportName:
     - "Mac Pro"
   MarketingName:
-    - "Mac Pro (Mid 2006)"
+    - "Mac Pro"
 # Note, first model code is used by macserial
 AppleModelCode:
-  - UQ2
+  - "UQ2"
+  - "0N2"
+  - "08S"
+  - "1MK"
+  - "0L6"
+  - "0L5"
+  - "0L3"
+  - "0L1"
+  - "0L0"
+  - "0L8"
+  - "0LU"
+  - "0LT"
+  - "0LS"
+  - "0LE"
+  - "0LD"
+  - "0LC"
+  - "0LB"
+  - "0LA"
+  - "0LN"
+  - "0LM"
+  - "0LL"
+  - "0L7"
+  - "0L2"
+  - "0L9"
+  - "0LP"
+  - "0KV"
+  - "0KW"
+  - "0KT"
+  - "0KU"
+  - "0KZ"
+  - "0KX"
+  - "0KY"
+  - "0L4"
+  - "0LH"
+  - "0VG"
+  - "0HA"
+  - "0GN"
+  - "0GP"
+  - "0Q0"
+  - "0PY"
+  - "0PX"
+  - "0PZ"
+  - "09H"
+  - "09G"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""
 # Note, first year is used by macserial
 AppleModelYear:
   - 2006
-  - 2007
-  - 2008
 MinimumOSVersion: 10.4.7
 MaximumOSVersion: 10.7.5

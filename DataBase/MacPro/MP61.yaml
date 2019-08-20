@@ -135,6 +135,8 @@ AppleModelCode:
   - "G1M1"
   - "G8GC"
   - "G8GD"
+  - "J3RY"
+  - "J3RW"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "FHDD" 

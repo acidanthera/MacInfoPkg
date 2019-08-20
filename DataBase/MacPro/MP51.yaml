@@ -92,8 +92,14 @@ Specifications:
     - "3GB 1066 MHz DDR3 ECC SDRAM"
   SystemReportName:
     - "Mac Pro (Mid 2010)"
+    - "Mac Pro Server (Mid 2010)"
+    - "Mac Pro (Mid 2012)"
+    - "Mac Pro Server (Mid 2012)"
   MarketingName:
     - "Mac Pro (Mid 2010)"
+    - "Mac Pro Server (Mid 2010)"
+    - "Mac Pro (Mid 2012)"
+    - "Mac Pro Server (Mid 2012)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "EUH"
@@ -110,16 +116,32 @@ AppleModelCode:
   - "EUF"
   - "F4MG"
   - "F4MH"
+  - "F501"
+  - "F4MJ"
+  - "F4MF"
+  - "F64C"
+  - "F64F"
+  - "F500"
+  - "F4YY"
+  - "F6TD"
+  - "F6TF"
+  - "F6TG"
+  - "F6TC"
+  - "F6T9"
+  - "F4MC"
+  - "F4MD"
+  - "F64D"
+  - "F648"
+  - "F649"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""
 # Note, first year is used by macserial
 AppleModelYear:
   - 2010
-  - 2011
   - 2012
 # Optional, override for macserial default year
-MacserialModelYear: 2011
+MacserialModelYear: 2012
 # Optional, override for SystemSerialNumber for Clover, wtf?
 CloverSerialNumber: "C07J77F7F4MC"
 MinimumOSVersion: 10.7.4

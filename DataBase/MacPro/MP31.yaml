@@ -82,12 +82,35 @@ AppleModelCode:
   - "XYK"
   - "XYL"
   - "1Z9"
+  - "27K"
+  - "1M3"
+  - "4R4"
+  - "329"
+  - "1BJ"
+  - "2BS"
+  - "14L"
+  - "2EE"
+  - "7AQ"
+  - "2DW"
+  - "31F"
+  - "31E"
+  - "5JA"
+  - "5JB"
+  - "5U8"
+  - "200"
+  - "2MB"
+  - "16U"
+  - "12K"
+  - "1L1"
+  - "1LY"
+  - "1LS"
+  - "1GP"
+  - "1ZA"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""
 # Note, first year is used by macserial
 AppleModelYear:
   - 2008
-  - 2009
 MinimumOSVersion: 10.5.1
 MaximumOSVersion: 10.11.x

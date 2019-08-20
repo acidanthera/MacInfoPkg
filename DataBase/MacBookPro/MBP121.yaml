@@ -116,6 +116,16 @@ AppleModelCode:
   - "GQR5"
   - "GQR6"
   - "H1DQ"
+  - "GN24"
+  - "HV59"
+  - "GL34"
+  - "GL35"
+  - "J69C"
+  - "GM0Y"
+  - "HTYF"
+  - "GMDF"
+  - "H1WK"
+  - "J4NY"
   # Note, first board code is used by macserial
 AppleBoardCode:
   - "GDVV"

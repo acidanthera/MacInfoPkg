@@ -102,6 +102,7 @@ Specifications:
 # Note, first model code is used by macserial
 AppleModelCode:
   - "AGW"
+  - "5W7"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

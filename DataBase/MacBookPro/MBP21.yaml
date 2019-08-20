@@ -74,7 +74,7 @@ Specifications:
   RAM:
     - "667 MHz PC2-5300 DDR2 SDRAM"
   SystemReportName:
-    - "MacBook Pro (15-inch Core 2 Duo)"
+    - "MacBook Pro (17-inch Core 2 Duo)"
   MarketingName:
     - "(Core 2 Duo)"
 # Note, first model code is used by macserial
@@ -86,7 +86,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2006
-  - 2007
 CloverSerialNumber: "W8715HACW0J"
 MinimumOSVersion: 10.4.8
 MaximumOSVersion: 10.7.5

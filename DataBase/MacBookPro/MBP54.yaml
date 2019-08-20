@@ -74,7 +74,7 @@ Specifications:
   RAM:
     - "1066 MHz DDR3 SDRAM (PC3-8500)"
   SystemReportName:
-    - "MacBook Pro (15-inch, 2.53GHz, Mid 2009)"
+    - "MacBook Pro (15-inch, 2.53 GHz, Mid 2009)"
   MarketingName:
     - "MacBook Pro Intel Core 2 Duo (aluminum unibody) (Mid 2009)"
 # Note, first model code is used by macserial
@@ -86,7 +86,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2009
-  - 2010
 CloverSerialNumber: "W8948HAC7XJ"
 MinimumOSVersion: 10.5.7
 MaximumOSVersion: 10.11.x

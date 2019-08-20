@@ -110,7 +110,7 @@ Specifications:
   SystemReportName:
     - "MacBook Pro (Retina, 15-inch, Mid 2014)"
   MarketingName:
-    - "15\" MacBook Pro with Retina display (Late 2013)"
+    - "15\" MacBook Pro with Retina display (Mid 2014)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "G86R"
@@ -118,6 +118,26 @@ AppleModelCode:
   - "G3QC"
   - "G3QG"
   - "G3QN"
+  - "G8J7"
+  - "G8F4"
+  - "G8L1"
+  - "G974"
+  - "G9L8"
+  - "G9L9"
+  - "G9L7"
+  - "G96P"
+  - "G96Q"
+  - "G96K"
+  - "G96N"
+  - "G96L"
+  - "G96M"
+  - "G973"
+  - "G9L6"
+  - "GDPP"
+  - "G9JN"
+  - "G86Q"
+  - "G86P"
+  - "G9FT"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "FJQW"
@@ -149,7 +169,6 @@ AppleBoardCode:
   - "G3MK"
 # Note, first year is used by macserial
 AppleModelYear:
-  - 2013
   - 2014
 CloverSerialNumber: "C02P9HACG9FT"
 MinimumOSVersion: 10.9.4
