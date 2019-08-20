@@ -80,7 +80,7 @@ Specifications:
   RAM:
     - "667 MHz PC2-5300 DDR2 SDRAM"
   SystemReportName:
-    - "MacBook Pro (15-inch, Early 2008)"
+    - "MacBook Pro (15-inch Early 2008)"
     - "MacBook Pro (17-inch, Early 2008)"
     - "MacBook Pro (17-inch, Late 2008)"
   MarketingName: ""
@@ -143,6 +143,13 @@ AppleModelCode:
   - "3M5"
   - "3M4"
   - "3M0"
+  - "YP3"
+  - "ZLV"
+  - "ZLU"
+  - "YK0"
+  - "YJX"
+  - "YJY"
+  - "YJZ"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

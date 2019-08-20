@@ -109,6 +109,7 @@ AppleModelCode:
   - "DMGH"
   - "F140"
   - "F13Y"
+  - "AY5W"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DM5K"

@@ -97,6 +97,14 @@ AppleModelCode:
   - "4R2"
   - "93K"
   - "9GV"
+  - "A9Y"
+  - "A9P"
+  - "ASC"
+  - "A9Q"
+  - "A1W"
+  - "A1X"
+  - "ABW"
+  - "A1Y"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

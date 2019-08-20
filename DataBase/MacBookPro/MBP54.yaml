@@ -74,12 +74,25 @@ Specifications:
   RAM:
     - "1066 MHz DDR3 SDRAM (PC3-8500)"
   SystemReportName:
-    - "MacBook Pro (15-inch, 2.53 GHz, Mid 2009)"
+    - "MacBook Pro (15-inch, 2.53GHz, Mid 2009)"
   MarketingName:
     - "MacBook Pro Intel Core 2 Duo (aluminum unibody) (Mid 2009)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "7XJ"
+  - "AMG"
+  - "AMF"
+  - "CS9"
+  - "CS7"
+  - "A3C"
+  - "A3B"
+  - "A3G"
+  - "A3F"
+  - "B21"
+  - "AY9"
+  - "AG7"
+  - "CS8"
+  - "AUT"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

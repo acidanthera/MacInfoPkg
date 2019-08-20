@@ -108,6 +108,11 @@ AppleModelCode:
   - "0PC"
   - "0PG"
   - "0PB"
+  - "Z67"
+  - "Z64"
+  - "Z63"
+  - "Z62"
+  - "Z65"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

@@ -80,6 +80,21 @@ Specifications:
 # Note, first model code is used by macserial
 AppleModelCode:
   - "W0H"
+  - "X9W"
+  - "Y9M"
+  - "W4M"
+  - "X44"
+  - "XWV"
+  - "W0M"
+  - "W0J"
+  - "X40"
+  - "XCT"
+  - "X6C"
+  - "X42"
+  - "X41"
+  - "X3Y"
+  - "X43"
+  - "X57"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

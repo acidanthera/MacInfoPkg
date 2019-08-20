@@ -98,6 +98,7 @@ AppleModelCode:
   - "6EM"
   - "24B"
   - "1ZZ"
+  - "X8T"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "OVE"

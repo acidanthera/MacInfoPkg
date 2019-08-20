@@ -93,6 +93,14 @@ Specifications:
 # Note, first model code is used by macserial
 AppleModelCode:
   - "F5X"
+  - "HUD"
+  - "GP6"
+  - "FX9"
+  - "HST"
+  - "HSU"
+  - "GUP"
+  - "F5W"
+  - "GST"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

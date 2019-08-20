@@ -79,6 +79,22 @@ Specifications:
 # Note, first model code is used by macserial
 AppleModelCode:
   - "THY"
+  - "W3Q"
+  - "W3P"
+  - "W32"
+  - "VVV"
+  - "VW8"
+  - "TJ1"
+  - "WVS"
+  - "WVT"
+  - "VW3"
+  - "WVZ"
+  - "WVY"
+  - "WQW"
+  - "WVU"
+  - "WWU"
+  - "VTG"
+  - "W3R"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

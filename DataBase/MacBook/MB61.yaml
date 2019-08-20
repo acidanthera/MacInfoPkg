@@ -95,6 +95,18 @@ AppleModelCode:
   - "GAY"
   - "8PX"
   - "8PW"
+  - "FYN"
+  - "FYT"
+  - "GB4"
+  - "GB5"
+  - "GB0"
+  - "DWG"
+  - "GAZ"
+  - "GA3"
+  - "E39"
+  - "CJ8"
+  - "CJ9"
+  - "CJ6"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""
