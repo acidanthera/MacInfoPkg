@@ -114,6 +114,10 @@ AppleModelCode:
   - "DRJC"
   - "F0K6"
   - "F0V2"
+  - "DW3G"
+  - "DW3H"
+  - "DW47"
+  - "DW3J"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DMMN"

@@ -133,6 +133,9 @@ AppleModelCode:
   - "F64D"
   - "F648"
   - "F649"
+  - "HF9"
+  - "HF8"
+  - "HF7"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

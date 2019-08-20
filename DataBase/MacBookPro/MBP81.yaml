@@ -109,6 +109,7 @@ AppleModelCode:
   - "DH2H"
   - "F299"
   - "F298"
+  - "DW13"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DM6D"
