@@ -104,7 +104,7 @@ def load_products(path='Products.json'):
     print("Failed to parse file {} - {}".format(path, str(e)))
     sys.exit(1)
 
-def save_database(database, path='Products.json'):
+def save_database(database, path):
   # We are not using yaml for speed reasons.
   with open(path, 'w') as fh:
     json.dump(database, fh, indent=0, separators=(',', ':'), sort_keys=True)
@@ -117,7 +117,7 @@ def store_product(database, model, name, exception, status, date = None):
     KEY_DATE: current_date() if date is None else date
   }
 
-def update_product(database, model, force = False, retention = 90):
+def update_product(database, model, database_path, force = False, retention = 90):
   prev = database.get(model, None)
 
   if prev is not None:
@@ -166,14 +166,14 @@ def update_product(database, model, force = False, retention = 90):
     status = STATUS_OK if name is not None else STATUS_PENDING
     print(u'{} - {}'.format(model, name))
     store_product(database, model, name, None, status)
-    save_database(database) # Always store valid product
+    save_database(database, database_path) # Always store valid product
     return ADD_NEW
   else:
     print(u'{} - not found'.format(model))
     store_product(database, model, None, None, STATUS_NOT_FOUND)
     return ADD_DUMMY
 
-def merge_products(database, filename):
+def merge_products(database, database_path, filename):
   print('Merging {}'.format(filename))
 
   if not os.path.exists(filename):
@@ -200,14 +200,14 @@ def merge_products(database, filename):
       store_product(database, model, new[KEY_NAME],
         new[KEY_EXCEPT], new[KEY_STATUS], new[KEY_DATE])
 
-  save_database(database)
+  save_database(database, database_path)
 
-def update_products(database, start_from, end_with, force = False, retention = 45, savenum = 2048):
+def update_products(database, start_from, end_with, database_path, force = False, retention = 45, savenum = 2048):
   start     = base34_to_num(start_from)
   end       = base34_to_num(end_with)
   countdown = savenum
   while start <= end:
-    new    = update_product(database, num_to_base34(start), force)
+    new    = update_product(database, num_to_base34(start), database_path, force, retention)
     start += 1
     if new == ADD_NEW:
       countdown  = savenum
@@ -218,7 +218,7 @@ def update_products(database, start_from, end_with, force = False, retention = 4
       else:
         countdown -= 1
 
-  save_database(database)
+  save_database(database, database_path)
 
 def main():
   parser = argparse.ArgumentParser(description='Update product database')
@@ -228,13 +228,14 @@ def main():
   parser.add_argument('--retention', type=int, default=90, help='Check products older than N days')
   parser.add_argument('--savenum', type=int, default=2048, help='Save every N products while invalid')
   parser.add_argument('--merge', type=str, default=None, help='Merge specified database DB into main')
+  parser.add_argument('--database', type=str, default='Products.json', help='Use specified database file')
 
   args = parser.parse_args()
 
-  db = load_products()
+  db = load_products(args.database)
   
   if args.merge is not None:
-    return merge_products(db, args.merge)
+    return merge_products(db, args.database, args.merge)
 
   for id in [args.start, args.end]:
     if len(id) < 3 or len(id) > 4:
@@ -247,12 +248,12 @@ def main():
 
   def abort_save_database(sig, frame):
     print('Aborting with database save on SIGINT!')
-    save_database(db)
+    save_database(db, args.database)
     sys.exit(0)
 
   signal.signal(signal.SIGINT, abort_save_database)
 
-  return update_products(db, args.start, args.end, args.force, args.retention, args.savenum)
+  return update_products(db, args.start, args.end, args.database, args.force, args.retention, args.savenum)
 
 if __name__ == '__main__':
   main()
