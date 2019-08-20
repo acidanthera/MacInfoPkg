@@ -79,7 +79,7 @@ Specifications:
     - "8GB 2133 MHz LPDDR3 SDRAM"
   SystemReportName:
     - "MacBook Pro (13-inch, 2018, Four Thunderbolt 3 Ports)"
-    - "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 Ports)"
+    - "MacBook Pro (13-inch, 2019, Four Thunderbolt 3 ports)"
   MarketingName:
     - "13\" MacBook Pro with Thunderbolt 3 and Touch ID (Mid 2018)"
     - "13\" MacBook Pro with Thunderbolt 3 and Touch ID (Mid 2019)"
@@ -118,6 +118,15 @@ AppleModelCode:
   - "L4JT"
   - "LK8C"
   - "L7GD"
+  - "MV9R"
+  - "MV9K"
+  - "LVDP"
+  - "LVDF"
+  - "LVDG"
+  - "LVDD"
+  - "LVDH"
+  - "LVDN"
+  - "LVDL"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "JH4R"
