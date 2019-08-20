@@ -80,13 +80,31 @@ Specifications:
   RAM:
     - "667 MHz DDR2 SDRAM, PC2-5300"
   SystemReportName:
-    - "iMac (20-inch Mid 2007)"
-    - "iMac (24-inch Mid 2007)"
+    - "iMac (20-inch, Mid 2007)"
+    - "iMac (24-inch, Mid 2007)"
   MarketingName:
     - "iMac Intel Core 2 Duo (aluminum enclosure) (Mid 2007)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "X87"
+  - "1NW"
+  - "2CB"
+  - "0PP"
+  - "1SC"
+  - "3PA"
+  - "0PN"
+  - "0PM"
+  - "0PL"
+  - "0PU"
+  - "1NU"
+  - "1NV"
+  - "3PB"
+  - "02X"
+  - "0U1"
+  - "0PR"
+  - "0PQ"
+  - "0PT"
+  - "09Q"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

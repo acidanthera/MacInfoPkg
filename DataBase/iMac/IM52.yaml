@@ -74,11 +74,13 @@ Specifications:
   RAM:
     - "667 MHz DDR2 SDRAM, PC2-5300"
   SystemReportName:
-    - "iMac (17-inch Late 2006 CD)"
+    - "iMac (17-inch, Late 2006 CD)"
   MarketingName: ""
 # Note, first model code is used by macserial
 AppleModelCode:
   - "WH5"
+  - "2JW"
+  - "289"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

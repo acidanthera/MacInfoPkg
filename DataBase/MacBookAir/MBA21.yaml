@@ -80,7 +80,7 @@ Specifications:
   RAM:
     - "1066 MHz DDR3 SDRAM"
   SystemReportName:
-    - "MacBook Air (Mid 2009)"
+    - "MacBook Air (Late 2008)"
   MarketingName: ""
 # Note, first model code is used by macserial
 AppleModelCode:
@@ -88,12 +88,24 @@ AppleModelCode:
   - "9A8"
   - "9A5"
   - "9A6"
+  - "60R"
+  - "5TX"
+  - "5U7"
+  - "5U1"
+  - "22E"
+  - "22D"
+  - "6JN"
+  - "63V"
+  - "63W"
+  - "62W"
+  - "5LA"
+  - "5L9"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""
 # Note, first year is used by macserial
 AppleModelYear:
-  - 2009
+  - 2008
 CloverSerialNumber: "W86494769A7"
 MinimumOSVersion: 10.5.7
 MaximumOSVersion: 10.11.x
