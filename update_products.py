@@ -19,13 +19,17 @@ import argparse
 import datetime
 import json
 import os
-import urllib2
 import random
 import signal
 import sys
 import time
 import xml.etree.ElementTree
 import yaml
+
+try:
+  from urllib.request import build_opener
+except ImportError:
+  from urllib2 import build_opener
 
 KEY_NAME         = 'n'
 KEY_EXCEPT       = 'e'
@@ -36,6 +40,11 @@ STATUS_OK        = 1
 STATUS_PENDING   = 2
 STATUS_EXCEPT    = 3
 STATUS_NOT_FOUND = 4
+
+ADD_DUMMY  = 0
+ADD_EXCEPT = 1
+ADD_NEW    = 2
+ADD_SKIP   = -1
 
 valid_chars = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B',
                'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P',
@@ -114,22 +123,22 @@ def update_product(database, model, force = False, retention = 90):
   if prev is not None:
     if force is False and prev[KEY_STATUS] == STATUS_OK:
       print(u'{} - {} (skip)'.format(model, prev[KEY_NAME]))
-      return
+      return ADD_SKIP
 
     curr   = current_date()
     expire = prev[KEY_DATE] + retention*24*3600
     if expire > curr and prev[KEY_STATUS] == STATUS_NOT_FOUND:
       print(u'{} - not found (skip {})'.format(model, datetime.date.fromtimestamp(prev[KEY_DATE])))
-      return
+      return ADD_SKIP
 
     expire = prev[KEY_DATE] + retention*24*3600 / 2
     if expire > curr and prev[KEY_STATUS] == STATUS_PENDING:
       print(u'{} - pending (skip {})'.format(model, datetime.date.fromtimestamp(prev[KEY_DATE])))
-      return
+      return ADD_SKIP
 
   try:
     url    = 'http://support-sp.apple.com/sp/product?cc={}'.format(model)
-    opener = urllib2.build_opener()
+    opener = build_opener()
     mm     = random.choice(range(11, 16))
     ff     = random.choice(range(50, 70))
     agent  = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.{}; rv:{}) Gecko/20100101 Firefox/{}'.format(mm, ff, ff)
@@ -150,7 +159,7 @@ def update_product(database, model, force = False, retention = 90):
     print(u'{} - except ({})'.format(model, str(e)))
     store_product(database, model, None, str(e), STATUS_EXCEPT)
     time.sleep(1)
-    return
+    return ADD_EXCEPT
 
   if root.find('error') is None and root.find('configCode') is not None:
     name   = root.find('configCode').text
@@ -158,9 +167,11 @@ def update_product(database, model, force = False, retention = 90):
     print(u'{} - {}'.format(model, name))
     store_product(database, model, name, None, status)
     save_database(database) # Always store valid product
+    return ADD_NEW
   else:
     print(u'{} - not found'.format(model))
     store_product(database, model, None, None, STATUS_NOT_FOUND)
+    return ADD_DUMMY
 
 def merge_products(database, filename):
   print('Merging {}'.format(filename))
@@ -191,18 +202,21 @@ def merge_products(database, filename):
 
   save_database(database)
 
-def update_products(database, start_from, end_with, force = False, retention = 45, savenum = 512):
+def update_products(database, start_from, end_with, force = False, retention = 45, savenum = 2048):
   start     = base34_to_num(start_from)
   end       = base34_to_num(end_with)
   countdown = savenum
   while start <= end:
-    update_product(database, num_to_base34(start), force)
+    new    = update_product(database, num_to_base34(start), force)
     start += 1
-    if countdown == 0:
-      save_database(database)
+    if new == ADD_NEW:
       countdown  = savenum
-    else:
-      countdown -= 1
+    elif new == ADD_DUMMY or new == ADD_EXCEPT:
+      if countdown == 0:
+        save_database(database)
+        countdown  = savenum
+      else:
+        countdown -= 1
 
   save_database(database)
 
@@ -212,7 +226,7 @@ def main():
   parser.add_argument('end', default='ZZZZ', nargs='?', help='Ending product ID')
   parser.add_argument('--force', action='store_true', help='Recheck all products')
   parser.add_argument('--retention', type=int, default=90, help='Check products older than N days')
-  parser.add_argument('--savenum', type=int, default=512, help='Save every N products while invalid')
+  parser.add_argument('--savenum', type=int, default=2048, help='Save every N products while invalid')
   parser.add_argument('--merge', type=str, default=None, help='Merge specified database DB into main')
 
   args = parser.parse_args()

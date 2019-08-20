@@ -285,7 +285,7 @@ static bool get_serial_info(const char *serial, SERIALINFO *info, bool print) {
     }
   }
 
-  size_t model_len = 0, model_max = 0;
+  size_t model_len = 0;
 
   // Start with looking up the model.
   info->modelIndex = -1;
@@ -295,13 +295,30 @@ static bool get_serial_info(const char *serial, SERIALINFO *info, bool print) {
       if (!code)
         break;
       model_len = strlen(code);
+      if (model_len == 0)
+        break;
       assert(model_len == MODEL_CODE_OLD_LEN || model_len == MODEL_CODE_NEW_LEN);
-      if (model_max < model_len && !strncmp(serial + serial_len - model_len, code, model_len)) {
+      if (((serial_len == SERIAL_OLD_LEN && model_len == MODEL_CODE_OLD_LEN)
+        || (serial_len == SERIAL_NEW_LEN && model_len == MODEL_CODE_NEW_LEN))
+        && !strncmp(serial + serial_len - model_len, code, model_len)) {
         strncpy(info->model, code, sizeof(info->model));
         info->model[sizeof(info->model)-1] = '\0';
         info->modelIndex = (int32_t)i;
-        model_max = model_len;
+        break;
       }
+    }
+  }
+
+  // Also lookup apple model.
+  for (uint32_t i = 0; i < ARRAY_SIZE(AppleModelDesc); i++) {
+    const char *code = AppleModelDesc[i].code;
+    model_len = strlen(code);
+    assert(model_len == MODEL_CODE_OLD_LEN || model_len == MODEL_CODE_NEW_LEN);
+    if (((serial_len == SERIAL_OLD_LEN && model_len == MODEL_CODE_OLD_LEN)
+      || (serial_len == SERIAL_NEW_LEN && model_len == MODEL_CODE_NEW_LEN))
+      && !strncmp(serial + serial_len - model_len, code, model_len)) {
+      info->appleModel = AppleModelDesc[i].name;
+      break;
     }
   }
 
@@ -462,7 +479,8 @@ static bool get_serial_info(const char *serial, SERIALINFO *info, bool print) {
     printf("%14s: %4s - %d (copy %d)\n", "Line", info->line, info->decodedLine,
       info->decodedCopy >= 0 ? info->decodedCopy + 1 : -1);
     printf("%14s: %4s - %s\n", "Model", info->model, info->modelIndex >= 0 ?
-      ApplePlatformData[info->modelIndex].productName : "Unknown, please report!");
+      ApplePlatformData[info->modelIndex].productName : "Unknown");
+    printf("%14s: %s\n", "SystemModel", info->appleModel != NULL ? info->appleModel : "Unknown, please report!");
     printf("%14s: %s\n", "Valid", info->valid ? "Possibly" : "Unlikely");
   }
 

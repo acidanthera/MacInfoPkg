@@ -59,6 +59,12 @@ typedef struct {
 } PLATFORMDATA;
 
 typedef struct {
+  const char *code;
+  const char *name;
+} APPLE_MODEL_DESC;
+
+typedef struct {
+  const char *appleModel;
   char country[4];
   char year[3];
   char week[3];
