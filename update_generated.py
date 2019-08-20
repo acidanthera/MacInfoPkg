@@ -64,14 +64,14 @@ def gather_products(db):
       continue
     for p in pp:
       if p == '':
-        print("WARN: %s in contains empty AppleModelCode, skipping!" % info['SystemProductName'])
-        continue
+        print("ERROR: %s in contains empty AppleModelCode, skipping!" % info['SystemProductName'])
+        sys.exit(1)
       if p == '000' or p == '0000':
         print("WARN: %s in contains zero AppleModelCode, skipping!" % info['SystemProductName'])
         continue
       if p in products:
-        print("WARN: %s shares AppleModelCode %s with other model!" % (info['SystemProductName'], p))
-        continue
+        print("ERROR: %s shares AppleModelCode %s with other model!" % (info['SystemProductName'], p))
+        sys.exit(1)
       products.append(p)
   return products
 
@@ -80,11 +80,11 @@ def validate_products(db, dbpd):
   knownproducts = dbpd
   for product in usedproducts:
     if knownproducts.get(product, None) is None:
-      print("WARN: Model %s is used in DataBase but not present in Products!" % product)
-      continue
+      print("ERROR: Model %s is used in DataBase but not present in Products!" % product)
+      sys.exit(1)
     if knownproducts[product][update_products.KEY_STATUS] != update_products.STATUS_OK:
-      print("WARN: Model %s is used in DataBase but not valid in Products!" % product)
-      continue
+      print("ERROR: Model %s is used in DataBase but not valid in Products!" % product)
+      sys.exit(1)
 
   to_add = {}
 
@@ -96,7 +96,7 @@ def validate_products(db, dbpd):
     if name.find('Mac') < 0 and name.find('Xserve') < 0:
       continue
 
-    if product not in usedproducts:
+    if len(product) > 3 and product not in usedproducts:
       print("WARN: Model %s (%s) is known but is not used in DataBase!" % (product, name))
 
       if to_add.get(name, None) is None:
