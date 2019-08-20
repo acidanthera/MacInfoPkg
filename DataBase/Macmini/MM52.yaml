@@ -100,21 +100,12 @@ Specifications:
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DJD1"
-  - "DJD0"
   - "DJD2"
   - "DJD3"
   - "DRHT"
   - "DTCJ"
   - "DTCK"
   - "DTCM"
-  - "DW33"
-  - "DW34"
-  - "DW35"
-  - "DW36"
-  - "DW37"
-  - "DW38"
-  - "DW3C"
-  - "DYQJ"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DK22"

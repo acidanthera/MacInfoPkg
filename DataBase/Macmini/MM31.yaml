@@ -109,6 +109,13 @@ AppleModelCode:
   - "9G8"
   - "306"
   - "307"
+  - "AFR"
+  - "BAV"
+  - "DMG"
+  - "B9X"
+  - "DMH"
+  - "CS6"
+  - "F6J"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

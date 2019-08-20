@@ -97,13 +97,6 @@ Specifications:
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DJD0"
-  - "DJD1"
-  - "DJD2"
-  - "DJD3"
-  - "DRHT"
-  - "DTCJ"
-  - "DTCK"
-  - "DTCM"
   - "DW33"
   - "DW34"
   - "DW35"

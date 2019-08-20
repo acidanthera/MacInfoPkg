@@ -119,6 +119,12 @@ AppleModelCode:
   - "6ZC"
   - "28A"
   - "1LW"
+  - "ZE7"
+  - "ZE4"
+  - "ZE2"
+  - "ZE3"
+  - "ZE6"
+  - "ZE5"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

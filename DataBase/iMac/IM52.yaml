@@ -81,6 +81,18 @@ AppleModelCode:
   - "WH5"
   - "2JW"
   - "289"
+  - "X4W"
+  - "YTN"
+  - "ZCA"
+  - "WH4"
+  - "WRQ"
+  - "WQR"
+  - "Y4Q"
+  - "WV7"
+  - "Y4D"
+  - "Y4E"
+  - "X3P"
+  - "YD4"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

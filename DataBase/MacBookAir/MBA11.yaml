@@ -92,6 +92,11 @@ AppleModelCode:
   - "6T5"
   - "5YW"
   - "5YV"
+  - "FLC"
+  - "LCF"
+  - "LCG"
+  - "F5Y"
+  - "F6T"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

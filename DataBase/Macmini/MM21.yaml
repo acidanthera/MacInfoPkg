@@ -84,6 +84,10 @@ Specifications:
 AppleModelCode:
   - "YL2"
   - "4NP"
+  - "Z5F"
+  - "YL4"
+  - "YL1"
+  - "YL3"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

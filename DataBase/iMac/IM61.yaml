@@ -77,17 +77,34 @@ Specifications:
   RAM:
     - "667 MHz DDR2 SDRAM, PC2-5300"
   SystemReportName:
-    - "iMac (24-inch)"
+    - "iMac (24-inch, Late 2006)"
   MarketingName: ""
 # Note, first model code is used by macserial
 AppleModelCode:
   - "VGN"
+  - "VGP"
+  - "Y3Z"
+  - "Y3Y"
+  - "XWW"
+  - "XA5"
+  - "X3C"
+  - "WSG"
+  - "WR3"
+  - "YX0"
+  - "Y40"
+  - "XA6"
+  - "XLD"
+  - "YAF"
+  - "XZP"
+  - "X6T"
+  - "XSM"
+  - "WYG"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""
 # Note, first year is used by macserial
 AppleModelYear:
-  - 2007
+  - 2006
 CloverSerialNumber: "QP708HACXA6"
 MinimumOSVersion: 10.4.7
 MaximumOSVersion: 10.7.5
