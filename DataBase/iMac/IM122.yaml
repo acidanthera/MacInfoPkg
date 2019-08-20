@@ -104,6 +104,7 @@ AppleModelCode:
   - "DHJW"
   - "FHCV"
   - "F610"
+  - "DWTR"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DJWM"

@@ -91,7 +91,7 @@ Specifications:
     - "iMac Intel Core 2 Duo (aluminum enclosure) (Early 2008)"
 # Note, first model code is used by macserial
 AppleModelCode:
-  - "2E2"
+  - ""
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

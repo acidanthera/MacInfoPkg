@@ -106,6 +106,8 @@ Specifications:
 AppleModelCode:
   - "DHJF"
   - "F611"
+  - "DWTQ"
+  - "DWTP"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DJWK"

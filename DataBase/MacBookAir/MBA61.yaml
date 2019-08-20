@@ -104,7 +104,6 @@ Specifications:
     - "11\" MacBook Air (Early 2014)"
 # Note, first model code is used by macserial
 AppleModelCode:
-  - "F5NT"
   - "F5N7"
   - "F5N8"
   - "F5YV"

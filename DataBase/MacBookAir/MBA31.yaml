@@ -95,7 +95,6 @@ Specifications:
     - "11\" MacBook Air"
 # Note, first model code is used by macserial
 AppleModelCode:
-  - "D0QX"
   - "DDQW"
 # Note, first board code is used by macserial
 AppleBoardCode:
