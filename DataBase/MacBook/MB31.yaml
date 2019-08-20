@@ -82,13 +82,38 @@ Specifications:
 # Note, first model code is used by macserial
 AppleModelCode:
   - "Z66"
+  - "0NH"
+  - "0NE"
+  - "0NG"
+  - "0NF"
+  - "0U4"
+  - "0WR"
+  - "0Z4"
+  - "0Z3"
+  - "0TZ"
+  - "0TY"
+  - "0TX"
+  - "0TW"
+  - "034"
+  - "0S8"
+  - "0S0"
+  - "0S7"
+  - "0HC"
+  - "0HB"
+  - "02Z"
+  - "01P"
+  - "01V"
+  - "01X"
+  - "01Z"
+  - "0PC"
+  - "0PG"
+  - "0PB"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""
 # Note, first year is used by macserial
 AppleModelYear:
   - 2007
-  - 2008
 CloverSerialNumber: "W8747HACZ63"
 MinimumOSVersion: 10.5
 MaximumOSVersion: 10.7.5

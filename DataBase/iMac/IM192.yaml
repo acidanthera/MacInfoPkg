@@ -114,6 +114,22 @@ Specifications:
 AppleModelCode:
   - "JWDW"
   - "JWDX"
+  - "MQ87"
+  - "MC9M"
+  - "MC9L"
+  - "MRVM"
+  - "MPM0"
+  - "MW28"
+  - "JWDY"
+  - "MMTK"
+  - "MMTL"
+  - "MTML"
+  - "MCC1"
+  - "JWF3"
+  - "JWF2"
+  - "JWF1"
+  - "JWF0"
+  - "JWF4"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "KGQG"

@@ -141,6 +141,7 @@ AppleModelCode:
   - "FP13"
   - "FP62"
   - "FTQ5"
+  - "FTQ4"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "F2FR"
@@ -156,7 +157,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2012
-  - 2013
 CloverSerialNumber: "C02JB041DNCW"
 MinimumOSVersion: 10.8.2
 MaximumOSVersion: None

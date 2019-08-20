@@ -85,7 +85,8 @@ Specifications:
   RAM:
     - "800 MHz DDR2 SDRAM, PC2-6400"
   SystemReportName:
-    - "iMac (24-inch, Early 2008)"
+    - "iMac (20-inch Early 2008)"
+    - "iMac (24-inch Early 2008)"
   MarketingName:
     - "iMac Intel Core 2 Duo (aluminum enclosure) (Early 2008)"
 # Note, first model code is used by macserial

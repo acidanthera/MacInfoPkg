@@ -107,10 +107,26 @@ Specifications:
   SystemReportName:
     - "iMac (Retina 4K, 21.5-inch, 2017)"
   MarketingName:
-    - "21.5\" iMac (Mid 2017)"
+    - "21.5\" iMac (2017)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "J1G5"
+  - "J9X5"
+  - "J9X4"
+  - "LQHG"
+  - "JGDT"
+  - "J1GC"
+  - "J1GF"
+  - "J1GD"
+  - "J1G8"
+  - "J1G9"
+  - "J1G6"
+  - "J1G7"
+  - "J608"
+  - "JKF9"
+  - "JFPW"
+  - "L7H6"
+  - "JP10"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "J0DX"

@@ -81,6 +81,7 @@ Specifications:
     - "667 MHz DDR2 SDRAM"
   SystemReportName:
     - "MacBook (13-inch Late 2006)"
+    - "MacBook (13-inch Mid 2007)"
   MarketingName: ""
 # Note, first model code is used by macserial
 AppleModelCode:

@@ -99,8 +99,10 @@ Specifications:
     - "1867 MHz LPDDR3 SDRAM"
   SystemReportName:
     - "iMac (21.5-inch, Late 2015)"
+    - "iMac (Retina 4K, 21.5-inch, Late 2015)"
   MarketingName:
     - "21.5\" iMac (Late 2015)"
+    - "21.5\" iMac (Retina 4K Late 2015)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "GG7G"
@@ -118,6 +120,37 @@ AppleModelCode:
   - "H8L1"
   - "H8L2"
   - "H8L3"
+  - "H15R"
+  - "H28H"
+  - "H8KY"
+  - "GG7C"
+  - "H0KF"
+  - "H3RJ"
+  - "HLWV"
+  - "H1WR"
+  - "HYGQ"
+  - "HQ9W"
+  - "H2KW"
+  - "HHMG"
+  - "GF1L"
+  - "GF1M"
+  - "GF1K"
+  - "H0N6"
+  - "H1DX"
+  - "J0DJ"
+  - "J0DH"
+  - "J0DG"
+  - "H8KX"
+  - "GG77"
+  - "GG79"
+  - "GG7D"
+  - "H0P6"
+  - "H1DY"
+  - "HQ9V"
+  - "HQ9T"
+  - "H1F2"
+  - "H1F1"
+  - "H25M"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "GQRY"
@@ -147,8 +180,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2015
-  - 2016
-  - 2017
 CloverSerialNumber: "C02PNHACGG78"
 MinimumOSVersion: 10.11
 MaximumOSVersion: None

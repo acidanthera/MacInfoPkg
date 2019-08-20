@@ -87,11 +87,28 @@ Specifications:
     - "1066 MHz DDR3 SDRAM"
   SystemReportName:
     - "Mac mini (Early 2009)"
+    - "Mac mini (Late 2009)"
+    - "Mac mini (Mac OS X Server, Late 2009)"
   MarketingName:
     - "Mac mini Intel Core (Early 2009)"
+    - "Mac mini Intel Core (Late 2009)"
+    - "Mac mini (Mac OS X Server, Late 2009)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "19X"
+  - "19Y"
+  - "1BU"
+  - "1BV"
+  - "8NC"
+  - "9RR"
+  - "9RS"
+  - "92G"
+  - "9G7"
+  - "9G6"
+  - "9G5"
+  - "9G8"
+  - "306"
+  - "307"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

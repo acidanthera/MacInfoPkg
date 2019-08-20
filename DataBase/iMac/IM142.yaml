@@ -123,6 +123,12 @@ AppleModelCode:
   - "FY9F"
   - "G6DP"
   - "GHFF"
+  - "GQCX"
+  - "GRTV"
+  - "GW0V"
+  - "GW0W"
+  - "FR1W"
+  - "FR1Y"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "F8YL"
@@ -136,7 +142,5 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2013
-  - 2014
-  - 2015
 MinimumOSVersion: 10.8.4
 MaximumOSVersion: None

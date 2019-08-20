@@ -91,8 +91,10 @@ Specifications:
     - "1066 MHz DDR3 SDRAM"
   SystemReportName:
     - "Mac mini (Mid 2010)"
+    - "Mac mini Server (Mid 2010)"
   MarketingName:
-    - "Mac mini Intel Core (Mid 2010)"
+    - "Mac mini (Mid 2010)"
+    - "Mac mini Server (Mid 2010)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DD6H"
@@ -104,7 +106,7 @@ AppleBoardCode:
   - "DC6Y"
 # Note, first year is used by macserial
 AppleModelYear:
-  - 2011
+  - 2010
 CloverSerialNumber: "C02FHBBEDD6H"
 MinimumOSVersion: 10.6.4
 MaximumOSVersion: 10.13.x

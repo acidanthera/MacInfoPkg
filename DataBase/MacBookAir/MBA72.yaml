@@ -95,8 +95,10 @@ Specifications:
     - "1600 MHz LPDDR3 SDRAM"
   SystemReportName:
     - "MacBook Air (13-inch, Early 2015)"
+    - "MacBook Air (13-inch, 2017)"
   MarketingName:
     - "13\" MacBook Air (Early 2015)"
+    - "13\" MacBook Air (2017)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "G940"
@@ -120,6 +122,49 @@ AppleModelCode:
   - "H3QJ"
   - "H3QK"
   - "H569"
+  - "HD80"
+  - "GM6M"
+  - "J6VL"
+  - "GNKM"
+  - "H8VV"
+  - "H8VW"
+  - "H8VT"
+  - "H8VX"
+  - "HF4H"
+  - "HF4F"
+  - "HF9N"
+  - "GMD3"
+  - "HDV6"
+  - "HDV4"
+  - "HDV5"
+  - "HD7X"
+  - "GL25"
+  - "GL24"
+  - "GL23"
+  - "GL22"
+  - "GL21"
+  - "GL20"
+  - "HD98"
+  - "J8XH"
+  - "J8XG"
+  - "JCD6"
+  - "J9TN"
+  - "J9TQ"
+  - "J9TP"
+  - "MFWJ"
+  - "LQF1"
+  - "LQ07"
+  - "J8N7"
+  - "JC9H"
+  - "J9HX"
+  - "JFLY"
+  - "JKHD"
+  - "JKHF"
+  - "J1WK"
+  - "J1WL"
+  - "J1WM"
+  - "J1WV"
+  - "J1WT"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "G91Q"
@@ -137,7 +182,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2015
-  - 2016
   - 2017
 CloverSerialNumber: "C02Q1HACG940"
 MinimumOSVersion: 10.12.5

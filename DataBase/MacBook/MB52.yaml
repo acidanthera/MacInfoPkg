@@ -77,12 +77,26 @@ Specifications:
   RAM:
     - "800 MHz DDR2 SDRAM"
   SystemReportName:
+    - "MacBook (13-inch, Early 2009)"
     - "MacBook (13-inch, Mid 2009)"
   MarketingName:
     - "MacBook Intel Core 2 Duo (white, Early 2009)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "9GU"
+  - "8CP"
+  - "79F"
+  - "79E"
+  - "79D"
+  - "85D"
+  - "7A2"
+  - "88J"
+  - "8SJ"
+  - "4R1"
+  - "4R3"
+  - "4R2"
+  - "93K"
+  - "9GV"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

@@ -130,11 +130,33 @@ AppleBoardCode:
   - "GPX8"
   - "GPX9"
   - "GXML"
+  - "H1WR"
+  - "HYGQ"
+  - "HQ9W"
+  - "H2KW"
+  - "HHMG"
+  - "GF1L"
+  - "GF1M"
+  - "GF1K"
+  - "H0N6"
+  - "H1DX"
+  - "J0DJ"
+  - "J0DH"
+  - "J0DG"
+  - "H8KX"
+  - "GG77"
+  - "GG79"
+  - "GG7D"
+  - "H0P6"
+  - "H1DY"
+  - "HQ9V"
+  - "HQ9T"
+  - "H1F2"
+  - "H1F1"
+  - "H25M"
 # Note, first year is used by macserial
 AppleModelYear:
   - 2015
-  - 2016
-  - 2017
 CloverSerialNumber: "C02QQHACGF1J"
 MinimumOSVersion: 10.11
 MaximumOSVersion: None

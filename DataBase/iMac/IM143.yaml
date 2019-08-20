@@ -112,8 +112,7 @@ AppleBoardCode:
   - "F9T3"
 # Note, first year is used by macserial
 AppleModelYear:
-  - 2014
-  - 2015
+  - 2013
 CloverSerialNumber: "D25LHACKF8J3"
 MinimumOSVersion: 10.8.4
 MaximumOSVersion: None

@@ -98,11 +98,14 @@ Specifications:
     - "1333 MHz PC3-10600 DDR3 SDRAM"
   SystemReportName:
     - "iMac (21.5-inch, Mid 2011)"
+    - "iMac (21.5-inch, Late 2011)"
   MarketingName:
     - "21.5\" iMac (Early 2011)"
+    - "21.5\" iMac (Late 2011)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DHJF"
+  - "F611"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DJWK"
@@ -120,7 +123,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2011
-  - 2012
 CloverSerialNumber: "W80CF65ADHJF"
 MinimumOSVersion: 10.7.2
 MaximumOSVersion: 10.13.x

@@ -93,13 +93,14 @@ Specifications:
 # Note, first model code is used by macserial
 AppleModelCode:
   - "GAY"
+  - "8PX"
+  - "8PW"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""
 # Note, first year is used by macserial
 AppleModelYear:
   - 2009
-  - 2010
 CloverSerialNumber: "451131JCGAY"
 MinimumOSVersion: 10.6.1
 MaximumOSVersion: 10.13.x

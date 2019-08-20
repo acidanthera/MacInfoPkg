@@ -98,8 +98,10 @@ Specifications:
     - "1600 MHz DDR3L SDRAM"
   SystemReportName:
     - "MacBook Air (11-inch, Mid 2013)"
+    - "MacBook Air (11-inch, Early 2014)"
   MarketingName:
     - "11\" MacBook Air (Mid 2013)"
+    - "11\" MacBook Air (Early 2014)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "F5NT"
@@ -147,6 +149,7 @@ AppleModelCode:
   - "G6D3"
   - "GP4N"
   - "GP4P"
+  - "GLK9"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "FD09"

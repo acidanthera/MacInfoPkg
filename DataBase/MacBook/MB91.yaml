@@ -128,6 +128,12 @@ AppleModelCode:
   - "H3R5"
   - "H3R6"
   - "H3R7"
+  - "HD8M"
+  - "GTGW"
+  - "JC5J"
+  - "HRMD"
+  - "HRMG"
+  - "HRMF"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "FV48"
@@ -165,7 +171,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2016
-  - 2017
 CloverSerialNumber: "C02RM408HDNK"
 MinimumOSVersion: 10.11.4
 MaximumOSVersion: None

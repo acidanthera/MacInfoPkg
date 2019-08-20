@@ -94,7 +94,7 @@ Specifications:
   RAM:
     - "1333 MHz DDR3 SDRAM"
   SystemReportName:
-    - "MacBook Air (11-inch, Mid 2012)"
+    - "MacBook Air (11-inch, Mid 2011)"
   MarketingName:
     - "11\" MacBook Air (Mid 2011)"
 # Note, first model code is used by macserial
@@ -132,7 +132,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2011
-  - 2012
 CloverSerialNumber: "C02HVHACDJYC"
 MinimumOSVersion: 10.7
 MaximumOSVersion: 10.13.x

@@ -119,7 +119,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2014
-  - 2015
 CloverSerialNumber: "D25LHACKFY0T"
 MinimumOSVersion: 10.9.3
 MaximumOSVersion: None

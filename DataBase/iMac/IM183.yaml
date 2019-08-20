@@ -103,6 +103,33 @@ AppleModelCode:
   - "J1GJ"
   - "J1GQ"
   - "J1GG"
+  - "J9XC"
+  - "J9X7"
+  - "J9X6"
+  - "J9X9"
+  - "JNGD"
+  - "JNGF"
+  - "JCCR"
+  - "JCCT"
+  - "JT72"
+  - "J9X8"
+  - "JM3R"
+  - "JM3V"
+  - "J1GR"
+  - "J1GP"
+  - "J1GV"
+  - "J1GT"
+  - "J1GK"
+  - "J1GH"
+  - "J1GN"
+  - "J1GL"
+  - "J1GM"
+  - "JCND"
+  - "JC5L"
+  - "JX8H"
+  - "J2GJ"
+  - "J609"
+  - "J60C"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "J0PG"
@@ -123,6 +150,5 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2017
-  - 2018
 MinimumOSVersion: 10.12.4
 MaximumOSVersion: None

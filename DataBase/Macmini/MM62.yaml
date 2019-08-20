@@ -98,32 +98,9 @@ Specifications:
   SystemReportName:
     - "Mac mini Server (Late 2012)"
   MarketingName:
-    - "Mac mini (Late 2012)"
+    - "Mac mini Server (Late 2012)"
 # Note, first model code is used by macserial
 AppleModelCode:
-  - "DWYN"
-  - "DWYL"
-  - "DWYM"
-  - "DY3G"
-  - "DY3H"
-  - "F9RK"
-  - "F9RL"
-  - "F9RM"
-  - "F9VV"
-  - "F9VW"
-  - "F9W0"
-  - "F9W1"
-  - "F9W2"
-  - "FD9G"
-  - "FD9H"
-  - "FD9J"
-  - "FD9K"
-  - "FDWK"
-  - "FGML"
-  - "FRFP"
-  - "FW56"
-  - "FW57"
-  - "G430"
   - "DWYN"
   - "DY3J"
   - "F9VY"
@@ -141,8 +118,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2012
-  - 2013
-  - 2014
 CloverSerialNumber: "C07JD041DWYN"
 MinimumOSVersion: 10.8.2
 MaximumOSVersion: None

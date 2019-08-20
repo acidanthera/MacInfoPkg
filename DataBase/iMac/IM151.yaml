@@ -87,8 +87,10 @@ Specifications:
   RAM:
     - "8GB 1600 MHz DDR3 SDRAM"
   SystemReportName:
+    - "iMac (Retina 5K, 27-inch, Late 2014)"
     - "iMac (Retina 5K, 27-inch, Mid 2015)"
   MarketingName:
+    - "27\" iMac Retina 5K (Late 2014)"
     - "27\" iMac Retina 5K (Mid 2015)"
 # Note, first model code is used by macserial
 AppleModelCode:
@@ -112,7 +114,6 @@ AppleModelCode:
   - "GJDN"
   - "GJDP"
   - "GJDQ"
-  - "FY10"
   - "FY13"
   - "FY6D"
   - "GL1Q"
@@ -120,6 +121,11 @@ AppleModelCode:
   - "GL1T"
   - "GL1V"
   - "GL1W"
+  - "GV7V"
+  - "GPJN"
+  - "H682"
+  - "H5DN"
+  - "FY67"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "G2Y7"

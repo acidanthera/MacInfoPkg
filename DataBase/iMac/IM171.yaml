@@ -151,6 +151,33 @@ AppleModelCode:
   - "H3GW"
   - "H8L5"
   - "H8L6"
+  - "H3H4"
+  - "H3HJ"
+  - "HJRN"
+  - "H1H9"
+  - "H4JM"
+  - "H2YQ"
+  - "J0DK"
+  - "GG7Q"
+  - "HN8P"
+  - "H3H9"
+  - "H3H8"
+  - "H3H7"
+  - "H3H6"
+  - "H3H5"
+  - "H3H3"
+  - "H3H2"
+  - "H3H1"
+  - "H3H0"
+  - "H3HH"
+  - "H3HD"
+  - "H3HC"
+  - "HMMQ"
+  - "H3HG"
+  - "H3HF"
+  - "H3GX"
+  - "H3GY"
+  - "H3GN"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "GPF7"
@@ -174,8 +201,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2015
-  - 2016
-  - 2017
 # Optional, override for SystemSerialNumber for Clover
 CloverSerialNumber: "C02QFHACGG7L"
 MinimumOSVersion: 10.11

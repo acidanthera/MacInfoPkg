@@ -88,12 +88,41 @@ Specifications:
   RAM:
     - "1066 MHz DDR3 SDRAM"
   SystemReportName:
+    - "iMac (20-inch, Early 2009)"
+    - "iMac (24-inch, Early 2009)"
     - "iMac (20-inch, Mid 2009)"
   MarketingName:
     - "iMac Intel Core 2 Duo (aluminum enclosure) (Early 2009)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "6MJ"
+  - "6X0"
+  - "0TH"
+  - "9LN"
+  - "8TT"
+  - "8TS"
+  - "0TF"
+  - "8M5"
+  - "9EX"
+  - "9TH"
+  - "6MH"
+  - "6X3"
+  - "6X1"
+  - "6X2"
+  - "9F3"
+  - "0TM"
+  - "0TJ"
+  - "0TG"
+  - "9LR"
+  - "9LS"
+  - "9LP"
+  - "9LQ"
+  - "8XH"
+  - "0TL"
+  - "8M6"
+  - "259"
+  - "250"
+  - "9ET"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

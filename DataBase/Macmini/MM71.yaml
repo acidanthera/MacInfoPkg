@@ -128,6 +128,15 @@ AppleModelCode:
   - "GF1Q"
   - "GF1T"
   - "GJDC"
+  - "GHRN"
+  - "GNL0"
+  - "GN02"
+  - "H84M"
+  - "L7FY"
+  - "L9TM"
+  - "L9TN"
+  - "L9TP"
+  - "HCL5"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "G0MC"

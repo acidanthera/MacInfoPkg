@@ -81,8 +81,10 @@ Specifications:
     - "667 MHz DDR2 SDRAM"
   SystemReportName:
     - "Mac mini (Early 2006)"
+    - "Mac mini (Late 2006)"
   MarketingName:
     - "Mac mini Intel Core (Early 2006)"
+    - "Mac mini Intel Core (Late 2006)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "U35"

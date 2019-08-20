@@ -83,6 +83,18 @@ Specifications:
 AppleModelCode:
   - "LYWM"
   - "M6X5"
+  - "LYWG"
+  - "LYWT"
+  - "LYWV"
+  - "LYWP"
+  - "LYWQ"
+  - "LYWR"
+  - "M6X7"
+  - "LYWL"
+  - "LYWN"
+  - "LYWH"
+  - "LYWJ"
+  - "LYWK"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:

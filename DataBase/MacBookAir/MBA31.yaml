@@ -124,7 +124,7 @@ AppleBoardCode:
   - "DG4V"
 # Note, first year is used by macserial
 AppleModelYear:
-  - 2011
+  - 2010
 CloverSerialNumber: "C02DNHACDDR0"
 MinimumOSVersion: 10.6.4
 MaximumOSVersion: 10.13.x

@@ -88,13 +88,21 @@ Specifications:
   RAM:
     - "8 GB 2133 MHz DDR4 SDRAM"
   SystemReportName:
-    - "iMac (21.5-inch, Late 2017)"
+    - "iMac (21.5-inch, 2017)"
   MarketingName:
-    - "21.5\" iMac (Mid 2017)"
+    - "21.5\" iMac (2017)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "H7JY"
   - "H7VF"
+  - "JGDR"
+  - "MCD9"
+  - "MCD7"
+  - "KQFL"
+  - "MCD8"
+  - "H7K0"
+  - "H7VG"
+  - "JFRR"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "H69F"

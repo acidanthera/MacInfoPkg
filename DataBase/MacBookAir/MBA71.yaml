@@ -94,7 +94,7 @@ Specifications:
   RAM:
     - "1600 MHz LPDDR3 SDRAM"
   SystemReportName:
-    - "MacBook Air (13-inch, Early 2015)"
+    - "MacBook Air (11-inch, Early 2015)"
   MarketingName:
     - "11\" MacBook Air (Early 2015)"
 # Note, first model code is used by macserial
@@ -118,6 +118,13 @@ AppleModelCode:
   - "GMC9"
   - "GNJK"
   - "GNJL"
+  - "GNJG"
+  - "HYVM"
+  - "GL27"
+  - "J762"
+  - "GL29"
+  - "GL26"
+  - "GL2C"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "G90F"
@@ -135,7 +142,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2015
-  - 2016
 CloverSerialNumber: "C02PVHACGFWL"
 MinimumOSVersion: 10.10.2
 MaximumOSVersion: None

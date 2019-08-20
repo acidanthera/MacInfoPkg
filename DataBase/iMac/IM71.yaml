@@ -80,7 +80,8 @@ Specifications:
   RAM:
     - "667 MHz DDR2 SDRAM, PC2-5300"
   SystemReportName:
-    - "iMac (20-inch, Mid 2007)"
+    - "iMac (20-inch Mid 2007)"
+    - "iMac (24-inch Mid 2007)"
   MarketingName:
     - "iMac Intel Core 2 Duo (aluminum enclosure) (Mid 2007)"
 # Note, first model code is used by macserial
@@ -92,7 +93,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2007
-  - 2008
 CloverSerialNumber: "W8739HACX85"
 MinimumOSVersion: 10.4.10
 MaximumOSVersion: 10.11.x

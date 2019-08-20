@@ -74,7 +74,7 @@ Specifications:
   RAM:
     - "667 MHz DDR2 SDRAM, PC2-5300"
   SystemReportName:
-    - "iMac (17-inch, Late 2006 CD)"
+    - "iMac (17-inch Late 2006 CD)"
   MarketingName: ""
 # Note, first model code is used by macserial
 AppleModelCode:
@@ -85,7 +85,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2006
-  - 2007
 CloverSerialNumber: "QP702HACWH4"
 MinimumOSVersion: 10.4.7
 MaximumOSVersion: 10.7.5

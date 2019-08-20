@@ -77,20 +77,27 @@ Specifications:
   RAM:
     - "667 MHz DDR2 SDRAM"
   SystemReportName:
-    - "MacBook Air (Original)"
+    - "MacBook Air"
   MarketingName:
-    - "(Original)"
+    - "MacBook Air (Original)"
 # Note, first model code is used by macserial
 AppleModelCode:
   - "18X"
+  - "1AE"
+  - "14J"
+  - "141"
+  - "12G"
+  - "13Q"
+  - "6T6"
+  - "6T5"
+  - "5YW"
+  - "5YV"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""
 # Note, first year is used by macserial
 AppleModelYear:
-  - 2007
   - 2008
-  - 2009
 CloverSerialNumber: "W864947A18X"
 MinimumOSVersion: 10.5.1
 MaximumOSVersion: 10.7.5

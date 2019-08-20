@@ -85,12 +85,14 @@ Specifications:
 # Note, first model code is used by macserial
 AppleModelCode:
   - "9A7"
+  - "9A8"
+  - "9A5"
+  - "9A6"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""
 # Note, first year is used by macserial
 AppleModelYear:
-  - 2008
   - 2009
 CloverSerialNumber: "W86494769A7"
 MinimumOSVersion: 10.5.7
