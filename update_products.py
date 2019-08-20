@@ -213,7 +213,7 @@ def update_products(database, start_from, end_with, database_path, force = False
       countdown  = savenum
     elif new == ADD_DUMMY or new == ADD_EXCEPT:
       if countdown == 0:
-        save_database(database)
+        save_database(database, database_path)
         countdown  = savenum
       else:
         countdown -= 1
