@@ -130,6 +130,9 @@ AppleModelCode:
   - "JWF1"
   - "JWF0"
   - "JWF4"
+  - "N6JT"
+  - "N9LN"
+  - "N07H"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "KGQG"

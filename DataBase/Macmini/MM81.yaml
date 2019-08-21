@@ -101,6 +101,7 @@ AppleModelCode:
   - "M99N"
   - "L95X"
   - "L95Y"
+  - "N6VR"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "KXPG"

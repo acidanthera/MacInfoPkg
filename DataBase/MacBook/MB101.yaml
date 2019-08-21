@@ -132,6 +132,7 @@ AppleModelCode:
   - "HH2H"
   - "JPXP"
   - "JPXM"
+  - "N86D"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "HJ9L"

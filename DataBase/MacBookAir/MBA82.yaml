@@ -95,6 +95,9 @@ AppleModelCode:
   - "LYWH"
   - "LYWJ"
   - "LYWK"
+  - "NY1J"
+  - "NY1K"
+  - "N797"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:

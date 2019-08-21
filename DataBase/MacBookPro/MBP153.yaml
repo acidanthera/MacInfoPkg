@@ -101,6 +101,17 @@ AppleModelCode:
   - "LVCK"
   - "LVCH"
   - "MV9T"
+  - "NQMC"
+  - "NCM6"
+  - "N6KF"
+  - "N6RJ"
+  - "NQM9"
+  - "NCM5"
+  - "NCM3"
+  - "N5T6"
+  - "NQMF"
+  - "NQMD"
+  - "NCM4"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:

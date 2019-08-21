@@ -127,6 +127,15 @@ AppleModelCode:
   - "LVDH"
   - "LVDN"
   - "LVDL"
+  - "NCLV"
+  - "NCM1"
+  - "NCM0"
+  - "N5T5"
+  - "NQM8"
+  - "NCLW"
+  - "NCLY"
+  - "NCLX"
+  - "NCM2"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "JH4R"

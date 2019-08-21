@@ -79,7 +79,7 @@ Specifications:
   RAM:
     - "8GB 2133 MHz LPDDR3 SDRAM"
   SystemReportName:
-    - "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 Ports)"
+    - "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)"
   MarketingName:
     - "13\" MacBook Pro with Thunderbolt 3 and Touch ID (Mid 2019)"
 # Note, first model code is used by macserial
@@ -92,6 +92,19 @@ AppleModelCode:
   - "L414"
   - "L415"
   - "L416"
+  - "NY19"
+  - "NY17"
+  - "NY1F"
+  - "NY18"
+  - "NY1H"
+  - "N71G"
+  - "NXJM"
+  - "NR4Y"
+  - "N71F"
+  - "N71D"
+  - "N71C"
+  - "NY1G"
+  - "NY1C"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:
