@@ -133,6 +133,8 @@ AppleModelCode:
   - "F6LH"
   - "F6LJ"
   - "F9Q0"
+  - "DTY4"
+  - "DV31"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "F1YJ"

@@ -101,6 +101,7 @@ AppleModelCode:
   - "GUP"
   - "F5W"
   - "GST"
+  - "DV8H"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - ""

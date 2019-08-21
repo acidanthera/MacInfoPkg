@@ -97,6 +97,15 @@ Specifications:
 AppleModelCode:
   - "DDR3"
   - "DDR1"
+  - "DJ66"
+  - "DJLQ"
+  - "DJLP"
+  - "DMW4"
+  - "DDR2"
+  - "DDR4"
+  - "DJDK"
+  - "DJ5G"
+  - "DJ5F"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DCWQ"

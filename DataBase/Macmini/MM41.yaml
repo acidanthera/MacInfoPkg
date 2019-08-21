@@ -98,6 +98,13 @@ Specifications:
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DD6H"
+  - "DD6L"
+  - "DFDK"
+  - "DDVN"
+  - "DDQ9"
+  - "DD6N"
+  - "DD6K"
+  - "DDJF"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DC2D"

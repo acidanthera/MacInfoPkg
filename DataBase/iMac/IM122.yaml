@@ -105,6 +105,18 @@ AppleModelCode:
   - "FHCV"
   - "F610"
   - "DWTR"
+  - "DY6F"
+  - "DHJV"
+  - "DNGH"
+  - "DPNV"
+  - "DRVP"
+  - "DPM2"
+  - "DPM1"
+  - "DNJ9"
+  - "DMW8"
+  - "DNY0"
+  - "DL8P"
+  - "DL8Q"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DJWM"

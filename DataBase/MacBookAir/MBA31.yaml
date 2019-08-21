@@ -96,6 +96,15 @@ Specifications:
 # Note, first model code is used by macserial
 AppleModelCode:
   - "DDQW"
+  - "DJ67"
+  - "DN00"
+  - "DQQ6"
+  - "DDR0"
+  - "DDQY"
+  - "DDQX"
+  - "DJDL"
+  - "DJ5H"
+  - "DJ5J"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DF83"

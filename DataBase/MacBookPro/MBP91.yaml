@@ -147,6 +147,7 @@ AppleModelCode:
   - "FCQT"
   - "F2J5"
   - "F2J4"
+  - "DV35"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "F327"
