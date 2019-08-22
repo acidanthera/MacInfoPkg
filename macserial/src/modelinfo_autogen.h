@@ -513,7 +513,7 @@ static uint32_t AppleModelYear[][APPLE_MODEL_YEAR_MAX] = {
   /* MacBookPro11,3 */ {2013},
   /* MacBookPro11,4 */ {2015},
   /* MacBookPro11,5 */ {2015},
-  /* MacBookPro12,1 */ {2015},
+  /* MacBookPro12,1 */ {2015, 2016},
   /* MacBookPro13,1 */ {2016},
   /* MacBookPro13,2 */ {2016},
   /* MacBookPro13,3 */ {2016},
