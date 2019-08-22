@@ -287,7 +287,7 @@ static const char *AppleModelCode[][APPLE_MODEL_CODE_MAX] = {
   /* MacBookPro15,1 */ {"KGYG", "JG5H", "JG5J", "JG5K", "JG5L", "JG5M", "JGH5", "JGH6", "JGH7", "JGH8", "KGYF", "KGYH", "KQ9Q", "KQ9R", "KQ9T", "KQ9V", "KQ9W", "KQ9X", "KQ9Y", "KQC0", "KQC1", "KQC2", "KQC3", "KQC4", "KQC5", "KQC6", "KQC7", "KQC8", "KQC9", "KQCC", "KQCD", "KQCF", "KQCG", "KQCH", "KQCJ", "KQCK", "KQCL", "KQCM", "KQCN", "KQCP", "KQCR", "KQCT", "KQCV", "KQCW", "KQCX", "KWJ2", "LCM6", "MJLT", "L4HW", "KQCQ", "LC8K", "LC8J", "LC8L", "L539", "L53D", "L4HX", "L7GC", "MJLR"},
   /* MacBookPro15,2 */ {"JHCC", "JHC8", "JHC9", "JHCD", "JHCF", "JHD2", "JHD3", "JHD4", "JHD5", "KK98", "KK99", "KK9C", "KQ1X", "KQ1Y", "KQ20", "KQ21", "KQ22", "KQ23", "KQ24", "KQ25", "KQ26", "KQ27", "LVDC", "LVDM", "L42X", "L4FF", "L4FG", "L4FD", "L4FC", "L4FJ", "L4JT", "LK8C", "L7GD", "MV9R", "MV9K", "LVDP", "LVDF", "LVDG", "LVDD", "LVDH", "LVDN", "LVDL", "NCLV", "NCM1", "NCM0", "N5T5", "NQM8", "NCLW", "NCLY", "NCLX", "NCM2"},
   /* MacBookPro15,3 */ {"LVCG", "LVCJ", "LVDQ", "LVDR", "LVDV", "LVDT", "MVC0", "LVCL", "LVCF", "LVCK", "LVCH", "MV9T", "NQMC", "NCM6", "N6KF", "N6RJ", "NQM9", "NCM5", "NCM3", "N5T6", "NQMF", "NQMD", "NCM4"},
-  /* MacBookPro15,4 */ {"L40Y", "L410", "L411", "L412", "L413", "L414", "L415", "L416", "NY19", "NY17", "NY1F", "NY18", "NY1H", "N71G", "NXJM", "NR4Y", "N71F", "N71D", "N71C", "NY1G", "NY1C"},
+  /* MacBookPro15,4 */ {"L40Y", "L410", "L411", "L412", "L413", "L414", "L415", "L416", "NY19", "NY17", "NY1F", "NY18", "NY1H", "N71G", "NXJM", "NR4Y", "N71F", "N71D", "N71C", "NY1G", "NY1C", "P0LW"},
   /* MacBookPro2,1  */ {"W0H", "X9W", "Y9M", "W4M", "X44", "XWV", "W0M", "W0J", "X40", "XCT", "X6C", "X42", "X41", "X3Y", "X43", "X57"},
   /* MacBookPro2,2  */ {"W0L", "Y1C", "XKU", "W0G", "W4K", "W4L", "Y6N", "X2G", "Y99", "Y98", "X2K", "W0K", "X2L", "X2H", "X2F", "X9U", "X9V", "XDB", "XDL", "XDK", "YJ9", "XCS", "Y41", "XAQ", "XC6", "X5X", "X6A", "X6B", "X2J", "X2E"},
   /* MacBookPro3,1  */ {"X91", "1CY", "0PA", "02V", "0M0", "0S3", "0S6", "0LQ", "0LZ", "1CZ", "2QV", "2QU", "1MG", "1MF", "1CW", "1CX", "027", "0NM", "0ND", "0LR", "2QW", "02D", "028", "0PD", "09R", "09S", "YQ4", "YAP", "YZ2", "Z5M", "YNS", "YWC", "YWB", "YNQ", "X94", "YRD", "YR2", "YQ5", "YRE", "YNW", "XA9", "YZ1", "YAN", "YAA", "YRF", "YAM", "YAL", "YYX", "YZ0", "YWA", "YW5", "Y9T", "Y9S", "Z09", "Z05", "Z0G", "YL0", "X92", "YKZ", "YKY", "YKX", "YQ3", "XAG", "YWD", "YW9", "XAH", "YYV"},
@@ -346,7 +346,7 @@ static const char *AppleModelCode[][APPLE_MODEL_CODE_MAX] = {
   /* iMac18,1       */ {"H7JY", "H7VF", "JGDR", "MCD9", "MCD7", "KQFL", "MCD8", "H7K0", "H7VG", "JFRR"},
   /* iMac18,2       */ {"J1G5", "J9X5", "J9X4", "LQHG", "JGDT", "J1GC", "J1GF", "J1GD", "J1G8", "J1G9", "J1G6", "J1G7", "J608", "JKF9", "JFPW", "L7H6", "JP10"},
   /* iMac18,3       */ {"J1GJ", "J1GQ", "J1GG", "J9XC", "J9X7", "J9X6", "J9X9", "JNGD", "JNGF", "JCCR", "JCCT", "JT72", "J9X8", "JM3R", "JM3V", "J1GR", "J1GP", "J1GV", "J1GT", "J1GK", "J1GH", "J1GN", "J1GL", "J1GM", "JCND", "JC5L", "JX8H", "J2GJ", "J609", "J60C"},
-  /* iMac19,1       */ {"JV3Q", "JV3P", "JV40", "JV41", "JV42", "JV43", "MC9K", "MC9J", "MX7W", "JV3N", "JV3T", "JV3W", "JV3R", "JV3Y", "JV3X", "MW2R", "MW2P", "MW2Q", "MW2V", "MW2W", "MW2T", "MQQP", "NY2G"},
+  /* iMac19,1       */ {"JV3Q", "JV3P", "JV40", "JV41", "JV42", "JV43", "MC9K", "MC9J", "MX7W", "JV3N", "JV3T", "JV3W", "JV3R", "JV3Y", "JV3X", "MW2R", "MW2P", "MW2Q", "MW2V", "MW2W", "MW2T", "MQQP", "NY2G", "P1WV"},
   /* iMac19,2       */ {"JWDW", "JWDX", "MQ87", "MC9M", "MC9L", "MRVM", "MPM0", "MW28", "JWDY", "MMTK", "MMTL", "MTML", "MCC1", "JWF3", "JWF2", "JWF1", "JWF0", "JWF4", "N6JT", "N9LN", "N07H"},
   /* iMac4,1        */ {"U2P", "V67", "V4Q", "VX0", "V4P", "V4R", "X0U", "U2S", "VH0", "VH2", "VW4", "WXN", "VGM", "VGC", "V66", "V4U", "V4N", "VV4", "VHP", "VH1", "VV6", "V4M", "U2N", "U2R", "VGB", "VGZ"},
   /* iMac4,2        */ {"V2H", "W8K", "WCV", "WAE", "WD4", "W9E", "X11", "V2J", "WKT"},
@@ -9322,6 +9322,8 @@ static APPLE_MODEL_DESC AppleModelDesc[] = {
  {"NY1J", "MacBook Air (Retina, 13-inch, 2019)"},
  {"NY1K", "MacBook Air (Retina, 13-inch, 2019)"},
  {"NY2G", "iMac (Retina 5K, 27-inch, 2019)"},
+ {"P0LW", "MacBook Pro (13-inch, 2019, Two Thunderbolt 3 ports)"},
+ {"P1WV", "iMac (Retina 5K, 27-inch, 2019)"},
 };
 
 #endif // GENSERIAL_MODELINFO_AUTOGEN_H

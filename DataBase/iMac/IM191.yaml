@@ -123,6 +123,7 @@ AppleModelCode:
   - "MW2T"
   - "MQQP"
   - "NY2G"
+  - "P1WV"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "LNV9"
