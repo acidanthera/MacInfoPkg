@@ -157,6 +157,7 @@ AppleModelCode:
   - "DMLH"
   - "DMLJ"
   - "DMLF"
+  - "ST61"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "DM6D"
