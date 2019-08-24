@@ -65,7 +65,7 @@ rm -rf tmp || exit 1
 mkdir tmp || exit 1
 cp macserial tmp || exit 1
 cp ../../macrecovery/macrecovery.py tmp || exit 1
-cp ../../macrecovery/boards.json    tmp || exit 1
+cp ../../macrecovery/recovery_urls.txt tmp || exit 1
 cp ../FORMAT.md                     tmp || exit 1
 cd tmp || exit 1
 zip -qry -FS ../"macinfo-${VER}-mac.zip" * || exit 1
