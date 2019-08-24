@@ -183,5 +183,5 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2006
-MinimumOSVersion: 10.4.7
-MaximumOSVersion: 10.7.5
+MaximumOSVersion: "10.4.7"
+MaximumOSVersion: "10.7.5"

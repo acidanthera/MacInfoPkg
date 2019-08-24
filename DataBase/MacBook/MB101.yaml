@@ -259,5 +259,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2017
 CloverSerialNumber: "C02TQHACHH27"
-MinimumOSVersion: 10.12.5
-MaximumOSVersion: None
+MaximumOSVersion: "10.12.5"
+MaximumOSVersion: null

@@ -148,5 +148,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2010
 CloverSerialNumber: "W8034342DB7"
-MinimumOSVersion: 10.6.3
-MaximumOSVersion: 10.13.x
+MaximumOSVersion: "10.6.3"
+MaximumOSVersion: "10.13.x"

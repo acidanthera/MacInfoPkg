@@ -107,5 +107,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2008
 CloverSerialNumber: "CK830DLQX8S"
-MinimumOSVersion: 10.5
+MaximumOSVersion: "10.5"
 MaximumOSVersion: Server 10.7.5

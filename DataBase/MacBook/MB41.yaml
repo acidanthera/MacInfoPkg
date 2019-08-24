@@ -131,5 +131,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2008
 CloverSerialNumber: "W88A041A0P0"
-MinimumOSVersion: 10.5.2
-MaximumOSVersion: 10.7.5
+MaximumOSVersion: "10.5.2"
+MaximumOSVersion: "10.7.5"

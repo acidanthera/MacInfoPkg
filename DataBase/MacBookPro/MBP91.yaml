@@ -166,5 +166,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2012
 CloverSerialNumber: "C02LW984F1G4"
-MinimumOSVersion: 10.7.3
-MaximumOSVersion: None
+MaximumOSVersion: "10.7.3"
+MaximumOSVersion: null

@@ -142,5 +142,5 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2013
-MinimumOSVersion: 10.8.4
-MaximumOSVersion: None
+MaximumOSVersion: "10.8.4"
+MaximumOSVersion: null

@@ -13,6 +13,7 @@ Interesting examples:
 - J6FL - unicode
 - CURL - easter egg (returns 403)
 - MSDB - easter egg (returns 403)
+- TFTP - easter egg (returns 403)
 - WGET - easter egg (returns 403)
 """
 
@@ -47,7 +48,7 @@ ADD_EXCEPT = 1
 ADD_NEW    = 2
 ADD_SKIP   = -1
 
-valid_chars = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B',
+apple_base34 = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B',
                'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P',
                'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
@@ -69,14 +70,14 @@ def base34_to_num(str):
     num = 0
     for i in str:
       num *= 34
-      num += valid_chars.index(i)
+      num += apple_base34.index(i)
     return num
 
 def num_to_base34(num):
     str = ''
     while num > 0:
       num, r = divmod(num, 34)
-      str    = valid_chars[r] + str
+      str    = apple_base34[r] + str
     return str.zfill(3)
 
 def load_products(path='Products.json'):
@@ -243,7 +244,7 @@ def main():
       print(u'Invalid length for ID {}'.format(id))
       sys.exit(1)
 
-    if not set(id) < set(valid_chars):
+    if not set(id) < set(apple_base34):
       print(u'Invalid characters in ID {}'.format(id))
       sys.exit(1)
 

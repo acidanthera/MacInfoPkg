@@ -8,6 +8,7 @@ MacInfoPkg changelog
 - Added MacBookAir8,2 model codes
 - Added macserial basic other product recognition and `-lp` mode
 - Updated FORMAT.md with MLB details
+- Added macrecovery utility to download recovery and verify MLB
 
 #### v2.0.6
 - Initial model fillup (thx to all participants)

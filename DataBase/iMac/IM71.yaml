@@ -130,5 +130,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2007
 CloverSerialNumber: "W8739HACX85"
-MinimumOSVersion: 10.4.10
-MaximumOSVersion: 10.11.x
+MaximumOSVersion: "10.4.10"
+MaximumOSVersion: "10.11.x"

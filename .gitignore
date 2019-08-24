@@ -9,4 +9,7 @@ project.xcworkspace
 *.dSYM
 *.o
 *.pyc
+*.dmg
+*.chunklist
+*.html
 bin

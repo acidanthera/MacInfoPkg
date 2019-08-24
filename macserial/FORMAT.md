@@ -156,6 +156,18 @@ There generally are 2 formats of logic board serial encoding: the old 13 charact
 | Old (13)  | `LL`      | `Y`  | `WW` | `IIII` |        | `EEE`    | `C`    |
 | New (17)  | `LLL`     | `Y`  | `WW` | `III`  | `AA`   | `EEEE`   | `CC`   |
 
+While it is unclear if this is intentional, for 17 character MLB it is possible to perform basic validation online through `osrecovery.apple.com`. The recovery server will return valid latest recovery image only when MLB is valid. Use `./macrecovery.py verify -m MLB -b BOARD-ID` to try verifying your MLB number.
+
+It is not clear how strongly MLB is attached to serial number (SN). The following is known:
+
+- Minimal supported macOS version is identified by `EEEE`
+- Maximum supported macOS version is identified by `EEEE` and `board-id`
+- Recovery server accepts a range of models with the same MLB (with only latest os different)
+
+The following is suspected:
+- `EEEE` is unique number for all MLBs
+- `EEEE` are shared across different models and thus cannot identify the model
+
 ### Location
 
 MLB location is equivalent to serial number location but does not necessarily match it, as logic boards can be manufactured at a different place.

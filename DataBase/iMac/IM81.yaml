@@ -132,5 +132,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2008
 CloverSerialNumber: "QP849HACZE7"
-MinimumOSVersion: 10.5.2
-MaximumOSVersion: 10.11.x
+MaximumOSVersion: "10.5.2"
+MaximumOSVersion: "10.11.x"

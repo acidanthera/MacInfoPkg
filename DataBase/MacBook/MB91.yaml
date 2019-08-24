@@ -172,5 +172,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2016
 CloverSerialNumber: "C02RM408HDNK"
-MinimumOSVersion: 10.11.4
-MaximumOSVersion: None
+MaximumOSVersion: "10.11.4"
+MaximumOSVersion: null

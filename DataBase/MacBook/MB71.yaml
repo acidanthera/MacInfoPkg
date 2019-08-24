@@ -109,5 +109,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2010
 CloverSerialNumber: "451211MEF5X"
-MinimumOSVersion: 10.6.3
-MaximumOSVersion: 10.13.x
+MaximumOSVersion: "10.6.3"
+MaximumOSVersion: "10.13.x"

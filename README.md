@@ -16,6 +16,12 @@ Should be built with a compiler supporting C99. Prebuilt binaries are available 
 
 Run with `-h` argument to see all available arguments.
 
+## macrecovery
+
+macrecovery is a tool that helps to automate recovery interaction. It can be used to download diagnostics and recovery as well as analyse MLB.
+
+Requires python to run. Run with `-h` argument to see all available arguments.
+
 ## Improving database
 
 To add a new hardware board, please create a file in DataBase

@@ -134,5 +134,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2010
 CloverSerialNumber: "C02DNHACDDR0"
-MinimumOSVersion: 10.6.4
-MaximumOSVersion: 10.13.x
+MaximumOSVersion: "10.6.4"
+MaximumOSVersion: "10.13.x"

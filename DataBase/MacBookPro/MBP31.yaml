@@ -159,5 +159,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2007
 CloverSerialNumber: "W8841OHZX91"
-MinimumOSVersion: 10.4.9
-MaximumOSVersion: 10.11.x
+MaximumOSVersion: "10.4.9"
+MaximumOSVersion: "10.11.x"

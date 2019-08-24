@@ -114,5 +114,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2013
 CloverSerialNumber: "D25LHACKF8J3"
-MinimumOSVersion: 10.8.4
-MaximumOSVersion: None
+MaximumOSVersion: "10.8.4"
+MaximumOSVersion: null

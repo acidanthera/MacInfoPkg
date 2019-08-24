@@ -145,6 +145,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2018
-MinimumOSVersion: 10.13.6
-MaximumOSVersion: None
+MaximumOSVersion: "10.13.6"
+MaximumOSVersion: null
 AppleModelId: "J680"

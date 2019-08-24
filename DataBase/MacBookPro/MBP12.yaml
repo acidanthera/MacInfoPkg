@@ -102,5 +102,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2006
 CloverSerialNumber: "W8629HACTHY"
-MinimumOSVersion: 10.4.6
-MaximumOSVersion: 10.6.8
+MaximumOSVersion: "10.4.6"
+MaximumOSVersion: "10.6.8"

@@ -219,5 +219,5 @@ AppleModelYear:
   - 2013
   - 2014
 CloverSerialNumber: "C17N4HACG3QJ"
-MinimumOSVersion: 10.9.4
-MaximumOSVersion: None
+MaximumOSVersion: "10.9.4"
+MaximumOSVersion: null

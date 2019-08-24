@@ -216,5 +216,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2011
 CloverSerialNumber: "W88F9CDEDF93"
-MinimumOSVersion: 10.7.2
-MaximumOSVersion: 10.13.x
+MaximumOSVersion: "10.7.2"
+MaximumOSVersion: "10.13.x"

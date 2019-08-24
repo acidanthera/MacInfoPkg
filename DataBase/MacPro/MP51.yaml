@@ -167,5 +167,5 @@ AppleModelYear:
 MacserialModelYear: 2012
 # Optional, override for SystemSerialNumber for Clover, wtf?
 CloverSerialNumber: "C07J77F7F4MC"
-MinimumOSVersion: 10.7.4
-MaximumOSVersion: 10.14.6
+MaximumOSVersion: "10.7.4"
+MaximumOSVersion: "10.14.6"

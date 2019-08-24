@@ -104,5 +104,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2008
 CloverSerialNumber: "W864947A18X"
-MinimumOSVersion: 10.5.1
-MaximumOSVersion: 10.7.5
+MaximumOSVersion: "10.5.1"
+MaximumOSVersion: "10.7.5"

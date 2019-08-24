@@ -61,9 +61,18 @@ fi
 
 cd bin || exit 1
 
-zip -qry -FS "macserial-${VER}-mac.zip" macserial || exit 1
-if [ -f macserial32.exe ]; then
-  zip -qry -FS "macserial-${VER}-win32.zip" macserial32.exe || exit 1
+rm -rf tmp || exit 1
+mkdir tmp || exit 1
+cp macserial tmp || exit 1
+cp ../../macrecovery/macrecovery.py tmp || exit 1
+cp ../../macrecovery/boards.json    tmp || exit 1
+cp ../FORMAT.md                     tmp || exit 1
+cd tmp || exit 1
+zip -qry -FS ../"macinfo-${VER}-mac.zip" * || exit 1
+if [ -f ../macserial32.exe ]; then
+  rm -f macserial || exit 1
+  cp ../macserial32.exe . || exit 1
+  zip -qry -FS ../"macinfo-${VER}-win32.zip" * || exit 1
 fi
 
 exit 0

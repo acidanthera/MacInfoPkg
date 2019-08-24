@@ -115,5 +115,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2006
 CloverSerialNumber: "W8610HACVGM"
-MinimumOSVersion: 10.4.4
-MaximumOSVersion: 10.6.8
+MaximumOSVersion: "10.4.4"
+MaximumOSVersion: "10.6.8"

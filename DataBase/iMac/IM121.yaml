@@ -139,5 +139,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2011
 CloverSerialNumber: "W80CF65ADHJF"
-MinimumOSVersion: 10.7.2
-MaximumOSVersion: 10.13.x
+MaximumOSVersion: "10.7.2"
+MaximumOSVersion: "10.13.x"
