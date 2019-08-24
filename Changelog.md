@@ -6,7 +6,8 @@ MacInfoPkg changelog
 - Added MacBookPro15,4 model codes
 - Added MacBookPro15,3 model codes
 - Added MacBookAir8,2 model codes
-- Added macserial basic other product recognition
+- Added macserial basic other product recognition and `-lp` mode
+- Updated FORMAT.md with MLB details
 
 #### v2.0.6
 - Initial model fillup (thx to all participants)

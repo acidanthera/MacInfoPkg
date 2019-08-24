@@ -3,21 +3,46 @@ Apple Mac Serial Format
 
 It is reasonably important to get more information about the goods you buy, especially if they are not new, and you do not have absolute confidence in the seller. Serial numbers are the first thing to look at. For Apple products [Apple Check Coverage](https://checkcoverage.apple.com) is your best friend.
 
-However, it does not show all the details encoded in the serial, and in some case it may be important. For example, certain shady dealers may change one valid serial by the other, and it will not be obvious at a glance that the serial does not belong to the actual model. This FAQ attempts to explains the reverse-engineered structure of the serials used in Apple hardware.
+However, it does not show all the details encoded in the serial, and in some case it may be important. For example, certain shady dealers may change one valid serial by the other, and it will not be obvious at a glance that the serial does not belong to the actual model. This FAQ attempts to explain the reverse-engineered structure of the serials used in Apple hardware.
 
-You could always receive information about the current serial number of your Mac by running `./getserial`.  
-For the other serial use `./getserial -i SERIALNUMBER`, where `SERIALNUMBER` is the serial you check.
+You could always receive information about the current serial number of your Mac by running `./macserial`. For the other serial use `./macserial -i SERIALNUMBER`, where `SERIALNUMBER` is the serial you check.
+
+## Apple base 34
+
+Select fields in the numbers are encoded values in base 34. So, certain alpha-numeric characters represent a slightly uncommon base 34 code excluding `O` and `I`.
+
+| Char | Value | Char | Value |
+| ---- | ----- | ---- | ----- |
+| `0`  | `0`   | `H`  | `17`  |
+| `1`  | `1`   | `J`  | `18`  |
+| `2`  | `2`   | `K`  | `19`  |
+| `3`  | `3`   | `L`  | `20`  |
+| `4`  | `4`   | `M`  | `21`  |
+| `5`  | `5`   | `N`  | `22`  |
+| `6`  | `6`   | `P`  | `23`  |
+| `7`  | `7`   | `Q`  | `24`  |
+| `8`  | `8`   | `R`  | `25`  |
+| `9`  | `9`   | `S`  | `26`  |
+| `A`  | `10`  | `T`  | `27`  |
+| `B`  | `11`  | `U`  | `28`  |
+| `C`  | `12`  | `V`  | `29`  |
+| `D`  | `13`  | `W`  | `30`  |
+| `E`  | `14`  | `X`  | `31`  |
+| `F`  | `15`  | `Y`  | `32`  |
+| `G`  | `16`  | `Z`  | `33`  |
+
+## Serial number (SN)
 
 There generally are 2 similar formats of serial encoding: the old 11 character format, and the new 12 character format. 
 
-| Type      | Location  | Year | Week | Line | Platform |
+| Type      | Location  | Year | Week | Line | Product  |
 | --------- | --------- | ---- | ---- | ---- | -------- |
 | Old (11)  | LL        | Y    | WW   | SSS  | PPP      |
 | New (12)  | LLL       | Y    | W    | SSS  | PPPP     |
 
 ### Location
 
-This value encodes the manufacturing location, which is often more descriptive than `Made in China`, since it may reveal the responsible company and the city. For example, `F5K` means `USA (Flextronics)` and `QT` means `Taiwan (Quanta Computer)`. The list is not standardised or published anywhere, but you can see several known locations by running `./getserial -l`.
+This value encodes the manufacturing location, which is often more descriptive than `Made in China`, since it may reveal the responsible company and the city. For example, `F5K` means `USA (Flextronics)` and `QT` means `Taiwan (Quanta Computer)`. The list is not standardised or published anywhere, but you can see several known locations by running `./macserial -l`.
 
 One of the important locations for old-style serials (11 characters) is `RM`. It means that the model was refurbished. For new-style serials you have to call [Apple support](https://support.apple.com) to know this.
 
@@ -94,43 +119,25 @@ For old-style serials week is encoded in plain numeric digits with leading zeroe
 
 For old-style serials it is a pair of two digits, which encode the manufacturing week.
 
-### Production line
+### Production line and copy
 
-Production line is believed to encode the manufacturing line or some identifier used by the assembly engineers. It is calculated as a sum of three alpha-numeric characters, which themselves represent a modified base34 code excluding `O` and `I`. The actual formula is as follows:
+Production line is believed to be related to some identifier at assembly stage. It is encoded in base 34, but the actual derivation process is unknown and can only be guessed with relative success.
+
+Current model, which apparently works well, represents it as a sum of three alpha-numeric characters with `1`, `34`, and `68` multipliers. The actual formula looks as follows:
 
 ```
 base34[S1] * 68 + base34[S2] * 34 + base34[S3] = production line
 ```
 
-That allows to encode a total of `3400` production lines from `0` to `3399`.
+This formula effectively defines a compression function, which allows to encode a total of `3400` production lines from `0` to `3399`. The compression produced by shortening `39304` space to `3400` allows multiple encodings of the same line. For example, for `939` line there can be `14` derivatives or "copies": `0TM`, `1RM`, `2PM`, `3MM`, `4KM`, ..., `D1M`.
 
-| Char | Value | Char | Value |
-| ---- | ----- | ---- | ----- |
-| `0`  | `0`   | `H`  | `17`  |
-| `1`  | `1`   | `J`  | `18`  |
-| `2`  | `2`   | `K`  | `19`  |
-| `3`  | `3`   | `L`  | `20`  |
-| `4`  | `4`   | `M`  | `21`  |
-| `5`  | `5`   | `N`  | `22`  |
-| `6`  | `6`   | `P`  | `23`  |
-| `7`  | `7`   | `Q`  | `24`  |
-| `8`  | `8`   | `R`  | `25`  |
-| `9`  | `9`   | `S`  | `26`  |
-| `A`  | `10`  | `T`  | `27`  |
-| `B`  | `11`  | `U`  | `28`  |
-| `C`  | `12`  | `V`  | `29`  |
-| `D`  | `13`  | `W`  | `30`  |
-| `E`  | `14`  | `X`  | `31`  |
-| `F`  | `15`  | `Y`  | `32`  |
-| `G`  | `16`  | `Z`  | `33`  |
+While the formula does look strange, it was experimentally discovered that up to `N` first encoded derivatives are valid, and starting with the first invalid derivative there will be no valid ones. Thus for a complete serial list made up with all the derivatives from the above the following is assumed to be true: if `0TM` and `2PM` are valid and `3MM` is invalid, then `1RM` will also be valid, and `4KM` to `D1M` will be invalid. From this data it could be theorised that the encoded value is incremented for each model produced from the same line. So `0TM` is the first copy produced, and `D1M` is the last copy.
 
-### Production copy
+**Update**: At a later stage very few examples of valid derivatives after invalid were found. These exceptions disprove at least some parts of the model, but currently there exists no better theory.
 
-From the nature of the production line code there often exist multiple ways of encoding each value. For example, `680` could be encoded as `0L0`, `1J0`, `2G0`, `3E0`, ..., `920` and `2400` could be encoded as `KYL`, `LWL`, `MUL`, ..., `Z4L`. It was experimentally discovered that the first N encoded values are always valid, and starting with the first invalid value there will be no valid ones. From this data it could be assumed that the encoding type is incremented for each model produced from the same line. So `0L0` and `KYL` are the first copies produced, and `920` with `Z4L` are the last copies.
+### Product model
 
-### Platform model
-
-Last 3 (for legacy serials) or 4 (for new serials) symbols encode the actual platform/model of this exact piece of the hardware. This is probably the most useful part of the serial, since it allows you to get the detailed description of your hardware directly from the dedicated Apple Specs portal. To do so you need to modify the following URI to contain your real platform model value instead of `PPPP` and follow it in your browser:
+Last 3 (for legacy serials) or 4 (for new serials) symbols encode the actual product identifier of this exact piece of the hardware. This is probably the most useful part of the serial, since it allows you to get the detailed description of your hardware directly from the dedicated Apple Specs portal. To do so you need to modify the following URI to contain your real product code instead of `PPPP` and follow it in your browser:
 
 ```
 http://support-sp.apple.com/sp/index?page=cpuspec&cc=PPPP
@@ -138,6 +145,64 @@ http://support-sp.apple.com/sp/index?page=cpuspec&cc=PPPP
 
 For example, for iMacPro1,1 it could be [HX87](http://support-sp.apple.com/sp/index?page=cpuspec&cc=HX87) and for MacBookPro14,3 it could be [HTD5](http://support-sp.apple.com/sp/index?page=cpuspec&cc=HTD5).
 
-### Appendix
+The list is not standardised or published anywhere, but you can see most products by running `./macserial -lp` and `./macserial -l` to match against mac models. The value seems to be a classic base 34 sequence: `P1 * 39304 + P2 * 1156 + P3 * 34 + P4`. The ranges seem to be allocated in chunks in non-decreasing manner. Normally each chunk is distanced from another chunk by up to 64 (90% matches). 
+
+## Logic board serial number (MLB)
+
+There generally are 2 formats of logic board serial encoding: the old 13 character format, and the new 17 character format. Unlike serial number, these formats are quite different and in addition very little is known about MLB in general.
+
+| Type      | Location  | Year | Week | Item  | Infix  | Product  | Suffix |
+| --------- | --------- | ---- | ---- | ----- | ------ | -------- | ------ |
+| Old (13)  | LL        | Y    | WW   | IIII  |        | EEE      | C      |
+| New (17)  | LLL       | Y    | WW   | III   | AA     | EEEE     | CC     |
+
+### Location
+
+MLB location is equivalent to serial number location but does not necessarily match it, as logic boards can be manufactured at a different place.
+
+### Year and week
+
+MLB year and week in both 13-character and 17-character MLB are equivalent to legacy serial number year and week. The values are slightly lower as logic board is manufactured prior to the complete product.
+
+### Item
+
+MLB item is encoded differently for 13-character and 17-character MLB. It might serve as a production item per week and could be similar to 'Production line and copy' in the serial number.
+
+- For old MLB, this is a variant of base 34 value. First item character is always `0`.
+- For new MLB, this value always is a number.
+
+### Infix
+
+Base 34 value present in new MLBs only. No information is known about it. Could actually be part of Item.
+
+### Product board
+
+Similarly to 'Product model' this field encodes logic board model number. This code is often referred to as `EEE code` in part catalogues and is useful for purchasing a compatible logic board for replacement.
+
+For new 17 character MLBs this field is also used for identification at `osrecovery.apple.com` to provide a compatible internet recovery image and diagnostic tools upon request.
+
+### Suffix
+
+Base 34 value with unclear designation. Might be used for checksum validation. Checksum validation algorithm is reverse engineered from diagnostics tools and is valid for all 17 character MLBs. It is not clear whether 13 character MLBs have any checksum. 17 character MLB checksum follows.
+
+```C
+static bool verify_mlb_checksum(const char *mlb, size_t len) {
+ const char alphabet[] = "0123456789ABCDEFGHJKLMNPQRSTUVWXYZ";
+ size_t checksum = 0;
+ for (size_t i = 0; i < len; ++i) {
+   for (size_t j = 0; j <= sizeof (alphabet); ++j) {
+     if (j == sizeof (alphabet))
+       return false;
+     if (mlb[i] == alphabet[j]) {
+       checksum += (((i & 1) == (len & 1)) * 2 + 1) * j;
+       break;
+     }
+   }
+ }
+ return checksum % (sizeof(alphabet) - 1) == 0;
+}
+```
+
+## Appendix
 
 This information was obtained experimentally and may not be accurate in certain details. Be warned that it is published at no warranty for educational and introductory purposes only.
