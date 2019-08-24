@@ -35,10 +35,10 @@ Select fields in the numbers are encoded values in base 34. So, certain alpha-nu
 
 There generally are 2 similar formats of serial encoding: the old 11 character format, and the new 12 character format. 
 
-| Type      | Location  | Year | Week | Line | Product  |
-| --------- | --------- | ---- | ---- | ---- | -------- |
-| Old (11)  | LL        | Y    | WW   | SSS  | PPP      |
-| New (12)  | LLL       | Y    | W    | SSS  | PPPP     |
+| Type      | Location  | Year | Week | Line  | Product  |
+| --------- | --------- | ---- | ---- | ----- | -------- |
+| Old (11)  | `LL`      | `Y`  | `WW` | `SSS` | `PPP`    |
+| New (12)  | `LLL`     | `Y`  | `W`  | `SSS` | `PPPP`   |
 
 ### Location
 
@@ -151,10 +151,10 @@ The list is not standardised or published anywhere, but you can see most product
 
 There generally are 2 formats of logic board serial encoding: the old 13 character format, and the new 17 character format. Unlike serial number, these formats are quite different and in addition very little is known about MLB in general.
 
-| Type      | Location  | Year | Week | Item  | Infix  | Product  | Suffix |
-| --------- | --------- | ---- | ---- | ----- | ------ | -------- | ------ |
-| Old (13)  | LL        | Y    | WW   | IIII  |        | EEE      | C      |
-| New (17)  | LLL       | Y    | WW   | III   | AA     | EEEE     | CC     |
+| Type      | Location  | Year | Week | Item   | Infix  | Product  | Suffix |
+| --------- | --------- | ---- | ---- | ------ | ------ | -------- | ------ |
+| Old (13)  | `LL`      | `Y`  | `WW` | `IIII` |        | `EEE`    | `C`    |
+| New (17)  | `LLL`     | `Y`  | `WW` | `III`  | `AA`   | `EEEE`   | `CC`   |
 
 ### Location
 
