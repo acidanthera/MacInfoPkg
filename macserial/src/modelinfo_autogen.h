@@ -191,7 +191,7 @@ static PLATFORMDATA ApplePlatformData[] = {
   { "MacPro2,1", "W8930518UPZ" },
   { "MacPro3,1", "W88A77AA5J4" },
   { "MacPro4,1", "CT942NZP20H" },
-  { "MacPro5,1", "C07J77F7F4MC" },
+  { "MacPro5,1", "C07JQ07TF4MC" },
   { "MacPro6,1", "F5KLA770F9VM" },
   { "MacPro7,1", "000000000000" },
   { "Macmini1,1", "W8702N1JU35" },
