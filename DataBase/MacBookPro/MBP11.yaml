@@ -145,5 +145,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2006
 CloverSerialNumber: "W8634HACVWZ"
-MaximumOSVersion: "10.4.5"
+MinimumOSVersion: "10.4.5"
 MaximumOSVersion: "10.6.8"

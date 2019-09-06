@@ -151,5 +151,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2014
   - 2015
-MaximumOSVersion: "10.10.2"
+MinimumOSVersion: "10.10.2"
 MaximumOSVersion: null

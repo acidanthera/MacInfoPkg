@@ -208,5 +208,5 @@ AppleModelYear:
   - 2006
   - 2007
 CloverSerialNumber: "W8713HACWGL"
-MaximumOSVersion: "10.4.9"
+MinimumOSVersion: "10.4.9"
 MaximumOSVersion: "10.7.5"

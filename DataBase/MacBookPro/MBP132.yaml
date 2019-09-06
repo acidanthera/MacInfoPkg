@@ -196,5 +196,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2016
 CloverSerialNumber: "C02SLHACGYFH"
-MaximumOSVersion: "10.12.1"
+MinimumOSVersion: "10.12.1"
 MaximumOSVersion: null

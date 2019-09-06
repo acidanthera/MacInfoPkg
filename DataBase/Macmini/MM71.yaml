@@ -162,5 +162,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2014
 CloverSerialNumber: "C02NN7NHG1J0"
-MaximumOSVersion: "10.10"
+MinimumOSVersion: "10.10"
 MaximumOSVersion: null

@@ -347,5 +347,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2011
 CloverSerialNumber: "C02HL0FGDF8X"
-MaximumOSVersion: "10.7.2"
-MaximumOSVersion: "10.13.x"
+MinimumOSVersion: "10.7.2"
+MaximumOSVersion: "10.13.6"

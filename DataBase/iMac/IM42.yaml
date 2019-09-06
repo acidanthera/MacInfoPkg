@@ -94,5 +94,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2006
 CloverSerialNumber: "W8727HACWH5"
-MaximumOSVersion: "10.4.7"
+MinimumOSVersion: "10.4.7"
 MaximumOSVersion: "10.6.8"

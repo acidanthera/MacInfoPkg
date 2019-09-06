@@ -203,5 +203,5 @@ AppleModelYear:
   - 2015
 # Optional, override for SystemSerialNumber for Clover
 CloverSerialNumber: "C02QFHACGG7L"
-MaximumOSVersion: "10.11"
+MinimumOSVersion: "10.11"
 MaximumOSVersion: null

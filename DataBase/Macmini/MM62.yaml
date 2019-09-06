@@ -119,5 +119,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2012
 CloverSerialNumber: "C07JD041DWYN"
-MaximumOSVersion: "10.8.2"
+MinimumOSVersion: "10.8.2"
 MaximumOSVersion: null

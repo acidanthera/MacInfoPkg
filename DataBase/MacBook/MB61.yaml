@@ -114,5 +114,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2009
 CloverSerialNumber: "451131JCGAY"
-MaximumOSVersion: "10.6.1"
-MaximumOSVersion: "10.13.x"
+MinimumOSVersion: "10.6.1"
+MaximumOSVersion: "10.13.6"

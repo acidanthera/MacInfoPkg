@@ -118,5 +118,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2006
 CloverSerialNumber: "W8702N1JU35"
-MaximumOSVersion: "10.4.7"
+MinimumOSVersion: "10.4.7"
 MaximumOSVersion: "10.6.8"

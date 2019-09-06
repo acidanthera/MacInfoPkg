@@ -114,5 +114,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2006
 CloverSerialNumber: "CK703E1EV2Q"
-MaximumOSVersion: "10.4.8"
+MinimumOSVersion: "10.4.8"
 MaximumOSVersion: Server 10.7.5

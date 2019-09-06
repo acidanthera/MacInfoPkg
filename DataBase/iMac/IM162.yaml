@@ -181,5 +181,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2015
 CloverSerialNumber: "C02PNHACGG78"
-MaximumOSVersion: "10.11"
+MinimumOSVersion: "10.11"
 MaximumOSVersion: null

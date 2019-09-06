@@ -126,6 +126,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2017
-MaximumOSVersion: "10.13.2"
+MinimumOSVersion: "10.13.2"
 MaximumOSVersion: null
 AppleModelId: "J137"

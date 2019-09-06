@@ -114,5 +114,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2011
 CloverSerialNumber: "C07HVHACDJD1"
-MaximumOSVersion: "10.7"
-MaximumOSVersion: "10.13.x"
+MinimumOSVersion: "10.7"
+MaximumOSVersion: "10.13.6"

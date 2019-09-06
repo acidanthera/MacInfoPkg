@@ -147,5 +147,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2012
 CloverSerialNumber: "C02HA041DTY3"
-MaximumOSVersion: "10.7.3"
+MinimumOSVersion: "10.7.3"
 MaximumOSVersion: null

@@ -106,5 +106,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2006
 CloverSerialNumber: "QP708HACXA6"
-MaximumOSVersion: "10.4.7"
+MinimumOSVersion: "10.4.7"
 MaximumOSVersion: "10.7.5"

@@ -152,5 +152,5 @@ AppleBoardCode:
   # Note, first year is used by macserial
 AppleModelYear:
   - 2017
-MaximumOSVersion: "10.12.5"
+MinimumOSVersion: "10.12.5"
 MaximumOSVersion: null

@@ -130,5 +130,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2010
 CloverSerialNumber: "C02G5834DC79"
-MaximumOSVersion: "10.6.3"
-MaximumOSVersion: "10.13.x"
+MinimumOSVersion: "10.6.3"
+MaximumOSVersion: "10.13.6"

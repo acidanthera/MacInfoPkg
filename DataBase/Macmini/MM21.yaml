@@ -95,5 +95,5 @@ AppleBoardCode:
 AppleModelYear:
   - 2007
 CloverSerialNumber: "W8705W9LYL2"
-MaximumOSVersion: "10.4.10"
+MinimumOSVersion: "10.4.10"
 MaximumOSVersion: "10.7.5"
