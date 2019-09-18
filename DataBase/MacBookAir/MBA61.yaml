@@ -175,6 +175,7 @@ AppleBoardCode:
 AppleModelYear:
   - 2013
   - 2014
+  - 2015
 CloverSerialNumber: "C2QM6HACFKYN"
 MinimumOSVersion: "10.9.2"
 MaximumOSVersion: null

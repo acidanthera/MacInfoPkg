@@ -169,7 +169,9 @@ AppleBoardCode:
   - "G3MK"
 # Note, first year is used by macserial
 AppleModelYear:
+  - 2013
   - 2014
+  - 2015
 CloverSerialNumber: "C02P9HACG9FT"
 MinimumOSVersion: "10.9.4"
 MaximumOSVersion: null

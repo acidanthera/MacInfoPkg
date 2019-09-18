@@ -129,6 +129,7 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2007
+  - 2008
 CloverSerialNumber: "W8739HACX85"
 MinimumOSVersion: "10.4.10"
 MaximumOSVersion: "10.11.6"

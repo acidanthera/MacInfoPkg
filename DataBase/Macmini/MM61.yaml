@@ -127,6 +127,8 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2012
+  - 2013
+  - 2014
 CloverSerialNumber: "C07JNHACDY3H"
 MinimumOSVersion: "10.8.1"
 MaximumOSVersion: null

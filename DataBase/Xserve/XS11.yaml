@@ -113,6 +113,8 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2006
+  - 2007
+  - 2008
 CloverSerialNumber: "CK703E1EV2Q"
 MinimumOSVersion: "10.4.8"
 MaximumOSVersion: Server 10.7.5

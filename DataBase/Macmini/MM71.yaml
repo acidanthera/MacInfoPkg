@@ -161,6 +161,10 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2014
+  - 2015
+  - 2016
+  - 2017
+  - 2018
 CloverSerialNumber: "C02NN7NHG1J0"
 MinimumOSVersion: "10.10"
 MaximumOSVersion: null

@@ -128,5 +128,6 @@ AppleBoardCode:
   # Note, first year is used by macserial
 AppleModelYear:
   - 2016
+  - 2017
 MinimumOSVersion: "10.12"
 MaximumOSVersion: null

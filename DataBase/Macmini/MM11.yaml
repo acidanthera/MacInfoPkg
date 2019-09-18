@@ -117,6 +117,7 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2006
+  - 2007
 CloverSerialNumber: "W8702N1JU35"
 MinimumOSVersion: "10.4.7"
 MaximumOSVersion: "10.6.8"

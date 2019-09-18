@@ -108,6 +108,7 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2010
+  - 2011
 CloverSerialNumber: "451211MEF5X"
 MinimumOSVersion: "10.6.3"
 MaximumOSVersion: "10.13.6"

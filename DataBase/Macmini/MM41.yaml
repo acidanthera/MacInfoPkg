@@ -114,6 +114,7 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2010
+  - 2011
 CloverSerialNumber: "C02FHBBEDD6H"
 MinimumOSVersion: "10.6.4"
 MaximumOSVersion: "10.13.6"

@@ -99,6 +99,7 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2009
+  - 2010
 CloverSerialNumber: "W8948HAC7XJ"
 MinimumOSVersion: "10.5.7"
 MaximumOSVersion: "10.11.6"

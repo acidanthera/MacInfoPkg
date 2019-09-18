@@ -201,6 +201,8 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2015
+  - 2016
+  - 2017
 # Optional, override for SystemSerialNumber for Clover
 CloverSerialNumber: "C02QFHACGG7L"
 MinimumOSVersion: "10.11"

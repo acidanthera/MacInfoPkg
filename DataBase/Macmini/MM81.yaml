@@ -120,6 +120,7 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2018
+  - 2019
 MinimumOSVersion: "10.14"
 MaximumOSVersion: null
 AppleModelId: "J174"

@@ -127,6 +127,7 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2009
+  - 2010
 # Optional, override for SystemSerialNumber for Clover
 CloverSerialNumber: "CT930HAC4PD"
 MinimumOSVersion: "10.5.6"

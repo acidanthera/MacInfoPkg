@@ -258,6 +258,8 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2017
+  - 2018
+  - 2019
 CloverSerialNumber: "C02TQHACHH27"
 MinimumOSVersion: "10.12.5"
 MaximumOSVersion: null

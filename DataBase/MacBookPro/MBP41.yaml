@@ -156,6 +156,7 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2008
+  - 2009
 CloverSerialNumber: "W88484F2YP4"
 MinimumOSVersion: "10.5.2"
 MaximumOSVersion: "10.11.6"
