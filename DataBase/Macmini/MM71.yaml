@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "244.0.0.0.0"
-BIOSLegacyVersion: "MM71.88Z.F000.B00.1906140923"
-BIOSReleaseDate: "06/14/2019"
+BIOSVersion: "245.0.0.0.0"
+BIOSLegacyVersion: "MM71.88Z.F000.B00.1907221630"
+BIOSReleaseDate: "07/22/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "Macmini7,1"
 SystemVersion: "1.0"
@@ -79,10 +79,10 @@ SmcEPCI: 0xF04008
 OEMStrings: |-
   Apple ROM Version
     Model:        MM71
-    EFI Version:  244.0.0.0.0
+    EFI Version:  245.0.0.0.0
     Built by:     root@xapp160
-    Date:         Fri Jun 14 09:23:00 PDT 2019
-    Revision:     244 (B&I)
+    Date:         Mon Jul 22 16:30:11 PDT 2019
+    Revision:     245 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, Release
     Compiler:     Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)

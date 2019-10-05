@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "280.0.0.0.0"
-BIOSLegacyVersion: "MBP102.88Z.F000.B00.1906131816"
-BIOSReleaseDate: "06/13/2019"
+BIOSVersion: "281.0.0.0.0"
+BIOSLegacyVersion: "MBP102.88Z.F000.B00.1907241312"
+BIOSReleaseDate: "07/24/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro10,2"
 SystemVersion: "1.0"
@@ -66,10 +66,10 @@ SmcEPCI: 0x73007
 OEMStrings: |-
   Apple ROM Version
     Model:        MBP102
-    EFI Version:  280.0.0.0.0
+    EFI Version:  281.0.0.0.0
     Built by:     root@saumon
-    Date:         Thu Jun 13 18:16:25 PDT 2019
-    Revision:     280 (B&I)
+    Date:         Wed Jul 24 13:12:09 PDT 2019
+    Revision:     281 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, Release
     Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)

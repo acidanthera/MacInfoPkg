@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "1037.0.39.151.1"
-BIOSLegacyVersion: "MM81.88Z.F000.B00.1907261958"
-BIOSReleaseDate: "07/26/2019"
+BIOSVersion: "1037.0.78.0.0"
+BIOSLegacyVersion: "MM81.88Z.F000.B00.1909172039"
+BIOSReleaseDate: "09/17/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "Macmini8,1"
 SystemVersion: "1.0"
@@ -48,17 +48,17 @@ SmcPlatform:
   - 0x00
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      MM81.88Z.F000.B00.1907261958
+    BIOS ID:      MM81.88Z.F000.B00.1909172039
     Model:        MM81
-    EFI Version:  1037.0.39.151.1
+    EFI Version:  1037.0.78.0.0
     Built by:     _securitya@cake
-    Date:         Fri Jul 26 19:58:45 2019
-    Revision:     1037.0.39.151.1 (B&I)
+    Date:         Tue Sep 17 20:39:24 2019
+    Revision:     1037.0.78 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, RELEASE
     Compiler:     Apple clang version 11.0.0 (clang-1100.2.32.4)
-    UUID:         66B7EC14-B7A0-3BA8-8532-575FA62395A6
-    UUID:         4670146C-6B94-3E8E-808F-DE1512E1FE61
+    UUID:         FBEF3146-AAAC-30F7-8BDC-CC99FF3D8C8E
+    UUID:         B7EA7B1F-6004-3B1C-A4EB-BB847FE18A72
 Specifications:
   CPUCodename:
     - "Coffee Lake"

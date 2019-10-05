@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "229.0.0.0.0"
-BIOSLegacyVersion: "IM162.88Z.F000.B00.1906140921"
-BIOSReleaseDate: "06/14/2019"
+BIOSVersion: "231.0.0.0.0"
+BIOSLegacyVersion: "IM162.88Z.F000.B00.1907231132"
+BIOSReleaseDate: "07/23/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "iMac16,2"
 SystemVersion: "1.0"
@@ -77,10 +77,10 @@ SmcEPCI: 0xF00008
 OEMStrings: |-
   Apple ROM Version
     Model:        IM162
-    EFI Version:  229.0.0.0.0
+    EFI Version:  231.0.0.0.0
     Built by:     root@xapp160
-    Date:         Fri Jun 14 09:21:38 PDT 2019
-    Revision:     229 (B&I)
+    Date:         Tue Jul 23 11:32:56 PDT 2019
+    Revision:     231 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, Release
     Compiler:     Apple LLVM version 5.0 (clang-500.0.68) (based on LLVM 3.3svn)
