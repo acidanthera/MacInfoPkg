@@ -44,14 +44,13 @@ ProcessorBusSpeed:
   - 12345
 # FIXME: check
 SmcGeneration: 2
-# FIXME: check
 SmcRevision:
   - 0x02
   - 0x32
   - 0x0f
   - 0x00
   - 0x00
-  - 0x20
+  - 0x21
 # FIXME: check
 SmcBranch:
   - 0x6A

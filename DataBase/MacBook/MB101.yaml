@@ -48,11 +48,11 @@ SmcGeneration: 2
 # FIXME: check
 SmcRevision:
   - 0x02
-  - 0x24
+  - 0x42
   - 0x0f
   - 0x00
   - 0x00
-  - 0x10
+  - 0x12
 # FIXME: check
 SmcBranch:
   - 0x6A
