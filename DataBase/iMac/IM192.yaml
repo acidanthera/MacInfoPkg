@@ -16,25 +16,18 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-63001698E7A34814"
 BoardVersion: "iMac19,2"
-# FIXME: check
 BoardRevision: 0x7
 BoardAssetTag: ""
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x9
 ChassisVersion: "Mac-63001698E7A34814"
 ChassisAssetTag: "iMac-Aluminum"
-# FIXME: check
-PlatformFeature: 0x0
-# FIXME: check
+PlatformFeature: 0x22
 FirmwareFeatures: 0xFD8FF576
-# FIXME: check
 FirmwareFeaturesMask: 0xFFDFFF7F
-# FIXME: check
 ExtendedFirmwareFeatures: 0x00000000FD8FF576
-# FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FFDFFF7F
 MemoryFormFactor: 0x9
 # FIXME: check values (most should be correct?) and add missing, if any
