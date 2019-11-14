@@ -51,6 +51,7 @@ typedef enum {
   MacBookPro15_2, // Intel Core i7-8559U @ 2.70 GHz
   MacBookPro15_3, // Intel Core i7-8850H @ 2.60 GHz
   MacBookPro15_4, // Intel Core i5-8257U @ 1.40 GHz
+  MacBookPro16_1, // Intel Core i7-8850H @ 2.60 GHz
   MacBookPro2_1, // Intel Core 2 Duo T7600 @ 2.33 GHz
   MacBookPro2_2, // Intel Core 2 Duo T7400 @ 2.16 GHz
   MacBookPro3_1, // Intel Core 2 Duo T7700 @ 2.40 GHz
@@ -122,7 +123,7 @@ typedef enum {
   iMacPro1_1, // Intel Xeon W-2140B CPU @ 3.20 GHz
 } AppleModel;
 
-#define APPLE_MODEL_MAX 114
+#define APPLE_MODEL_MAX 115
 
 static PLATFORMDATA ApplePlatformData[] = {
   { "MacBook1,1", "W80A041AU9B" },
@@ -170,6 +171,7 @@ static PLATFORMDATA ApplePlatformData[] = {
   { "MacBookPro15,2", "C02X141CJHCC" },
   { "MacBookPro15,3", "C02YV0ECLVCG" },
   { "MacBookPro15,4", "FVFYV019L40Y" },
+  { "MacBookPro16,1", "000000000000" },
   { "MacBookPro2,1", "W88130WUW0H" },
   { "MacBookPro2,2", "W8827B4CW0L" },
   { "MacBookPro3,1", "W8841OHZX91" },
@@ -288,6 +290,7 @@ static const char *AppleModelCode[][APPLE_MODEL_CODE_MAX] = {
   /* MacBookPro15,2 */ {"JHCC", "JHC8", "JHC9", "JHCD", "JHCF", "JHD2", "JHD3", "JHD4", "JHD5", "KK98", "KK99", "KK9C", "KQ1X", "KQ1Y", "KQ20", "KQ21", "KQ22", "KQ23", "KQ24", "KQ25", "KQ26", "KQ27", "LVDC", "LVDM", "L42X", "L4FF", "L4FG", "L4FD", "L4FC", "L4FJ", "L4JT", "LK8C", "L7GD", "MV9R", "MV9K", "LVDP", "LVDF", "LVDG", "LVDD", "LVDH", "LVDN", "LVDL", "NCLV", "NCM1", "NCM0", "N5T5", "NQM8", "NCLW", "NCLY", "NCLX", "NCM2"},
   /* MacBookPro15,3 */ {"LVCG", "LVCJ", "LVDQ", "LVDR", "LVDV", "LVDT", "MVC0", "LVCL", "LVCF", "LVCK", "LVCH", "MV9T", "NQMC", "NCM6", "N6KF", "N6RJ", "NQM9", "NCM5", "NCM3", "N5T6", "NQMF", "NQMD", "NCM4"},
   /* MacBookPro15,4 */ {"L40Y", "L410", "L411", "L412", "L413", "L414", "L415", "L416", "NY19", "NY17", "NY1F", "NY18", "NY1H", "N71G", "NXJM", "NR4Y", "N71F", "N71D", "N71C", "NY1G", "NY1C", "P0LW"},
+  /* MacBookPro16,1 */ {"0000"},
   /* MacBookPro2,1  */ {"W0H", "X9W", "Y9M", "W4M", "X44", "XWV", "W0M", "W0J", "X40", "XCT", "X6C", "X42", "X41", "X3Y", "X43", "X57"},
   /* MacBookPro2,2  */ {"W0L", "Y1C", "XKU", "W0G", "W4K", "W4L", "Y6N", "X2G", "Y99", "Y98", "X2K", "W0K", "X2L", "X2H", "X2F", "X9U", "X9V", "XDB", "XDL", "XDK", "YJ9", "XCS", "Y41", "XAQ", "XC6", "X5X", "X6A", "X6B", "X2J", "X2E"},
   /* MacBookPro3,1  */ {"X91", "1CY", "0PA", "02V", "0M0", "0S3", "0S6", "0LQ", "0LZ", "1CZ", "2QV", "2QU", "1MG", "1MF", "1CW", "1CX", "027", "0NM", "0ND", "0LR", "2QW", "02D", "028", "0PD", "09R", "09S", "YQ4", "YAP", "YZ2", "Z5M", "YNS", "YWC", "YWB", "YNQ", "X94", "YRD", "YR2", "YQ5", "YRE", "YNW", "XA9", "YZ1", "YAN", "YAA", "YRF", "YAM", "YAL", "YYX", "YZ0", "YWA", "YW5", "Y9T", "Y9S", "Z09", "Z05", "Z0G", "YL0", "X92", "YKZ", "YKY", "YKX", "YQ3", "XAG", "YWD", "YW9", "XAH", "YYV"},
@@ -406,6 +409,7 @@ static const char *AppleBoardCode[][APPLE_BOARD_CODE_MAX] = {
   /* MacBookPro15,2 */ {"JH4R", "JN1C", "JN1D", "JN1F", "JN1G", "JN1H", "JN1J", "JN1T", "JN1V", "JN1W", "JN1X", "JN1Y", "JN20", "JN21", "JN22", "JN23", "JN0X", "JN0Y", "JN10", "JN11", "JN12", "JN13", "JN1T", "JN1V", "JN1W", "JN1X", "JN1Y", "JN20", "JN21", "JN22", "JN23", "JN1K", "JN1L", "JN1M", "JN1N", "JN1Q", "JN1R", "JN2K", "JN2L", "JN2M", "JN14", "JN15", "JN16", "JN17", "JN18", "JN19", "JN24", "JN25", "JN26", "JN27", "JN28", "JN29", "JN2C", "JN2D", "JN2F", "JJ50", "JJ51", "JJ52", "JJ53", "JJ54", "JJ55", "JJ62", "JJ63", "JJ64", "JH4Q", "JH4T", "JH4W", "JH4Y", "JH50", "JJ5F", "JJ5G", "JJ5H", "JJ5J", "JJ5K", "JJ5L", "JJ5M", "JJ5N", "JJ5P", "JJ56", "JJ57", "JJ58", "JJ59", "JJ5C", "JJ5D", "JJ65", "JJ66", "JJ67", "JH51", "JH52", "JH53", "JH54", "JH55", "JH56", "JJ5Q", "JJ5R", "JJ5T", "JJ5V", "JJ5W", "JJ5X", "JJ5Y", "JJ60", "JJ61"},
   /* MacBookPro15,3 */ {"0000"},
   /* MacBookPro15,4 */ {"0000"},
+  /* MacBookPro16,1 */ {"0000"},
   /* MacBookPro2,1  */ {""},
   /* MacBookPro2,2  */ {""},
   /* MacBookPro3,1  */ {""},
@@ -524,6 +528,7 @@ static uint32_t AppleModelYear[][APPLE_MODEL_YEAR_MAX] = {
   /* MacBookPro15,2 */ {2018, 2019},
   /* MacBookPro15,3 */ {2019},
   /* MacBookPro15,4 */ {2019},
+  /* MacBookPro16,1 */ {2019},
   /* MacBookPro2,1  */ {2006, 2007},
   /* MacBookPro2,2  */ {2006, 2007},
   /* MacBookPro3,1  */ {2007, 2008},
@@ -641,6 +646,7 @@ static uint32_t ApplePreferredModelYear[] = {
   /* MacBookPro15,2 */ 0,
   /* MacBookPro15,3 */ 0,
   /* MacBookPro15,4 */ 0,
+  /* MacBookPro16,1 */ 0,
   /* MacBookPro2,1  */ 0,
   /* MacBookPro2,2  */ 0,
   /* MacBookPro3,1  */ 0,
