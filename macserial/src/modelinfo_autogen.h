@@ -51,7 +51,7 @@ typedef enum {
   MacBookPro15_2, // Intel Core i7-8559U @ 2.70 GHz
   MacBookPro15_3, // Intel Core i7-8850H @ 2.60 GHz
   MacBookPro15_4, // Intel Core i5-8257U @ 1.40 GHz
-  MacBookPro16_1, // Intel Core i7-8850H @ 2.60 GHz
+  MacBookPro16_1, // Intel Core i7-9750H @ 2.60 GHz
   MacBookPro2_1, // Intel Core 2 Duo T7600 @ 2.33 GHz
   MacBookPro2_2, // Intel Core 2 Duo T7400 @ 2.16 GHz
   MacBookPro3_1, // Intel Core 2 Duo T7700 @ 2.40 GHz
