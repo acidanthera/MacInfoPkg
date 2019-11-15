@@ -86,7 +86,6 @@ Specifications:
   MarketingName:
     - "MacBook Pro (16-inch, 2019)"
 # Note, first model code is used by macserial
-# FIXME: check
 AppleModelCode:
   - "PG8W"
   - "PG8V"
@@ -96,6 +95,7 @@ AppleModelCode:
   - "PG90"
   - "PG91"
 # Note, first board code is used by macserial
+# FIXME: check
 AppleBoardCode:
   - "0000"
 # Note, first year is used by macserial
