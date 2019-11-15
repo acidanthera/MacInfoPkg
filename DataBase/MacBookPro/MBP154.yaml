@@ -106,6 +106,7 @@ AppleModelCode:
   - "NY1G"
   - "NY1C"
   - "P0LW"
+  - "P4LF"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:

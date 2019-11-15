@@ -6,8 +6,8 @@ SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro16,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
-# FIXME: check
-SystemSerialNumber: "000000000000"
+# S/N is not valid! FIXME!
+SystemSerialNumber: "FVFZM0GYPG8W"
 SystemSKUNumber: ""
 SystemFamily: "MacBook Pro"
 BoardManufacturer: "Apple Inc."
@@ -88,9 +88,14 @@ Specifications:
 # Note, first model code is used by macserial
 # FIXME: check
 AppleModelCode:
-  - "0000"
+  - "PG8W"
+  - "PG8V"
+  - "PG8Y"
+  - "PG8X"
+  - "PG8T"
+  - "PG90"
+  - "PG91"
 # Note, first board code is used by macserial
-# FIXME: check
 AppleBoardCode:
   - "0000"
 # Note, first year is used by macserial
