@@ -5,9 +5,7 @@ BIOSReleaseDate: "10/24/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro16,1"
 SystemVersion: "1.0"
-# Note, this one is used by macserial
-# S/N is not valid! FIXME!
-SystemSerialNumber: "FVFZM0GYPG8W"
+SystemSerialNumber: "C02ZKJWAMD6N"
 SystemSKUNumber: ""
 SystemFamily: "MacBook Pro"
 BoardManufacturer: "Apple Inc."
@@ -87,6 +85,7 @@ Specifications:
     - "MacBook Pro (16-inch, 2019)"
 # Note, first model code is used by macserial
 AppleModelCode:
+  - "MD6N"
   - "PG8W"
   - "PG8V"
   - "PG8Y"
