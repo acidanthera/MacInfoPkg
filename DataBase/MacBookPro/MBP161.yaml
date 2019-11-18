@@ -5,6 +5,7 @@ BIOSReleaseDate: "10/24/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro16,1"
 SystemVersion: "1.0"
+# Note, this one is used by macserial
 SystemSerialNumber: "C02ZKJWAMD6N"
 SystemSKUNumber: ""
 SystemFamily: "MacBook Pro"
