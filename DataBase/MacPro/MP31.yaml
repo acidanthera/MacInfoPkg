@@ -108,7 +108,7 @@ AppleModelCode:
   - "1ZA"
 # Note, first board code is used by macserial
 AppleBoardCode:
-  - ""
+  - "000"
 # Note, first year is used by macserial
 AppleModelYear:
   - 2008

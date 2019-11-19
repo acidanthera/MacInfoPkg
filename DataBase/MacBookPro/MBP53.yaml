@@ -130,8 +130,9 @@ AppleModelCode:
   - "CJ1"
   - "B22"
 # Note, first board code is used by macserial
+# FIXME: check
 AppleBoardCode:
-  - ""
+  - "000"
 # Note, first year is used by macserial
 AppleModelYear:
   - 2009
