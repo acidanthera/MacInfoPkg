@@ -47,6 +47,8 @@ INFO_REQURED    = [ INFO_PRODUCT, INFO_IMAGE_LINK, INFO_IMAGE_HASH, INFO_IMAGE_S
 def run_query(url, headers, post=None):
   if post is not None:
     data = '\n'.join([entry + '=' + post[entry] for entry in post])
+    if sys.version_info[0] >= 3:
+      data = data.encode('utf-8')
   else:
     data = None
 
@@ -114,6 +116,9 @@ def get_image_info(session, bid, mlb=MLB_ZERO, diag = False, os_type = 'default'
 
   headers, output = run_query(url, headers, post)
 
+  if sys.version_info[0] >= 3:
+    output = output.decode('utf-8')
+
   info = {}
   for line in output.split('\n'):
     try:
@@ -144,7 +149,7 @@ def save_image(url, sess, filename='', dir=''):
 
   print('Saving ' + url + ' to ' + filename + '...')
 
-  with open (os.path.join(dir, filename), 'w') as fh:
+  with open (os.path.join(dir, filename), 'wb') as fh:
     fh.write(run_query(url, headers)[1])
 
 def action_download(args):
