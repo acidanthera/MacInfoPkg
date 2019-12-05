@@ -24,7 +24,7 @@ ChassisManufacturer: "Apple Inc."
 ChassisType: 0x9
 ChassisVersion: "Mac-AA95B1DDAB278B95"
 ChassisAssetTag: ""
-PlatformFeature: 0x22
+PlatformFeature: 0x0
 FirmwareFeatures: 0xFD8FF576
 FirmwareFeaturesMask: 0xFFDFFF7F
 ExtendedFirmwareFeatures: 0x00000000FD8FF576
