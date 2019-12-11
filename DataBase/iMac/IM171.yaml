@@ -203,6 +203,8 @@ AppleModelYear:
   - 2015
   - 2016
   - 2017
+IntroductionDate: "2015-10-13"
+DiscontinuedDate: "2017-06-05"
 # Optional, override for SystemSerialNumber for Clover
 CloverSerialNumber: "C02QFHACGG7L"
 MinimumOSVersion: "10.11"

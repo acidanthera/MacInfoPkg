@@ -75,10 +75,11 @@ Specifications:
     - "Intel Xeon W-3245M CPU @ 3.20 GHz"
   GPU:
     - "Radeon Pro 580X"
+    - "Radeon Pro W5700X"
     - "Radeon Pro Vega II"
     - "Radeon Pro Vega II Duo"
   RAM:
-    - "32 GB"
+    - "32GB DDR4 ECC"
   SystemReportName:
     - "Mac Pro (2019)"
   MarketingName:
