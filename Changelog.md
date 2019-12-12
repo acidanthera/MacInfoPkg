@@ -1,5 +1,8 @@
 MacInfoPkg changelog
 ====================
+#### v2.1.0
+- Added MacPro7,1 model codes
+
 #### v2.0.9
 - Added MacBookPro16,1 model codes
 - Fixed python3 compatibility for macrecovery

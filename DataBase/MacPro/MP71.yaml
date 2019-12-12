@@ -7,7 +7,7 @@ SystemProductName: "MacPro7,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
 # FIXME: check
-SystemSerialNumber: "000000000000"
+SystemSerialNumber: "F5KZN00HP7QM"
 SystemSKUNumber: ""
 SystemFamily: "MacPro"
 BoardManufacturer: "Apple Inc."
@@ -85,9 +85,17 @@ Specifications:
   MarketingName:
     - "Mac Pro (2019)"
 # Note, first model code is used by macserial
-# FIXME: check
 AppleModelCode:
-  - "0000"
+  - "P7QM"
+  - "PLXV"
+  - "PLXW"
+  - "PLXX"
+  - "PLXY"
+  - "P7QJ"
+  - "P7QK"
+  - "P7QL"
+  - "P7QN"
+  - "P7QP"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:
@@ -95,6 +103,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2019
-MinimumOSVersion: "10.15"
+MinimumOSVersion: "10.15.1"
 MaximumOSVersion: null
 AppleModelId: "J160"
