@@ -25,9 +25,9 @@ ChassisType: 0x9
 ChassisVersion: "Mac-7BA5B2D9E42DDD94"
 ChassisAssetTag: "iMacPro-Aluminum"
 PlatformFeature: 0x20
-FirmwareFeatures: 0xFD8FF53F
+FirmwareFeatures: 0xFD8FF53E
 FirmwareFeaturesMask: 0xFF9FFF3F
-ExtendedFirmwareFeatures: 0x00000000FD8FF53F
+ExtendedFirmwareFeatures: 0x00000000FD8FF53E
 ExtendedFirmwareFeaturesMask: 0x00000000FF9FFF3F
 MemoryFormFactor: 0x9
 # FIXME: Correct this one
