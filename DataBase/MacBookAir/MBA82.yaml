@@ -100,6 +100,9 @@ AppleModelCode:
   - "N797"
   - "P0GX"
   - "P0GW"
+  - "P4L9"
+  - "P4LD"
+  - "P4LC"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:

@@ -136,6 +136,8 @@ AppleModelCode:
   - "NCLY"
   - "NCLX"
   - "NCM2"
+  - "P4G2"
+  - "P4G1"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "JH4R"

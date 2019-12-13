@@ -96,6 +96,7 @@ AppleModelCode:
   - "P7QL"
   - "P7QN"
   - "P7QP"
+  - "NYGV"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:
