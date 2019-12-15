@@ -40,7 +40,9 @@ sudo -H pip install pyyaml
 
 To update the database you can either get the information from firmware images or from
 running hardware. There currently are two places for firmware images: `FirmwareUpdate.pkg`
-for generic models and `BridgeOSUpdateCustomer.pkg` for T2 models. To use them do as follows:
+for generic models and `BridgeOSUpdateCustomer.pkg` for T2 models (the entire restore list
+is at https://mesu.apple.com/assets/bridgeos/com_apple_bridgeOSIPSW/com_apple_bridgeOSIPSW.xml) 
+To use them do as follows:
 
 1. Visit suitable update catalogue by filling the OS versions (e.g. [this](https://swscan.apple.com/content/catalogs/others/index-10.15seed-10.15-10.14-10.13-10.12-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1.sucatalog.gz) one for 10.15 beta).
 2. Download most recent `FirmwareUpdate.pkg` and `BridgeOSUpdateCustomer.pkg`.
