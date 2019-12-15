@@ -6,7 +6,6 @@ SystemManufacturer: "Apple Inc."
 SystemProductName: "MacPro7,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
-# FIXME: check
 SystemSerialNumber: "F5KZN00HP7QM"
 SystemSKUNumber: ""
 SystemFamily: "MacPro"
