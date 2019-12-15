@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "1037.40.127.0.0"
-BIOSLegacyVersion: "MBP161.88Z.F000.B00.1910242213"
-BIOSReleaseDate: "10/24/2019"
+BIOSVersion: "1037.60.58.0.0"
+BIOSLegacyVersion: "MBP161.88Z.F000.B00.1911142228"
+BIOSReleaseDate: "11/14/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro16,1"
 SystemVersion: "1.0"
@@ -55,17 +55,17 @@ SmcPlatform:
   - 0x00
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      MBP161.88Z.F000.B00.1910242213
+    BIOS ID:      MBP161.88Z.F000.B00.1911142228
     Model:        MBP161
-    EFI Version:  1037.40.127.0.0
-    Built by:     _securitya@friedrice
-    Date:         Thu Oct 24 22:13:31 2019
-    Revision:     1037.40.127 (B&I)
+    EFI Version:  1037.60.58.0.0
+    Built by:     _securitya@firewine
+    Date:         Thu Nov 14 22:28:39 2019
+    Revision:     1037.60.58 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, RELEASE
-    Compiler:     Apple clang version 11.0.0 (clang-1100.2.32.4)
-    UUID:         5840E005-3B9D-3288-BAC7-D43BB48E5DFF
-    UUID:         DA90BE37-3E7A-3483-BA68-7BE90A15E126
+    Compiler:     clang-1100.2.32.4
+    UUID:         C392FF9E-49A5-3B7B-A4C5-5DE879C93EFE
+    UUID:         64A0D1AD-EF7E-32C4-AC6E-2DBDA3E669EA
 Specifications:
   CPUCodename:
     - "Coffee Lake"
@@ -76,8 +76,8 @@ Specifications:
     - "Intel Core i9-9880H @ 2.30 GHz"
     - "Intel Core i9-9980HK @ 2.40 GHz"
   GPU:
-    - "AMD Radeon Pro 5500M"
     - "AMD Radeon Pro 5300M"
+    - "AMD Radeon Pro 5500M"
   RAM:
     - "16GB 2666 MHz LPDDR4 SDRAM"
   SystemReportName:

@@ -102,7 +102,7 @@ Specifications:
     - "Mac Pro Server (Mid 2012)"
 # Note, first model code is used by macserial
 AppleModelCode:
-#Mid 2012
+# Mid 2012
   - "F4MC"
   - "F500"
   - "F4YY"
@@ -122,7 +122,7 @@ AppleModelCode:
   - "F501"
   - "F4MJ"
   - "F4MF"
-#Mid 2010
+# Mid 2010
   - "EUH"
   - "GWR"
   - "HFC"

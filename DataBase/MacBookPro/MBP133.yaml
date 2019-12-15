@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "262.0.0.0.0"
-BIOSLegacyVersion: "MBP133.88Z.F000.B00.1909131802"
-BIOSReleaseDate: "09/13/2019"
+BIOSVersion: "263.0.0.0.0"
+BIOSLegacyVersion: "MBP133.88Z.F000.B00.1910301814"
+BIOSReleaseDate: "10/30/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro13,3"
 SystemVersion: "1.0"
@@ -66,12 +66,12 @@ SmcPlatform:
 SmcEPCI: 0xF04009
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      MBP133.88Z.F000.B00.1909131802
+    BIOS ID:      MBP133.88Z.F000.B00.1910301814
     Model:        MBP133
-    EFI Version:  262.0.0.0.0
+    EFI Version:  263.0.0.0.0
     Built by:     _atsserver@xapp157
-    Date:         Fri Sep 13 18:02:35 2019
-    Revision:     262 (B&I)
+    Date:         Wed Oct 30 18:14:38 2019
+    Revision:     263 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, RELEASE
     Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
