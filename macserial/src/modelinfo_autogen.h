@@ -446,7 +446,7 @@ static const char *AppleBoardCode[][APPLE_BOARD_CODE_MAX] = {
   /* Macmini7,1     */ {"G0MC", "FWY2", "FYRD", "G3N7", "G0MH", "G0MJ", "G3ND", "G0MK", "FYRF", "G0MF", "G3NC", "FYRK", "FYRH", "FYRJ", "G3N9", "G0MM", "G0MN", "G0MP", "G3N8"},
   /* Macmini8,1     */ {"KXPG", "KXVT", "KXW5", "KXQJ", "KXQW", "KXX7", "KXRY", "KXV3", "KXVG", "KXQ5", "KXYC", "KXWJ", "KXWW"},
   /* Xserve1,1      */ {"V1C"},
-  /* Xserve2,1      */ {"OVE", "XZU"},
+  /* Xserve2,1      */ {"XZU"},
   /* Xserve3,1      */ {"63C", "1PH"},
   /* iMac10,1       */ {"000"},
   /* iMac11,1       */ {"000"},

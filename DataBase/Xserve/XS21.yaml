@@ -101,7 +101,6 @@ AppleModelCode:
   - "X8T"
 # Note, first board code is used by macserial
 AppleBoardCode:
-  - "OVE"
   - "XZU"
 # Note, first year is used by macserial
 AppleModelYear:
