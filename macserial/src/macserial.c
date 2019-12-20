@@ -606,12 +606,14 @@ static void get_mlb(SERIALINFO *info, char *dst, size_t sz) {
     }
 
     if (legacy) {
-      char code[5] = {0};
+      char code[4] = {0};
       // The loop is not present in CCC, but it throws an exception here,
       // and effectively generates nothing. The logic is crazy :/.
       // Also, it was likely meant to be written as pseudo_random() % 0x8000.
       while (!get_ascii7(pseudo_random_between(0, 0x7FFE) * 0x73BA1C, code, sizeof(code)));
-      snprintf(dst, sz, "%s%d%02d0%s%s", info->country, year, week, info->model, code);
+      const char *board = get_board_code(info->modelIndex, false);
+      char suffix = AppleBase34Reverse[pseudo_random() % 34];
+      snprintf(dst, sz, "%s%d%02d0%s%s%c", info->country, year, week, code, board, suffix);
     } else {
       const char *part1 = MLBBlock1[pseudo_random() % ARRAY_SIZE(MLBBlock1)];
       const char *part2 = MLBBlock2[pseudo_random() % ARRAY_SIZE(MLBBlock2)];
