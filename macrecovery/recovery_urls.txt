@@ -15,7 +15,7 @@ El Capitan
 ./macrecovery.py -b Mac-FFE5EF870D7BA81A -m 00000000000GQRX00
 
 Sierra
-./macrecovery.py -b Mac-B809C3757DA9BB8D -m 00000000000GTL200
+./macrecovery.py -b Mac-77F17D7DA9285301 -m 00000000000J0DX00
 
 High Sierra
 ./macrecovery.py -b Mac-7BA5B2D9E42DDD94 -m 00000000000J80300
