@@ -128,6 +128,7 @@ AppleModelYear:
   - 2017
   - 2018
   - 2019
+  - 2020
 MinimumOSVersion: "10.13.2"
 MaximumOSVersion: null
 AppleModelId: "J137"

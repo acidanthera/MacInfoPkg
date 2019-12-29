@@ -121,6 +121,7 @@ AppleBoardCode:
 AppleModelYear:
   - 2018
   - 2019
+  - 2020
 MinimumOSVersion: "10.14"
 MaximumOSVersion: null
 AppleModelId: "J174"

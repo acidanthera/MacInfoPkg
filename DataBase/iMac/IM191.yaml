@@ -132,5 +132,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2019
+  - 2020
 MinimumOSVersion: "10.14.4"
 MaximumOSVersion: null
