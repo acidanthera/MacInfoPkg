@@ -3,6 +3,7 @@ MacInfoPkg changelog
 #### v2.1.0
 - Added MacPro7,1 model codes
 - Improved legacy MLB logic
+- Added Linux binaries
 
 #### v2.0.9
 - Added MacBookPro16,1 model codes

@@ -20,7 +20,21 @@ matrix:
         secure: "At/5woONV8OpfI+HP5FgTfYrIrPd9ktU9aqVitHnxlk8J+WXt6bfta8ofNRFQmcpIYCVAfrk1HtfYZ/YkHuFCdzvx4QRP0rAbIun5wwMEPMrNaGB8GdMhH3VP7Lcalox+V2A+XuHaLLi/7kineeZssEWm9uWnhOXUV5tdcLHXWSNr5xAV6ttVOH+B4FTzQwhtaKzzl4KpPj7NLqw+T+9DXvYk8l9YtlZUwnoSLyPJD1PxawZOvqyWT1EY8IDTcd/Ca31Af3GwtrLSSUvkyq1CfEtbo5ZYE8hGG1ZyYMaVgP6FAH8CCVAi3sdUPjgj6Lq6b+rNXNTLVpDtFsOvr332CbhI1QSVlTf2RoWN8BwErguLLkmb+AdpxNhzVV2Xddms6I9PmRZks5j0Dx9ux+PxlXaJ7VIYWqiA2RLqcXVbVBAumYFR/4SujjjKLzLTBap7VdUVeEsYwO2Q+0+FVVijRUxYENoKe31sa7z+gGzSLkeZ81tMebq/UcIUNcLhepTduyxj+ZRw8PgReD8wTWNN4nvUQoXjPo0PpBJs8A6euDbjT8+Xud39FSLODXWLUiJRDG5d+R0aiCW0N32sDnQyGu6Igx9Sq4cAN+Xrabx9F+dTuMWSWWZ4P7L6sstKKfv8mVkBMg9ljyrxZtE+ayRPW3U4viE9WOvEP/8fEM8kIg="
       on:
         tags: true
-script:
-  - ./macserial/build.tool || exit 1
-  - python2 ./update_generated.py  || exit 1
-  - if [ "$(git status --porcelain)" != "" ]; then echo "DataBase desync"; exit 1 ; fi
+    script:
+      - ./macserial/build.tool || exit 1
+      - python2 ./update_generated.py  || exit 1
+      - if [ "$(git status --porcelain)" != "" ]; then echo "DataBase desync"; exit 1 ; fi
+  - os: linux
+    name: "Build Linux"
+    deploy:
+      provider: releases
+      skip_cleanup: true
+      file:
+      - "macserial/bin/macinfo-*-linux.zip"
+      file_glob: true
+      api_key:
+        secure: "At/5woONV8OpfI+HP5FgTfYrIrPd9ktU9aqVitHnxlk8J+WXt6bfta8ofNRFQmcpIYCVAfrk1HtfYZ/YkHuFCdzvx4QRP0rAbIun5wwMEPMrNaGB8GdMhH3VP7Lcalox+V2A+XuHaLLi/7kineeZssEWm9uWnhOXUV5tdcLHXWSNr5xAV6ttVOH+B4FTzQwhtaKzzl4KpPj7NLqw+T+9DXvYk8l9YtlZUwnoSLyPJD1PxawZOvqyWT1EY8IDTcd/Ca31Af3GwtrLSSUvkyq1CfEtbo5ZYE8hGG1ZyYMaVgP6FAH8CCVAi3sdUPjgj6Lq6b+rNXNTLVpDtFsOvr332CbhI1QSVlTf2RoWN8BwErguLLkmb+AdpxNhzVV2Xddms6I9PmRZks5j0Dx9ux+PxlXaJ7VIYWqiA2RLqcXVbVBAumYFR/4SujjjKLzLTBap7VdUVeEsYwO2Q+0+FVVijRUxYENoKe31sa7z+gGzSLkeZ81tMebq/UcIUNcLhepTduyxj+ZRw8PgReD8wTWNN4nvUQoXjPo0PpBJs8A6euDbjT8+Xud39FSLODXWLUiJRDG5d+R0aiCW0N32sDnQyGu6Igx9Sq4cAN+Xrabx9F+dTuMWSWWZ4P7L6sstKKfv8mVkBMg9ljyrxZtE+ayRPW3U4viE9WOvEP/8fEM8kIg="
+      on:
+        tags: true
+    script:
+      - ./macserial/build.tool || exit 1
