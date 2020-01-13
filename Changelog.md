@@ -1,5 +1,8 @@
 MacInfoPkg changelog
 ====================
+#### v2.1.1
+- Added MacBookPro16,1 board code
+
 #### v2.1.0
 - Added MacPro7,1 model codes
 - Improved legacy MLB logic

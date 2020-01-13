@@ -409,7 +409,7 @@ static const char *AppleBoardCode[][APPLE_BOARD_CODE_MAX] = {
   /* MacBookPro15,2 */ {"JH4R", "JN1C", "JN1D", "JN1F", "JN1G", "JN1H", "JN1J", "JN1T", "JN1V", "JN1W", "JN1X", "JN1Y", "JN20", "JN21", "JN22", "JN23", "JN0X", "JN0Y", "JN10", "JN11", "JN12", "JN13", "JN1T", "JN1V", "JN1W", "JN1X", "JN1Y", "JN20", "JN21", "JN22", "JN23", "JN1K", "JN1L", "JN1M", "JN1N", "JN1Q", "JN1R", "JN2K", "JN2L", "JN2M", "JN14", "JN15", "JN16", "JN17", "JN18", "JN19", "JN24", "JN25", "JN26", "JN27", "JN28", "JN29", "JN2C", "JN2D", "JN2F", "JJ50", "JJ51", "JJ52", "JJ53", "JJ54", "JJ55", "JJ62", "JJ63", "JJ64", "JH4Q", "JH4T", "JH4W", "JH4Y", "JH50", "JJ5F", "JJ5G", "JJ5H", "JJ5J", "JJ5K", "JJ5L", "JJ5M", "JJ5N", "JJ5P", "JJ56", "JJ57", "JJ58", "JJ59", "JJ5C", "JJ5D", "JJ65", "JJ66", "JJ67", "JH51", "JH52", "JH53", "JH54", "JH55", "JH56", "JJ5Q", "JJ5R", "JJ5T", "JJ5V", "JJ5W", "JJ5X", "JJ5Y", "JJ60", "JJ61"},
   /* MacBookPro15,3 */ {"0000"},
   /* MacBookPro15,4 */ {"0000"},
-  /* MacBookPro16,1 */ {"0000"},
+  /* MacBookPro16,1 */ {"N9PR"},
   /* MacBookPro2,1  */ {"000"},
   /* MacBookPro2,2  */ {"000"},
   /* MacBookPro3,1  */ {"000"},

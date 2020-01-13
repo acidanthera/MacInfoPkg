@@ -16,25 +16,19 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-E1008331FDC96864"
 BoardVersion: "MacBookPro16,1"
-# FIXME: check
-BoardRevision: 0x1
+BoardRevision: 0x3
 BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x9
 ChassisVersion: "Mac-E1008331FDC96864"
-ChassisAssetTag: "MacBook-Aluminum"
-# FIXME: check
-PlatformFeature: 0x1A
-# FIXME: check
-FirmwareFeatures: 0xFC0FE137
-# FIXME: check
-FirmwareFeaturesMask: 0xFF1FFF3F
-# FIXME: check
-ExtendedFirmwareFeatures: 0x00000000FC0FE137
-# FIXME: check
-ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+ChassisAssetTag: ""
+PlatformFeature: 0x32
+FirmwareFeatures: 0xfdaff066
+FirmwareFeaturesMask: 0xffffff7f
+ExtendedFirmwareFeatures: 0x00000000fdaff066
+ExtendedFirmwareFeaturesMask: 0x00000000ffffff7f
 MemoryFormFactor: 0xD
 # FIXME: Correct this one
 ProcessorType:
@@ -103,9 +97,8 @@ AppleModelCode:
   - "PG90"
   - "PG91"
 # Note, first board code is used by macserial
-# FIXME: check
 AppleBoardCode:
-  - "0000"
+  - "N9PR"
 # Note, first year is used by macserial
 AppleModelYear:
   - 2019
