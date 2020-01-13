@@ -643,7 +643,7 @@ static uint32_t ApplePreferredModelYear[] = {
   /* MacBookPro14,2 */ 0,
   /* MacBookPro14,3 */ 0,
   /* MacBookPro15,1 */ 0,
-  /* MacBookPro15,2 */ 2019,
+  /* MacBookPro15,2 */ 2018,
   /* MacBookPro15,3 */ 0,
   /* MacBookPro15,4 */ 2019,
   /* MacBookPro16,1 */ 2019,
@@ -681,7 +681,7 @@ static uint32_t ApplePreferredModelYear[] = {
   /* Macmini6,1     */ 0,
   /* Macmini6,2     */ 0,
   /* Macmini7,1     */ 0,
-  /* Macmini8,1     */ 2019,
+  /* Macmini8,1     */ 2018,
   /* Xserve1,1      */ 0,
   /* Xserve2,1      */ 0,
   /* Xserve3,1      */ 0,
@@ -702,7 +702,7 @@ static uint32_t ApplePreferredModelYear[] = {
   /* iMac16,1       */ 0,
   /* iMac16,2       */ 0,
   /* iMac17,1       */ 0,
-  /* iMac18,1       */ 2019,
+  /* iMac18,1       */ 2017,
   /* iMac18,2       */ 0,
   /* iMac18,3       */ 0,
   /* iMac19,1       */ 2019,
@@ -715,7 +715,7 @@ static uint32_t ApplePreferredModelYear[] = {
   /* iMac7,1        */ 0,
   /* iMac8,1        */ 0,
   /* iMac9,1        */ 0,
-  /* iMacPro1,1     */ 2019,
+  /* iMacPro1,1     */ 2017,
 };
 
 static APPLE_MODEL_DESC AppleModelDesc[] = {

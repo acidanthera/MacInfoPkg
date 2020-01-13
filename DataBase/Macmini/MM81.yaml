@@ -123,7 +123,7 @@ AppleModelYear:
   - 2019
   - 2020
 # Optional, override for macserial default year
-MacserialModelYear: 2019
+MacserialModelYear: 2018
 MinimumOSVersion: "10.14"
 MaximumOSVersion: null
 AppleModelId: "J174"
