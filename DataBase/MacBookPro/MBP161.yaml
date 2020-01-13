@@ -103,6 +103,8 @@ AppleBoardCode:
 AppleModelYear:
   - 2019
   - 2020
+# Optional, override for macserial default year
+MacserialModelYear: 2019
 MinimumOSVersion: "10.15.1"
 MaximumOSVersion: null
 AppleModelId: "J152F"
