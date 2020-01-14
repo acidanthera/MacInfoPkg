@@ -517,7 +517,7 @@ static bool get_serial(SERIALINFO *info) {
     info->week[1] = '0' + (info->decodedWeek) % 10;
   } else {
     if (info->decodedYear < SERIAL_YEAR_NEW_MIN || info->decodedYear > SERIAL_YEAR_NEW_MAX) {
-      printf("ERROR: Year %d is out of valid modern range [%d, %d]!\n", info->decodedYear, SERIAL_YEAR_OLD_MIN, SERIAL_YEAR_OLD_MAX);
+      printf("ERROR: Year %d is out of valid modern range [%d, %d]!\n", info->decodedYear, SERIAL_YEAR_NEW_MIN, SERIAL_YEAR_NEW_MAX);
       return false;
     }
 
