@@ -940,7 +940,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacPro7,1",
   .BoardProduct = "Mac-27AD2F918AE68F61",
-  .BoardRevision = 0x1,
+  .BoardRevision = 0x9,
   .SmcRevision = {0},
   .SmcBranch = {0},
   .SmcPlatform = {106, 49, 54, 48, 0, 0, 0, 0},
@@ -956,10 +956,10 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
   .BoardType = 0xB,
   .ChassisType = 0x7,
   .MemoryFormFactor = 0x9,
-  .PlatformFeature = 0x20,
-  .ChassisAssetTag = "Pro-Enclosure",
-  .FirmwareFeatures = 0xFD8FF53EULL,
-  .FirmwareFeaturesMask = 0xFF9FFF3FULL,
+  .PlatformFeature = 0x0,
+  .ChassisAssetTag = "",
+  .FirmwareFeatures = 0xFDAFF066ULL,
+  .FirmwareFeaturesMask = 0xFFFFFF7FULL,
  },
  {
   .SystemProductName = "Macmini5,1",

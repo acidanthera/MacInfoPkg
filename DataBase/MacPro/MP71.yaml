@@ -16,29 +16,20 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-27AD2F918AE68F61"
 BoardVersion: "MacPro7,1"
-# FIXME: check
-BoardRevision: 0x1
+BoardRevision: 0x9
 BoardAssetTag: ""
-# FIXME: check
 BoardType: 0xB
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
-# FIXME: check
 ChassisType: 0x7
 ChassisVersion: "Mac-27AD2F918AE68F61"
-ChassisAssetTag: "Pro-Enclosure"
-# FIXME: check
-PlatformFeature: 0x20
-# FIXME: check
-FirmwareFeatures: 0xFD8FF53E
-# FIXME: check
-FirmwareFeaturesMask: 0xFF9FFF3F
-# FIXME: check
-ExtendedFirmwareFeatures: 0x00000000FD8FF53E
-# FIXME: check
-ExtendedFirmwareFeaturesMask: 0x00000000FF9FFF3F
+ChassisAssetTag: ""
+PlatformFeature: 0x0
+FirmwareFeatures: 0xfdaff066
+FirmwareFeaturesMask: 0xffffff7f
+ExtendedFirmwareFeatures: 0x00000000fdaff066
+ExtendedFirmwareFeaturesMask: 0x00000000ffffff7f
 MemoryFormFactor: 0x9
-# FIXME: Correct this one
 ProcessorType:
   - 0x0F02
 # FIXME: Correct this one
@@ -96,10 +87,10 @@ AppleModelCode:
   - "P7QN"
   - "P7QP"
   - "NYGV"
+  - "K7GF"
 # Note, first board code is used by macserial
-# FIXME: check
 AppleBoardCode:
-  - "0000"
+  - "K3F7"
 # Note, first year is used by macserial
 AppleModelYear:
   - 2019
