@@ -80,6 +80,7 @@ For new-style serials it is an alphanumeric value, which not only encodes the ye
 | `T`, `V` | 2017 |
 | `W`, `X` | 2018 |
 | `Y`, `Z` | 2019 |
+| `C`, `D` | 2020 |
 
 ### Week
 
