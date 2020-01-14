@@ -18,7 +18,7 @@ BoardProduct: "Mac-27AD2F918AE68F61"
 BoardVersion: "MacPro7,1"
 BoardRevision: 0x9
 BoardAssetTag: ""
-BoardType: 0xB
+BoardType: 0xA
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x7
