@@ -116,9 +116,8 @@ AppleModelCode:
   - "GR8"
   - "GRL"
 # Note, first board code is used by macserial
-# FIXME: check
 AppleBoardCode:
-  - "000"
+  - "DD7J"
 # Note, first year is used by macserial
 AppleModelYear:
   - 2010
