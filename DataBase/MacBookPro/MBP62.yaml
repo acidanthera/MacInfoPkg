@@ -157,9 +157,8 @@ AppleModelCode:
   - "GRE"
   - "GRC"
 # Note, first board code is used by macserial
-# FIXME: check
 AppleBoardCode:
-  - "000"
+  - "FYR"
 # Note, first year is used by macserial
 AppleModelYear:
   - 2010
