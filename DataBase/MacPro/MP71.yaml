@@ -88,6 +88,7 @@ AppleModelCode:
   - "P7QP"
   - "NYGV"
   - "K7GF"
+  - "K7GD"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "K3F7"
