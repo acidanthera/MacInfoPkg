@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "183.0.0.0.0"
-BIOSLegacyVersion: "MB101.88Z.F000.B00.1910301943"
-BIOSReleaseDate: "10/30/2019"
+BIOSVersion: "184.0.0.0.0"
+BIOSLegacyVersion: "MB101.88Z.F000.B00.1912161654"
+BIOSReleaseDate: "12/16/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBook10,1"
 SystemVersion: "1.0"
@@ -77,12 +77,12 @@ SmcPlatform:
 SmcEPCI: 0xF08009
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      MB101.88Z.F000.B00.1910301943
+    BIOS ID:      MB101.88Z.F000.B00.1912161654
     Model:        MB101
-    EFI Version:  183.0.0.0.0
+    EFI Version:  184.0.0.0.0
     Built by:     _atsserver@xapp157
-    Date:         Wed Oct 30 19:43:02 2019
-    Revision:     183 (B&I)
+    Date:         Mon Dec 16 16:54:24 2019
+    Revision:     184 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, RELEASE
     Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)

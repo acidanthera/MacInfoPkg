@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "188.0.0.0.0"
-BIOSLegacyVersion: "MB91.88Z.F000.B00.1910301919"
-BIOSReleaseDate: "10/30/2019"
+BIOSVersion: "189.0.0.0.0"
+BIOSLegacyVersion: "MB91.88Z.F000.B00.1912161452"
+BIOSReleaseDate: "12/16/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBook9,1"
 SystemVersion: "1.0"
@@ -75,11 +75,11 @@ SmcPlatform:
 SmcEPCI: 0xF0E007
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      MB91.88Z.F000.B00.1910301919
-    EFI Version:  188.0.0.0.0
+    BIOS ID:      MB91.88Z.F000.B00.1912161452
+    EFI Version:  189.0.0.0.0
     Built by:     _atsserver@xapp157
-    Date:         Wed Oct 30 19:19:34 2019
-    Revision:     188 (B&I)
+    Date:         Mon Dec 16 14:52:13 2019
+    Revision:     189 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build
     Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)

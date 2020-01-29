@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "140.0.0.0.0"
-BIOSLegacyVersion: "IM142.88Z.F000.B00.1907241133"
-BIOSReleaseDate: "07/24/2019"
+BIOSVersion: "141.0.0.0.0"
+BIOSLegacyVersion: "IM142.88Z.F000.B00.1912181604"
+BIOSReleaseDate: "12/18/2019"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "iMac14,2"
 SystemVersion: "1.0"
@@ -65,10 +65,10 @@ SmcEPCI: 0x7A007
 OEMStrings: |-
   Apple ROM Version
     Model:        IM142
-    EFI Version:  140.0.0.0.0
+    EFI Version:  141.0.0.0.0
     Built by:     root@saumon
-    Date:         Wed Jul 24 11:33:00 PDT 2019
-    Revision:     140 (B&I)
+    Date:         Wed Dec 18 16:04:03 PST 2019
+    Revision:     141 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, Release
     Compiler:     Apple clang version 3.0 (tags/Apple/clang-211.10.1) (based on LLVM 3.0svn)
