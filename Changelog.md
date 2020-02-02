@@ -3,6 +3,7 @@ MacInfoPkg changelog
 #### v2.1.1
 - Added MacBookPro16,1 board code
 - Added MacPro7,1 board code
+- Added 2020 year compatibility
 
 #### v2.1.0
 - Added MacPro7,1 model codes

@@ -345,6 +345,12 @@ static bool get_serial_info(const char *serial, SERIALINFO *info, bool print) {
 
   // Decode production year and week
   if (serial_len == SERIAL_NEW_LEN) {
+    // Since year can be encoded ambiguously, check the model code for 2010/2020 difference.
+    size_t base_new_year = 2010;
+    if (info->model[0] >= 'K') {
+      base_new_year = 2020;
+    }
+
     // These are not exactly year and week, lower year bit is used for week encoding.
     info->year[0] = *serial++;
     info->week[0] = *serial++;
@@ -352,7 +358,7 @@ static bool get_serial_info(const char *serial, SERIALINFO *info, bool print) {
     // New encoding started in 2010.
     info->decodedYear = alpha_to_value(info->year[0], AppleTblYear, AppleYearBlacklist);
     if (info->decodedYear >= 0) {
-      info->decodedYear += 2010;
+      info->decodedYear += base_new_year;
     } else {
       printf("WARN: Invalid year symbol '%c'!\n", info->year[0]);
       info->valid = false;
@@ -521,7 +527,12 @@ static bool get_serial(SERIALINFO *info) {
       return false;
     }
 
-    info->year[0] = AppleYearReverse[(info->decodedYear - 2010) * 2 + (info->decodedWeek >= 27)];
+    size_t base_new_year = 2010;
+    if (info->decodedYear == SERIAL_YEAR_NEW_MAX) {
+      base_new_year = 2020;
+    }
+
+    info->year[0] = AppleYearReverse[(info->decodedYear - base_new_year) * 2 + (info->decodedWeek >= 27)];
     info->week[0] = AppleWeekReverse[info->decodedWeek];
   }
 
