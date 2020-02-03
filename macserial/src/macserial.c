@@ -347,7 +347,7 @@ static bool get_serial_info(const char *serial, SERIALINFO *info, bool print) {
   if (serial_len == SERIAL_NEW_LEN) {
     // Since year can be encoded ambiguously, check the model code for 2010/2020 difference.
     size_t base_new_year = 2010;
-    if (info->model[0] >= 'K') {
+    if (info->model[0] >= 'H') {
       base_new_year = 2020;
     }
 
