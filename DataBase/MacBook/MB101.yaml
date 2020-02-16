@@ -16,6 +16,8 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-EE2EBD4B90B839A8"
 BoardVersion: "MacBook10,1"
+# FIXME: check
+BoardRevision: 0x1
 BoardAssetTag: ""
 BoardType: 0xA
 # FIXME: check

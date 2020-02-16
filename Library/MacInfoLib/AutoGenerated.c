@@ -4,7 +4,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacBook10,1",
   .BoardProduct = "Mac-EE2EBD4B90B839A8",
-  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
+  .BoardRevision = 0x1,
   .SmcRevision = {2, 66, 15, 0, 0, 18},
   .SmcBranch = {106, 49, 50, 50, 0, 0, 0, 0},
   .SmcPlatform = {106, 49, 50, 50, 0, 0, 0, 0},
@@ -52,7 +52,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
  {
   .SystemProductName = "MacBook9,1",
   .BoardProduct = "Mac-9AE82516C7C6B903",
-  .BoardRevision = MAC_INFO_BOARD_REVISION_MISSING,
+  .BoardRevision = 0x1,
   .SmcRevision = {2, 53, 15, 0, 1, 6},
   .SmcBranch = {106, 57, 51, 0, 0, 0, 0, 0},
   .SmcPlatform = {106, 57, 51, 0, 0, 0, 0, 0},
