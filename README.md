@@ -50,7 +50,7 @@ To use them do as follows:
 4. Extract `/usr/standalone/firmware/bridgeOSCustomer.bundle/Contents/Resources/UpdateBundle.zip`
    file from `BridgeOSUpdateCustomer.pkg` and unpack it.
 5. After unpacking `UpdateBundle.zip` go to `boot/Firmware/MacEFI` directory and unpack im4p files.
-   You can use [img4](https://github.com/xerub/img4lib), [img4tool](https://github.com/tihmstar/img4tool), or our dedicated [MacEfiUnpack](https://github.com/acidanthera/OcSupportPkg/blob/master/Utilities/MacEfiUnpack/MacEfiUnpack.py). For example, `for i in *.im4p ; do ./MacEfiUnpack.py "$i" ; done`
+   You can use [img4](https://github.com/xerub/img4lib), [img4tool](https://github.com/tihmstar/img4tool), or our dedicated [MacEfiUnpack](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/MacEfiUnpack/MacEfiUnpack.py). For example, `for i in *.im4p ; do ./MacEfiUnpack.py "$i" ; done`
 
 ## Credits
 
