@@ -72,6 +72,8 @@ Specifications:
     - "Intel Xeon W-2191B CPU @ 2.30 GHz"
   GPU:
     - "Radeon Pro Vega 56"
+    - "Radeon Pro Vega 64"
+    - "Radeon Pro Vega 64X"
   RAM:
     - "32GB 2666 MHz DDR4 ECC SDRAM"
   SystemReportName:
