@@ -129,6 +129,7 @@ AppleModelCode:
 AppleBoardCode:
   - "LNV9"
   - "KDP0"
+  - "KDN8"
 # Note, first year is used by macserial
 AppleModelYear:
   - 2019

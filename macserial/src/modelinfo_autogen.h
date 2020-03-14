@@ -468,7 +468,7 @@ static const char *AppleBoardCode[][APPLE_BOARD_CODE_MAX] = {
   /* iMac18,1       */ {"H69F", "H668"},
   /* iMac18,2       */ {"J0DX", "J0DY", "J0F0", "J0F1", "HNWJ", "HNWK", "J0RY", "J0T1", "HNWL", "HNWM", "HNWN", "HNWP"},
   /* iMac18,3       */ {"J0PG", "J0PH", "J0PJ", "J0PC", "J0PD", "J0PF", "HX77", "HX78", "HX79", "HX7C", "HX7D", "HX7F", "HNL6", "HNL7", "HNL8"},
-  /* iMac19,1       */ {"LNV9", "KDP0"},
+  /* iMac19,1       */ {"LNV9", "KDP0", "KDN8"},
   /* iMac19,2       */ {"KGQG"},
   /* iMac4,1        */ {"000"},
   /* iMac4,2        */ {"000"},
