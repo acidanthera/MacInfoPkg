@@ -56,9 +56,7 @@ SmcPlatform:
   - 0x00
   - 0x00
 SmcEPCI: 0x79001
-# FIXME: Correct this one
-OEMStrings: |-
-  Apple ROM Version
+OEMStrings: ""
 Specifications:
   CPUCodename:
     - "Harpertown"
