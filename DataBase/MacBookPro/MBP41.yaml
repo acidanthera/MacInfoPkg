@@ -1,30 +1,33 @@
-BIOSVendor: "Apple Computer, Inc."
+BIOSVendor: "Apple Inc."
 BIOSVersion: "MBP41.88Z.00C1.B03.0802271651"
 BIOSLegacyVersion: "MBP41.88Z.00C1.B03.0802271651"
 BIOSReleaseDate: "02/27/08"
-SystemManufacturer: "Apple Computer, Inc."
+SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro4,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "W88484F2YP4"
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKU#"
 SystemFamily: "MacBook Pro"
-BoardManufacturer: "Apple Computer, Inc."
+BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
 # BoardProduct:
 #  "Mac-00BE6ED71E35EB86"
 #  "Mac-smthelse"
 BoardProduct: "Mac-F42C89C8"
-BoardVersion: "MacBookPro4,1"
-BoardAssetTag: ""
+BoardVersion: "PVT"
+BoardAssetTag: "Base Board Asset Tag"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
-ChassisManufacturer: "Apple Computer, Inc."
-ChassisType: 0x8
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x2
 ChassisVersion: "Mac-F42C89C8"
-ChassisAssetTag: "MacBook-Aluminum"
+ChassisAssetTag: "Asset Tag#"
 MemoryFormFactor: 0xD
+FirmwareFeatures: 0xC0001403
+FirmwareFeaturesMask: 0xC0003FFF
+ExtendedFirmwareFeatures: 0x00000000C0001403
+ExtendedFirmwareFeaturesMask: 0x00000000C0003FFF
 # FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
   - 0x0301

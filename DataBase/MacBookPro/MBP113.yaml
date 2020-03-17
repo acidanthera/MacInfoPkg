@@ -16,15 +16,13 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-2BD1B31983FE1663"
 BoardVersion: "MacBookPro11,3"
-BoardAssetTag: ""
+BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0xA
 ChassisVersion: "Mac-2BD1B31983FE1663"
-ChassisAssetTag: "MacBook-Aluminum"
-# FIXME: check
+ChassisAssetTag: ""
 PlatformFeature: 0x2
 # FIXME: check
 FirmwareFeatures: 0xE80FE137

@@ -25,10 +25,10 @@ ChassisType: 0x9
 ChassisVersion: "Mac-E1008331FDC96864"
 ChassisAssetTag: ""
 PlatformFeature: 0x32
-FirmwareFeatures: 0xfdaff066
-FirmwareFeaturesMask: 0xffffff7f
-ExtendedFirmwareFeatures: 0x00000000fdaff066
-ExtendedFirmwareFeaturesMask: 0x00000000ffffff7f
+FirmwareFeatures: 0xFDAFF066
+FirmwareFeaturesMask: 0xFFFFFF7F
+ExtendedFirmwareFeatures: 0x00000000FDAFF066
+ExtendedFirmwareFeaturesMask: 0x00000000FFFFFF7F
 MemoryFormFactor: 0xD
 # FIXME: Correct this one
 ProcessorType:

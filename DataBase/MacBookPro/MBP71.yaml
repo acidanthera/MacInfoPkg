@@ -18,12 +18,11 @@ BoardProduct: "Mac-F222BEC8"
 BoardVersion: "MacBookPro7,1"
 BoardAssetTag: ""
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x8
+ChassisType: 0xA
 ChassisVersion: "Mac-F222BEC8"
-ChassisAssetTag: "MacBook-Aluminum"
+ChassisAssetTag: ""
 # FIXME: check
 FirmwareFeatures: 0xC00DE137
 # FIXME: check

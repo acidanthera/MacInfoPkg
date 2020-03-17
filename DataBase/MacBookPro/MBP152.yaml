@@ -24,12 +24,16 @@ BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x9
 ChassisVersion: "Mac-827FB448E656EC26"
-ChassisAssetTag: "MacBook-Aluminum"
-PlatformFeature: 0x1A
-FirmwareFeatures: 0xFC0FE137
-FirmwareFeaturesMask: 0xFF1FFF3F
-ExtendedFirmwareFeatures: 0x00000000FC0FE137
-ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+ChassisAssetTag: ""
+PlatformFeature: 0x32
+# FIXME: check
+FirmwareFeatures: 0xFD8FF426
+# FIXME: check
+FirmwareFeaturesMask: 0xFF9FFF3F
+# FIXME: check
+ExtendedFirmwareFeatures: 0x00000000FD8FF426
+# FIXME: check
+ExtendedFirmwareFeaturesMask: 0x00000000FF9FFF3F
 MemoryFormFactor: 0xD
 # FIXME: Correct this one
 ProcessorType:

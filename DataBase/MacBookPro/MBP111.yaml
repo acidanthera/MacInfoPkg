@@ -7,7 +7,7 @@ SystemProductName: "MacBookPro11,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "C02LSHACFH00"
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKU#"
 SystemFamily: "MacBook Pro"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
@@ -16,15 +16,13 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-189A3D4F975D5FFC"
 BoardVersion: "MacBookPro11,1"
-BoardAssetTag: ""
+BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0xA
 ChassisVersion: "Mac-189A3D4F975D5FFC"
-ChassisAssetTag: "MacBook-Aluminum"
-# FIXME: check
+ChassisAssetTag: ""
 PlatformFeature: 0x2
 # FIXME: check
 FirmwareFeatures: 0xE80FE137

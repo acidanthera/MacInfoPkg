@@ -15,16 +15,19 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-00BE6ED71E35EB86"
 #  "Mac-smthelse"
 BoardProduct: "Mac-F2268EC8"
-BoardVersion: "MacBookPro5,2"
-BoardAssetTag: ""
+BoardVersion: ""
+BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x8
 ChassisVersion: "Mac-F2268EC8"
-ChassisAssetTag: "MacBook-Aluminum"
+ChassisAssetTag: "Asset Tag#"
 MemoryFormFactor: 0xD
+FirmwareFeatures: 0xC0001403
+FirmwareFeaturesMask: 0xC0007FFF
+ExtendedFirmwareFeatures: 0x00000000C0001403
+ExtendedFirmwareFeaturesMask: 0x00000000C0007FFF
 # FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
   - 0x0301
