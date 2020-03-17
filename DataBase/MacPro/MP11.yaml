@@ -16,7 +16,6 @@ BoardManufacturer: "Apple Computer, Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-F4208DC8"
 BoardVersion: "PVT"
-# FIXME: Correct this one
 BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
 BoardLocationInChassis: "Part Component"
