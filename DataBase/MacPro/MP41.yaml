@@ -16,13 +16,17 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-F221BEC8"
 BoardVersion: "MacPro4,1"
-BoardAssetTag: "Base Board Asset Tag#"
+BoardAssetTag: "Part Component"
 BoardType: 0xB
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x7
 ChassisVersion: "Mac-F221BEC8"
 ChassisAssetTag: "Pro-Enclosure"
+FirmwareFeatures: 0xE001F537
+FirmwareFeaturesMask: 0xC003FF37
+ExtendedFirmwareFeatures: 0x00000000E001F537
+ExtendedFirmwareFeaturesMask: 0x00000000C003FF37
 MemoryFormFactor: 0x9
 # FIXME: Correct this one
 ProcessorType:

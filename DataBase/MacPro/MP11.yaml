@@ -7,8 +7,7 @@ SystemProductName: "MacPro1,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "W88A7HACUQ2"
-# FIXME: Correct this one
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKU#"
 SystemFamily: "MacPro"
 BoardManufacturer: "Apple Computer, Inc."
 # This and similar ones can be an array itself, like this:
@@ -16,19 +15,19 @@ BoardManufacturer: "Apple Computer, Inc."
 #  "Mac-F4208DC8"
 #  "Mac-smthelse"
 BoardProduct: "Mac-F4208DC8"
-BoardVersion: "MacPro1,1"
+BoardVersion: "PVT"
 # FIXME: Correct this one
-BoardAssetTag: ""
+BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
-# FIXME: Correct this one
-BoardLocationInChassis: ""
+BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Computer, Inc."
 ChassisType: 0x2
 ChassisVersion: "Mac-F4208DC8"
-ChassisAssetTag: "Pro-Enclosure"
-FirmwareFeatures: 0xC0001403
-FirmwareFeaturesMask: 0xC0003FFF
-# FIXME: Correct this one
+ChassisAssetTag: "Asset Tag#"
+FirmwareFeatures: 0x80000015
+FirmwareFeaturesMask: 0x800003FF
+ExtendedFirmwareFeatures: 0x0000000080000015
+ExtendedFirmwareFeaturesMask: 0x00000000800003FF
 MemoryFormFactor: 0x9
 # FIXME: Correct this one
 ProcessorType:

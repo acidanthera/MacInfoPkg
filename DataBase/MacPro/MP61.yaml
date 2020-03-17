@@ -18,11 +18,11 @@ BoardProduct: "Mac-F60DEB81FF30ACF6"
 BoardVersion: "MacPro6,1"
 BoardAssetTag: ""
 BoardType: 0xB
-BoardLocationInChassis: ""
+BoardLocationInChassis: "CPU"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x2
 ChassisVersion: "Mac-F60DEB81FF30ACF6"
-ChassisAssetTag: "Pro-Enclosure"
+ChassisAssetTag: ""
 PlatformFeature: 0x4
 FirmwareFeatures: 0xE80FE137
 FirmwareFeaturesMask: 0xFF1FFF3F

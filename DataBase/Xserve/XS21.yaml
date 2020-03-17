@@ -7,7 +7,7 @@ SystemProductName: "Xserve2,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "CK830DLQX8S"
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKU#"
 SystemFamily: "Xserve"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
@@ -15,15 +15,14 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-00BE6ED71E35EB86"
 #  "Mac-smthelse"
 BoardProduct: "Mac-F42289C8"
-BoardVersion: "Xserve2,1"
-BoardAssetTag: ""
-BoardType: 0xB
-# FIXME: check
+BoardVersion: "Proto"
+BoardAssetTag: "Base Board Asset Tag#"
+BoardType: 0xA
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x17
 ChassisVersion: "Mac-F42289C8"
-ChassisAssetTag: "Xserve"
+ChassisAssetTag: "Asset Tag#"
 MemoryFormFactor: 0x9
 # FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:

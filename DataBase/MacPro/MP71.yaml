@@ -25,10 +25,10 @@ ChassisType: 0x7
 ChassisVersion: "Mac-27AD2F918AE68F61"
 ChassisAssetTag: ""
 PlatformFeature: 0x0
-FirmwareFeatures: 0xfdaff066
-FirmwareFeaturesMask: 0xffffff7f
-ExtendedFirmwareFeatures: 0x00000000fdaff066
-ExtendedFirmwareFeaturesMask: 0x00000000ffffff7f
+FirmwareFeatures: 0xFDAFF066
+FirmwareFeaturesMask: 0xFFFFFF7F
+ExtendedFirmwareFeatures: 0x00000000FDAFF066
+ExtendedFirmwareFeaturesMask: 0x00000000FFFFFF7F
 MemoryFormFactor: 0x9
 ProcessorType:
   - 0x0F02
