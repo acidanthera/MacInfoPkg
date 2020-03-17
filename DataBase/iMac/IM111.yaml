@@ -18,12 +18,11 @@ BoardProduct: "Mac-F2268DAE"
 BoardVersion: "iMac11,1"
 BoardAssetTag: ""
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0xD
 ChassisVersion: "Mac-F2268DAE"
-ChassisAssetTag: "iMac-Aluminum"
+ChassisAssetTag: ""
 # FIXME: check
 FirmwareFeatures: 0xE00DE137
 # FIXME: check

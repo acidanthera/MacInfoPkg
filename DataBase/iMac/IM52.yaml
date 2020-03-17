@@ -7,7 +7,7 @@ SystemProductName: "iMac5,2"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "W8716HACWH5"
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKUNumber"
 SystemFamily: "iMac"
 BoardManufacturer: "Apple Computer, Inc."
 # This and similar ones can be an array itself, like this:
@@ -15,15 +15,14 @@ BoardManufacturer: "Apple Computer, Inc."
 #  "Mac-00BE6ED71E35EB86"
 #  "Mac-smthelse"
 BoardProduct: "Mac-F4218EC8"
-BoardVersion: "iMac5,2"
-BoardAssetTag: ""
+BoardVersion: "DVT"
+BoardAssetTag: "Base Board Asset Tag"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Computer, Inc."
 ChassisType: 0xD
 ChassisVersion: "Mac-F4218EC8"
-ChassisAssetTag: "iMac"
+ChassisAssetTag: "Asset Tag"
 MemoryFormFactor: 0x9
 # FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:

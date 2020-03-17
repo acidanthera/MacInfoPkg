@@ -16,7 +16,6 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-4B682C642B45593E"
 BoardVersion: "iMac18,1"
-# FIXME: BoardRevision incorrect? 
 BoardRevision: 0x1F
 BoardAssetTag: ""
 BoardType: 0xA
@@ -26,9 +25,9 @@ ChassisType: 0x9
 ChassisVersion: "Mac-4B682C642B45593E"
 ChassisAssetTag: ""
 PlatformFeature: 0x0
-FirmwareFeatures: 0xFC0FE137
+FirmwareFeatures: 0xFD0FF576
 FirmwareFeaturesMask: 0xFF1FFF3F
-ExtendedFirmwareFeatures: 0x00000000FC0FE137
+ExtendedFirmwareFeatures: 0x00000000FD0FF576
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0x9
 # FIXME: Correct this one

@@ -1,29 +1,32 @@
-BIOSVendor: "Apple Computer, Inc."
+BIOSVendor: "Apple Inc."
 BIOSVersion: "IM71.88Z.007A.B03.0803051705"
 BIOSLegacyVersion: "IM71.88Z.007A.B03.0803051705"
 BIOSReleaseDate: "03/05/08"
-SystemManufacturer: "Apple Computer, Inc."
+SystemManufacturer: "Apple Inc."
 SystemProductName: "iMac7,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "W8741HACX87"
 SystemSKUNumber: "System SKU#"
 SystemFamily: "iMac"
-BoardManufacturer: "Apple Computer, Inc."
+BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
 # BoardProduct:
 #  "Mac-00BE6ED71E35EB86"
 #  "Mac-smthelse"
 BoardProduct: "Mac-F42386C8"
-BoardVersion: "iMac7,1"
-BoardAssetTag: ""
+BoardVersion: "PVT"
+BoardAssetTag: "Base Board Asset Tag"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
-ChassisManufacturer: "Apple Computer, Inc."
+ChassisManufacturer: "Apple Inc."
 ChassisType: 0xD
 ChassisVersion: "Mac-F42386C8"
-ChassisAssetTag: "iMac-Aluminum"
+ChassisAssetTag: "Asset Tag#"
+FirmwareFeatures: 0xC0001407
+FirmwareFeaturesMask: 0xC0001FFF
+ExtendedFirmwareFeatures: 0x00000000C0001407
+ExtendedFirmwareFeaturesMask: 0x00000000C0001FFF
 MemoryFormFactor: 0x9
 # FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:

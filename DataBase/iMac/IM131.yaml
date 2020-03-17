@@ -7,7 +7,7 @@ SystemProductName: "iMac13,1"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "C02JA041DNCT"
-SystemSKUNumber: "System SKU#"
+SystemSKUNumber: ""
 SystemFamily: "iMac"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
@@ -16,7 +16,7 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-00BE6ED71E35EB86"
 BoardVersion: "iMac13,1"
-BoardAssetTag: "Base Board Asset Tag#"
+BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."

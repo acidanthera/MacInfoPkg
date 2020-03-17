@@ -20,20 +20,19 @@ BoardVersion: "iMac18,2"
 BoardRevision: 0x1F
 BoardAssetTag: ""
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x09
 ChassisVersion: "Mac-77F17D7DA9285301"
-ChassisAssetTag: "iMac-Aluminum"
+ChassisAssetTag: ""
 # FIXME: check
 PlatformFeature: 0x0
 # FIXME: check
-FirmwareFeatures: 0xFC0FE137
+FirmwareFeatures: 0xFD0FF576
 # FIXME: check
 FirmwareFeaturesMask: 0xFF1FFF3F
 # FIXME: check
-ExtendedFirmwareFeatures: 0x00000000FC0FE137
+ExtendedFirmwareFeatures: 0x00000000FD0FF576
 # FIXME: check
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0x9

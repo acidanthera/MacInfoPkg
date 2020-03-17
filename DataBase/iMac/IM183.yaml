@@ -26,9 +26,9 @@ ChassisVersion: "Mac-BE088AF8C5EB4FA2"
 ChassisAssetTag: ""
 PlatformFeature: 0x0
 FirmwareFeatures: 0xFD0FF576
-FirmwareFeaturesMask: 0xFF1FFF7F
+FirmwareFeaturesMask: 0xFF1FFF3F
 ExtendedFirmwareFeatures: 0x00000000FD0FF576
-ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF7F
+ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0x9
 ProcessorType:
   - 0x0605

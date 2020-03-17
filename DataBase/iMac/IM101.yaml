@@ -17,17 +17,16 @@ BoardManufacturer: "Apple Inc."
 BoardProduct:
 - "Mac-F221DCC8"
 - "Mac-F2268CC8"
-BoardVersion: "iMac10,1"
-BoardAssetTag: ""
+BoardVersion: ""
+BoardAssetTag: "Base Board Asset Tag"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0xD
 ChassisVersion:
 - "Mac-F221DCC8"
 - "Mac-F2268CC8"
-ChassisAssetTag: "iMac-Aluminum"
+ChassisAssetTag: "Asset Tag#"
 # FIXME: check
 FirmwareFeatures: 0xE00DE137
 # FIXME: check

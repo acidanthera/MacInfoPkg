@@ -18,12 +18,11 @@ BoardProduct: "Mac-942B59F58194171B"
 BoardVersion: "iMac12,2"
 BoardAssetTag: ""
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0xD
 ChassisVersion: "Mac-942B59F58194171B"
-ChassisAssetTag: "iMac-Aluminum"
+ChassisAssetTag: ""
 # FIXME: check
 FirmwareFeatures: 0xE00DE137
 # FIXME: check

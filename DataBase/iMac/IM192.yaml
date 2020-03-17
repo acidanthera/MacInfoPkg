@@ -23,7 +23,7 @@ BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x9
 ChassisVersion: "Mac-63001698E7A34814"
-ChassisAssetTag: "iMac-Aluminum"
+ChassisAssetTag: ""
 PlatformFeature: 0x20
 FirmwareFeatures: 0xFD8FF576
 FirmwareFeaturesMask: 0xFFDFFF7F

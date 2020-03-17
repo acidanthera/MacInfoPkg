@@ -16,15 +16,13 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-031B6874CF7F642A"
 BoardVersion: "iMac14,1"
-BoardAssetTag: ""
+BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0xD
 ChassisVersion: "Mac-031B6874CF7F642A"
-ChassisAssetTag: "iMac-Aluminum"
-# FIXME: check
+ChassisAssetTag: ""
 PlatformFeature: 0x1
 # FIXME: check
 FirmwareFeatures: 0xE00FE137

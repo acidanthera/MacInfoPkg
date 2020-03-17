@@ -18,13 +18,11 @@ BoardProduct: "Mac-7DF2A3B5E5D671ED"
 BoardVersion: "iMac13,3"
 BoardAssetTag: ""
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0xD
 ChassisVersion: "Mac-7DF2A3B5E5D671ED"
-ChassisAssetTag: "iMac-Aluminum"
-# FIXME: check
+ChassisAssetTag: ""
 PlatformFeature: 0x1
 # FIXME: check
 FirmwareFeatures: 0xE00DE137

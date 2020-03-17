@@ -23,7 +23,7 @@ BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x9
 ChassisVersion: "Mac-A369DDC4E67F1C45"
-ChassisAssetTag: "iMac-Aluminum"
+ChassisAssetTag: ""
 PlatformFeature: 0x3
 # FIXME: check
 FirmwareFeatures: 0xFC0FE137
