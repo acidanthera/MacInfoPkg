@@ -8,7 +8,7 @@ SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "C07HVHACDJD1"
 SystemSKUNumber: "System SKU#"
-SystemFamily: "Mac mini"
+SystemFamily: "Macmini"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
 # BoardProduct:
@@ -16,14 +16,13 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-4BC72D62AD45599E"
 BoardVersion: "Macmini5,2"
-BoardAssetTag: ""
+BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x10
 ChassisVersion: "Mac-4BC72D62AD45599E"
-ChassisAssetTag: "Mini-Aluminum"
+ChassisAssetTag: ""
 # FIXME: check
 FirmwareFeatures: 0xD00DE137
 # FIXME: check

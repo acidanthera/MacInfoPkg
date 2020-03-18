@@ -8,22 +8,21 @@ SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "W8702N1JU35"
 SystemSKUNumber: "System SKUNumber"
-SystemFamily: "Mac mini"
+SystemFamily: "Napa Mac"
 BoardManufacturer: "Apple Computer, Inc."
 # This and similar ones can be an array itself, like this:
 # BoardProduct:
 #  "Mac-00BE6ED71E35EB86"
 #  "Mac-smthelse"
 BoardProduct: "Mac-F4208EC8"
-BoardVersion: "Macmini1,1"
-BoardAssetTag: ""
+BoardVersion: "PVT"
+BoardAssetTag: "Base Board Asset Tag"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Computer, Inc."
 ChassisType: 0x4
 ChassisVersion: "Mac-F4208EC8"
-ChassisAssetTag: "Mini-Aluminum"
+ChassisAssetTag: "Asset Tag"
 MemoryFormFactor: 0xD
 # FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:

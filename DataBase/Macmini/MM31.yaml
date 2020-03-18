@@ -8,22 +8,25 @@ SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "W8905BBE19X"
 SystemSKUNumber: "System SKU#"
-SystemFamily: "Mac mini"
+SystemFamily: "Macmini"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
 # BoardProduct:
 #  "Mac-00BE6ED71E35EB86"
 #  "Mac-smthelse"
 BoardProduct: "Mac-F22C86C8"
-BoardVersion: "Macmini3,1"
-BoardAssetTag: ""
+BoardVersion: ""
+BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x10
 ChassisVersion: "Mac-F22C86C8"
-ChassisAssetTag: "Mini-Aluminum"
+ChassisAssetTag: "Asset Tag#"
+FirmwareFeatures: 0xC0001403
+FirmwareFeaturesMask: 0xC0007FFF
+ExtendedFirmwareFeatures: 0x00000000C0001403
+ExtendedFirmwareFeaturesMask: 0x00000000C0007FFF
 MemoryFormFactor: 0xD
 # FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:

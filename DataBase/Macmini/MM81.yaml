@@ -8,7 +8,7 @@ SystemVersion: "1.0"
 # Note, this one is used by macserial
 SystemSerialNumber: "C07XL9WEJYVX"
 SystemSKUNumber: ""
-SystemFamily: "Macmini"
+SystemFamily: "Mac mini"
 BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
 # BoardProduct:

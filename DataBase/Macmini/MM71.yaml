@@ -16,24 +16,18 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-35C5E08120C7EEAF"
 BoardVersion: "Macmini7,1"
-BoardAssetTag: ""
+BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0xA
 ChassisVersion: "Mac-35C5E08120C7EEAF"
-ChassisAssetTag: "Mini-Aluminum"
-# FIXME: check
+ChassisAssetTag: ""
 PlatformFeature: 0x3
-# FIXME: check
-FirmwareFeatures: 0xE00DE137
-# FIXME: check
-FirmwareFeaturesMask: 0xFF1FFF3F
-# FIXME: check
-ExtendedFirmwareFeatures: 0x00000000E00DE137
-# FIXME: check
-ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+FirmwareFeatures: 0xF803F537
+FirmwareFeaturesMask: 0xF803FF37
+ExtendedFirmwareFeatures: 0x00000000F803F537
+ExtendedFirmwareFeaturesMask: 0x00000000F803FF37
 MemoryFormFactor: 0xD
 # FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
