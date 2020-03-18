@@ -16,14 +16,13 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-7DF21CB3ED6977E5"
 BoardVersion: "MacBookAir6,2"
-BoardAssetTag: ""
+BoardAssetTag: "Board Asset Tag#"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0xA
 ChassisVersion: "Mac-7DF21CB3ED6977E5"
-ChassisAssetTag: "Air-Enclosure"
+ChassisAssetTag: ""
 # FIXME: check
 FirmwareFeatures: 0xE00FE137
 # FIXME: check

@@ -1,30 +1,33 @@
-BIOSVendor: "Apple Computer, Inc."
+BIOSVendor: "Apple Inc."
 BIOSVersion: "MB31.88Z.008E.B02.0803051832"
 BIOSLegacyVersion: "MB31.88Z.008E.B02.0803051832"
 BIOSReleaseDate: "03/05/08"
-SystemManufacturer: "Apple Computer, Inc."
+SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBook3,1"
 SystemVersion: "1.3"
 # Note, this one is used by macserial
 SystemSerialNumber: "W8747HACZ66"
-SystemSKUNumber: ""
+SystemSKUNumber: "System SKU#"
 SystemFamily: "MacBook"
-BoardManufacturer: "Apple Computer, Inc."
+BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
 # BoardProduct:
 #  "Mac-00BE6ED71E35EB86"
 #  "Mac-smthelse"
 BoardProduct: "Mac-F22788C8"
-BoardVersion: "MacBook3,1"
-BoardAssetTag: ""
+BoardVersion: "PVT"
+BoardAssetTag: "Base Board Asset Tag"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
-ChassisManufacturer: "Apple Computer, Inc."
+ChassisManufacturer: "Apple Inc."
 ChassisType: 0xA
 ChassisVersion: "Mac-F22788C8"
-ChassisAssetTag: "MacBook-White"
+ChassisAssetTag: "Asset Tag#"
 MemoryFormFactor: 0xD
+FirmwareFeatures: 0xC0001407
+FirmwareFeaturesMask: 0xC0001FFF
+ExtendedFirmwareFeatures: 0x00000000C0001407
+ExtendedFirmwareFeaturesMask: 0x00000000C0001FFF
 # FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
   - 0x0301

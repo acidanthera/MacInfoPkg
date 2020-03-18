@@ -16,14 +16,13 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-942452F5819B1C1B"
 BoardVersion: "MacBookAir3,1"
-BoardAssetTag: ""
+BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0xA
 ChassisVersion: "Mac-942452F5819B1C1B"
-ChassisAssetTag: "Air-Enclosure"
+ChassisAssetTag: ""
 # FIXME: check
 FirmwareFeatures: 0xD00DE137
 # FIXME: check

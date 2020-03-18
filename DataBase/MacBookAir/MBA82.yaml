@@ -16,7 +16,6 @@ BoardManufacturer: "Apple Inc."
 #  "Mac-smthelse"
 BoardProduct: "Mac-226CB3C6A851A671"
 BoardVersion: "MacBookAir8,2"
-# FIXME: check
 BoardRevision: 0x3
 BoardAssetTag: ""
 BoardType: 0xA
@@ -24,17 +23,12 @@ BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
 ChassisType: 0x9
 ChassisVersion: "Mac-226CB3C6A851A671"
-ChassisAssetTag: "Air-Enclosure"
-# FIXME: check
-PlatformFeature: 0x1A
-# FIXME: check
-FirmwareFeatures: 0xFC0FE137
-# FIXME: check
-FirmwareFeaturesMask: 0xFF1FFF3F
-# FIXME: check
-ExtendedFirmwareFeatures: 0x00000000FC0FE137
-# FIXME: check
-ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
+ChassisAssetTag: ""
+PlatformFeature: 0x3A
+FirmwareFeatures: 0xFD8FF42E
+FirmwareFeaturesMask: 0xFF9FFF3F
+ExtendedFirmwareFeatures: 0x00000000FD8FF42E
+ExtendedFirmwareFeaturesMask: 0x00000000FF9FFF3F
 MemoryFormFactor: 0xD
 # FIXME: Correct this one
 ProcessorType:

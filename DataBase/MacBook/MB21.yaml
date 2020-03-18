@@ -1,29 +1,28 @@
-BIOSVendor: "Apple Computer, Inc."
+BIOSVendor: "Apple Inc."
 BIOSVersion: "MB21.88Z.00A5.B07.0706270922"
 BIOSLegacyVersion: "MB21.88Z.00A5.B07.0706270922"
 BIOSReleaseDate: "06/27/07"
-SystemManufacturer: "Apple Computer, Inc."
+SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBook2,1"
 SystemVersion: "1.2"
 # Note, this one is used by macserial
 SystemSerialNumber: "W88A041AWGP"
 SystemSKUNumber: "System SKUNumber"
 SystemFamily: "MacBook"
-BoardManufacturer: "Apple Computer, Inc."
+BoardManufacturer: "Apple Inc."
 # This and similar ones can be an array itself, like this:
 # BoardProduct:
 #  "Mac-00BE6ED71E35EB86"
 #  "Mac-smthelse"
 BoardProduct: "Mac-F4208CA9"
-BoardVersion: "MacBook2,1"
-BoardAssetTag: ""
+BoardVersion: "PVT"
+BoardAssetTag: "Base Board Asset Tag"
 BoardType: 0xA
-# FIXME: check
 BoardLocationInChassis: "Part Component"
-ChassisManufacturer: "Apple Computer, Inc."
+ChassisManufacturer: "Apple Inc."
 ChassisType: 0xA
 ChassisVersion: "Mac-F4208CA9"
-ChassisAssetTag: "MacBook-White"
+ChassisAssetTag: "Asset Tag"
 MemoryFormFactor: 0xD
 # FIXME: check values (most should be correct?) and add missing, if any
 ProcessorType:
