@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "175.0.0.0.0"
-BIOSLegacyVersion: "IM171.88Z.F000.B00.1912161452"
-BIOSReleaseDate: "12/16/2019"
+BIOSVersion: "176.0.0.0.0"
+BIOSLegacyVersion: "IM171.88Z.F000.B00.2001311733"
+BIOSReleaseDate: "01/31/2020"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "iMac17,1"
 SystemVersion: "1.0"
@@ -97,12 +97,12 @@ SmcPlatform:
 SmcEPCI: 0xF01008
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      IM171.88Z.F000.B00.1912161452
+    BIOS ID:      IM171.88Z.F000.B00.2001311733
     Model:        IM171
-    EFI Version:  175.0.0.0.0
+    EFI Version:  176.0.0.0.0
     Built by:     _atsserver@xapp157
-    Date:         Mon Dec 16 14:52:12 2019
-    Revision:     175 (B&I)
+    Date:         Fri Jan 31 17:33:35 2020
+    Revision:     176 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, RELEASE
     Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)

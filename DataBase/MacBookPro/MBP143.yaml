@@ -1,7 +1,7 @@
 BIOSVendor: "Apple Inc."
-BIOSVersion: "204.0.0.0.0"
-BIOSLegacyVersion: "MBP143.88Z.F000.B00.1912161510"
-BIOSReleaseDate: "12/16/2019"
+BIOSVersion: "205.0.0.0.0"
+BIOSLegacyVersion: "MBP143.88Z.F000.B00.2001311754"
+BIOSReleaseDate: "01/31/2020"
 SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro14,3"
 SystemVersion: "1.0"
@@ -77,12 +77,12 @@ SmcPlatform:
 SmcEPCI: 0xF0A009
 OEMStrings: |-
   Apple ROM Version
-    BIOS ID:      MBP143.88Z.F000.B00.1912161510
+    BIOS ID:      MBP143.88Z.F000.B00.2001311754
     Model:        MBP143
-    EFI Version:  204.0.0.0.0
+    EFI Version:  205.0.0.0.0
     Built by:     _atsserver@xapp157
-    Date:         Mon Dec 16 15:10:36 2019
-    Revision:     204 (B&I)
+    Date:         Fri Jan 31 17:54:14 2020
+    Revision:     205 (B&I)
     ROM Version:  F000_B00
     Build Type:   Official Build, RELEASE
     Compiler:     Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
