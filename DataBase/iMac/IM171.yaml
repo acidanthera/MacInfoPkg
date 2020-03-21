@@ -121,6 +121,7 @@ Specifications:
     - "AMD Radeon R9 M380"
     - "AMD Radeon R9 M390"
     - "AMD Radeon R9 M395"
+    - "AMD Radeon R9 M395X"
   RAM:
     - "8 GB 1867 MHz LPDDR3 SDRAM"
   SystemReportName:

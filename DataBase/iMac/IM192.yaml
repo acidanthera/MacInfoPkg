@@ -97,6 +97,7 @@ Specifications:
   GPU:
     - "AMD Radeon Pro 555X"
     - "AMD Radeon Pro 560X"
+    - "AMD Radeon Pro Vega 20"
   RAM:
     - "2666 MHz DDR4 SDRAM"
   SystemReportName:

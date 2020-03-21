@@ -98,6 +98,7 @@ Specifications:
   GPU:
     - "NVIDIA GeForce GTX 660M"
     - "NVIDIA GeForce GTX 675MX"
+    - "NVIDIA GeForce GTX 680MX"
   RAM:
     - "1600 MHz DDR3L SDRAM"
   SystemReportName:

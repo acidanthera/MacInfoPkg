@@ -82,6 +82,7 @@ Specifications:
     - "Intel Core i5-4670 @ 3.40 GHz"
     - "Intel Core i5-4570 @ 3.20 GHz"
   GPU:
+    - "NVIDIA GeForce GTX 780M"
     - "NVIDIA GeForce GTX 775M"
     - "NVIDIA GeForce GT 755M"
   RAM:

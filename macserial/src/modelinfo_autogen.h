@@ -109,7 +109,7 @@ typedef enum {
   iMac17_1, // Intel Core i5-6500 @ 3.20 GHz
   iMac18_1, // Intel Core i5-7360U @ 2.30 GHz
   iMac18_2, // Intel Core i5-7400 @ 3.00 GHz
-  iMac18_3, // Intel Core i5-7600k @ 3.80 GHz
+  iMac18_3, // Intel Core i5-7600K @ 3.80 GHz
   iMac19_1, // Intel Core i9-9900K @ 3.60 GHz
   iMac19_2, // Intel Core i5-8500 @ 3.00 GHz
   iMac4_1, // Intel Core Duo T2400 @ 1.83 GHz

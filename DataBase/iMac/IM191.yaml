@@ -91,6 +91,7 @@ Specifications:
     - "Radeon Pro 570X"
     - "Radeon Pro 575X"
     - "Radeon Pro 580X"
+    - "Radeon Pro Vega 48"
   RAM:
     - "8GB 2666 MHz DDR4 SDRAM"
   SystemReportName:
