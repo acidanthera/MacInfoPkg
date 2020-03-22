@@ -11,7 +11,6 @@ matrix:
     - pip2 install pyyaml
     deploy:
       provider: releases
-      skip_cleanup: true
       file:
       - "macserial/bin/macinfo-*-mac.zip"
       - "macserial/bin/macinfo-*-win32.zip"
@@ -28,7 +27,6 @@ matrix:
     name: "Build Linux"
     deploy:
       provider: releases
-      skip_cleanup: true
       file:
       - "macserial/bin/macinfo-*-linux.zip"
       file_glob: true
