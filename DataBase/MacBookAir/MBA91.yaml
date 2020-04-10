@@ -1,0 +1,96 @@
+BIOSVendor: "Apple Inc."
+BIOSVersion: "1037.100.359.0.0"
+BIOSLegacyVersion: "J230K.88Z.F000.B00.2003170036"
+BIOSReleaseDate: "03/17/2020"
+SystemManufacturer: "Apple Inc."
+SystemProductName: "MacBookAir9,1"
+SystemVersion: "1.0"
+# Note, this one is used by macserial
+SystemSerialNumber: "FVFCC20JMNHP"
+SystemSKUNumber: ""
+SystemFamily: "MacBook Air"
+BoardManufacturer: "Apple Inc."
+# This and similar ones can be an array itself, like this:
+# BoardProduct:
+#  "Mac-0CFF9C7C2B63DF8D"
+#  "Mac-smthelse"
+BoardProduct: "Mac-0CFF9C7C2B63DF8D"
+BoardVersion: "MacBookAir9,1"
+BoardRevision: 0x3
+BoardAssetTag: ""
+BoardType: 0xA
+BoardLocationInChassis: ""
+ChassisManufacturer: "Apple Inc."
+ChassisType: 0x9
+ChassisVersion: "Mac-0CFF9C7C2B63DF8D"
+ChassisAssetTag: ""
+PlatformFeature: 0x3A
+FirmwareFeatures: 0xFD8FF42E
+FirmwareFeaturesMask: 0xFF9FFF3F
+ExtendedFirmwareFeatures: 0x00000000FD8FF42E
+ExtendedFirmwareFeaturesMask: 0x00000000FF9FFF3F
+MemoryFormFactor: 0xD
+# FIXME: Correct this one
+ProcessorType:
+  - 0x0601
+# FIXME: Correct this one
+ProcessorBusSpeed:
+  - 12345
+SmcGeneration: 3
+SmcPlatform:
+  - 0x6a
+  - 0x32
+  - 0x33
+  - 0x30
+  - 0x6b
+  - 0x00
+  - 0x00
+  - 0x00
+OEMStrings: |-
+  Apple ROM Version
+    BIOS ID:      J230K.88Z.F000.B00.2003170036
+    Model:        J230K
+    EFI Version:  1037.100.359.0.0
+    Built by:     _securitya@pdb391
+    Date:         Tue Mar 17 00:36:37 2020
+    Revision:     1037.100.359 (B&I)
+    ROM Version:  F000_B00
+    Build Type:   Official Build, RELEASE
+    Compiler:     clang-1103.2.29.8
+    UUID:         4F563981-6A40-33FA-BAE7-F855EF24CB77
+    UUID:         C2A2FF1A-0991-3CAF-AB1B-A265331AE0C3
+Specifications:
+  CPUCodename:
+    - "Ice Lake Y"
+    - "Ice Lake Y"
+    - "Ice Lake Y"
+  CPU:
+    - "Intel Core i3-1000NG4 @ 1.10 GHz"
+    - "Intel Core i5-1030NG7 @ 1.10 GHz"
+    - "Intel Core i7-1060NG7 @ 1.20 GHz"
+  GPU:
+    - "Intel Iris Plus Graphics"
+  RAM:
+    - "8 GB 3733 MHz LPDDR4X SDRAM"
+  SystemReportName:
+    - "MacBook Air (Retina, 13-inch, 2020)"
+  MarketingName:
+    # FIXME
+    - "MacBook Air (Retina, 13-inch, 2020)"
+# Note, first model code is used by macserial
+AppleModelCode:
+  - "MNHP"
+  - "MNHY"
+  - "MNHX"
+  - "MNHR"
+  - "MNHQ"
+# Note, first board code is used by macserial
+# FIXME: check
+AppleBoardCode:
+  - "0000"
+# Note, first year is used by macserial
+AppleModelYear:
+  - 2020
+MinimumOSVersion: "10.15.4"
+MaximumOSVersion: null
+AppleModelId: "J230K"

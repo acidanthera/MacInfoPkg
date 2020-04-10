@@ -31,6 +31,7 @@ typedef enum {
   MacBookAir7_2, // Intel Core i5-5250U @ 1.60 GHz
   MacBookAir8_1, // Intel Core i5-8210Y @ 1.60 GHz
   MacBookAir8_2, // Intel Core i5-8210Y @ 1.60 GHz
+  MacBookAir9_1, // Intel Core i3-1000NG4 @ 1.10 GHz
   MacBookPro1_1, // Intel Core Duo L2400 @ 1.66 GHz
   MacBookPro1_2, // Intel Core Duo T2600 @ 2.16 GHz
   MacBookPro10_1, // Intel Core i7-3615QM @ 2.30 GHz
@@ -123,7 +124,7 @@ typedef enum {
   iMacPro1_1, // Intel Xeon W-2140B CPU @ 3.20 GHz
 } AppleModel;
 
-#define APPLE_MODEL_MAX 115
+#define APPLE_MODEL_MAX 116
 
 static PLATFORMDATA ApplePlatformData[] = {
   { "MacBook1,1", "W80A041AU9B" },
@@ -151,6 +152,7 @@ static PLATFORMDATA ApplePlatformData[] = {
   { "MacBookAir7,2", "C02Q1HACG940" },
   { "MacBookAir8,1", "C02XG1D8JK78" },
   { "MacBookAir8,2", "FVFYR22KLYWM" },
+  { "MacBookAir9,1", "FVFCC20JMNHP" },
   { "MacBookPro1,1", "W884857JVJ1" },
   { "MacBookPro1,2", "W8629HACTHY" },
   { "MacBookPro10,1", "C02J40Y8F51R" },
@@ -270,6 +272,7 @@ static const char *AppleModelCode[][APPLE_MODEL_CODE_MAX] = {
   /* MacBookAir7,2  */ {"G940", "G941", "G942", "G943", "G944", "GKJT", "GKJV", "GLCN", "GLCP", "GM14", "GM15", "GM38", "GM9G", "GMC3", "GN8C", "GNJJ", "H3QD", "H3QF", "H3QJ", "H3QK", "H569", "HD80", "GM6M", "J6VL", "GNKM", "H8VV", "H8VW", "H8VT", "H8VX", "HF4H", "HF4F", "HF9N", "GMD3", "HDV6", "HDV4", "HDV5", "HD7X", "GL25", "GL24", "GL23", "GL22", "GL21", "GL20", "HD98", "J8XH", "J8XG", "JCD6", "J9TN", "J9TQ", "J9TP", "MFWJ", "LQF1", "LQ07", "J8N7", "JC9H", "J9HX", "JFLY", "JKHD", "JKHF", "J1WK", "J1WL", "J1WM", "J1WV", "J1WT"},
   /* MacBookAir8,1  */ {"JK78", "JK77", "JK7C", "JK7D", "JK7F", "JK7G", "JK7L", "JK7M", "JK7P", "JK7Q", "JK7R", "JK7T", "LQDD", "LR0X", "LLDP", "LR0Y", "LLDQ", "LLDN", "MCKR", "MCKT", "LK88", "LK87", "LK86", "MCKP", "MCKQ", "LQDC"},
   /* MacBookAir8,2  */ {"LYWM", "M6X5", "LYWG", "LYWT", "LYWV", "LYWP", "LYWQ", "LYWR", "M6X7", "LYWL", "LYWN", "LYWH", "LYWJ", "LYWK", "NY1J", "NY1K", "N797", "P0GX", "P0GW", "P4L9", "P4LD", "P4LC"},
+  /* MacBookAir9,1  */ {"MNHP", "MNHY", "MNHX", "MNHR", "MNHQ"},
   /* MacBookPro1,1  */ {"VJ1", "VWX", "VWY", "VWZ", "VWW", "WBH", "WB8", "W3N", "WAG", "WAW", "WDA", "WDB", "WDC", "WDD", "WD7", "WD8", "WD9", "W9Q", "W9F", "WBF", "WBE", "WBJ", "WW0", "WW3", "WW2", "W94", "W93", "W92", "WTS", "WW1", "VJ6", "VSD", "W2Q", "VWA", "VGW", "VJM", "VJ3", "VJ2", "VJ0", "VJ7", "VJ5", "VWB", "VMU", "VGX", "VGY", "VXX", "VXW", "VTZ", "THV", "VU0"},
   /* MacBookPro1,2  */ {"THY", "W3Q", "W3P", "W32", "VVV", "VW8", "TJ1", "WVS", "WVT", "VW3", "WVZ", "WVY", "WQW", "WVU", "WWU", "VTG", "W3R"},
   /* MacBookPro10,1 */ {"DKQ1", "DKQ2", "DKQ4", "DKQ5", "F51R", "F5Y2", "F69W", "F69Y", "F6DN", "F6F3", "F6L9", "F8JY", "F96W", "F9F1", "F9F2", "FCQ3", "FMLK", "FFT0", "FFT1", "FFT2", "FFT3", "FFT4", "FG1H", "FG1J", "FGFH", "FGFJ", "FGFK", "FGFL", "FGN7", "FGWF", "FGWG", "FGWH", "FHCQ", "FHCR", "FJ47", "FJVJ", "FL94", "FR8D"},
@@ -325,7 +328,7 @@ static const char *AppleModelCode[][APPLE_MODEL_CODE_MAX] = {
   /* Macmini6,1     */ {"DY3H", "DWYL", "DWYM", "DY3G", "F9RK", "F9RL", "F9RM", "F9VV", "F9VW", "F9W0", "F9W1", "F9W2", "FD9G", "FD9H", "FD9J", "FD9K", "FDWK", "FGML", "FRFP", "FW56", "FW57", "G430"},
   /* Macmini6,2     */ {"DWYN", "DY3J", "F9VY", "F9W3", "FC08", "FCCW", "FP14", "FP39"},
   /* Macmini7,1     */ {"G1J0", "G1HV", "G1HW", "G1HY", "G1J1", "G1J2", "GCVG", "GCVH", "GCVJ", "GCVN", "GCVP", "GCVQ", "GCVV", "GCVW", "GCVY", "GCW0", "GCW1", "GF1N", "GF1Q", "GF1T", "GJDC", "GHRN", "GNL0", "GN02", "H84M", "L7FY", "L9TM", "L9TN", "L9TP", "HCL5"},
-  /* Macmini8,1     */ {"JYVX", "JYVW", "JYVY", "JYW0", "L960", "MCD6", "M7FV", "M7FT", "M99Q", "M99P", "MJHL", "MHGQ", "LVVM", "LVVN", "MKTR", "LVVL", "LVVJ", "LVVK", "LHPC", "M99N", "L95X", "L95Y", "N6VR"},
+  /* Macmini8,1     */ {"JYVX", "JYVW", "JYVY", "JYW0", "L960", "MCD6", "M7FV", "M7FT", "M99Q", "M99P", "MJHL", "MHGQ", "LVVM", "LVVN", "MKTR", "LVVL", "LVVJ", "LVVK", "LHPC", "M99N", "L95X", "L95Y", "N6VR", "PJH7", "PJH8"},
   /* Xserve1,1      */ {"V2Q", "00W", "WXM", "XBR", "YWF", "XXC", "XXF", "XXE", "XXD", "Z2F", "XBT", "XBS", "XBG", "XBF", "V2M", "XAW", "YZ8", "YZ9", "X83", "X84", "Y8S", "XLR"},
   /* Xserve2,1      */ {"X8S", "27P", "5WE", "5WD", "1H4", "3GM", "3GN", "31G", "20A", "32A", "1DR", "25N", "12E", "6EM", "24B", "1ZZ", "X8T"},
   /* Xserve3,1      */ {"6HS", "8DE", "9N0", "9VJ", "9WM", "9ZP", "9ZQ", "9ZL", "8M3", "10J", "10S", "9SS", "9ST", "GQU", "A6Z", "DFT", "A70", "BR7", "CS0", "HDE", "A2U", "A2V", "AFT", "AFU", "AFV", "AFS", "CRZ", "DL5", "D5G", "DFU"},
@@ -389,6 +392,7 @@ static const char *AppleBoardCode[][APPLE_BOARD_CODE_MAX] = {
   /* MacBookAir7,2  */ {"G91Q", "G91T", "G91Y", "G925", "G928", "G92C", "G922", "G929", "G92F", "G91R", "G926", "G92G"},
   /* MacBookAir8,1  */ {"KN2R", "KN7H", "KN7V", "KN86", "KN8M", "KN34", "KN3J", "KN3Y", "KMXD", "KMXQ", "KMY4", "KMYH", "KNDX", "KNF8", "KN9P", "KNC2", "KNCF", "KNCR", "KN5C", "KN5P", "KN62", "KN6F", "KN0L", "KN0Y", "KN19", "KN1N", "KNGC"},
   /* MacBookAir8,2  */ {"0000"},
+  /* MacBookAir9,1  */ {"0000"},
   /* MacBookPro1,1  */ {"000"},
   /* MacBookPro1,2  */ {"000"},
   /* MacBookPro10,1 */ {"DY3V", "DY3W", "DY3Y", "DY40", "DY41", "DY42", "DY43", "DY44", "DY45", "DY4C", "F78Q", "F78Y", "F790", "DYJ5", "DYJ6", "DRDN", "DRDP", "DRDW", "DRF0", "DRF1", "DRF4", "DT9D", "DT9F", "DT9G", "DT9H", "F78N", "F78P", "DRDQ", "DRDT", "DYW4", "DYW5", "F0HM", "F0HN", "F0HR", "F0HT", "F0HV", "F0HY", "F0J3", "F0JD", "F78T", "F791", "F0JC", "FF63", "FF65", "FF67", "FF6W", "FF70", "FF72", "FF74", "FF69", "FF6D", "FF6G", "FF6J", "FF6L", "FF6N", "FF6Q", "FF6T", "FFW6", "FFW7", "FFWG", "FFWJ", "FFWK", "FFWM", "FFWN", "FFWP", "FFW8", "FFW9", "FFWC", "FFWD", "FFWF", "FFWH", "FFWL", "FFWQ", "FF64", "FF66", "FF68", "FF6F", "FF6Y", "FF71", "FF73", "FF75", "FF6C", "FF6H", "FF6K", "FF6M", "FF6P", "FF6R", "FF6V", "FF7M"},
@@ -508,6 +512,7 @@ static uint32_t AppleModelYear[][APPLE_MODEL_YEAR_MAX] = {
   /* MacBookAir7,2  */ {2015, 2016, 2017, 2018, 2019},
   /* MacBookAir8,1  */ {2018, 2019},
   /* MacBookAir8,2  */ {2019, 2020},
+  /* MacBookAir9,1  */ {2020},
   /* MacBookPro1,1  */ {2006},
   /* MacBookPro1,2  */ {2006},
   /* MacBookPro10,1 */ {2012, 2013},
@@ -626,6 +631,7 @@ static uint32_t ApplePreferredModelYear[] = {
   /* MacBookAir7,2  */ 0,
   /* MacBookAir8,1  */ 0,
   /* MacBookAir8,2  */ 0,
+  /* MacBookAir9,1  */ 0,
   /* MacBookPro1,1  */ 0,
   /* MacBookPro1,2  */ 0,
   /* MacBookPro10,1 */ 0,
@@ -9363,6 +9369,11 @@ static APPLE_MODEL_DESC AppleModelDesc[] = {
  {"MMTC", "iMac (Retina 5K, 27-inch, 2019)"},
  {"MMTK", "iMac (Retina 4K, 21.5-inch, 2019)"},
  {"MMTL", "iMac (Retina 4K, 21.5-inch, 2019)"},
+ {"MNHP", "MacBook Air (Retina, 13-inch, 2020)"},
+ {"MNHQ", "MacBook Air (Retina, 13-inch, 2020)"},
+ {"MNHR", "MacBook Air (Retina, 13-inch, 2020)"},
+ {"MNHX", "MacBook Air (Retina, 13-inch, 2020)"},
+ {"MNHY", "MacBook Air (Retina, 13-inch, 2020)"},
  {"MPM0", "iMac (Retina 4K, 21.5-inch, 2019)"},
  {"MPTL", "Studio3 Wireless"},
  {"MPTM", "Studio3 Wireless"},
@@ -9598,6 +9609,8 @@ static APPLE_MODEL_DESC AppleModelDesc[] = {
  {"PG8Y", "MacBook Pro (16-inch, 2019)"},
  {"PG90", "MacBook Pro (16-inch, 2019)"},
  {"PG91", "MacBook Pro (16-inch, 2019)"},
+ {"PJH7", "Mac mini (2018)"},
+ {"PJH8", "Mac mini (2018)"},
  {"PLXV", "Mac Pro (2019)"},
  {"PLXW", "Mac Pro (2019)"},
  {"PLXX", "Mac Pro (2019)"},

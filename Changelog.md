@@ -1,5 +1,8 @@
 MacInfoPkg changelog
 ====================
+#### v2.1.2
+- Added MacBookAir9,1 model codes
+
 #### v2.1.1
 - Added MacBookPro16,1 board code
 - Added MacPro7,1 board code

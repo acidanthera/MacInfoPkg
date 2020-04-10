@@ -10,7 +10,7 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-#define PROGRAM_VERSION "2.1.1"
+#define PROGRAM_VERSION "2.1.2"
 
 #ifdef __GNUC__
 uint32_t arc4random(void) __attribute__((weak));
