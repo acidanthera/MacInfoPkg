@@ -84,6 +84,12 @@ AppleModelCode:
   - "MNHX"
   - "MNHR"
   - "MNHQ"
+  - "M6KL"
+  - "M6KM"
+  - "M6KH"
+  - "M6KJ"
+  - "M6KK"
+  - "M6KG"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:
