@@ -90,6 +90,9 @@ AppleModelCode:
   - "M6KJ"
   - "M6KK"
   - "M6KG"
+  - "MNJ0"
+  - "MLVD"
+  - "MLVF"
 # Note, first board code is used by macserial
 # FIXME: check
 AppleBoardCode:
