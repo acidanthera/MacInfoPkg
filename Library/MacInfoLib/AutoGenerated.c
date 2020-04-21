@@ -550,8 +550,8 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
   .MemoryFormFactor = 0xD,
   .PlatformFeature = 0x1A,
   .ChassisAssetTag = "",
-  .FirmwareFeatures = 0xFC03F536ULL,
-  .FirmwareFeaturesMask = 0xFC03FF3FULL,
+  .FirmwareFeatures = 0xFC0FE137ULL,
+  .FirmwareFeaturesMask = 0xFF1FFF3FULL,
  },
  {
   .SystemProductName = "MacBookPro13,2",
@@ -574,8 +574,8 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
   .MemoryFormFactor = 0xD,
   .PlatformFeature = 0x1A,
   .ChassisAssetTag = "",
-  .FirmwareFeatures = 0xFC03F536ULL,
-  .FirmwareFeaturesMask = 0xFC03FF3FULL,
+  .FirmwareFeatures = 0xFC0FE137ULL,
+  .FirmwareFeaturesMask = 0xFF1FFF3FULL,
  },
  {
   .SystemProductName = "MacBookPro13,3",
@@ -598,7 +598,7 @@ CONST MAC_INFO_INTERNAL_ENTRY gMacInfoModels[] = {
   .MemoryFormFactor = 0xD,
   .PlatformFeature = 0x1A,
   .ChassisAssetTag = "",
-  .FirmwareFeatures = 0xFD07F53EULL,
+  .FirmwareFeatures = 0xFC0FE137ULL,
   .FirmwareFeaturesMask = 0xFF1FFF3FULL,
  },
  {

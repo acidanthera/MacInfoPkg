@@ -25,9 +25,9 @@ ChassisType: 0x9
 ChassisVersion: "Mac-A5C67F76ED83108C"
 ChassisAssetTag: ""
 PlatformFeature: 0x1A
-FirmwareFeatures: 0xFD07F53E
+FirmwareFeatures: 0xFC0FE137
 FirmwareFeaturesMask: 0xFF1FFF3F
-ExtendedFirmwareFeatures: 0x00000000FD07F53E
+ExtendedFirmwareFeatures: 0x00000000FC0FE137
 ExtendedFirmwareFeaturesMask: 0x00000000FF1FFF3F
 MemoryFormFactor: 0xD
 # FIXME: Correct this one
