@@ -4,10 +4,10 @@ DataBase list
 | Mac-model | DataBase | PlatformInfo Automatic |
 |:----------|:---------|:-----------------------|
 ||
-MacPro1,1 | Yes	|
-MacPro2,1 | Yes	|
-MacPro3,1 | Yes	|
-MacPro4,1 | Yes	|
+MacPro1,1 | Yes |
+MacPro2,1 | Yes |
+MacPro3,1 | Yes |
+MacPro4,1 | Yes |
 MacPro5,1 | Yes | Yes
 MacPro6,1 | Yes | Yes
 MacPro7,1 | Yes | Yes
@@ -98,13 +98,13 @@ Xserve3,1 | Yes |
 iMacPro1,1 | Yes | Yes
 ||
 iMac4,1 | Yes |
-iMac4,2	| Yes |
-iMac5,1	| Yes |
-iMac5,2	| Yes |
-iMac6,1	| Yes |
-iMac7,1	| Yes |
-iMac8,1	| Yes |
-iMac9,1	| Yes |
+iMac4,2 | Yes |
+iMac5,1 | Yes |
+iMac5,2 | Yes |
+iMac6,1 | Yes |
+iMac7,1 | Yes |
+iMac8,1 | Yes |
+iMac9,1 | Yes |
 iMac10,1 | Yes |
 iMac11,1 | Yes |
 iMac11,2 | Yes |
