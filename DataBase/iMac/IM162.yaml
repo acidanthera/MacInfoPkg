@@ -21,7 +21,7 @@ BoardType: 0xA
 # FIXME: check
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x9
+ChassisType: 0xD
 ChassisVersion: "Mac-FFE5EF870D7BA81A"
 ChassisAssetTag: ""
 PlatformFeature: 0x3

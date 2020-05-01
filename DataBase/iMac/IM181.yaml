@@ -21,7 +21,7 @@ BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x9
+ChassisType: 0xD
 ChassisVersion: "Mac-4B682C642B45593E"
 ChassisAssetTag: ""
 PlatformFeature: 0x0

@@ -22,7 +22,7 @@ BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x09
+ChassisType: 0xD
 ChassisVersion: "Mac-77F17D7DA9285301"
 ChassisAssetTag: ""
 # FIXME: check

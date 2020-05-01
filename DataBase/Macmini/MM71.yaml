@@ -20,7 +20,7 @@ BoardAssetTag: "Base Board Asset Tag#"
 BoardType: 0xA
 BoardLocationInChassis: "Part Component"
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0xA
+ChassisType: 0x10
 ChassisVersion: "Mac-35C5E08120C7EEAF"
 ChassisAssetTag: ""
 PlatformFeature: 0x3

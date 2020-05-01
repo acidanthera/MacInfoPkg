@@ -23,7 +23,7 @@ BoardAssetTag: ""
 BoardType: 0xA
 BoardLocationInChassis: ""
 ChassisManufacturer: "Apple Inc."
-ChassisType: 0x9
+ChassisType: 0xD
 ChassisVersion:
   - "Mac-DB15BD556843C820"
   - "Mac-65CE76090165799A"
