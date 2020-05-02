@@ -100,6 +100,6 @@ AppleBoardCode:
 # Note, first year is used by macserial
 AppleModelYear:
   - 2020
-MinimumOSVersion: "10.15.4"
+MinimumOSVersion: "10.15.3"
 MaximumOSVersion: null
 AppleModelId: "J230K"
