@@ -74,7 +74,7 @@ Specifications:
     - "Intel Core i5-8257U @ 1.40 GHz"
     - "Intel Core i7-8557U @ 1.70 GHz"
   GPU:
-    - "Intel Iris 645"
+    - "Intel Iris Plus Graphics 645"
   RAM:
     - "8GB 2133 MHz LPDDR3 SDRAM"
   SystemReportName:
