@@ -6,7 +6,7 @@ SystemManufacturer: "Apple Inc."
 SystemProductName: "MacBookPro16,3"
 SystemVersion: "1.0"
 # Note, this one is used by macserial
-SystemSerialNumber: "000000000000"
+SystemSerialNumber: "C02CJAATP3XY"
 SystemSKUNumber: ""
 SystemFamily: "MacBook Pro"
 BoardManufacturer: "Apple Inc."
@@ -73,7 +73,14 @@ Specifications:
     - "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports)"
 # Note, first model code is used by macserial
 AppleModelCode:
-  - "0000"
+  - "P3XY"
+  - "P3YV"
+  - "P3YX"
+  - "P3YY"
+  - "P3Y0"
+  - "P3Y1"
+  - "P3Y2"
+  - "P3YW"
 # Note, first board code is used by macserial
 AppleBoardCode:
   - "0000"
