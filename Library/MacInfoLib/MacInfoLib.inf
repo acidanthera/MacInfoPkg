@@ -27,7 +27,6 @@
 # VALID_ARCHITECTURES = IA32 X64
 
 [Packages]
-  EfiPkg/EfiPkg.dec
   MacInfoPkg/MacInfoPkg.dec
   MdePkg/MdePkg.dec
 
